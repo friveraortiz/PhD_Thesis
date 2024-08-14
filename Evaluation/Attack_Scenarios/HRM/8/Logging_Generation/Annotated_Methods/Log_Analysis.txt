@@ -1,0 +1,35 @@
+Methods:
+
+1.- call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 3 Occurrences
+2.- call(void controller.UserController.save(..))||  => 6 Occurrences
+3.- call(void model.UserDatabase.save(..))|| => 4 Occurrences
+4.- call(void controller.TravelRequestController.save(..))|| => 6 Occurrences
+5.- call(void model.TravelRequestDatabase.save(..))|| => 1 Occurrence
+6.- call(void controller.UserController.delete(..))|| => 2 Occurrences
+7.- call(void model.UserDatabase.delete(..)); => 1 Occurrence
+
+Annotations:
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Admin,UserLevel,=,Admin;
+ReturnType,2,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Manager,UserLevel,=,Manager;
+Method,3,controller.UserController.save,controller.UserController,save,Method = controller.UserController.save,Method,=,controller.UserController.save;
+Parameter,4,model.UserDatabase.save,model.UserDatabase,save,model.User.user.userLevel = Manager,userLevel,=,Manager;
+Parameter,5,model.UserDatabase.save,model.UserDatabase,save,model.User.user.userLevel = Employee,userLevel,=,Employee;
+Method,6,controller.TravelRequestController.save,controller.TravelRequestController,save,Method = controller.TravelRequestController.save,Method,=,controller.TravelRequestController.save;
+Parameter,7,model.TravelRequestDatabase.save,model.TravelRequestDatabase,save,model.TravelRequest.travelRequest.status = Rejected,status,=,Rejected;
+Method,8,controller.UserController.delete,controller.UserController,delete,Method = controller.UserController.delete,Method,=,controller.UserController.delete;
+Parameter,9,model.UserDatabase.delete,model.UserDatabase,delete,model.User.user.userLevel = Employee,userLevel,=,Employee;
+
+
+1.- The model.UserLevel model.UserDatabase.getUserLevel is included in the security log 3 times. These times corresponds when during the attack scenario a Fake System Administrator, a Fake Manager and a Fake System Administrator connected to the HRM software system. 
+
+2.- The controller.UserController.save method is included 6 times in the security log. These times corresponds when during the attack scenario: An Employee was created or modified. This is correct because we indicated to include this method in the log to see the details of the user such as User Id, User Name that has been created or modified.
+
+3.- The model.UserDatabase.save is included 4 times in the security log. These times corresponds when during the attack scenario, an User changed its UserLevel from Employee to Manager or Manager to Employee. This is the moment when the security incident really happened and we recorded the evidence.
+
+4.- The controller.TravelRequestController.save is included 6 times in the security log. These times corresponds when during the attack scenario: A Travel Request was created, modified, approved or rejected. This is correct because we indicated to include this method in the log to know the details of a Travel Request such as Travel Request Id, Employee Name when a Travel Request was created or modified.
+
+5.- The model.TravelRequestDatabase.save method is included 1 times in the security log. This time corresponds when during the attack scenario: A Travel Request was rejected. This is the moment when the security incident occurred and we recorded the evidence.
+
+5.- The controller.UserController.delete method is included 2 times in the security log. These times corresponds when during the attack scenario a User was deleted. 
+
+6.- The model.UserDatabase.delete method is included 1 times in the security log. This time corresponds when during the attack scenario a User with User Level equal to Employee was deleted. This is the moment when the security incident occurred and we recorded the evidence.

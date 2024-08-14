@@ -1,0 +1,3 @@
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Manager,UserLevel,=,Manager;
+Method,2,controller.TravelRequestController.delete,controller.TravelRequestController,delete,Method = controller.TravelRequestController.delete,Method,=,controller.TravelRequestController.delete;
+Parameter,3,model.TravelRequestDatabase.delete,model.TravelRequestDatabase,delete,model.TravelRequest.travelRequest.status != Pending,status,!=,Pending;

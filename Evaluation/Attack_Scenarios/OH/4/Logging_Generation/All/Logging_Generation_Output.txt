@@ -1,0 +1,1684 @@
+[16/May/2024 21:46:48] [:] INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+[16/May/2024 21:46:49] [:] INFO - HHH000412: Hibernate ORM core version 5.6.11.Final
+[16/May/2024 21:46:49] [:] INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[16/May/2024 21:46:51] [:] INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[16/May/2024 21:46:54] [:] INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+Message FRL: Welcome to the Forensic-Ready Logger ...
+Message FRL: The UML Sequence Diagram FILES were CREATED in =>: 8 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: acceptPwd() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:47:16 PM BST
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Method Number        : 1
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Method Name          : org.isf.menu.gui.Login.acceptPwd
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Method Return Type   : void
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.menu.gui.Login.acceptPwd was CREATED in =>: 17 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - The Method: acceptPwd DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMenu() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:47:16 PM BST
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Method Number        : 2
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Method Return Value  : [New Patient, Users, New, New Bill, New, Admission Type, Types, New, New, Pharmaceuticals, Cashier's Filter, Edit Patient, OPD Chart, Examination, Edit, Edit, Edit Patient, Discharge Type, Pharmaceutical Stock, Examination, Charge, Examination, Edit, Exams List, Examination, Edit, Hospital, New Bill, OPD, Edit, Rectify, Bill Manager, Groups, Delivery Type, Disease List, Delete, Delete, Report, Edit Bill, Operation, Discharge, Delete patient, Pharmaceutical Stock Ward, Delete, Admission Chart, Operation, Merge, Ward, Delete, Admission/Patient, Delete, Excel, Data, Disease, Laboratory, Operation List, Launch Report , Edit Closed Bills, Malnutrition control, Delivery Result Type, Delete Bill, Admission, Exams, Pharmacy, Bill, Disease Type, DICOM Patient, Exam Type, Operation, Vaccines, OPD, Report, Accounting, Clinical sheet, Medicals Stock Mov Type, Receipt, Vaccine, Therapy, Price Lists, Medicals Type, Worksheet, Operation Type, Supplier, Statistics, Reports, SMS Manager, Pregnant Treatment, Users & Groups, Communication, Other Prices, Age Type, Settings, Help, Vaccine Type, DICOM Type]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getMenu was CREATED in =>: 1 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Parameter Name       : aUser
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Parameter Type       : org.isf.menu.model.User
+Message FRL: The Security Log for the DETAIL: aUser was CREATED in =>: 1 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - The Parameter Name: aUser has the following Attributes:
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Number     : 1
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Name       : userName
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 1 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Value      : ptaylor
+Message FRL: The Security Log for the VALUE: ptaylor was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Number     : 2
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Name       : userGroupName
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Type       : org.isf.menu.model.UserGroup
+Message FRL: The Security Log for the DETAIL: userGroupName was CREATED in =>: 1 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - The Attribute Name: userGroupName has the followings Sub-Attributes:
+Message FRL: The Security Log for the ATTRIBUTE-SUBATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Number     : 1
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Name       : code
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Value      : physician
+Message FRL: The Security Log for the VALUE: physician was CREATED in =>: 1 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Number     : 2
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Name       : desc
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Value      : User with some privileges
+Message FRL: The Security Log for the VALUE: User with some privileges was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Number     : 3
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Name       : hashCode
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - SubAttribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Number     : 3
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Name       : passwd
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: passwd was CREATED in =>: 1 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Value      : $2a$10$RKJj90GFrOsFusdHWGF9qOX13.11TR8vOBJci5PePnQpq/HK5474e
+Message FRL: The Security Log for the VALUE: $2a$10$RKJj90GFrOsFusdHWGF9qOX13.11TR8vOBJci5PePnQpq/HK5474e was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Number     : 4
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Name       : desc
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Value      : Physician of the Clinic
+Message FRL: The Security Log for the VALUE: Physician of the Clinic was CREATED in =>: 1 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Number     : 5
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Name       : hashCode
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 0 milliseconds
+[16/May/2024 21:47:16] [physician:ptaylor] INFO - Attribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccine() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientVaccine() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProgYear() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatient() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updatePatientVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getExams() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getLaboratory() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialList() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getExams() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientsByOneOfFieldsLike() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:48:03 PM BST
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - Method Number        : 3
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - Method Return Value  : [Janet Perez, Alan Tucker, Jane Huston, Ana Sanchez, 3 3, 2 2, Valentina Guzman Perez, Jeremias Rodriguez, Enrique Velazquez, Mary Brown, Guadalupe Valdez, Jane Smith, Patricia Gutierrez Perez, Miguel Perez Leon]
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike was CREATED in =>: 2 milliseconds
+[16/May/2024 21:48:03] [physician:ptaylor] INFO - The Method: getPatientsByOneOfFieldsLike DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientById() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:48:05 PM BST
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Number        : 4
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientById
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Return Type   : org.isf.patient.model.Patient
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Return Value  : Jane Smith
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getPatientById was CREATED in =>: 3 milliseconds
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Name       : code
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 1 milliseconds
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Value      : 158
+Message FRL: The Security Log for the VALUE: 158 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated([single]) was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:48:05 PM BST
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Number        : 5
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Return Value  : Single
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated was CREATED in =>: 2 milliseconds
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Name       : maritalKey
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: maritalKey was CREATED in =>: 1 milliseconds
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Value      : single
+Message FRL: The Security Log for the VALUE: single was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated([other]) was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:48:05 PM BST
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Number        : 6
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Method Return Value  : Other
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated was CREATED in =>: 3 milliseconds
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Name       : professionKey
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: professionKey was CREATED in =>: 0 milliseconds
+[16/May/2024 21:48:05] [physician:ptaylor] INFO - Parameter Value      : other
+Message FRL: The Security Log for the VALUE: other was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentAdmission() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialTranslated() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getExamRowByExamCode() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newLaboratory2() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getLaboratory() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicals() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicalType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicalType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newMedical() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteMedical() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:24 PM BST
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Number        : 7
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Value  : ptaylor
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 3 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospitalCurrencyCod() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:24 PM BST
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Number        : 8
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Name          : org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Type   : 
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod was CREATED in =>: 3 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - The Method: getHospitalCurrencyCod DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:24 PM BST
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Number        : 9
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Value  : ptaylor
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 2 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospitalCurrencyCod() was CREATED in =>: 5 milliseconds.
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:24 PM BST
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Number        : 10
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Name          : org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Type   : 
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod was CREATED in =>: 3 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - The Method: getHospitalCurrencyCod DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPrices() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:24 PM BST
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Number        : 11
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Name          : org.isf.priceslist.manager.PriceListManager.getPrices
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Value  : [1.1 HB, 1.1 HB (Procedure 3), 1.2 WBC Count, 1.3 Differential , 1.4 Film Comment, 1.5 ESR, 1.6 Sickling Test, 2.1 Grouping, 2.2 Comb's Test, 3.1 Blood Slide (Malaria), 3.2 Blood Slide (OTHERS, E.G. TRIUPHANOSOMIAS, MICRIFILARIA, LEISHMANIA, BORRELIA), 3.21 Trypanosomiasis, 3.22 MICROFILARIA, 3.23 LEISHMANIA, 3.24 BORRELIA, 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY, 3.5 TISSUE MICROSCOPY, 3.6 CSF WET PREP, 4 Dimethyl Aminobenzaldelyde, 4.1 CULTURE AND SENSITIVITY (C&S) FOR HAEMOPHILUS INFUENZA TYPE B, 4.2 C&S FOR SALMONELA TYPHI, 4.3 C&S FOR VIBRO CHOLERA, 4.4 C&S FOR SHIGELLA DYSENTERIAE, 4.5 C&S FOR NEISSERIA MENINGITIDES, 4.6 OTHER C&S , 5.1 WET PREP, 5.2 GRAM STAIN, 5.3 INDIA INK, 5.4 LEISMANIA, 5.5 ZN, 5.6 WAYSON, 5.7 PAP SMEAR, 6.1 VDRL/RPR, 6.2 TPHA, 6.3 HIV, 6.4 HEPATITIS, 6.5 OTHERS E.G BRUCELLA, RHEUMATOID FACTOR, WEIL FELIX, 6.6 PREGANCY TEST, 7.1 PROTEIN, 7.2 SUGAR, 7.3 LFTS, 7.3.1 BILIRUBIN TOTAL, 7.3.2 BILIRUBIN DIRECT, 7.3.3 GOT, 7.3.4 ALT/GPT, 7.4 RFTS, 7.4.1 CREATININA, 7.4.2 UREA, 8.1 OCCULT BLOOD, 9.1 URINALYSIS, Abdominal Tumours, Acetazolamide 250mg Tab, Acetic Acid Glacial 1 ltr, Aceton 99% 1ltr, Aciclovir, Acute abdomen, Acyclovir 200mg Tab, Adhesive Tape 2.5cm x 5m, Adhesive Tape 7.5cm x 5m, Adrenaline 1mg/ml 1ml Amp, Air ring set 43x15cm, rubber with pump, Airway Guedel Size 0, Airway Guedel Size 00, Airway Guedel Size 1, Airway Guedel Size 2, Airway Guedel Size 3, Albendazole 200mg Tab, Albendazole 400mg Tab, Alcohol 95% not denatured 20Ltrs, Aminophylline 100mg Tab, Aminophylline 25mg/ml,10ml Amp, Amitriptyline 25mg Tab, Ammonium Oxalate, Amount per day, Amoxicillin /Clavulanate 375mg Tab, Amoxicillin 125mg/5ml Powd. Susp 100ml, Amoxicillin 250mg Caps, Amphotericin B 50mg Vial, Ampicillin 500mg Vial, Anti Serum A 10ml, Anti Serum AB 10ml, Anti Serum B 10ml, Anti Serum D 10ml, Antihaemorrhoid suppositories, Appendicitis, Apron Plastic Re-usable, Apron Plastic Re-usable local, Apron Polythene Disp Non Sterile, Ascorbic Acid 100mg tab, Aspirin 300mg Tab, Atenolol 100mg Tab, Atenolol 50mg Tab, Atropine 1mg/ml 1ml Amp, Barium Sulphate for X-Ray 1kg, Beclomethasone 50mcg Inhaler, Bedpan Plastic Autoclavable, Bedpan Stainless Steel, Bendrofluazide 5mg Tab, Benzathine Penicillin 2.4 MIU Vial, Benzhexol 2mg Tab, Benzhexol 5mg Tab, Benzyl Penicillin 1 MIU Vial, Benzyl Penicillin 5 MIU Vial, Betamethasone 0.1% eye/ear/nose drops, Betamethasone 0.1% Neomycin 0.35 %eye drops 7.5ml, Bisacodyl 5mg Tab, Bladder biopsy, Blood giving set Disposable, Blood Transfer Bag 300ml, Body Bag 70 x 215cm  (Adult), Bowl Without Lid 10 x 24cm stainless steel, Bowl Without Lid 7 x 12cm stainless steel, Bowl Without Lid 8 x 16cm stainless steel, Brilliant Cresyl Blue, Caesarian section, Calcium Lactate 300mg Tab, Carbamazepine 200mg Tab, Carbimazole 5mg Tab, Catheter Foley CH10 3 Way Balloon, Catheter Foley CH12 3 Way Balloon, Catheter Foley CH14 3 Way Balloon, Catheter Foley CH16 3 Way Balloon, Catheter Foley CH18 3 Way Balloon, Catheter Foley CH20 3 Way Balloon, Catheter Foley CH8 3 Way Balloon, Catheter Stopper for All sizes, Charcoal 250mg Tab, Chloramphenicol 0.5% Eye Drops 10ml, Chloramphenicol 125mg/5ml Susp 100ml, Chloramphenicol 125mg/5ml Susp 3Ltr, Chloramphenicol 1g Vial, Chloramphenicol 250mg Caps, Chlorhexidine/Cetrimide 1.5/15% 1Ltr, Chlorhexidine/Cetrimide 1.5/15% 5Ltr, Chloroquine 40mg Base/ml 5ml Amp, Chloroquine Coated 150mg Tab, Chloroquine Uncoated 150mg Tab, Chlorphenimine 4mg Tab, Chlorpromazine 100mg Tab, Chlorpromazine 25mg Tab, Chlorpromazine 25mg/ml/2ml Amp, Cholecystitis, Cimetidine 200mg Tab, Cimetidine 400mg Tab, Ciprofloxacine 250mg Tab, Ciprofloxacine 500mg Tab, Circumcision, Cloramphenicol 1% Eye Ointment 3.5g, Clotrimazole 100mg Pessaries, Clotrimazole 500mg Pessaries, Cloxacillin 250mg Tab, Cloxacillin 500mg Vial, Codein Phosphate 30mg Tab, Colostomy Bag closed 30mm size 2, Colostomy Bag closed 30mm size 3, Colostomy Bag open re-usable 35mm, Copper 11 Sulphate 500g, Cotrimoxazole 100/20mg Paed Tab, Cotrimoxazole 200+40mg/5ml Susp 100ml, Cotrimoxazole 200+40mg/5ml Susp 3Ltr, Cotrimoxazole 400/80mg Tab, Cotton Wool 200G, cotton Wool 500G, Creatinine 200ml (Calorimetric), Crystal Violet, Cyclophosphamide 200mg Vial, Cyclophosphamide 500mg Vial, Cystocele, Darrows Half Strength 500ml, Debridement, Dexamethasone 0.5mg Tab, Dexamethasone 4mg/ml 1ml Amp, Dexamethasone 4mg/ml 2ml Amp, Dextrose 30% IV 100ml, Dextrose 5% IV 500ml, Dextrose 50% IV 100ml, Dextrose Monohydrate Apyrogen 25Kg, Diatrizoate Meglumin Sod 76% 20ml Amp, Diazepam 2mg/ml 2.5ml Rectal Tube, Diazepam 5mg / ml 2ml Amp, Diazepam 5mg Tab, Diclofenac 25mg/ml 3ml Amp, Diclofenac 50mg Tab, Diethylcarbamazine 50mg Tab, Digoxin 0.25 mg Tab, Digoxin 0.25 mg/ml 2ml Amp, Dilatation and curettage, Dorsal slit-paraphimosis, Doxycycline 100mg Tab, Ear syringe rubber 60ml, Ectopic pregnancy, EDTA Di- sodium salt 100g, Elastic Bandage 10cm x 4.5m, Elastic Bandage 7.5cm x 4.5m, Eosin Yellowish, Ephedrine 30mg Tab, Epigastrical Hernia, Erythromycin 250mg Tab, Ethanol Absolute 1ltr, Evacuations, Eye Pad Sterile, Fansidar 500/25mg Tab, Fansidar 500/25mg Tab (50dosesx3), Ferrous Sulphate 200mg Tab, Field stain A and B, First Aid kit, Fluconazole 100mg 24 Caps, Fluconazole 100mg Tab, Folic Acid 15mg Tab, Folic Acid 1mg Tab, Folic Acid 5mg Tab, Folic Acid/Ferrous Sulp 0.5/200mg Tab, Formaldehyde solution 35-38% 1ltr, Frusemide 40mg Tab, Furosemide 10mg/ml 2ml Amp, Gallipot stainless steel 200ml/10cm, Gallipot stainless steel 300ml/15cm, Gauze Bandage 10cm x 4m, Gauze Bandage 7.5cm x 3.65-4m, Gauze Hydrophylic 90cm x 91cm, Gauze Pads  Sterile 10cm x 10cm, Gauze Pads Non Sterile 10cm x 10cm, Genitian Violet, Gentamicin 0.3% eye/ear drops 10ml, Gentamicin 40mg/ml 2ml, Gentian Violet 25g Tin, Giemsa Stain, Glibenclamide 5mg Tab, Gloves Domestic, Gloves Gynaecological 7.5-8, Gloves High risk non sterile Medium, Gloves Non Sterile Large Disposable, Gloves Non Sterile Medium Disposable, Gloves Surgical Sterile 6, Gloves Surgical Sterile 6.5, Gloves Surgical Sterile 7, Gloves Surgical Sterile 7.5, Gloves Surgical Sterile 8, Gloves Surgical Sterile 8.5, Glucose GOD PAD  6 x 100ml (Colorimetric), Glucose Test Strip, Glucose Test Strips (Hyloguard), GOT ( AST) 200ml (Calorimetric) AS 147, GOT ( AST) 200ml has no NAOH) AS 101, GPT (ALT) 200ml ( Does not have NAOH), Griseofulvin 500mg Tab, Haloperidol 5mg, Haloperidol 5mg Tab, Haloperidol 5mg/ml 1ml Amp, Haloperidol Decanoate 50mg/ml 1ml Amp, Handle for surgical blade No 3, Handle for surgical blade No 4, HERNIA, Hernia (inguinal & femoral), HIV 1/2 Capillus Kit 100Tests, HIV Buffer for determine Kit, HIV Determine 1/11 (Abbott) 100Tests, HIV UNIGOLD 1/11 Test Kits 20 Tests, Hot water Bottle 2Ltr, Hydralazine 20mg Vial, Hydralazine 25mg Tab, Hydrocelectomy, Hydrochloric Acid 30-33% 1ltr, Hydrocortisone 1% eye drops 5ml, Hydrocortisone 100mg Vial, Hydrogen Peroxide 6% 250ml, Hyoscine 10mg Tab, Hyoscine Butyl Bromide 20mg/ml/ Amp, Hysterectomy, Ibuprofen 200mg Tab, Imipramine 25mg Tab, Incision & Drainage, Incomplete abortion, Indomethacin 25mg Tab, Injured uterus, Insectcide Spray 400g, Instrument Box With Lid 20x10x5cm, Instrument Tray 30 x 20 x 2cm, Insulin Isophane 100IU/ml 10ml Vial, Insulin Isophane 40IU/ml 10ml, Insulin Mixtard 30/70 100IU/ml 10ml Vial, Insulin Mixtard 30/70 100IU/ml 5x3ml catridges, Insulin Soluble 100IU/ml 10ml Vial, Insulin Syringe 100IU with Needle G26/29, Intestinal obstruction, Iodine Crystal 100g, Iodine Solution 2% 500ml, Iron Dextran 10mg/ml 2ml Vial, Irrigation can with accessories, Isoniazid 300mg Tab, IV Cannula G16 with Port, IV Cannula G18 with Port, IV Cannula G20 with Port, IV Cannula G22 with Port, IV Cannula G24 with Port, IV Cannula G24 without Port, IV Giving set Disposable, Ketamine 10mg/ml 10ml Vial, Ketamine 10mg/ml 20ml Vial, Ketoconazole 200mg Tab, Kidney Dish Polypropylene 24cm, Kidney Dish stainless Steel 20cm, Kidney Dish stainless Steel 24cm, Knee Surgery 123, Laparotomy, Lead Apron 100cmx60cm, Lignocaine 2% 20ml Vial, Lignocaine 2% Adrenaline Dent.cartridges, Lignocaine spinal 50mg/ml 2ml Amp, Liquid detergent 20Ltr, liquid detergent 5Ltr Perfumed, Lower limb, Mackintosh Plastic (Apron) per 1m, Mackintosh Rubber Brown (sheeting) per 1m, Measuring Cup Graduated 25ml, Mechanical, Methanol 99% 1ltr, Methylergomeatrine 0.2mg/ml 1ml Amp, Methylergomeatrine 0.5mg/ml 1ml Amp, Metoclopramide 5mg/ml 100ml Amp, Metronidazole 5mg/ml 2ml IV, Mise -a- plat, Morphine 15mg/ml 1ml Amp, Mosquito Net Impregnated Large, Mosquito Net Impregnated Medium, Mosquito Net Impregnation Liquid 500ml, Mosquito Net Impregnation Tablet, Mosquito Net Non Impregnated Large, Mosquito Net Non Impregnated Medium, Mosquito Wall spray Powder 80g, Nasogastric Tube G10 (Children), Nasogastric Tube G14 (Children), Nasogastric Tube G16 (Children), Nasogastric Tube G5 (Children), Nasogastric Tube G6 (Children), Nasogastric Tube G8 (Children), Neck Support Large, Neck Support Medium, Neck Support Small, Needle container disposable of contaminated, Needle suture No 5 cutting, Needle suture No 5 round, Needle suture No 6 Round, Needles Luer G20 Disposable, Needles Luer G21 Disposable, Needles Luer G22 Disposable, Needles Luer G23 Disposable, Needles Spinal G20x75-120mm, Needles Spinal G22x40mm, Needles Spinal G22x75-120mm, Needles Spinal G25x75-120mm, Neutral Red, NEW OPERATION, NEW OPERATION TWO, NEW ORTHOPEDICAL DISEASE, Non 111 Chloride (Ferric chloride), Non strangulated, Nystatin 100.000 IU Pessaries, Nystatin 500.000IU/ Susp/ Drops, Operation New, Oral Rehydration Salt (ORS), Osteomyelitis - sequestrectomy, Ovarian tumours, Oxytocin 10 IU/ml 1ml Amp, Paracetamol 120mg/5ml 100ml, Paracetamol 120mg/5ml Syrup, Paraphimosis, Pelvic abscess, Penetrating abdominal injuries, Peritonitis, Peritonitis, Pethidine 100mg/ml 2ml Amp, Pethidine 50mg/ml 1ml Amp, Phenobarbital 100mg/ml 2ml Amp, Phenol crystals 1kg, Phimosis, Phytomenadione 10mg/ml 1ml Amp, Phytomenadione 1mg/ml 1ml Amp, Plaster of Paris 10cm, Plaster of Paris 15cm, Potassium iodide 100g, Potassium Oxalate, Pregnacy ( HGG Latex) 50 tests, Procaine Penicillin Fortified 4 MIU Vial, Promethazine 25mg/ml 2ml Amp, Prostate biopsy, Prostatectomy, Pyridoxine 50mg Tab, Quinine 100mg/5ml Syrup 100ml, Quinine 300mg Tab, Quinine Di-HCI 300mg/ml 2ml Amp, Ranitidine 150mg Tab, Ranitidine 25mg/ml 2ml Amp, Razor Blades Disposable 5pc, Rectal Tube CH24, Rectal Tube CH26, Reduction of fractures, Repair of vesico-vaginal fistula (vvf), Rifampicin/Isoniazid 150/100 Tab, RPR ( VDRL Carbon ) Antigen 5ml, RPR 125mm x 75mm, Ruptured uterus, Salbutamol 4mg Tab, Salbutamol Inhaler 10ml, Salbutamol solution for inhalation 5ml, Scalp Vein G19 Infusion set, Scalp Vein G21 Infusion set, Scalp Vein G23 Infusion set, Scalp Vein G25 Infusion set, Septic abortion, Soap Blue Bar 550g, Soap Powder Hand wash 5kg, Sodium Carbonate Anhydrous, Sodium Carbonate Anhydrous 500g, Sodium Chloride 0.9% IV 500ml, Sodium Chloride Apyrogen 50kg, Sodium Citrate 100g, Sodium Fluoride, Sodium Hypochlorite solution 0.75 Ltr, Sodium Hypochlorite solution 5Ltr, Sodium Lactate Compound IV 500ml, Sodium Nitrate 25g, Sodium Sulphate 500g, Spironolactone 25mg Tab, Spoon Medicine 5ml, Stethoscope Foetal Metal, Stethoscope Foetal Wood, Strangulated, Streptomycin 1g Vial, Suction Catheter Size 10 Disposable, Suction Catheter Size 12 Disposable, Suction Catheter Size 14 Disposable, Suction Catheter Size 16 Disposable, Suction Catheter Size 6 Disposable, Suction Catheter Size 8 Disposable, Sulphosalicylic Acid 500g, Sulphuric Acid Conc 1ltr, Surgical Blades No 20, Surgical Blades No 21, Surgical Blades No 22, Surgical Blades No 23, Surgical Brush (Scrubbing), Surgical Mop 12 x 15, Surgical toilet  & suture, Suture Cutgut Chromic (0), Suture Cutgut Chromic (2) RN22240TH, Suture Cutgut Chromic (2/0) RN22230TH, Suture Cutgut Chromic (3/0) RN2325TF, Suture Cutgut Plain (2/0) RN1230TF, Suture PGA (3/0) RN3330TF, Suture Silk (1) S595, Suture Silk (2/0) RN5230TF, Suxamethonium 500mg Vial, Suxamethonium 500mg/ml 2ml Amp, Syringe Feeding/Irrigation 50/60ml, Syringe Luer 10ml With Needle Disposable, Syringe Luer 20ml With Needle Disposable, Syringe Luer 2ml With Needle Disposable, Syringe Luer 5ml With Needle Disposable, Tablet Counting Tray, Testicular tumours, tetanus Antitoxin 1500 IU 1ml Amp, Tetracycline eye ointment 1% 3.5g, Thermometer Clinical Flat Type, Thermometer Clinical Prismatic Type, Thiopental Sodium 500mg Vial, Toilet Paper Rolls, Tolbutamide 500mg tab, Tongue depressor Disposable, Traction Kit Adult, Traction Kit Children, Trichloro acetic Acid, Trisodium Citrate, Umbilical Cord Tie non sterile 100m, Umbilical Cord Tie sterile 22m, Upper limb, UREA Calorimetric 300 Tests, Uretheral stricture-bougienage, Urinal 1Ltr / 2Ltr, Urine Collecting Bag sterile 2Ltr, Urine Test Strips 3 Parameters 100 tests, Uterine fibroids, Uterine prolapse, Vitamin A 200.000 IU Caps, Vitamin B Complex Tab, Volvulus, Water for Injection 10ml Vial, X-Ray Developer 2.6kg for 22.5Ltr, X-Ray Film 18x24cm, X-Ray Film 20x40cm, X-Ray Film 24x30cm, X-Ray Film 30x40cm, X-Ray Film 35x35cm, X-Ray Film 43x35cm, X-Ray Film Cassette  18x24cm with screen, X-Ray Film Cassette  24x30cm with screen, X-Ray Film Cassette  30x40cm with screen, X-Ray Film Cassette  35x35cm with screen, X-Ray Film Cassette  35x43cm with screen, X-Ray Fixer 3.3kg for 22.5 Ltr, Xylene 2.5 ltrs]
+Message FRL: The Security Log for the HEADER: org.isf.priceslist.manager.PriceListManager.getPrices was CREATED in =>: 6 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - The Method: getPrices DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOthers() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:24 PM BST
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Number        : 12
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Name          : org.isf.pricesothers.manager.PricesOthersManager.getOthers
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Value  : [Amount per day]
+Message FRL: The Security Log for the HEADER: org.isf.pricesothers.manager.PricesOthersManager.getOthers was CREATED in =>: 2 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - The Method: getOthers DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 4 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getItems() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:24 PM BST
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Number        : 13
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getItems
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getItems was CREATED in =>: 2 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Parameter Name       : billID
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billID was CREATED in =>: 0 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Parameter Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:24 PM BST
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Number        : 14
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getPayments
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getPayments was CREATED in =>: 2 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Parameter Name       : billID
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billID was CREATED in =>: 1 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Parameter Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOthers() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:24 PM BST
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Number        : 15
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Name          : org.isf.pricesothers.manager.PricesOthersManager.getOthers
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - Method Return Value  : [Amount per day]
+Message FRL: The Security Log for the HEADER: org.isf.pricesothers.manager.PricesOthersManager.getOthers was CREATED in =>: 2 milliseconds
+[16/May/2024 21:49:24] [physician:ptaylor] INFO - The Method: getOthers DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientsByOneOfFieldsLike() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:27 PM BST
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - Method Number        : 16
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - Method Return Value  : [Janet Perez, Alan Tucker, Jane Huston, Ana Sanchez, 3 3, 2 2, Valentina Guzman Perez, Jeremias Rodriguez, Enrique Velazquez, Mary Brown, Guadalupe Valdez, Jane Smith, Patricia Gutierrez Perez, Miguel Perez Leon]
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike was CREATED in =>: 4 milliseconds
+[16/May/2024 21:49:27] [physician:ptaylor] INFO - The Method: getPatientsByOneOfFieldsLike DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientById() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:33 PM BST
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Number        : 17
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientById
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Return Type   : org.isf.patient.model.Patient
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Return Value  : Janet Perez
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getPatientById was CREATED in =>: 5 milliseconds
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Name       : code
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 1 milliseconds
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Value      : 172
+Message FRL: The Security Log for the VALUE: 172 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated([widowed]) was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:33 PM BST
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Number        : 18
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Return Value  : Widowed
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated was CREATED in =>: 6 milliseconds
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Name       : maritalKey
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: maritalKey was CREATED in =>: 2 milliseconds
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Value      : widowed
+Message FRL: The Security Log for the VALUE: widowed was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated([farming]) was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:33 PM BST
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Number        : 19
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Method Return Value  : Farming
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated was CREATED in =>: 7 milliseconds
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Name       : professionKey
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: professionKey was CREATED in =>: 2 milliseconds
+[16/May/2024 21:49:33] [physician:ptaylor] INFO - Parameter Value      : farming
+Message FRL: The Security Log for the VALUE: farming was CREATED in =>: 6 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPendingBills() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:49:35 PM BST
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - Method Number        : 20
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getPendingBills
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getPendingBills was CREATED in =>: 5 milliseconds
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - Parameter Name       : patID
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: patID was CREATED in =>: 1 milliseconds
+[16/May/2024 21:49:35] [physician:ptaylor] INFO - Parameter Value      : 172
+Message FRL: The Security Log for the VALUE: 172 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBill() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:07 PM BST
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - Method Number        : 21
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getBill
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - Method Return Type   : 
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getBill was CREATED in =>: 6 milliseconds
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - Parameter Name       : billID
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billID was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:07] [physician:ptaylor] INFO - Parameter Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newBill() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPrices() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:10 PM BST
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - Method Number        : 22
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - Method Name          : org.isf.priceslist.manager.PriceListManager.getPrices
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - Method Return Value  : [1.1 HB, 1.1 HB (Procedure 3), 1.2 WBC Count, 1.3 Differential , 1.4 Film Comment, 1.5 ESR, 1.6 Sickling Test, 2.1 Grouping, 2.2 Comb's Test, 3.1 Blood Slide (Malaria), 3.2 Blood Slide (OTHERS, E.G. TRIUPHANOSOMIAS, MICRIFILARIA, LEISHMANIA, BORRELIA), 3.21 Trypanosomiasis, 3.22 MICROFILARIA, 3.23 LEISHMANIA, 3.24 BORRELIA, 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY, 3.5 TISSUE MICROSCOPY, 3.6 CSF WET PREP, 4 Dimethyl Aminobenzaldelyde, 4.1 CULTURE AND SENSITIVITY (C&S) FOR HAEMOPHILUS INFUENZA TYPE B, 4.2 C&S FOR SALMONELA TYPHI, 4.3 C&S FOR VIBRO CHOLERA, 4.4 C&S FOR SHIGELLA DYSENTERIAE, 4.5 C&S FOR NEISSERIA MENINGITIDES, 4.6 OTHER C&S , 5.1 WET PREP, 5.2 GRAM STAIN, 5.3 INDIA INK, 5.4 LEISMANIA, 5.5 ZN, 5.6 WAYSON, 5.7 PAP SMEAR, 6.1 VDRL/RPR, 6.2 TPHA, 6.3 HIV, 6.4 HEPATITIS, 6.5 OTHERS E.G BRUCELLA, RHEUMATOID FACTOR, WEIL FELIX, 6.6 PREGANCY TEST, 7.1 PROTEIN, 7.2 SUGAR, 7.3 LFTS, 7.3.1 BILIRUBIN TOTAL, 7.3.2 BILIRUBIN DIRECT, 7.3.3 GOT, 7.3.4 ALT/GPT, 7.4 RFTS, 7.4.1 CREATININA, 7.4.2 UREA, 8.1 OCCULT BLOOD, 9.1 URINALYSIS, Abdominal Tumours, Acetazolamide 250mg Tab, Acetic Acid Glacial 1 ltr, Aceton 99% 1ltr, Aciclovir, Acute abdomen, Acyclovir 200mg Tab, Adhesive Tape 2.5cm x 5m, Adhesive Tape 7.5cm x 5m, Adrenaline 1mg/ml 1ml Amp, Air ring set 43x15cm, rubber with pump, Airway Guedel Size 0, Airway Guedel Size 00, Airway Guedel Size 1, Airway Guedel Size 2, Airway Guedel Size 3, Albendazole 200mg Tab, Albendazole 400mg Tab, Alcohol 95% not denatured 20Ltrs, Aminophylline 100mg Tab, Aminophylline 25mg/ml,10ml Amp, Amitriptyline 25mg Tab, Ammonium Oxalate, Amount per day, Amoxicillin /Clavulanate 375mg Tab, Amoxicillin 125mg/5ml Powd. Susp 100ml, Amoxicillin 250mg Caps, Amphotericin B 50mg Vial, Ampicillin 500mg Vial, Anti Serum A 10ml, Anti Serum AB 10ml, Anti Serum B 10ml, Anti Serum D 10ml, Antihaemorrhoid suppositories, Appendicitis, Apron Plastic Re-usable, Apron Plastic Re-usable local, Apron Polythene Disp Non Sterile, Ascorbic Acid 100mg tab, Aspirin 300mg Tab, Atenolol 100mg Tab, Atenolol 50mg Tab, Atropine 1mg/ml 1ml Amp, Barium Sulphate for X-Ray 1kg, Beclomethasone 50mcg Inhaler, Bedpan Plastic Autoclavable, Bedpan Stainless Steel, Bendrofluazide 5mg Tab, Benzathine Penicillin 2.4 MIU Vial, Benzhexol 2mg Tab, Benzhexol 5mg Tab, Benzyl Penicillin 1 MIU Vial, Benzyl Penicillin 5 MIU Vial, Betamethasone 0.1% eye/ear/nose drops, Betamethasone 0.1% Neomycin 0.35 %eye drops 7.5ml, Bisacodyl 5mg Tab, Bladder biopsy, Blood giving set Disposable, Blood Transfer Bag 300ml, Body Bag 70 x 215cm  (Adult), Bowl Without Lid 10 x 24cm stainless steel, Bowl Without Lid 7 x 12cm stainless steel, Bowl Without Lid 8 x 16cm stainless steel, Brilliant Cresyl Blue, Caesarian section, Calcium Lactate 300mg Tab, Carbamazepine 200mg Tab, Carbimazole 5mg Tab, Catheter Foley CH10 3 Way Balloon, Catheter Foley CH12 3 Way Balloon, Catheter Foley CH14 3 Way Balloon, Catheter Foley CH16 3 Way Balloon, Catheter Foley CH18 3 Way Balloon, Catheter Foley CH20 3 Way Balloon, Catheter Foley CH8 3 Way Balloon, Catheter Stopper for All sizes, Charcoal 250mg Tab, Chloramphenicol 0.5% Eye Drops 10ml, Chloramphenicol 125mg/5ml Susp 100ml, Chloramphenicol 125mg/5ml Susp 3Ltr, Chloramphenicol 1g Vial, Chloramphenicol 250mg Caps, Chlorhexidine/Cetrimide 1.5/15% 1Ltr, Chlorhexidine/Cetrimide 1.5/15% 5Ltr, Chloroquine 40mg Base/ml 5ml Amp, Chloroquine Coated 150mg Tab, Chloroquine Uncoated 150mg Tab, Chlorphenimine 4mg Tab, Chlorpromazine 100mg Tab, Chlorpromazine 25mg Tab, Chlorpromazine 25mg/ml/2ml Amp, Cholecystitis, Cimetidine 200mg Tab, Cimetidine 400mg Tab, Ciprofloxacine 250mg Tab, Ciprofloxacine 500mg Tab, Circumcision, Cloramphenicol 1% Eye Ointment 3.5g, Clotrimazole 100mg Pessaries, Clotrimazole 500mg Pessaries, Cloxacillin 250mg Tab, Cloxacillin 500mg Vial, Codein Phosphate 30mg Tab, Colostomy Bag closed 30mm size 2, Colostomy Bag closed 30mm size 3, Colostomy Bag open re-usable 35mm, Copper 11 Sulphate 500g, Cotrimoxazole 100/20mg Paed Tab, Cotrimoxazole 200+40mg/5ml Susp 100ml, Cotrimoxazole 200+40mg/5ml Susp 3Ltr, Cotrimoxazole 400/80mg Tab, Cotton Wool 200G, cotton Wool 500G, Creatinine 200ml (Calorimetric), Crystal Violet, Cyclophosphamide 200mg Vial, Cyclophosphamide 500mg Vial, Cystocele, Darrows Half Strength 500ml, Debridement, Dexamethasone 0.5mg Tab, Dexamethasone 4mg/ml 1ml Amp, Dexamethasone 4mg/ml 2ml Amp, Dextrose 30% IV 100ml, Dextrose 5% IV 500ml, Dextrose 50% IV 100ml, Dextrose Monohydrate Apyrogen 25Kg, Diatrizoate Meglumin Sod 76% 20ml Amp, Diazepam 2mg/ml 2.5ml Rectal Tube, Diazepam 5mg / ml 2ml Amp, Diazepam 5mg Tab, Diclofenac 25mg/ml 3ml Amp, Diclofenac 50mg Tab, Diethylcarbamazine 50mg Tab, Digoxin 0.25 mg Tab, Digoxin 0.25 mg/ml 2ml Amp, Dilatation and curettage, Dorsal slit-paraphimosis, Doxycycline 100mg Tab, Ear syringe rubber 60ml, Ectopic pregnancy, EDTA Di- sodium salt 100g, Elastic Bandage 10cm x 4.5m, Elastic Bandage 7.5cm x 4.5m, Eosin Yellowish, Ephedrine 30mg Tab, Epigastrical Hernia, Erythromycin 250mg Tab, Ethanol Absolute 1ltr, Evacuations, Eye Pad Sterile, Fansidar 500/25mg Tab, Fansidar 500/25mg Tab (50dosesx3), Ferrous Sulphate 200mg Tab, Field stain A and B, First Aid kit, Fluconazole 100mg 24 Caps, Fluconazole 100mg Tab, Folic Acid 15mg Tab, Folic Acid 1mg Tab, Folic Acid 5mg Tab, Folic Acid/Ferrous Sulp 0.5/200mg Tab, Formaldehyde solution 35-38% 1ltr, Frusemide 40mg Tab, Furosemide 10mg/ml 2ml Amp, Gallipot stainless steel 200ml/10cm, Gallipot stainless steel 300ml/15cm, Gauze Bandage 10cm x 4m, Gauze Bandage 7.5cm x 3.65-4m, Gauze Hydrophylic 90cm x 91cm, Gauze Pads  Sterile 10cm x 10cm, Gauze Pads Non Sterile 10cm x 10cm, Genitian Violet, Gentamicin 0.3% eye/ear drops 10ml, Gentamicin 40mg/ml 2ml, Gentian Violet 25g Tin, Giemsa Stain, Glibenclamide 5mg Tab, Gloves Domestic, Gloves Gynaecological 7.5-8, Gloves High risk non sterile Medium, Gloves Non Sterile Large Disposable, Gloves Non Sterile Medium Disposable, Gloves Surgical Sterile 6, Gloves Surgical Sterile 6.5, Gloves Surgical Sterile 7, Gloves Surgical Sterile 7.5, Gloves Surgical Sterile 8, Gloves Surgical Sterile 8.5, Glucose GOD PAD  6 x 100ml (Colorimetric), Glucose Test Strip, Glucose Test Strips (Hyloguard), GOT ( AST) 200ml (Calorimetric) AS 147, GOT ( AST) 200ml has no NAOH) AS 101, GPT (ALT) 200ml ( Does not have NAOH), Griseofulvin 500mg Tab, Haloperidol 5mg, Haloperidol 5mg Tab, Haloperidol 5mg/ml 1ml Amp, Haloperidol Decanoate 50mg/ml 1ml Amp, Handle for surgical blade No 3, Handle for surgical blade No 4, HERNIA, Hernia (inguinal & femoral), HIV 1/2 Capillus Kit 100Tests, HIV Buffer for determine Kit, HIV Determine 1/11 (Abbott) 100Tests, HIV UNIGOLD 1/11 Test Kits 20 Tests, Hot water Bottle 2Ltr, Hydralazine 20mg Vial, Hydralazine 25mg Tab, Hydrocelectomy, Hydrochloric Acid 30-33% 1ltr, Hydrocortisone 1% eye drops 5ml, Hydrocortisone 100mg Vial, Hydrogen Peroxide 6% 250ml, Hyoscine 10mg Tab, Hyoscine Butyl Bromide 20mg/ml/ Amp, Hysterectomy, Ibuprofen 200mg Tab, Imipramine 25mg Tab, Incision & Drainage, Incomplete abortion, Indomethacin 25mg Tab, Injured uterus, Insectcide Spray 400g, Instrument Box With Lid 20x10x5cm, Instrument Tray 30 x 20 x 2cm, Insulin Isophane 100IU/ml 10ml Vial, Insulin Isophane 40IU/ml 10ml, Insulin Mixtard 30/70 100IU/ml 10ml Vial, Insulin Mixtard 30/70 100IU/ml 5x3ml catridges, Insulin Soluble 100IU/ml 10ml Vial, Insulin Syringe 100IU with Needle G26/29, Intestinal obstruction, Iodine Crystal 100g, Iodine Solution 2% 500ml, Iron Dextran 10mg/ml 2ml Vial, Irrigation can with accessories, Isoniazid 300mg Tab, IV Cannula G16 with Port, IV Cannula G18 with Port, IV Cannula G20 with Port, IV Cannula G22 with Port, IV Cannula G24 with Port, IV Cannula G24 without Port, IV Giving set Disposable, Ketamine 10mg/ml 10ml Vial, Ketamine 10mg/ml 20ml Vial, Ketoconazole 200mg Tab, Kidney Dish Polypropylene 24cm, Kidney Dish stainless Steel 20cm, Kidney Dish stainless Steel 24cm, Knee Surgery 123, Laparotomy, Lead Apron 100cmx60cm, Lignocaine 2% 20ml Vial, Lignocaine 2% Adrenaline Dent.cartridges, Lignocaine spinal 50mg/ml 2ml Amp, Liquid detergent 20Ltr, liquid detergent 5Ltr Perfumed, Lower limb, Mackintosh Plastic (Apron) per 1m, Mackintosh Rubber Brown (sheeting) per 1m, Measuring Cup Graduated 25ml, Mechanical, Methanol 99% 1ltr, Methylergomeatrine 0.2mg/ml 1ml Amp, Methylergomeatrine 0.5mg/ml 1ml Amp, Metoclopramide 5mg/ml 100ml Amp, Metronidazole 5mg/ml 2ml IV, Mise -a- plat, Morphine 15mg/ml 1ml Amp, Mosquito Net Impregnated Large, Mosquito Net Impregnated Medium, Mosquito Net Impregnation Liquid 500ml, Mosquito Net Impregnation Tablet, Mosquito Net Non Impregnated Large, Mosquito Net Non Impregnated Medium, Mosquito Wall spray Powder 80g, Nasogastric Tube G10 (Children), Nasogastric Tube G14 (Children), Nasogastric Tube G16 (Children), Nasogastric Tube G5 (Children), Nasogastric Tube G6 (Children), Nasogastric Tube G8 (Children), Neck Support Large, Neck Support Medium, Neck Support Small, Needle container disposable of contaminated, Needle suture No 5 cutting, Needle suture No 5 round, Needle suture No 6 Round, Needles Luer G20 Disposable, Needles Luer G21 Disposable, Needles Luer G22 Disposable, Needles Luer G23 Disposable, Needles Spinal G20x75-120mm, Needles Spinal G22x40mm, Needles Spinal G22x75-120mm, Needles Spinal G25x75-120mm, Neutral Red, NEW OPERATION, NEW OPERATION TWO, NEW ORTHOPEDICAL DISEASE, Non 111 Chloride (Ferric chloride), Non strangulated, Nystatin 100.000 IU Pessaries, Nystatin 500.000IU/ Susp/ Drops, Operation New, Oral Rehydration Salt (ORS), Osteomyelitis - sequestrectomy, Ovarian tumours, Oxytocin 10 IU/ml 1ml Amp, Paracetamol 120mg/5ml 100ml, Paracetamol 120mg/5ml Syrup, Paraphimosis, Pelvic abscess, Penetrating abdominal injuries, Peritonitis, Peritonitis, Pethidine 100mg/ml 2ml Amp, Pethidine 50mg/ml 1ml Amp, Phenobarbital 100mg/ml 2ml Amp, Phenol crystals 1kg, Phimosis, Phytomenadione 10mg/ml 1ml Amp, Phytomenadione 1mg/ml 1ml Amp, Plaster of Paris 10cm, Plaster of Paris 15cm, Potassium iodide 100g, Potassium Oxalate, Pregnacy ( HGG Latex) 50 tests, Procaine Penicillin Fortified 4 MIU Vial, Promethazine 25mg/ml 2ml Amp, Prostate biopsy, Prostatectomy, Pyridoxine 50mg Tab, Quinine 100mg/5ml Syrup 100ml, Quinine 300mg Tab, Quinine Di-HCI 300mg/ml 2ml Amp, Ranitidine 150mg Tab, Ranitidine 25mg/ml 2ml Amp, Razor Blades Disposable 5pc, Rectal Tube CH24, Rectal Tube CH26, Reduction of fractures, Repair of vesico-vaginal fistula (vvf), Rifampicin/Isoniazid 150/100 Tab, RPR ( VDRL Carbon ) Antigen 5ml, RPR 125mm x 75mm, Ruptured uterus, Salbutamol 4mg Tab, Salbutamol Inhaler 10ml, Salbutamol solution for inhalation 5ml, Scalp Vein G19 Infusion set, Scalp Vein G21 Infusion set, Scalp Vein G23 Infusion set, Scalp Vein G25 Infusion set, Septic abortion, Soap Blue Bar 550g, Soap Powder Hand wash 5kg, Sodium Carbonate Anhydrous, Sodium Carbonate Anhydrous 500g, Sodium Chloride 0.9% IV 500ml, Sodium Chloride Apyrogen 50kg, Sodium Citrate 100g, Sodium Fluoride, Sodium Hypochlorite solution 0.75 Ltr, Sodium Hypochlorite solution 5Ltr, Sodium Lactate Compound IV 500ml, Sodium Nitrate 25g, Sodium Sulphate 500g, Spironolactone 25mg Tab, Spoon Medicine 5ml, Stethoscope Foetal Metal, Stethoscope Foetal Wood, Strangulated, Streptomycin 1g Vial, Suction Catheter Size 10 Disposable, Suction Catheter Size 12 Disposable, Suction Catheter Size 14 Disposable, Suction Catheter Size 16 Disposable, Suction Catheter Size 6 Disposable, Suction Catheter Size 8 Disposable, Sulphosalicylic Acid 500g, Sulphuric Acid Conc 1ltr, Surgical Blades No 20, Surgical Blades No 21, Surgical Blades No 22, Surgical Blades No 23, Surgical Brush (Scrubbing), Surgical Mop 12 x 15, Surgical toilet  & suture, Suture Cutgut Chromic (0), Suture Cutgut Chromic (2) RN22240TH, Suture Cutgut Chromic (2/0) RN22230TH, Suture Cutgut Chromic (3/0) RN2325TF, Suture Cutgut Plain (2/0) RN1230TF, Suture PGA (3/0) RN3330TF, Suture Silk (1) S595, Suture Silk (2/0) RN5230TF, Suxamethonium 500mg Vial, Suxamethonium 500mg/ml 2ml Amp, Syringe Feeding/Irrigation 50/60ml, Syringe Luer 10ml With Needle Disposable, Syringe Luer 20ml With Needle Disposable, Syringe Luer 2ml With Needle Disposable, Syringe Luer 5ml With Needle Disposable, Tablet Counting Tray, Testicular tumours, tetanus Antitoxin 1500 IU 1ml Amp, Tetracycline eye ointment 1% 3.5g, Thermometer Clinical Flat Type, Thermometer Clinical Prismatic Type, Thiopental Sodium 500mg Vial, Toilet Paper Rolls, Tolbutamide 500mg tab, Tongue depressor Disposable, Traction Kit Adult, Traction Kit Children, Trichloro acetic Acid, Trisodium Citrate, Umbilical Cord Tie non sterile 100m, Umbilical Cord Tie sterile 22m, Upper limb, UREA Calorimetric 300 Tests, Uretheral stricture-bougienage, Urinal 1Ltr / 2Ltr, Urine Collecting Bag sterile 2Ltr, Urine Test Strips 3 Parameters 100 tests, Uterine fibroids, Uterine prolapse, Vitamin A 200.000 IU Caps, Vitamin B Complex Tab, Volvulus, Water for Injection 10ml Vial, X-Ray Developer 2.6kg for 22.5Ltr, X-Ray Film 18x24cm, X-Ray Film 20x40cm, X-Ray Film 24x30cm, X-Ray Film 30x40cm, X-Ray Film 35x35cm, X-Ray Film 43x35cm, X-Ray Film Cassette  18x24cm with screen, X-Ray Film Cassette  24x30cm with screen, X-Ray Film Cassette  30x40cm with screen, X-Ray Film Cassette  35x35cm with screen, X-Ray Film Cassette  35x43cm with screen, X-Ray Fixer 3.3kg for 22.5 Ltr, Xylene 2.5 ltrs]
+Message FRL: The Security Log for the HEADER: org.isf.priceslist.manager.PriceListManager.getPrices was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - The Method: getPrices DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOthers() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:10 PM BST
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - Method Number        : 23
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - Method Name          : org.isf.pricesothers.manager.PricesOthersManager.getOthers
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - Method Return Value  : [Amount per day]
+Message FRL: The Security Log for the HEADER: org.isf.pricesothers.manager.PricesOthersManager.getOthers was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:10] [physician:ptaylor] INFO - The Method: getOthers DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisitsWard() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospital([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientsByOneOfFieldsLike() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:26 PM BST
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - Method Number        : 24
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - Method Return Value  : [Janet Perez, Alan Tucker, Jane Huston, Ana Sanchez, 3 3, 2 2, Valentina Guzman Perez, Jeremias Rodriguez, Enrique Velazquez, Mary Brown, Guadalupe Valdez, Jane Smith, Patricia Gutierrez Perez, Miguel Perez Leon]
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike was CREATED in =>: 3 milliseconds
+[16/May/2024 21:50:26] [physician:ptaylor] INFO - The Method: getPatientsByOneOfFieldsLike DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientById() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:28 PM BST
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Number        : 25
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientById
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Return Type   : org.isf.patient.model.Patient
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Return Value  : Miguel Perez Leon
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getPatientById was CREATED in =>: 3 milliseconds
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Name       : code
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Value      : 137
+Message FRL: The Security Log for the VALUE: 137 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated([married]) was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:28 PM BST
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Number        : 26
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Return Value  : Married
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated was CREATED in =>: 6 milliseconds
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Name       : maritalKey
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: maritalKey was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Value      : married
+Message FRL: The Security Log for the VALUE: married was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated([construction]) was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:28 PM BST
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Number        : 27
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Method Return Value  : Construction
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated was CREATED in =>: 4 milliseconds
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Name       : professionKey
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: professionKey was CREATED in =>: 1 milliseconds
+[16/May/2024 21:50:28] [physician:ptaylor] INFO - Parameter Value      : construction
+Message FRL: The Security Log for the VALUE: construction was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newVisit() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisitsWard() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:44 PM BST
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Number        : 28
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Value  : ptaylor
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 3 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospitalCurrencyCod() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:44 PM BST
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Number        : 29
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Name          : org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Type   : 
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - The Method: getHospitalCurrencyCod DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUsers() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:44 PM BST
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Number        : 30
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getUsers
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Value  : [admin, doctor, mlewis, ptaylor]
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getUsers was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - The Method: getUsers DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:44 PM BST
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Number        : 31
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getBills
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Value  : [org.isf.accounting.model.Bill@c38, org.isf.accounting.model.Bill@c39, org.isf.accounting.model.Bill@c3a, org.isf.accounting.model.Bill@c3b, org.isf.accounting.model.Bill@c3c, org.isf.accounting.model.Bill@c3d, org.isf.accounting.model.Bill@c3e, org.isf.accounting.model.Bill@c3f, org.isf.accounting.model.Bill@c40, org.isf.accounting.model.Bill@c41]
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getBills was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Name       : dateFrom
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateFrom was CREATED in =>: 1 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Value      : 2024-05-16T00:00
+Message FRL: The Security Log for the VALUE: 2024-05-16T00:00 was CREATED in =>: 1 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Number     : 2
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Name       : dateTo
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateTo was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Value      : 2024-05-17T00:00
+Message FRL: The Security Log for the VALUE: 2024-05-17T00:00 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:44 PM BST
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Number        : 32
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getPayments
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getPayments was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Name       : dateFrom
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateFrom was CREATED in =>: 1 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Value      : 2024-05-16T00:00
+Message FRL: The Security Log for the VALUE: 2024-05-16T00:00 was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Number     : 2
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Name       : dateTo
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateTo was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Value      : 2024-05-17T00:00
+Message FRL: The Security Log for the VALUE: 2024-05-17T00:00 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:44 PM BST
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Number        : 33
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getBills
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getBills was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Name       : billPayments
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billPayments was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Parameter Value      : []
+Message FRL: The Security Log for the VALUE: [] was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:44 PM BST
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Number        : 34
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - Method Return Value  : ptaylor
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:44] [physician:ptaylor] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteBill() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:49 PM BST
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Number        : 35
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getBills
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Return Value  : [org.isf.accounting.model.Bill@c38, org.isf.accounting.model.Bill@c39, org.isf.accounting.model.Bill@c3a, org.isf.accounting.model.Bill@c3b, org.isf.accounting.model.Bill@c3c, org.isf.accounting.model.Bill@c3d, org.isf.accounting.model.Bill@c3e, org.isf.accounting.model.Bill@c3f, org.isf.accounting.model.Bill@c40, org.isf.accounting.model.Bill@c41]
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getBills was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Name       : dateFrom
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateFrom was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Value      : 2024-05-16T21:50:44.305
+Message FRL: The Security Log for the VALUE: 2024-05-16T21:50:44.305 was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Number     : 2
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Name       : dateTo
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateTo was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Value      : 2024-05-16T21:50:44.305
+Message FRL: The Security Log for the VALUE: 2024-05-16T21:50:44.305 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:49 PM BST
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Number        : 36
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getPayments
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getPayments was CREATED in =>: 1 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Name       : dateFrom
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateFrom was CREATED in =>: 1 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Value      : 2024-05-16T21:50:44.305
+Message FRL: The Security Log for the VALUE: 2024-05-16T21:50:44.305 was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Number     : 2
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Name       : dateTo
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateTo was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Value      : 2024-05-16T21:50:44.305
+Message FRL: The Security Log for the VALUE: 2024-05-16T21:50:44.305 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:49 PM BST
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Number        : 37
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getBills
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getBills was CREATED in =>: 1 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Number     : 1
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Name       : billPayments
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billPayments was CREATED in =>: 0 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Parameter Value      : []
+Message FRL: The Security Log for the VALUE: [] was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Current Time      : 16/05/2024 09:50:49 PM BST
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS Hostname          : f7.local
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - OS UserName          : f7
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Annotation Type      : Method
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Number        : 38
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - Method Return Value  : ptaylor
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 2 milliseconds
+[16/May/2024 21:50:49] [physician:ptaylor] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmittedPatients() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadAdmittedPatients() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicals() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getTherapyRows() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisits() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicals() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getTherapyRow() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: createTherapy() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteAllTherapies() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newTherapies() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getTherapyRows() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisits() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getExams() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getLaboratory() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteLaboratory() was CREATED in =>: 2 milliseconds.
+[16/May/2024 21:52:01] [physician:ptaylor] INFO - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+Message FRL: The UML Sequence Diagram FILES were FINISHED in =>: 4082 milliseconds
+Message FRL: UML Sequence Diagram Text File created  : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.txt
+Message FRL: UML Sequence Diagram Image File created : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.png
+Message FRL: Good Bye to the Forensic-Ready Logger.
+
+
+[16/May/2024 21:58:06] [:] INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+[16/May/2024 21:58:07] [:] INFO - HHH000412: Hibernate ORM core version 5.6.11.Final
+[16/May/2024 21:58:07] [:] INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[16/May/2024 21:58:08] [:] INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[16/May/2024 21:58:11] [:] INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+Message FRL: Welcome to the Forensic-Ready Logger ...
+Message FRL: The UML Sequence Diagram FILES were CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: acceptPwd() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:58:42] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:58:42] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 09:58:42 PM BST
+[16/May/2024 21:58:42] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:58:42] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 21:58:42] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Method Number        : 1
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Method Name          : org.isf.menu.gui.Login.acceptPwd
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Method Return Type   : void
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.menu.gui.Login.acceptPwd was CREATED in =>: 10 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - The Method: acceptPwd DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMenu() was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:58:42] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:58:42] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 09:58:42 PM BST
+[16/May/2024 21:58:42] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:58:42] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 21:58:42] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Method Number        : 2
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Method Return Value  : [Users, New, New Bill, Edit Patient, Cashier's Filter, Types, Admission Type, New, New, Pharmaceuticals, New, New Patient, Examination, Edit Patient, Exams List, Discharge Type, Hospital, Edit, Examination, Pharmaceutical Stock, Edit, Edit, OPD, Examination, Groups, Edit, Examination, Charge, New Bill, Bill Manager, OPD Chart, Edit, Rectify, Delivery Type, Delete, Delete, Delete, Operation, Merge, Report, Delete patient, Operation, Ward, Discharge, Delete, Edit Bill, Admission Chart, Admission/Patient, Delete, Disease List, Pharmaceutical Stock Ward, Edit Closed Bills, Excel, Launch Report , Disease, Delivery Result Type, Data, Laboratory, Malnutrition control, Operation List, Admission, DICOM Patient, Exams, Delete Bill, Bill, Pharmacy, Disease Type, Operation, Report, Exam Type, OPD, Vaccines, Therapy, Clinical sheet, Accounting, Receipt, Medicals Stock Mov Type, Vaccine, Worksheet, Price Lists, Medicals Type, Supplier, Operation Type, Statistics, SMS Manager, Pregnant Treatment, Reports, Users & Groups, Other Prices, Communication, Age Type, Settings, Help, Vaccine Type, DICOM Type]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getMenu was CREATED in =>: 6 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Parameter Name       : aUser
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Parameter Type       : org.isf.menu.model.User
+Message FRL: The Security Log for the DETAIL: aUser was CREATED in =>: 1 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - The Parameter Name: aUser has the following Attributes:
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Number     : 1
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Name       : userName
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 1 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Value      : mlewis
+Message FRL: The Security Log for the VALUE: mlewis was CREATED in =>: 0 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Number     : 2
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Name       : userGroupName
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Type       : org.isf.menu.model.UserGroup
+Message FRL: The Security Log for the DETAIL: userGroupName was CREATED in =>: 1 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - The Attribute Name: userGroupName has the followings Sub-Attributes:
+Message FRL: The Security Log for the ATTRIBUTE-SUBATTRIBUTES INFORMATION was CREATED in =>: 1 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Number     : 1
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Name       : code
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 1 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Value      : admin
+Message FRL: The Security Log for the VALUE: admin was CREATED in =>: 0 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Number     : 2
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Name       : desc
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 1 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Value      : User with all the privileges
+Message FRL: The Security Log for the VALUE: User with all the privileges was CREATED in =>: 0 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Number     : 3
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Name       : hashCode
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 1 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - SubAttribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Number     : 3
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Name       : passwd
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: passwd was CREATED in =>: 1 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Value      : $2a$10$yOIDGjprsYERru/i/6EcNOX31euH/uCMLbJfDvaSYPjMvpslz1pWG
+Message FRL: The Security Log for the VALUE: $2a$10$yOIDGjprsYERru/i/6EcNOX31euH/uCMLbJfDvaSYPjMvpslz1pWG was CREATED in =>: 0 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Number     : 4
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Name       : desc
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 1 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Value      : System Administrator
+Message FRL: The Security Log for the VALUE: System Administrator was CREATED in =>: 0 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Number     : 5
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Name       : hashCode
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 0 milliseconds
+[16/May/2024 21:58:42] [admin:mlewis] INFO - Attribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmittedPatients() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadAdmittedPatients() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicals() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getTherapyRows() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisits() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteAllTherapies() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getTherapyRows() was CREATED in =>: 3 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisits() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getExams() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getLaboratory() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialList() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getExams() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientsByOneOfFieldsLike() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:59:20] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:59:20] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 09:59:20 PM BST
+[16/May/2024 21:59:20] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:59:20] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 21:59:20] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 21:59:20] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 21:59:20] [admin:mlewis] INFO - Method Number        : 3
+[16/May/2024 21:59:20] [admin:mlewis] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike
+[16/May/2024 21:59:20] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 21:59:20] [admin:mlewis] INFO - Method Return Value  : [Janet Perez, Alan Tucker, Jane Huston, Ana Sanchez, 3 3, 2 2, Valentina Guzman Perez, Jeremias Rodriguez, Enrique Velazquez, Mary Brown, Guadalupe Valdez, Jane Smith, Patricia Gutierrez Perez, Miguel Perez Leon]
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike was CREATED in =>: 12 milliseconds
+[16/May/2024 21:59:20] [admin:mlewis] INFO - The Method: getPatientsByOneOfFieldsLike DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientById() was CREATED in =>: 1 milliseconds.
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 09:59:25 PM BST
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Number        : 4
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientById
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Return Type   : org.isf.patient.model.Patient
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Return Value  : Ana Sanchez
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getPatientById was CREATED in =>: 3 milliseconds
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Name       : code
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 1 milliseconds
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Value      : 168
+Message FRL: The Security Log for the VALUE: 168 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated([married]) was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 09:59:25 PM BST
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Number        : 5
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Return Value  : Married
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated was CREATED in =>: 5 milliseconds
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Name       : maritalKey
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: maritalKey was CREATED in =>: 0 milliseconds
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Value      : married
+Message FRL: The Security Log for the VALUE: married was CREATED in =>: 3 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated([farming]) was CREATED in =>: 0 milliseconds.
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 09:59:25 PM BST
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 21:59:25] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Number        : 6
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Return Type   : java.lang.String
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Method Return Value  : Farming
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated was CREATED in =>: 3 milliseconds
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Name       : professionKey
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: professionKey was CREATED in =>: 1 milliseconds
+[16/May/2024 21:59:25] [admin:mlewis] INFO - Parameter Value      : farming
+Message FRL: The Security Log for the VALUE: farming was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentAdmission() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialKey() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialTranslated() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getExamRowByExamCode() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newLaboratory2() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getLaboratory() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deletePatientVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseAll() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updateDisease() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisitsWard() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteVisit() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisitsWard() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:00:58 PM BST
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Number        : 7
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Type   : java.lang.String
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Value  : mlewis
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 7 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospitalCurrencyCod() was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:00:58 PM BST
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Number        : 8
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Name          : org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Type   : 
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod was CREATED in =>: 3 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - The Method: getHospitalCurrencyCod DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUsers() was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:00:58 PM BST
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Number        : 9
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getUsers
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Value  : [admin, doctor, mlewis, ptaylor]
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getUsers was CREATED in =>: 3 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - The Method: getUsers DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:00:58 PM BST
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Number        : 10
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getBills
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Value  : [org.isf.accounting.model.Bill@c38, org.isf.accounting.model.Bill@c39, org.isf.accounting.model.Bill@c3a, org.isf.accounting.model.Bill@c3b, org.isf.accounting.model.Bill@c3c, org.isf.accounting.model.Bill@c3d, org.isf.accounting.model.Bill@c3e, org.isf.accounting.model.Bill@c3f, org.isf.accounting.model.Bill@c40, org.isf.accounting.model.Bill@c41]
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getBills was CREATED in =>: 3 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Name       : dateFrom
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateFrom was CREATED in =>: 0 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Value      : 2024-05-16T00:00
+Message FRL: The Security Log for the VALUE: 2024-05-16T00:00 was CREATED in =>: 1 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Number     : 2
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Name       : dateTo
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateTo was CREATED in =>: 0 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Value      : 2024-05-17T00:00
+Message FRL: The Security Log for the VALUE: 2024-05-17T00:00 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:00:58 PM BST
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Number        : 11
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getPayments
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getPayments was CREATED in =>: 3 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Name       : dateFrom
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateFrom was CREATED in =>: 0 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Value      : 2024-05-16T00:00
+Message FRL: The Security Log for the VALUE: 2024-05-16T00:00 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Number     : 2
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Name       : dateTo
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateTo was CREATED in =>: 2 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Value      : 2024-05-17T00:00
+Message FRL: The Security Log for the VALUE: 2024-05-17T00:00 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:00:58 PM BST
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:00:58] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Number        : 12
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getBills
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getBills was CREATED in =>: 3 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Name       : billPayments
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billPayments was CREATED in =>: 0 milliseconds
+[16/May/2024 22:00:58] [admin:mlewis] INFO - Parameter Value      : []
+Message FRL: The Security Log for the VALUE: [] was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:00:59] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:00:59] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:00:59 PM BST
+[16/May/2024 22:00:59] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:00:59] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:00:59] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:00:59] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:00:59] [admin:mlewis] INFO - Method Number        : 13
+[16/May/2024 22:00:59] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 22:00:59] [admin:mlewis] INFO - Method Return Type   : java.lang.String
+[16/May/2024 22:00:59] [admin:mlewis] INFO - Method Return Value  : mlewis
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 2 milliseconds
+[16/May/2024 22:00:59] [admin:mlewis] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:03 PM BST
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Number        : 14
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Type   : java.lang.String
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Value  : mlewis
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 2 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospitalCurrencyCod() was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:03 PM BST
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Number        : 15
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Name          : org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Type   : 
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - The Method: getHospitalCurrencyCod DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPrices() was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:03 PM BST
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Number        : 16
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Name          : org.isf.priceslist.manager.PriceListManager.getPrices
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Value  : [1.1 HB, 1.1 HB (Procedure 3), 1.2 WBC Count, 1.3 Differential , 1.4 Film Comment, 1.5 ESR, 1.6 Sickling Test, 2.1 Grouping, 2.2 Comb's Test, 3.1 Blood Slide (Malaria), 3.2 Blood Slide (OTHERS, E.G. TRIUPHANOSOMIAS, MICRIFILARIA, LEISHMANIA, BORRELIA), 3.21 Trypanosomiasis, 3.22 MICROFILARIA, 3.23 LEISHMANIA, 3.24 BORRELIA, 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY, 3.5 TISSUE MICROSCOPY, 3.6 CSF WET PREP, 4 Dimethyl Aminobenzaldelyde, 4.1 CULTURE AND SENSITIVITY (C&S) FOR HAEMOPHILUS INFUENZA TYPE B, 4.2 C&S FOR SALMONELA TYPHI, 4.3 C&S FOR VIBRO CHOLERA, 4.4 C&S FOR SHIGELLA DYSENTERIAE, 4.5 C&S FOR NEISSERIA MENINGITIDES, 4.6 OTHER C&S , 5.1 WET PREP, 5.2 GRAM STAIN, 5.3 INDIA INK, 5.4 LEISMANIA, 5.5 ZN, 5.6 WAYSON, 5.7 PAP SMEAR, 6.1 VDRL/RPR, 6.2 TPHA, 6.3 HIV, 6.4 HEPATITIS, 6.5 OTHERS E.G BRUCELLA, RHEUMATOID FACTOR, WEIL FELIX, 6.6 PREGANCY TEST, 7.1 PROTEIN, 7.2 SUGAR, 7.3 LFTS, 7.3.1 BILIRUBIN TOTAL, 7.3.2 BILIRUBIN DIRECT, 7.3.3 GOT, 7.3.4 ALT/GPT, 7.4 RFTS, 7.4.1 CREATININA, 7.4.2 UREA, 8.1 OCCULT BLOOD, 9.1 URINALYSIS, Abdominal Tumours, Acetazolamide 250mg Tab, Acetic Acid Glacial 1 ltr, Aceton 99% 1ltr, Aciclovir, Acute abdomen, Acyclovir 200mg Tab, Adhesive Tape 2.5cm x 5m, Adhesive Tape 7.5cm x 5m, Adrenaline 1mg/ml 1ml Amp, Air ring set 43x15cm, rubber with pump, Airway Guedel Size 0, Airway Guedel Size 00, Airway Guedel Size 1, Airway Guedel Size 2, Airway Guedel Size 3, Albendazole 200mg Tab, Albendazole 400mg Tab, Alcohol 95% not denatured 20Ltrs, Aminophylline 100mg Tab, Aminophylline 25mg/ml,10ml Amp, Amitriptyline 25mg Tab, Ammonium Oxalate, Amount per day, Amoxicillin /Clavulanate 375mg Tab, Amoxicillin 125mg/5ml Powd. Susp 100ml, Amoxicillin 250mg Caps, Amphotericin B 50mg Vial, Ampicillin 500mg Vial, Anti Serum A 10ml, Anti Serum AB 10ml, Anti Serum B 10ml, Anti Serum D 10ml, Antihaemorrhoid suppositories, Appendicitis, Apron Plastic Re-usable, Apron Plastic Re-usable local, Apron Polythene Disp Non Sterile, Ascorbic Acid 100mg tab, Aspirin 300mg Tab, Atenolol 100mg Tab, Atenolol 50mg Tab, Atropine 1mg/ml 1ml Amp, Barium Sulphate for X-Ray 1kg, Beclomethasone 50mcg Inhaler, Bedpan Plastic Autoclavable, Bedpan Stainless Steel, Bendrofluazide 5mg Tab, Benzathine Penicillin 2.4 MIU Vial, Benzhexol 2mg Tab, Benzhexol 5mg Tab, Benzyl Penicillin 1 MIU Vial, Benzyl Penicillin 5 MIU Vial, Betamethasone 0.1% eye/ear/nose drops, Betamethasone 0.1% Neomycin 0.35 %eye drops 7.5ml, Bisacodyl 5mg Tab, Bladder biopsy, Blood giving set Disposable, Blood Transfer Bag 300ml, Body Bag 70 x 215cm  (Adult), Bowl Without Lid 10 x 24cm stainless steel, Bowl Without Lid 7 x 12cm stainless steel, Bowl Without Lid 8 x 16cm stainless steel, Brilliant Cresyl Blue, Caesarian section, Calcium Lactate 300mg Tab, Carbamazepine 200mg Tab, Carbimazole 5mg Tab, Catheter Foley CH10 3 Way Balloon, Catheter Foley CH12 3 Way Balloon, Catheter Foley CH14 3 Way Balloon, Catheter Foley CH16 3 Way Balloon, Catheter Foley CH18 3 Way Balloon, Catheter Foley CH20 3 Way Balloon, Catheter Foley CH8 3 Way Balloon, Catheter Stopper for All sizes, Charcoal 250mg Tab, Chloramphenicol 0.5% Eye Drops 10ml, Chloramphenicol 125mg/5ml Susp 100ml, Chloramphenicol 125mg/5ml Susp 3Ltr, Chloramphenicol 1g Vial, Chloramphenicol 250mg Caps, Chlorhexidine/Cetrimide 1.5/15% 1Ltr, Chlorhexidine/Cetrimide 1.5/15% 5Ltr, Chloroquine 40mg Base/ml 5ml Amp, Chloroquine Coated 150mg Tab, Chloroquine Uncoated 150mg Tab, Chlorphenimine 4mg Tab, Chlorpromazine 100mg Tab, Chlorpromazine 25mg Tab, Chlorpromazine 25mg/ml/2ml Amp, Cholecystitis, Cimetidine 200mg Tab, Cimetidine 400mg Tab, Ciprofloxacine 250mg Tab, Ciprofloxacine 500mg Tab, Circumcision, Cloramphenicol 1% Eye Ointment 3.5g, Clotrimazole 100mg Pessaries, Clotrimazole 500mg Pessaries, Cloxacillin 250mg Tab, Cloxacillin 500mg Vial, Codein Phosphate 30mg Tab, Colostomy Bag closed 30mm size 2, Colostomy Bag closed 30mm size 3, Colostomy Bag open re-usable 35mm, Copper 11 Sulphate 500g, Cotrimoxazole 100/20mg Paed Tab, Cotrimoxazole 200+40mg/5ml Susp 100ml, Cotrimoxazole 200+40mg/5ml Susp 3Ltr, Cotrimoxazole 400/80mg Tab, Cotton Wool 200G, cotton Wool 500G, Creatinine 200ml (Calorimetric), Crystal Violet, Cyclophosphamide 200mg Vial, Cyclophosphamide 500mg Vial, Cystocele, Darrows Half Strength 500ml, Debridement, Dexamethasone 0.5mg Tab, Dexamethasone 4mg/ml 1ml Amp, Dexamethasone 4mg/ml 2ml Amp, Dextrose 30% IV 100ml, Dextrose 5% IV 500ml, Dextrose 50% IV 100ml, Dextrose Monohydrate Apyrogen 25Kg, Diatrizoate Meglumin Sod 76% 20ml Amp, Diazepam 2mg/ml 2.5ml Rectal Tube, Diazepam 5mg / ml 2ml Amp, Diazepam 5mg Tab, Diclofenac 25mg/ml 3ml Amp, Diclofenac 50mg Tab, Diethylcarbamazine 50mg Tab, Digoxin 0.25 mg Tab, Digoxin 0.25 mg/ml 2ml Amp, Dilatation and curettage, Dorsal slit-paraphimosis, Doxycycline 100mg Tab, Ear syringe rubber 60ml, Ectopic pregnancy, EDTA Di- sodium salt 100g, Elastic Bandage 10cm x 4.5m, Elastic Bandage 7.5cm x 4.5m, Eosin Yellowish, Ephedrine 30mg Tab, Epigastrical Hernia, Erythromycin 250mg Tab, Ethanol Absolute 1ltr, Evacuations, Eye Pad Sterile, Fansidar 500/25mg Tab, Fansidar 500/25mg Tab (50dosesx3), Ferrous Sulphate 200mg Tab, Field stain A and B, First Aid kit, Fluconazole 100mg 24 Caps, Fluconazole 100mg Tab, Folic Acid 15mg Tab, Folic Acid 1mg Tab, Folic Acid 5mg Tab, Folic Acid/Ferrous Sulp 0.5/200mg Tab, Formaldehyde solution 35-38% 1ltr, Frusemide 40mg Tab, Furosemide 10mg/ml 2ml Amp, Gallipot stainless steel 200ml/10cm, Gallipot stainless steel 300ml/15cm, Gauze Bandage 10cm x 4m, Gauze Bandage 7.5cm x 3.65-4m, Gauze Hydrophylic 90cm x 91cm, Gauze Pads  Sterile 10cm x 10cm, Gauze Pads Non Sterile 10cm x 10cm, Genitian Violet, Gentamicin 0.3% eye/ear drops 10ml, Gentamicin 40mg/ml 2ml, Gentian Violet 25g Tin, Giemsa Stain, Glibenclamide 5mg Tab, Gloves Domestic, Gloves Gynaecological 7.5-8, Gloves High risk non sterile Medium, Gloves Non Sterile Large Disposable, Gloves Non Sterile Medium Disposable, Gloves Surgical Sterile 6, Gloves Surgical Sterile 6.5, Gloves Surgical Sterile 7, Gloves Surgical Sterile 7.5, Gloves Surgical Sterile 8, Gloves Surgical Sterile 8.5, Glucose GOD PAD  6 x 100ml (Colorimetric), Glucose Test Strip, Glucose Test Strips (Hyloguard), GOT ( AST) 200ml (Calorimetric) AS 147, GOT ( AST) 200ml has no NAOH) AS 101, GPT (ALT) 200ml ( Does not have NAOH), Griseofulvin 500mg Tab, Haloperidol 5mg, Haloperidol 5mg Tab, Haloperidol 5mg/ml 1ml Amp, Haloperidol Decanoate 50mg/ml 1ml Amp, Handle for surgical blade No 3, Handle for surgical blade No 4, HERNIA, Hernia (inguinal & femoral), HIV 1/2 Capillus Kit 100Tests, HIV Buffer for determine Kit, HIV Determine 1/11 (Abbott) 100Tests, HIV UNIGOLD 1/11 Test Kits 20 Tests, Hot water Bottle 2Ltr, Hydralazine 20mg Vial, Hydralazine 25mg Tab, Hydrocelectomy, Hydrochloric Acid 30-33% 1ltr, Hydrocortisone 1% eye drops 5ml, Hydrocortisone 100mg Vial, Hydrogen Peroxide 6% 250ml, Hyoscine 10mg Tab, Hyoscine Butyl Bromide 20mg/ml/ Amp, Hysterectomy, Ibuprofen 200mg Tab, Imipramine 25mg Tab, Incision & Drainage, Incomplete abortion, Indomethacin 25mg Tab, Injured uterus, Insectcide Spray 400g, Instrument Box With Lid 20x10x5cm, Instrument Tray 30 x 20 x 2cm, Insulin Isophane 100IU/ml 10ml Vial, Insulin Isophane 40IU/ml 10ml, Insulin Mixtard 30/70 100IU/ml 10ml Vial, Insulin Mixtard 30/70 100IU/ml 5x3ml catridges, Insulin Soluble 100IU/ml 10ml Vial, Insulin Syringe 100IU with Needle G26/29, Intestinal obstruction, Iodine Crystal 100g, Iodine Solution 2% 500ml, Iron Dextran 10mg/ml 2ml Vial, Irrigation can with accessories, Isoniazid 300mg Tab, IV Cannula G16 with Port, IV Cannula G18 with Port, IV Cannula G20 with Port, IV Cannula G22 with Port, IV Cannula G24 with Port, IV Cannula G24 without Port, IV Giving set Disposable, Ketamine 10mg/ml 10ml Vial, Ketamine 10mg/ml 20ml Vial, Ketoconazole 200mg Tab, Kidney Dish Polypropylene 24cm, Kidney Dish stainless Steel 20cm, Kidney Dish stainless Steel 24cm, Knee Surgery 123, Laparotomy, Lead Apron 100cmx60cm, Lignocaine 2% 20ml Vial, Lignocaine 2% Adrenaline Dent.cartridges, Lignocaine spinal 50mg/ml 2ml Amp, Liquid detergent 20Ltr, liquid detergent 5Ltr Perfumed, Lower limb, Mackintosh Plastic (Apron) per 1m, Mackintosh Rubber Brown (sheeting) per 1m, Measuring Cup Graduated 25ml, Mechanical, Methanol 99% 1ltr, Methylergomeatrine 0.2mg/ml 1ml Amp, Methylergomeatrine 0.5mg/ml 1ml Amp, Metoclopramide 5mg/ml 100ml Amp, Metronidazole 5mg/ml 2ml IV, Mise -a- plat, Morphine 15mg/ml 1ml Amp, Mosquito Net Impregnated Large, Mosquito Net Impregnated Medium, Mosquito Net Impregnation Liquid 500ml, Mosquito Net Impregnation Tablet, Mosquito Net Non Impregnated Large, Mosquito Net Non Impregnated Medium, Mosquito Wall spray Powder 80g, Nasogastric Tube G10 (Children), Nasogastric Tube G14 (Children), Nasogastric Tube G16 (Children), Nasogastric Tube G5 (Children), Nasogastric Tube G6 (Children), Nasogastric Tube G8 (Children), Neck Support Large, Neck Support Medium, Neck Support Small, Needle container disposable of contaminated, Needle suture No 5 cutting, Needle suture No 5 round, Needle suture No 6 Round, Needles Luer G20 Disposable, Needles Luer G21 Disposable, Needles Luer G22 Disposable, Needles Luer G23 Disposable, Needles Spinal G20x75-120mm, Needles Spinal G22x40mm, Needles Spinal G22x75-120mm, Needles Spinal G25x75-120mm, Neutral Red, NEW OPERATION, NEW OPERATION TWO, NEW ORTHOPEDICAL DISEASE, Non 111 Chloride (Ferric chloride), Non strangulated, Nystatin 100.000 IU Pessaries, Nystatin 500.000IU/ Susp/ Drops, Operation New, Oral Rehydration Salt (ORS), Osteomyelitis - sequestrectomy, Ovarian tumours, Oxytocin 10 IU/ml 1ml Amp, Paracetamol 120mg/5ml 100ml, Paracetamol 120mg/5ml Syrup, Paraphimosis, Pelvic abscess, Penetrating abdominal injuries, Peritonitis, Peritonitis, Pethidine 100mg/ml 2ml Amp, Pethidine 50mg/ml 1ml Amp, Phenobarbital 100mg/ml 2ml Amp, Phenol crystals 1kg, Phimosis, Phytomenadione 10mg/ml 1ml Amp, Phytomenadione 1mg/ml 1ml Amp, Plaster of Paris 10cm, Plaster of Paris 15cm, Potassium iodide 100g, Potassium Oxalate, Pregnacy ( HGG Latex) 50 tests, Procaine Penicillin Fortified 4 MIU Vial, Promethazine 25mg/ml 2ml Amp, Prostate biopsy, Prostatectomy, Pyridoxine 50mg Tab, Quinine 100mg/5ml Syrup 100ml, Quinine 300mg Tab, Quinine Di-HCI 300mg/ml 2ml Amp, Ranitidine 150mg Tab, Ranitidine 25mg/ml 2ml Amp, Razor Blades Disposable 5pc, Rectal Tube CH24, Rectal Tube CH26, Reduction of fractures, Repair of vesico-vaginal fistula (vvf), Rifampicin/Isoniazid 150/100 Tab, RPR ( VDRL Carbon ) Antigen 5ml, RPR 125mm x 75mm, Ruptured uterus, Salbutamol 4mg Tab, Salbutamol Inhaler 10ml, Salbutamol solution for inhalation 5ml, Scalp Vein G19 Infusion set, Scalp Vein G21 Infusion set, Scalp Vein G23 Infusion set, Scalp Vein G25 Infusion set, Septic abortion, Soap Blue Bar 550g, Soap Powder Hand wash 5kg, Sodium Carbonate Anhydrous, Sodium Carbonate Anhydrous 500g, Sodium Chloride 0.9% IV 500ml, Sodium Chloride Apyrogen 50kg, Sodium Citrate 100g, Sodium Fluoride, Sodium Hypochlorite solution 0.75 Ltr, Sodium Hypochlorite solution 5Ltr, Sodium Lactate Compound IV 500ml, Sodium Nitrate 25g, Sodium Sulphate 500g, Spironolactone 25mg Tab, Spoon Medicine 5ml, Stethoscope Foetal Metal, Stethoscope Foetal Wood, Strangulated, Streptomycin 1g Vial, Suction Catheter Size 10 Disposable, Suction Catheter Size 12 Disposable, Suction Catheter Size 14 Disposable, Suction Catheter Size 16 Disposable, Suction Catheter Size 6 Disposable, Suction Catheter Size 8 Disposable, Sulphosalicylic Acid 500g, Sulphuric Acid Conc 1ltr, Surgical Blades No 20, Surgical Blades No 21, Surgical Blades No 22, Surgical Blades No 23, Surgical Brush (Scrubbing), Surgical Mop 12 x 15, Surgical toilet  & suture, Suture Cutgut Chromic (0), Suture Cutgut Chromic (2) RN22240TH, Suture Cutgut Chromic (2/0) RN22230TH, Suture Cutgut Chromic (3/0) RN2325TF, Suture Cutgut Plain (2/0) RN1230TF, Suture PGA (3/0) RN3330TF, Suture Silk (1) S595, Suture Silk (2/0) RN5230TF, Suxamethonium 500mg Vial, Suxamethonium 500mg/ml 2ml Amp, Syringe Feeding/Irrigation 50/60ml, Syringe Luer 10ml With Needle Disposable, Syringe Luer 20ml With Needle Disposable, Syringe Luer 2ml With Needle Disposable, Syringe Luer 5ml With Needle Disposable, Tablet Counting Tray, Testicular tumours, tetanus Antitoxin 1500 IU 1ml Amp, Tetracycline eye ointment 1% 3.5g, Thermometer Clinical Flat Type, Thermometer Clinical Prismatic Type, Thiopental Sodium 500mg Vial, Toilet Paper Rolls, Tolbutamide 500mg tab, Tongue depressor Disposable, Traction Kit Adult, Traction Kit Children, Trichloro acetic Acid, Trisodium Citrate, Umbilical Cord Tie non sterile 100m, Umbilical Cord Tie sterile 22m, Upper limb, UREA Calorimetric 300 Tests, Uretheral stricture-bougienage, Urinal 1Ltr / 2Ltr, Urine Collecting Bag sterile 2Ltr, Urine Test Strips 3 Parameters 100 tests, Uterine fibroids, Uterine prolapse, Vitamin A 200.000 IU Caps, Vitamin B Complex Tab, Volvulus, Water for Injection 10ml Vial, X-Ray Developer 2.6kg for 22.5Ltr, X-Ray Film 18x24cm, X-Ray Film 20x40cm, X-Ray Film 24x30cm, X-Ray Film 30x40cm, X-Ray Film 35x35cm, X-Ray Film 43x35cm, X-Ray Film Cassette  18x24cm with screen, X-Ray Film Cassette  24x30cm with screen, X-Ray Film Cassette  30x40cm with screen, X-Ray Film Cassette  35x35cm with screen, X-Ray Film Cassette  35x43cm with screen, X-Ray Fixer 3.3kg for 22.5 Ltr, Xylene 2.5 ltrs]
+Message FRL: The Security Log for the HEADER: org.isf.priceslist.manager.PriceListManager.getPrices was CREATED in =>: 2 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - The Method: getPrices DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOthers() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:03 PM BST
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Number        : 17
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Name          : org.isf.pricesothers.manager.PricesOthersManager.getOthers
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Value  : [Amount per day]
+Message FRL: The Security Log for the HEADER: org.isf.pricesothers.manager.PricesOthersManager.getOthers was CREATED in =>: 5 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - The Method: getOthers DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getItems() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:03 PM BST
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Number        : 18
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getItems
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Value  : [org.isf.accounting.model.BillItems@c72]
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getItems was CREATED in =>: 6 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Name       : billID
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billID was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Value      : 78
+Message FRL: The Security Log for the VALUE: 78 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:03 PM BST
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Number        : 19
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getPayments
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getPayments was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Name       : billID
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billID was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Value      : 78
+Message FRL: The Security Log for the VALUE: 78 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOthers() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:03 PM BST
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Number        : 20
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Name          : org.isf.pricesothers.manager.PricesOthersManager.getOthers
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Value  : [Amount per day]
+Message FRL: The Security Log for the HEADER: org.isf.pricesothers.manager.PricesOthersManager.getOthers was CREATED in =>: 2 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - The Method: getOthers DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientById() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:03 PM BST
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:03] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Number        : 21
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientById
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Type   : org.isf.patient.model.Patient
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Method Return Value  : Janet Perez
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getPatientById was CREATED in =>: 2 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Name       : code
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:03] [admin:mlewis] INFO - Parameter Value      : 172
+Message FRL: The Security Log for the VALUE: 172 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updateBill() was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:08 PM BST
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Number        : 22
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.updateBill
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Type   : java.lang.Boolean
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Value  : true
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.updateBill was CREATED in =>: 2 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Name       : updateBill
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Type       : org.isf.accounting.model.Bill
+Message FRL: The Security Log for the DETAIL: updateBill was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - The Parameter Name: updateBill has the following Attributes:
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 1
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : id
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: id was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : 78
+Message FRL: The Security Log for the VALUE: 78 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 2
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : date
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : java.time.LocalDateTime
+Message FRL: The Security Log for the DETAIL: date was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : 2024-05-16T21:49:24
+Message FRL: The Security Log for the VALUE: 2024-05-16T21:49:24 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 3
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : update
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : java.time.LocalDateTime
+Message FRL: The Security Log for the DETAIL: update was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : 2024-05-16T21:49:24
+Message FRL: The Security Log for the VALUE: 2024-05-16T21:49:24 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 4
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : isList
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : boolean
+Message FRL: The Security Log for the DETAIL: isList was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : true
+Message FRL: The Security Log for the VALUE: true was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 5
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : list
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : org.isf.priceslist.model.PriceList
+Message FRL: The Security Log for the DETAIL: list was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - The Attribute Name: list has the followings Sub-Attributes:
+Message FRL: The Security Log for the ATTRIBUTE-SUBATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 1
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : id
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: id was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 1
+Message FRL: The Security Log for the VALUE: 1 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 2
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : code
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : LIST001
+Message FRL: The Security Log for the VALUE: LIST001 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 3
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : name
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: name was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : Basic
+Message FRL: The Security Log for the VALUE: Basic was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 4
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : description
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: description was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : Basic price list
+Message FRL: The Security Log for the VALUE: Basic price list was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 5
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : currency
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: currency was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 
+Message FRL: The Security Log for the VALUE:  was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 6
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : hashCode
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 6
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : listName
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: listName was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : Basic
+Message FRL: The Security Log for the VALUE: Basic was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 7
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : isPatient
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : boolean
+Message FRL: The Security Log for the DETAIL: isPatient was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : true
+Message FRL: The Security Log for the VALUE: true was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 8
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : billPatient
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : org.isf.patient.model.Patient
+Message FRL: The Security Log for the DETAIL: billPatient was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - The Attribute Name: billPatient has the followings Sub-Attributes:
+Message FRL: The Security Log for the ATTRIBUTE-SUBATTRIBUTES INFORMATION was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 1
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : code
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.Integer
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 172
+Message FRL: The Security Log for the VALUE: 172 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 2
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : firstName
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: firstName was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : Janet
+Message FRL: The Security Log for the VALUE: Janet was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 3
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : secondName
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: secondName was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : Perez
+Message FRL: The Security Log for the VALUE: Perez was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 4
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : name
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: name was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : Janet Perez
+Message FRL: The Security Log for the VALUE: Janet Perez was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 5
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : birthDate
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.time.LocalDate
+Message FRL: The Security Log for the DETAIL: birthDate was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 1981-05-15
+Message FRL: The Security Log for the VALUE: 1981-05-15 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 6
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : age
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: age was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 43
+Message FRL: The Security Log for the VALUE: 43 was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 7
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : agetype
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: agetype was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 
+Message FRL: The Security Log for the VALUE:  was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 8
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : sex
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : char
+Message FRL: The Security Log for the DETAIL: sex was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : F
+Message FRL: The Security Log for the VALUE: F was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 9
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : address
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: address was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : Lilies Road 316
+Message FRL: The Security Log for the VALUE: Lilies Road 316 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 10
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : city
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: city was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : Berlin, Germany
+Message FRL: The Security Log for the VALUE: Berlin, Germany was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 11
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : nextKin
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: nextKin was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 123
+Message FRL: The Security Log for the VALUE: 123 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 12
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : telephone
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: telephone was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : +39133
+Message FRL: The Security Log for the VALUE: +39133 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 13
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : note
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: note was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 
+Message FRL: The Security Log for the VALUE:  was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 14
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : motherName
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: motherName was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 
+Message FRL: The Security Log for the VALUE:  was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 15
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : mother
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : char
+Message FRL: The Security Log for the DETAIL: mother was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : D
+Message FRL: The Security Log for the VALUE: D was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 16
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : fatherName
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: fatherName was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 
+Message FRL: The Security Log for the VALUE:  was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 17
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : father
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : char
+Message FRL: The Security Log for the DETAIL: father was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : D
+Message FRL: The Security Log for the VALUE: D was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 18
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : bloodType
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: bloodType was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : B+
+Message FRL: The Security Log for the VALUE: B+ was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 19
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : hasInsurance
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : char
+Message FRL: The Security Log for the DETAIL: hasInsurance was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : Y
+Message FRL: The Security Log for the VALUE: Y was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 20
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : parentTogether
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : char
+Message FRL: The Security Log for the DETAIL: parentTogether was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : N
+Message FRL: The Security Log for the VALUE: N was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 21
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : taxCode
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: taxCode was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 123
+Message FRL: The Security Log for the VALUE: 123 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 22
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : maritalStatus
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: maritalStatus was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : widowed
+Message FRL: The Security Log for the VALUE: widowed was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 23
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : profession
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: profession was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : farming
+Message FRL: The Security Log for the VALUE: farming was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 24
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : deleted
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: deleted was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : N
+Message FRL: The Security Log for the VALUE: N was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 25
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : lock
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: lock was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Number     : 26
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Name       : hashCode
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - SubAttribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 9
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : patName
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: patName was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : Janet Perez
+Message FRL: The Security Log for the VALUE: Janet Perez was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 10
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : status
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: status was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : C
+Message FRL: The Security Log for the VALUE: C was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 11
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : amount
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : java.lang.Double
+Message FRL: The Security Log for the DETAIL: amount was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : 0.0
+Message FRL: The Security Log for the VALUE: 0.0 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 12
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : balance
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : java.lang.Double
+Message FRL: The Security Log for the DETAIL: balance was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : 0.0
+Message FRL: The Security Log for the VALUE: 0.0 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 13
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : user
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: user was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : mlewis
+Message FRL: The Security Log for the VALUE: mlewis was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Number     : 14
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Name       : hashCode
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Attribute Value      : 3137
+Message FRL: The Security Log for the VALUE: 3137 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Number     : 2
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Name       : billItems
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billItems was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Value      : [org.isf.accounting.model.BillItems@c72]
+Message FRL: The Security Log for the VALUE: [org.isf.accounting.model.BillItems@c72] was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Number     : 3
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Name       : billPayments
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billPayments was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Value      : []
+Message FRL: The Security Log for the VALUE: [] was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:08 PM BST
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Number        : 23
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getBills
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Value  : [org.isf.accounting.model.Bill@c38, org.isf.accounting.model.Bill@c39, org.isf.accounting.model.Bill@c3a, org.isf.accounting.model.Bill@c3b, org.isf.accounting.model.Bill@c3c, org.isf.accounting.model.Bill@c3d, org.isf.accounting.model.Bill@c3e, org.isf.accounting.model.Bill@c3f, org.isf.accounting.model.Bill@c40, org.isf.accounting.model.Bill@c41]
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getBills was CREATED in =>: 2 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Name       : dateFrom
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateFrom was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Value      : 2024-05-16T22:00:58.858
+Message FRL: The Security Log for the VALUE: 2024-05-16T22:00:58.858 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Number     : 2
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Name       : dateTo
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateTo was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Value      : 2024-05-16T22:00:58.858
+Message FRL: The Security Log for the VALUE: 2024-05-16T22:00:58.858 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:08 PM BST
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Number        : 24
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getPayments
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getPayments was CREATED in =>: 2 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Name       : dateFrom
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateFrom was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Value      : 2024-05-16T22:00:58.858
+Message FRL: The Security Log for the VALUE: 2024-05-16T22:00:58.858 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Number     : 2
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Name       : dateTo
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: dateTo was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Value      : 2024-05-16T22:00:58.858
+Message FRL: The Security Log for the VALUE: 2024-05-16T22:00:58.858 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:08 PM BST
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Number        : 25
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Name          : org.isf.accounting.manager.BillBrowserManager.getBills
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Value  : []
+Message FRL: The Security Log for the HEADER: org.isf.accounting.manager.BillBrowserManager.getBills was CREATED in =>: 1 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Name       : billPayments
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: billPayments was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Parameter Value      : []
+Message FRL: The Security Log for the VALUE: [] was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:08 PM BST
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Number        : 26
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Type   : java.lang.String
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Value  : mlewis
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 2 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:01:08 PM BST
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:01:08] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Number        : 27
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Type   : java.lang.String
+[16/May/2024 22:01:08] [admin:mlewis] INFO - Method Return Value  : mlewis
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 2 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+[16/May/2024 22:01:08] [admin:mlewis] INFO - File txtPrinter.properties loaded.
+[16/May/2024 22:01:08] [admin:mlewis] WARN - TXT_CHAR_HEIGHT property not found: default is 10
+[16/May/2024 22:01:08] [admin:mlewis] WARN - TXT_CHAR_WIDTH property not found: default is 10
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOperation() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOperationType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: descriptionControl() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updateOperation() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccine() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProgYear() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatient() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updatePatientVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmittedPatients() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadAdmittedPatients() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseIpdOut() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentAdmission() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getResultDescriptionList() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOperationAdm([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseIpdIn() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated([married]) was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:02:07] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:02:07] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:02:07 PM BST
+[16/May/2024 22:02:07] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:02:07] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:02:07] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Method Number        : 28
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Method Return Type   : java.lang.String
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Method Return Value  : Married
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated was CREATED in =>: 1 milliseconds
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Parameter Name       : maritalKey
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: maritalKey was CREATED in =>: 1 milliseconds
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Parameter Value      : married
+Message FRL: The Security Log for the VALUE: married was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated([medicine]) was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:02:07] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:02:07] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:02:07 PM BST
+[16/May/2024 22:02:07] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:02:07] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:02:07] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Method Number        : 29
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Method Name          : org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Method Return Type   : java.lang.String
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Method Return Value  : Medicine
+Message FRL: The Security Log for the HEADER: org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated was CREATED in =>: 1 milliseconds
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Parameter Number     : 1
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Parameter Name       : professionKey
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Parameter Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: professionKey was CREATED in =>: 1 milliseconds
+[16/May/2024 22:02:07] [admin:mlewis] INFO - Parameter Value      : medicine
+Message FRL: The Security Log for the VALUE: medicine was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmissionType() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDischargeType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getNextYProg() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUsedWardBed() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 1 milliseconds.
+[16/May/2024 22:02:26] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[16/May/2024 22:02:26] [admin:mlewis] INFO - OS Current Time      : 16/05/2024 10:02:26 PM BST
+[16/May/2024 22:02:26] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[16/May/2024 22:02:26] [admin:mlewis] INFO - OS Hostname          : f7.local
+[16/May/2024 22:02:26] [admin:mlewis] INFO - OS UserName          : f7
+[16/May/2024 22:02:26] [admin:mlewis] INFO - Annotation Type      : Method
+[16/May/2024 22:02:26] [admin:mlewis] INFO - Method Number        : 30
+[16/May/2024 22:02:26] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getCurrentUser
+[16/May/2024 22:02:26] [admin:mlewis] INFO - Method Return Type   : java.lang.String
+[16/May/2024 22:02:26] [admin:mlewis] INFO - Method Return Value  : mlewis
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getCurrentUser was CREATED in =>: 4 milliseconds
+[16/May/2024 22:02:26] [admin:mlewis] INFO - The Method: getCurrentUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newAdmissionReturnKey() was CREATED in =>: 0 milliseconds.
+Inside Admission EXAMPLE MANAGER
+Admission EXAMPLE: 111
+ENTRE A OTRO EXAMPLE
+Inside GUI
+EXAMPLE
+[16/May/2024 22:02:36] [admin:mlewis] INFO - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+Message FRL: The UML Sequence Diagram FILES were FINISHED in =>: 3436 milliseconds
+Message FRL: UML Sequence Diagram Text File created  : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.txt
+Message FRL: UML Sequence Diagram Image File created : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.png
+Message FRL: Good Bye to the Forensic-Ready Logger.

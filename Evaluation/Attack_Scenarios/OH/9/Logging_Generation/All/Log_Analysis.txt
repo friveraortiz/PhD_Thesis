@@ -1,0 +1,118 @@
+Methods:
+1.- call(void org.isf.menu.gui.Login.acceptPwd(..))|| => 3 Occurrences
+    call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 3 Occurrences
+
+2.- org.isf.menu.manager.UserBrowsingManager.getUser(..))|| => 6 Occurrences
+
+3.- org.isf.menu.manager.UserBrowsingManager.getUserGroup(..))|| => 3 Occurrences
+
+4.- org.isf.menu.manager.UserBrowsingManager.newUser(..))|| => 1 Occurrence
+
+5.- org.isf.exa.manager.ExamBrowsingManager.getExamType(..))|| => 1 Occurrence
+
+6.- org.isf.exa.manager.ExamBrowsingManager.getExams(..))|| => 7 Occurrences
+
+7.- org.isf.exa.manager.ExamBrowsingManager.updateExam(..))|| => 1 Occurrence
+
+8.- org.isf.lab.manager.LabManager.getLaboratory(..))||  => 5 Occurrences
+
+9.- org.isf.lab.manager.LabManager.getMaterialList(..))|| => 2 Occurrences
+
+10.- org.isf.lab.manager.LabManager.getMaterialKey(..))|| => 4 Occurrences
+
+11.- org.isf.lab.manager.LabManager.getMaterialTranslated(..))|| => 1 Occurrence
+
+12.- org.isf.exa.manager.ExamRowBrowsingManager.getExamRowByExamCode(..))|| => 2 Occurrences
+
+13.- org.isf.lab.manager.LabManager.newLaboratory2(..))||  => 1 Occurrence
+
+14.- org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike(..))|| => 3 Occurrences
+
+15.- org.isf.patient.manager.PatientBrowserManager.getPatientById(..))|| => 5 Occurrences
+
+16.- org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated(..))|| => 6 Occurrences
+
+17.- org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated(..))|| => 5 Occurrences
+
+18.- org.isf.admission.manager.AdmissionBrowserManager.getCurrentAdmission(..))|| => 4 Occurrences
+
+19.- org.isf.menu.manager.UserBrowsingManager.deleteUser(..));  => 1 Occurrence
+
+Annotations:
+Method,1,org.isf.menu.gui.Login.acceptPwd,org.isf.menu.gui.Login,acceptPwd,Method = org.isf.menu.gui.Login.acceptPwd,Method,=,org.isf.menu.gui.Login.acceptPwd;
+Method,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,Method = org.isf.menu.manager.UserBrowsingManager.getMenu,Method,=,org.isf.menu.manager.UserBrowsingManager.getMenu;
+Method,3,org.isf.menu.manager.UserBrowsingManager.getUser,org.isf.menu.manager.UserBrowsingManager,getUser,Method = org.isf.menu.manager.UserBrowsingManager.getUser,Method,=,org.isf.menu.manager.UserBrowsingManager.getUser;
+Method,4,org.isf.menu.manager.UserBrowsingManager.getUserGroup,org.isf.menu.manager.UserBrowsingManager,getUserGroup,Method = org.isf.menu.manager.UserBrowsingManager.getUserGroup,Method,=,org.isf.menu.manager.UserBrowsingManager.getUserGroup;
+Method,5,org.isf.menu.manager.UserBrowsingManager.newUser,org.isf.menu.manager.UserBrowsingManager,newUser,Method = org.isf.menu.manager.UserBrowsingManager.newUser,Method,=,org.isf.menu.manager.UserBrowsingManager.newUser;
+Method,6,org.isf.exa.manager.ExamBrowsingManager.getExamType,org.isf.exa.manager.ExamBrowsingManager,getExamType,Method = org.isf.exa.manager.ExamBrowsingManager.getExamType,Method,=,org.isf.exa.manager.ExamBrowsingManager.getExamType;
+Method,7,org.isf.exa.manager.ExamBrowsingManager.getExams,org.isf.exa.manager.ExamBrowsingManager,getExams,Method = org.isf.exa.manager.ExamBrowsingManager.getExams,Method,=,org.isf.exa.manager.ExamBrowsingManager.getExams;
+Method,8,org.isf.exa.manager.ExamBrowsingManager.updateExam,org.isf.exa.manager.ExamBrowsingManager,updateExam,Method = org.isf.exa.manager.ExamBrowsingManager.updateExam,Method,=,org.isf.exa.manager.ExamBrowsingManager.updateExam;
+Method,9,org.isf.lab.manager.LabManager.getLaboratory,org.isf.lab.manager.LabManager,getLaboratory,Method = org.isf.lab.manager.LabManager.getLaboratory,Method,=,org.isf.lab.manager.LabManager.getLaboratory;
+Method,10,org.isf.lab.manager.LabManager.getMaterialList,org.isf.lab.manager.LabManager,getMaterialList,Method = org.isf.lab.manager.LabManager.getMaterialList,Method,=,org.isf.lab.manager.LabManager.getMaterialList;
+Method,11,org.isf.lab.manager.LabManager.getMaterialKey,org.isf.lab.manager.LabManager,getMaterialKey,Method = org.isf.lab.manager.LabManager.getMaterialKey,Method,=,org.isf.lab.manager.LabManager.getMaterialKey;
+Method,12,org.isf.lab.manager.LabManager.getMaterialTranslated,org.isf.lab.manager.LabManager,getMaterialTranslated,Method = org.isf.lab.manager.LabManager.getMaterialTranslated,Method,=,org.isf.lab.manager.LabManager.getMaterialTranslated;
+Method,13,org.isf.exa.manager.ExamRowBrowsingManager.getExamRowByExamCode,org.isf.exa.manager.ExamRowBrowsingManager,getExamRowByExamCode,Method = org.isf.exa.manager.ExamRowBrowsingManager.getExamRowByExamCode,Method,=,org.isf.exa.manager.ExamRowBrowsingManager.getExamRowByExamCode;
+Method,14,org.isf.lab.manager.LabManager.newLaboratory2,org.isf.lab.manager.LabManager,newLaboratory2,Method = org.isf.lab.manager.LabManager.newLaboratory2,Method,=,org.isf.lab.manager.LabManager.newLaboratory2;
+Method,15,org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike,org.isf.patient.manager.PatientBrowserManager,getPatientsByOneOfFieldsLike,Method = org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike,Method,=,org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike;
+Method,16,org.isf.patient.manager.PatientBrowserManager.getPatientById,org.isf.patient.manager.PatientBrowserManager,getPatientById,Method = org.isf.patient.manager.PatientBrowserManager.getPatientById,Method,=,org.isf.patient.manager.PatientBrowserManager.getPatientById;
+Method,17,org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated,org.isf.patient.manager.PatientBrowserManager,getMaritalTranslated,Method = org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated,Method,=,org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated;
+Method,18,org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated,org.isf.patient.manager.PatientBrowserManager,getProfessionTranslated,Method = org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated,Method,=,org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated;
+Method,19,org.isf.admission.manager.AdmissionBrowserManager.getCurrentAdmission,org.isf.admission.manager.AdmissionBrowserManager,getCurrentAdmission,Method = org.isf.admission.manager.AdmissionBrowserManager.getCurrentAdmission,Method,=,org.isf.admission.manager.AdmissionBrowserManager.getCurrentAdmission;
+Method,20,org.isf.menu.manager.UserBrowsingManager.deleteUser,org.isf.menu.manager.UserBrowsingManager,deleteUser,Method = org.isf.menu.manager.UserBrowsingManager.deleteUser,Method,=,org.isf.menu.manager.UserBrowsingManager.deleteUser;
+
+
+1.- The org.isf.menu.gui.Login.acceptPwd and org.isf.menu.manager.UserBrowsingManager.getMenu methods are included in the security log 3 times. 
+These times corresponds when during the attack scenario: A System Administrator or a Fake Physician connected to the OH software system.
+
+2.- The org.isf.menu.manager.UserBrowsingManager.getUser method is included in the security log 6 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of the Users such as mlewis, ptaylor to present them in the different screens in the OH software system.
+
+3.- The org.isf.menu.manager.UserBrowsingManager.getUserGroup method is included in the security log 4 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of the User roles such as admin, guest, physician to present them in the different screens in the OH software system.
+
+4.- The org.isf.menu.manager.UserBrowsingManager.newUser method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Fake System Administrator created a new user that is a Physician in the OH software system. This is the moment the security incident happens and we recorded the evidence.
+
+5.- The org.isf.exa.manager.ExamBrowsingManager.getExamType method is included in the security log 1 time. 
+This time corresponds when during the attack scenario the OH software system consulted the list of the Exam Types such as 1.Haematology, 2.Blood transfusion, 3.Parasitology to present them in the different screens in the OH software system.
+
+
+6.- The org.isf.exa.manager.ExamBrowsingManager.getExams method is included in the security log 7 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of the exams such as Comb's Test, Blood Slide (Malaria) and presented them in the Patient Vaccine Exam screen in the OH software system. 
+
+
+7.- The org.isf.exa.manager.ExamBrowsingManager.updateExam method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Fake System Administrator modified the default value of an Exam in the Settings > Exam Screen. This is the moment the security incident happens and we recorded the evidence.
+
+8.- The org.isf.lab.manager.LabManager.getLaboratory method is included in the security log 5 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of the Exam Laboratories such as Creatinina, Pregnancy, Protein and presented them in the Patient Laboratory Exam screen in the OH software system. 
+
+9.- The org.isf.lab.manager.LabManager.getMaterialList method is included in the security log 2 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of Materials to take human samples such as Blood, Swabs, Urine and presented them in the Patient Laboratory Exam screen in the OH software system. 
+
+
+10.- The org.isf.lab.manager.LabManager.getMaterialKey method is included in the security log 4 times. These times corresponds when during the attack scenario the OH software system consulted the description of a material to take human samples such as blood, undefined and presented it in the Patient Laboratory Exam screen in the OH software system. 
+
+11.- The org.isf.lab.manager.LabManager.getMaterialTranslated method is included in the security log 1 time. This time corresponds when during the attack scenario the OH software system consulted the description of a material such as Undefined to presented it in the diverse screens in the OH software system.
+
+12.- The org.isf.exa.manager.ExamRowBrowsingManager.getExamRowByExamCode method is included in the security log 2 times. These times corresponds when during the attack scenario the OH software system consulted the description of the results for a exam such as 1.4 - 2.5, < 1.4 (NORMAL), > 2.5 to presented it in the diverse screens in the OH software system.
+
+13.- The org.isf.lab.manager.LabManager.newLaboratory2 method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Fake Physician created a new Laboratory Exam using the modified results of an Exam in the Laboratory Screen in the OH software system. 
+
+14.- The org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike method is included in the security log 3 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of existing Patients such as Amelia White and Daisy Hill and presented them in the diverse screens in the OH software system. 
+
+15.- The org.isf.patient.manager.PatientBrowserManager.getPatientById method is included in the security log 5 times. 
+These times corresponds when during the attack scenario the OH software system consulted the full name of a Patient such as Johh Smith and presented it in the diverse screens in the OH software system. 
+
+16.- The org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated method is included in the security log 6 times. These times corresponds when during the attack scenario the OH software system consulted the description of the marital status such as Single, Married to presented it in the Patient browser screen in the OH software system.
+
+
+17.- The org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated is included in the security log 5 times. 
+These times corresponds when during the attack scenario the OH software system consulted the description of a Profession such as Engineering, Food/Hospitality presented it in the Patient browser screen in the OH software system. 
+
+18.- The org.isf.admission.manager.AdmissionBrowserManager.getCurrentAdmission method is included in the security log 4 times. These times corresponds when during the attack scenario the OH software system consulted the details of the current admitted patient to presented them in the Admission/Discharge patient screen in the OH software system. 
+
+19.- The org.isf.menu.manager.UserBrowsingManager.deleteUser method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Fake System Administrator deleted an existing user in the in the OH software system. This is the moment the security incident happens and we recorded the evidence.	

@@ -1,0 +1,6 @@
+1.- call(boolean controller.UserController.validateUser(..))|| => 2 times
+    call(boolean model.UserDatabase.validateUser(..)); => 2 times
+
+1.- The controller.UserController.validateUser and boolean model.UserDatabase.validateUser methods are included in the security log 2 times. 
+This is the moment when during the attack scenario the security incident really happened and we recorded the evidence. 
+In this moment an external attacker is trying a brute force attack and tries to connect to the HRM software system by guessing the System Administrator's password.

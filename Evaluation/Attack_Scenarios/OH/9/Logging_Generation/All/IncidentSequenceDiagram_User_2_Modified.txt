@@ -1,0 +1,203 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the OpenHospital ==
+actor User_2 order 1
+participant org.isf.menu.gui.Login order 2
+note left of User_2 #lightskyblue 
+org.isf.menu.gui.Login
+end note
+note left of User_2 #lightpink
+Method = org.isf.menu.gui.Login.acceptPwd
+end note
+User_2 -[#purple]>org.isf.menu.gui.Login: 1.acceptPwd()
+||20||
+actor User_2 order 3
+participant org.isf.menu.manager.UserBrowsingManager order 4
+note left of User_2 #lightskyblue 
+org.isf.menu.gui.MainMenu
+end note
+note left of User_2 #lightpink
+Method = org.isf.menu.manager.UserBrowsingManager.getMenu
+end note
+User_2 -[#purple]>org.isf.menu.manager.UserBrowsingManager: 2.getMenu()
+||20||
+actor User_2 order 5
+participant org.isf.exa.manager.ExamBrowsingManager order 6
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+note left of User_2 #lightpink
+Method = org.isf.exa.manager.ExamBrowsingManager.getExams
+end note
+User_2 -[#purple]>org.isf.exa.manager.ExamBrowsingManager: 3.getExams()
+||20||
+actor User_2 order 7
+participant org.isf.lab.manager.LabManager order 8
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+note left of User_2 #lightpink
+Method = org.isf.lab.manager.LabManager.getLaboratory
+end note
+User_2 -[#purple]>org.isf.lab.manager.LabManager: 4.getLaboratory()
+||20||
+actor User_2 order 9
+participant org.isf.lab.manager.LabManager order 10
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+note left of User_2 #lightpink
+Method = org.isf.lab.manager.LabManager.getMaterialList
+end note
+User_2 -[#purple]>org.isf.lab.manager.LabManager: 5.getMaterialList()
+||20||
+actor User_2 order 13
+participant org.isf.lab.manager.LabManager order 14
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+note left of User_2 #lightpink
+Method = org.isf.lab.manager.LabManager.getMaterialKey
+end note
+User_2 -[#purple]>org.isf.lab.manager.LabManager: 7.getMaterialKey()
+||20||
+actor User_2 order 15
+participant org.isf.lab.manager.LabManager order 16
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+note left of User_2 #lightpink
+Method = org.isf.lab.manager.LabManager.getMaterialTranslated
+end note
+User_2 -[#purple]>org.isf.lab.manager.LabManager: 8.getMaterialTranslated()
+||20||
+actor User_2 order 19
+participant org.isf.exa.manager.ExamRowBrowsingManager order 20
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+note left of User_2 #lightpink
+Method = org.isf.exa.manager.ExamRowBrowsingManager.getExamRowByExamCode
+end note
+User_2 -[#purple]>org.isf.exa.manager.ExamRowBrowsingManager: 10.getExamRowByExamCode()
+||20||
+actor User_2 order 23
+participant org.isf.lab.manager.LabManager order 24
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+note left of User_2 #lightpink
+Method = org.isf.lab.manager.LabManager.newLaboratory2
+end note
+User_2 -[#purple]>org.isf.lab.manager.LabManager: 12.newLaboratory2()
+||20||
+actor User_2 order 25
+participant org.isf.patient.manager.PatientBrowserManager order 26
+note left of User_2 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike
+end note
+User_2 -[#purple]>org.isf.patient.manager.PatientBrowserManager: 13.getPatientsByOneOfFieldsLike()
+||20||
+actor User_2 order 27
+participant org.isf.patient.manager.PatientBrowserManager order 28
+note left of User_2 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.getPatientById
+end note
+User_2 -[#purple]>org.isf.patient.manager.PatientBrowserManager: 14.getPatientById()
+||20||
+participant org.isf.patient.gui.PatientSummary order 29
+participant org.isf.patient.manager.PatientBrowserManager order 30
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+end note
+org.isf.patient.gui.PatientSummary -[#purple]>org.isf.patient.manager.PatientBrowserManager: 15.getMaritalTranslated([married])
+||20||
+participant org.isf.patient.gui.PatientSummary order 31
+participant org.isf.patient.manager.PatientBrowserManager order 32
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+end note
+org.isf.patient.gui.PatientSummary -[#purple]>org.isf.patient.manager.PatientBrowserManager: 16.getProfessionTranslated([medicine])
+||20||
+actor User_2 order 33
+participant org.isf.admission.manager.AdmissionBrowserManager order 34
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+note left of User_2 #lightpink
+Method = org.isf.admission.manager.AdmissionBrowserManager.getCurrentAdmission
+end note
+User_2 -[#purple]>org.isf.admission.manager.AdmissionBrowserManager: 17.getCurrentAdmission()
+||20||
+actor User_2 order 11
+participant org.isf.exa.manager.ExamBrowsingManager order 12
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+note left of User_2 #lightpink
+Method = org.isf.exa.manager.ExamBrowsingManager.getExams
+end note
+User_2 -[#purple]>org.isf.exa.manager.ExamBrowsingManager: 6.getExams()
+||20||
+actor User_2 order 17
+participant org.isf.lab.manager.LabManager order 18
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+note left of User_2 #lightpink
+Method = org.isf.lab.manager.LabManager.getMaterialKey
+end note
+User_2 -[#purple]>org.isf.lab.manager.LabManager: 9.getMaterialKey()
+||20||
+actor User_2 order 35
+participant org.isf.lab.manager.LabManager order 36
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+note left of User_2 #lightpink
+Method = org.isf.lab.manager.LabManager.newLaboratory2
+end note
+User_2 -[#purple]>org.isf.lab.manager.LabManager: 18.newLaboratory2()
+||20||
+actor User_2 order 37
+participant org.isf.lab.manager.LabManager order 38
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+note left of User_2 #lightpink
+Method = org.isf.lab.manager.LabManager.getLaboratory
+end note
+User_2 -[#purple]>org.isf.lab.manager.LabManager: 19.getLaboratory()
+||20||
+actor User_2 order 21
+participant org.isf.lab.manager.LabManager order 22
+note left of User_2 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+note left of User_2 #lightpink
+Method = org.isf.lab.manager.LabManager.getMaterialKey
+end note
+User_2 -[#purple]>org.isf.lab.manager.LabManager: 11.getMaterialKey()
+||20||
+@enduml

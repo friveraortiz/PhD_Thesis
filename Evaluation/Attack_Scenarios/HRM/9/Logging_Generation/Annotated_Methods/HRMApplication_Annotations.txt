@@ -1,0 +1,3 @@
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Employee,UserLevel,=,Employee;
+Parameter,2,controller.TravelRequestController.save,controller.TravelRequestController,save,ev.totalFunding >= 2000,totalFunding,>=,2000;
+Method,3,model.TravelRequestDatabase.save,model.TravelRequestDatabase,save,Method = model.TravelRequestDatabase.save,Method,=,model.TravelRequestDatabase.save;

@@ -1,0 +1,16 @@
+Methods:
+1.- call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))| => 2 Occurrences
+2.- call(org.isf.patient.model.Patient org.isf.patient.manager.PatientBrowserManager.savePatient(..)); => 4 Occurrences
+
+
+Annotations:
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = physician,code,=,physician;
+Parameter,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+Method,3,org.isf.patient.manager.PatientBrowserManager.savePatient,org.isf.patient.manager.PatientBrowserManager,savePatient,Method = org.isf.patient.manager.PatientBrowserManager.savePatient,Method,=,org.isf.patient.manager.PatientBrowserManager.savePatient;
+Parameter,4,org.isf.patient.manager.PatientBrowserManager.savePatient,org.isf.patient.manager.PatientBrowserManager,savePatient,patient.bloodType = B+,bloodType,=,B+;
+
+
+1.- The org.isf.menu.manager.UserBrowsingManager.getMenu method is included in the security log 2 times. These times corresponds when during the attack scenario A Physician connected to the OH software system or a System Administrator connected to the OH software system.
+
+2.- The org.isf.patient.manager.PatientBrowserManager.savePatient method is included 4 times in the security log. This time corresponds when during the attack A new patient was created, A Patient was modified in her blood type to B+ or a Patient was modified in his blood type to 0+. When the Patient was modified in her blood type to B+ was the exact moment when the security incident happened and we recorded the evidence.
+

@@ -1,0 +1,464 @@
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 21/05/2024 07:02:15 PM BST
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : 
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:02:15 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : physician
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1035 - OS Name              : Windows Server 2016
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1036 - OS Current Time      : 21/05/2024 07:04:11 PM BST
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1038 - OS IP Address        : 189.122.67.106
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1040 - OS Hostname          : f7.local
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1042 - OS UserName          : f7
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1043 - Annotation Type      : Method
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1044 - Method Number        : 2
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1045 - Method Name          : org.isf.visits.manager.VisitManager.newVisit
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1046 - Method Return Type   : org.isf.visits.model.Visit
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1047 - Method Return Value  : NURSERY -  - 21/05/24 - 19:03:00
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1079 - Parameter Number     : 1
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - Parameter Name       : visit
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - Parameter Type       : org.isf.visits.model.Visit
+21/05/2024 07:04:11 PM BST INFO  VisitManager:999 - The Parameter Name: visit has the following Attributes:
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1067 - Attribute Number     : 1
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - Attribute Name       : visitID
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - Attribute Type       : int
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - Attribute Value      : 40
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1067 - Attribute Number     : 2
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - Attribute Name       : patient
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+21/05/2024 07:04:11 PM BST INFO  VisitManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 1
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : code
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.Integer
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 179
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 2
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : firstName
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : Charlotte
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 3
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : secondName
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : Walker
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 4
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : name
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : Charlotte Walker
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 5
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : birthDate
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.time.LocalDate
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 1979-05-19
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 6
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : age
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : int
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 45
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 7
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : agetype
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 8
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : sex
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : char
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : F
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 9
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : address
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 246 Greene Street
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 10
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : city
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : Houston, Texas, USA
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 11
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : nextKin
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 1
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 12
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : telephone
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : +39123
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 13
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : note
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 14
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : motherName
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 15
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : mother
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : char
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : D
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 16
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : fatherName
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 17
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : father
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : char
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : D
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 18
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : bloodType
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : A+
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 19
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : hasInsurance
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : char
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : Y
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 20
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : parentTogether
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : char
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : N
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 21
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : taxCode
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 123
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 22
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : maritalStatus
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : married
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 23
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : profession
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : foodhospitality
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 24
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : deleted
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : N
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 25
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : lock
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : int
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 0
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 26
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : hashCode
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : int
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 0
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1067 - Attribute Number     : 3
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - Attribute Name       : ward
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - Attribute Type       : org.isf.ward.model.Ward
+21/05/2024 07:04:11 PM BST INFO  VisitManager:644 - The Attribute Name: ward has the followings Sub-Attributes:
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 1
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : code
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : N
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 2
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : description
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : NURSERY
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 3
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : telephone
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 234/52544
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 4
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : fax
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 54324/5424
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 5
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : email
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : nursery@stluke.org
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 6
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : beds
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.Integer
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 20
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 7
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : nurs
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.Integer
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 3
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 8
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : docs
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.Integer
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 2
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 9
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : isPharmacy
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : boolean
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : true
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 10
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : isMale
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : boolean
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : true
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 11
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : isFemale
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : boolean
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : true
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 12
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : visitDuration
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : int
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 30
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 13
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : lock
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.Integer
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 1
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 14
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - SubAttribute Name       : hashCode
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - SubAttribute Type       : int
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 0
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1067 - Attribute Number     : 4
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - Attribute Name       : date
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - Attribute Type       : java.time.LocalDateTime
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - Attribute Value      : 2024-05-21T19:03
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1067 - Attribute Number     : 5
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - Attribute Name       : duration
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - Attribute Type       : java.lang.Integer
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - Attribute Value      : 30
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1067 - Attribute Number     : 6
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - Attribute Name       : service
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - Attribute Type       : java.lang.String
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - Attribute Value      : 
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1067 - Attribute Number     : 7
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - Attribute Name       : sms
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - Attribute Type       : boolean
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - Attribute Value      : false
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1067 - Attribute Number     : 8
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1081 - Attribute Name       : hashCode
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1082 - Attribute Type       : int
+21/05/2024 07:04:11 PM BST INFO  VisitManager:1122 - Attribute Value      : 0
+21/05/2024 07:04:50 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+21/05/2024 07:04:50 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+21/05/2024 07:04:51 PM BST WARN  Webcam:964 - No webcam has been detected!
+21/05/2024 07:06:16 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 21/05/2024 07:09:18 PM BST
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : 
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:09:18 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : admin
+21/05/2024 07:10:28 PM BST INFO  ConfigurationProperties:91 - File txtPrinter.properties loaded.
+21/05/2024 07:10:28 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_HEIGHT property not found: default is 10
+21/05/2024 07:10:28 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_WIDTH property not found: default is 10
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1035 - OS Name              : Windows Server 2016
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1036 - OS Current Time      : 21/05/2024 07:11:17 PM BST
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1038 - OS IP Address        : 189.122.67.106
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1040 - OS Hostname          : f7.local
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1042 - OS UserName          : f7
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1043 - Annotation Type      : Method
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1044 - Method Number        : 2
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1045 - Method Name          : org.isf.visits.manager.VisitManager.deleteVisit
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1046 - Method Return Type   : void
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1047 - Method Return Value  : 
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1079 - Parameter Number     : 1
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - Parameter Name       : visit
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - Parameter Type       : org.isf.visits.model.Visit
+21/05/2024 07:11:17 PM BST INFO  VisitManager:999 - The Parameter Name: visit has the following Attributes:
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1067 - Attribute Number     : 1
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - Attribute Name       : visitID
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - Attribute Type       : int
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - Attribute Value      : 40
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1067 - Attribute Number     : 2
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - Attribute Name       : patient
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+21/05/2024 07:11:17 PM BST INFO  VisitManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 1
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : code
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.Integer
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 179
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 2
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : firstName
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : Charlotte
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 3
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : secondName
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : Walker
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 4
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : name
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : Charlotte Walker
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 5
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : birthDate
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.time.LocalDate
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 1979-05-19
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 6
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : age
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : int
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 45
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 7
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : agetype
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 8
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : sex
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : char
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : F
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 9
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : address
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 246 Greene Street
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 10
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : city
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : Houston, Texas, USA
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 11
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : nextKin
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 1
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 12
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : telephone
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : +39123
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 13
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : note
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 14
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : motherName
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 15
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : mother
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : char
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : D
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 16
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : fatherName
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 17
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : father
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : char
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : D
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 18
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : bloodType
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : A+
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 19
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : hasInsurance
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : char
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : Y
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 20
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : parentTogether
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : char
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : N
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 21
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : taxCode
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 123
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 22
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : maritalStatus
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : married
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 23
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : profession
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : foodhospitality
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 24
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : deleted
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : N
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 25
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : lock
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : int
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 0
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 26
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : hashCode
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : int
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 0
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1067 - Attribute Number     : 3
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - Attribute Name       : ward
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - Attribute Type       : org.isf.ward.model.Ward
+21/05/2024 07:11:17 PM BST INFO  VisitManager:644 - The Attribute Name: ward has the followings Sub-Attributes:
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 1
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : code
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : N
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 2
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : description
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : NURSERY
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 3
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : telephone
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 234/52544
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 4
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : fax
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 54324/5424
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 5
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : email
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : nursery@stluke.org
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 6
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : beds
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.Integer
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 20
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 7
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : nurs
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.Integer
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 3
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 8
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : docs
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.Integer
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 2
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 9
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : isPharmacy
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : boolean
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : true
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 10
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : isMale
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : boolean
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : true
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 11
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : isFemale
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : boolean
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : true
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 12
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : visitDuration
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : int
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 30
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 13
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : lock
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : java.lang.Integer
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 1
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1074 - SubAttribute Number     : 14
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - SubAttribute Name       : hashCode
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - SubAttribute Type       : int
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - SubAttribute Value      : 0
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1067 - Attribute Number     : 4
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - Attribute Name       : date
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - Attribute Type       : java.time.LocalDateTime
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - Attribute Value      : 2024-05-21T19:03
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1067 - Attribute Number     : 5
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - Attribute Name       : duration
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - Attribute Type       : java.lang.Integer
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - Attribute Value      : 30
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1067 - Attribute Number     : 6
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - Attribute Name       : service
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - Attribute Type       : java.lang.String
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - Attribute Value      : 
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1067 - Attribute Number     : 7
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - Attribute Name       : sms
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - Attribute Type       : boolean
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - Attribute Value      : false
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1067 - Attribute Number     : 8
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1081 - Attribute Name       : hashCode
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1082 - Attribute Type       : int
+21/05/2024 07:11:17 PM BST INFO  VisitManager:1122 - Attribute Value      : 0
+21/05/2024 07:13:50 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+

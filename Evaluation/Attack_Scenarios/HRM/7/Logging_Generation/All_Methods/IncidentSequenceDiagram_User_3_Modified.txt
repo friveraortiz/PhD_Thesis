@@ -1,0 +1,240 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the HRMApplication ==
+actor User_3 order 125
+participant controller.UserController order 126
+note left of User_3 #lightskyblue 
+gui.LoginFrame
+end note
+note left of User_3 #lightpink
+Method = controller.UserController.validateUser
+end note
+User_3 -[#purple]>controller.UserController: 1.validateUser()
+||20||
+participant controller.UserController order 127
+participant model.UserDatabase order 128
+note left of User_3 #lightpink
+Method = model.UserDatabase.validateUser
+end note
+controller.UserController -[#purple]>model.UserDatabase: 2.validateUser([0
+||20||
+actor User_3 order 129
+participant controller.UserController order 130
+note left of User_3 #lightskyblue 
+gui.LoginFrame
+end note
+note left of User_3 #lightpink
+Method = controller.UserController.getUserLevel
+end note
+User_3 -[#purple]>controller.UserController: 3.getUserLevel()
+||20||
+participant controller.UserController order 131
+participant model.UserDatabase order 132
+note left of User_3 #lightpink
+Method = model.UserDatabase.getUserLevel
+end note
+controller.UserController -[#purple]>model.UserDatabase: 4.getUserLevel([0
+||20||
+actor User_3 order 133
+participant controller.ModuleController order 134
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_3 #lightpink
+Method = controller.ModuleController.saveModules
+end note
+User_3 -[#purple]>controller.ModuleController: 5.saveModules()
+||20||
+participant controller.ModuleController order 135
+participant model.ModuleDatabase order 136
+note left of User_3 #lightpink
+Method = model.ModuleDatabase.saveModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 6.saveModules([])
+||20||
+actor User_3 order 137
+participant controller.ModuleController order 138
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_3 #lightpink
+Method = controller.ModuleController.getModules
+end note
+User_3 -[#purple]>controller.ModuleController: 7.getModules()
+||20||
+participant controller.ModuleController order 139
+participant model.ModuleDatabase order 140
+note left of User_3 #lightpink
+Method = model.ModuleDatabase.getModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 8.getModules([5
+||20||
+actor User_3 order 141
+participant controller.ModuleController order 142
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_3 #lightpink
+Method = controller.ModuleController.getSubModules
+end note
+User_3 -[#purple]>controller.ModuleController: 9.getSubModules()
+||20||
+participant controller.ModuleController order 143
+participant model.ModuleDatabase order 144
+note left of User_3 #lightpink
+Method = model.ModuleDatabase.getSubModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 10.getSubModules([6
+||20||
+actor User_3 order 145
+participant controller.UserController order 146
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+note left of User_3 #lightpink
+Method = controller.UserController.loadFullNameEmployees
+end note
+User_3 -[#purple]>controller.UserController: 11.loadFullNameEmployees()
+||20||
+participant controller.UserController order 147
+participant model.UserDatabase order 148
+note left of User_3 #lightpink
+Method = model.UserDatabase.loadFullNameEmployees
+end note
+controller.UserController -[#purple]>model.UserDatabase: 12.loadFullNameEmployees([])
+||20||
+actor User_3 order 149
+participant controller.UserController order 150
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+note left of User_3 #lightpink
+Method = controller.UserController.load
+end note
+User_3 -[#purple]>controller.UserController: 13.load()
+||20||
+participant controller.UserController order 151
+participant model.UserDatabase order 152
+note left of User_3 #lightpink
+Method = model.UserDatabase.load
+end note
+controller.UserController -[#purple]>model.UserDatabase: 14.load([])
+||20||
+actor User_3 order 157
+participant controller.UserController order 158
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+note left of User_3 #lightpink
+Method = controller.UserController.validateDeleteUser
+end note
+User_3 -[#purple]>controller.UserController: 17.validateDeleteUser()
+||20||
+participant controller.UserController order 159
+participant model.UserDatabase order 160
+note left of User_3 #lightpink
+Method = model.UserDatabase.validateDeleteUser
+end note
+controller.UserController -[#purple]>model.UserDatabase: 18.validateDeleteUser([9
+||20||
+actor User_3 order 161
+participant controller.UserController order 162
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+note left of User_3 #lightpink
+Method = controller.UserController.delete
+end note
+User_3 -[#purple]>controller.UserController: 19.delete()
+||20||
+participant controller.UserController order 163
+participant model.UserDatabase order 164
+note left of User_3 #lightpink
+Method = model.UserDatabase.delete
+end note
+controller.UserController -[#purple]>model.UserDatabase: 20.delete([9
+||20||
+actor User_3 order 153
+participant controller.UserController order 154
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+note left of User_3 #lightpink
+Method = controller.UserController.loadFullNameEmployees
+end note
+User_3 -[#purple]>controller.UserController: 15.loadFullNameEmployees()
+||20||
+participant controller.UserController order 155
+participant model.UserDatabase order 156
+note left of User_3 #lightpink
+Method = model.UserDatabase.loadFullNameEmployees
+end note
+controller.UserController -[#purple]>model.UserDatabase: 16.loadFullNameEmployees([])
+||20||
+actor User_3 order 165
+participant controller.UserController order 166
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+note left of User_3 #lightpink
+Method = controller.UserController.load
+end note
+User_3 -[#purple]>controller.UserController: 21.load()
+||20||
+participant controller.UserController order 167
+participant model.UserDatabase order 168
+note left of User_3 #lightpink
+Method = model.UserDatabase.load
+end note
+controller.UserController -[#purple]>model.UserDatabase: 22.load([])
+||20||
+actor User_3 order 169
+participant controller.UserController order 170
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+note left of User_3 #lightpink
+Method = controller.UserController.loadFullNameEmployees
+end note
+User_3 -[#purple]>controller.UserController: 23.loadFullNameEmployees()
+||20||
+participant controller.UserController order 171
+participant model.UserDatabase order 172
+note left of User_3 #lightpink
+Method = model.UserDatabase.loadFullNameEmployees
+end note
+controller.UserController -[#purple]>model.UserDatabase: 24.loadFullNameEmployees([])
+||20||
+actor User_3 order 173
+participant controller.UserController order 174
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+note left of User_3 #lightpink
+Method = controller.UserController.loadFullNameEmployees
+end note
+User_3 -[#purple]>controller.UserController: 25.loadFullNameEmployees()
+||20||
+participant controller.UserController order 175
+participant model.UserDatabase order 176
+note left of User_3 #lightpink
+Method = model.UserDatabase.loadFullNameEmployees
+end note
+controller.UserController -[#purple]>model.UserDatabase: 26.loadFullNameEmployees([])
+||20||
+@enduml

@@ -1,0 +1,1521 @@
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:29:17 PM BST
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [admin, doctor, guest, mlewis, ptaylor, sysadmin]
+27/05/2024 06:29:17 PM BST INFO  UserBrowsingManager:1280 - The Method: getUser DOES NOT have any Parameters
+27/05/2024 06:29:25 PM BST INFO  MainMenu:87 - Logging: "mlewis" user has logged into the system.
+27/05/2024 06:29:25 PM BST INFO  Login:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:29:25 PM BST INFO  Login:1036 - OS Current Time      : 27/05/2024 06:29:25 PM BST
+27/05/2024 06:29:25 PM BST INFO  Login:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:29:25 PM BST INFO  Login:1040 - OS Hostname          : f7.local
+27/05/2024 06:29:25 PM BST INFO  Login:1042 - OS UserName          : f7
+27/05/2024 06:29:25 PM BST INFO  Login:1043 - Annotation Type      : Method
+27/05/2024 06:29:25 PM BST INFO  Login:1044 - Method Number        : 2
+27/05/2024 06:29:25 PM BST INFO  Login:1045 - Method Name          : org.isf.menu.gui.Login.acceptPwd
+27/05/2024 06:29:25 PM BST INFO  Login:1046 - Method Return Type   : void
+27/05/2024 06:29:25 PM BST INFO  Login:1047 - Method Return Value  : 
+27/05/2024 06:29:25 PM BST INFO  Login:1280 - The Method: acceptPwd DOES NOT have any Parameters
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:29:25 PM BST
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 3
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [New, Users, New Bill, Edit Patient, Cashier's Filter, Types, Admission Type, New, New, Pharmaceuticals, New, New Patient, Bill Manager, Edit, OPD Chart, Rectify, Examination, Edit Patient, Discharge Type, Exams List, Hospital, Edit, Pharmaceutical Stock, Examination, Edit, Edit, OPD, Examination, Groups, Edit, Examination, Charge, New Bill, Delete, Pharmaceutical Stock Ward, Disease List, Delivery Type, Delete, Delete, Delete, Operation, Merge, Report, Delete patient, Operation, Delete, Ward, Discharge, Edit Bill, Admission Chart, Admission/Patient, Edit Closed Bills, Excel, Launch Report , Disease, Delivery Result Type, Data, Laboratory, Malnutrition control, Operation List, Pharmacy, Disease Type, Admission, DICOM Patient, Exams, Delete Bill, Bill, Operation, Report, Exam Type, OPD, Vaccines, Therapy, Clinical sheet, Accounting, Receipt, Medicals Stock Mov Type, Vaccine, Worksheet, Price Lists, Medicals Type, Supplier, Operation Type, Statistics, SMS Manager, Pregnant Treatment, Reports, Communication, Users & Groups, Other Prices, Settings, Age Type, Vaccine Type, Help, DICOM Type]
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : aUser
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.User
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:999 - The Parameter Name: aUser has the following Attributes:
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 1
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userName
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : mlewis
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 2
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userGroupName
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : org.isf.menu.model.UserGroup
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:644 - The Attribute Name: userGroupName has the followings Sub-Attributes:
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : admin
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 2
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : desc
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : User with all the privileges
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 3
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : hashCode
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : int
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : 0
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 3
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : passwd
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : $2a$10$yOIDGjprsYERru/i/6EcNOX31euH/uCMLbJfDvaSYPjMvpslz1pWG
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 4
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : desc
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : System Administrator
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 5
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : hashCode
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : int
+27/05/2024 06:29:25 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : 0
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:30:58 PM BST
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1044 - Method Number        : 4
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamBrowsingManager.getExams
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1047 - Method Return Value  : [1.1 HB, 1.1 HB (Procedure 3), 1.2 WBC Count, 1.3 Differential , 1.4 Film Comment, 1.5 ESR, 1.6 Sickling Test, 2.1 Grouping, 2.2 Comb's Test, 3.1 Blood Slide (Malaria), 3.2 Blood Slide (OTHERS, E.G. TRIUPHANOSOMIAS, MICRIFILARIA, LEISHMANIA, BORRELIA), 3.21 Trypanosomiasis, 3.22 MICROFILARIA, 3.23 LEISHMANIA, 3.24 BORRELIA, 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY, 3.5 TISSUE MICROSCOPY, 3.6 CSF WET PREP, 4.1 CULTURE AND SENSITIVITY (C&S) FOR HAEMOPHILUS INFUENZA TYPE B, 4.2 C&S FOR SALMONELA TYPHI, 4.3 C&S FOR VIBRO CHOLERA, 4.4 C&S FOR SHIGELLA DYSENTERIAE, 4.5 C&S FOR NEISSERIA MENINGITIDES, 4.6 OTHER C&S , 5.1 WET PREP, 5.2 GRAM STAIN, 5.3 INDIA INK, 5.4 LEISMANIA, 5.5 ZN, 5.6 WAYSON, 5.7 PAP SMEAR, 6.1 VDRL/RPR, 6.2 TPHA, 6.3 HIV, 6.4 HEPATITIS, 6.5 OTHERS E.G BRUCELLA, RHEUMATOID FACTOR, WEIL FELIX, 6.6 PREGANCY TEST, 7.1 PROTEIN, 7.2 SUGAR, 7.3 LFTS, 7.3.1 BILIRUBIN TOTAL, 7.3.2 BILIRUBIN DIRECT, 7.3.3 GOT, 7.3.4 ALT/GPT, 7.4 RFTS, 7.4.1 CREATININA, 7.4.2 UREA, 8.1 OCCULT BLOOD, 9.1 URINALYSIS]
+27/05/2024 06:30:58 PM BST INFO  ExamBrowsingManager:1280 - The Method: getExams DOES NOT have any Parameters
+27/05/2024 06:30:58 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:30:58 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:30:58 PM BST
+27/05/2024 06:30:58 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:30:58 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:30:58 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:30:58 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:30:58 PM BST INFO  LabManager:1044 - Method Number        : 5
+27/05/2024 06:30:58 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getLaboratory
+27/05/2024 06:30:58 PM BST INFO  LabManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:30:58 PM BST INFO  LabManager:1047 - Method Return Value  : [-------------------------------------------
+Laboratory{code=62, material=undefined, exam=7.4.1 CREATININA, registrationDate=2024-05-26T23:55, examDate=2024-05-26, result=< 1.4 (NORMAL), lock=0, note=null, patient=Olivia Levine, patName=Olivia Levine, InOutPatient=O, age=45, sex=F, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=57, material=urine, exam=3.4 URINE MICROSCOPY, registrationDate=2024-05-26T23:41:55, examDate=2024-05-21, result=NEGATIVE, lock=1, note=, patient=Mary Brown, patName=Mary Brown, InOutPatient=I, age=20, sex=F, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=61, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-26T21:01, examDate=2024-05-26, result=< 1.4 (NORMAL), lock=0, note=null, patient=Jeremias Rodriguez, patName=Jeremias Rodriguez, InOutPatient=O, age=50, sex=M, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=56, material=blood, exam=6.3 HIV, registrationDate=2024-05-24T17:44:55, examDate=2024-05-21, result=NEGATIVE, lock=1, note=, patient=John Smith, patName=John Smith, InOutPatient=O, age=40, sex=M, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=59, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-22T22:01, examDate=2024-05-22, result=> 2.5, lock=0, note=null, patient=Jane Huston, patName=Jane Huston, InOutPatient=O, age=50, sex=F, hashCode=0}
+---------------------------------------------]
+27/05/2024 06:30:58 PM BST INFO  LabManager:1280 - The Method: getLaboratory DOES NOT have any Parameters
+27/05/2024 06:31:01 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:31:01 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:31:01 PM BST
+27/05/2024 06:31:01 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:31:01 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:31:01 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:31:01 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:31:01 PM BST INFO  LabManager:1044 - Method Number        : 6
+27/05/2024 06:31:01 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getMaterialList
+27/05/2024 06:31:01 PM BST INFO  LabManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:31:01 PM BST INFO  LabManager:1047 - Method Return Value  : [Undefined, Blood, CFS, Film, Sputum, Stool, Swabs, Tissues, Urine]
+27/05/2024 06:31:01 PM BST INFO  LabManager:1280 - The Method: getMaterialList DOES NOT have any Parameters
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:31:01 PM BST
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1044 - Method Number        : 7
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamBrowsingManager.getExams
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1047 - Method Return Value  : [1.1 HB, 1.1 HB (Procedure 3), 1.2 WBC Count, 1.3 Differential , 1.4 Film Comment, 1.5 ESR, 1.6 Sickling Test, 2.1 Grouping, 2.2 Comb's Test, 3.1 Blood Slide (Malaria), 3.2 Blood Slide (OTHERS, E.G. TRIUPHANOSOMIAS, MICRIFILARIA, LEISHMANIA, BORRELIA), 3.21 Trypanosomiasis, 3.22 MICROFILARIA, 3.23 LEISHMANIA, 3.24 BORRELIA, 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY, 3.5 TISSUE MICROSCOPY, 3.6 CSF WET PREP, 4.1 CULTURE AND SENSITIVITY (C&S) FOR HAEMOPHILUS INFUENZA TYPE B, 4.2 C&S FOR SALMONELA TYPHI, 4.3 C&S FOR VIBRO CHOLERA, 4.4 C&S FOR SHIGELLA DYSENTERIAE, 4.5 C&S FOR NEISSERIA MENINGITIDES, 4.6 OTHER C&S , 5.1 WET PREP, 5.2 GRAM STAIN, 5.3 INDIA INK, 5.4 LEISMANIA, 5.5 ZN, 5.6 WAYSON, 5.7 PAP SMEAR, 6.1 VDRL/RPR, 6.2 TPHA, 6.3 HIV, 6.4 HEPATITIS, 6.5 OTHERS E.G BRUCELLA, RHEUMATOID FACTOR, WEIL FELIX, 6.6 PREGANCY TEST, 7.1 PROTEIN, 7.2 SUGAR, 7.3 LFTS, 7.3.1 BILIRUBIN TOTAL, 7.3.2 BILIRUBIN DIRECT, 7.3.3 GOT, 7.3.4 ALT/GPT, 7.4 RFTS, 7.4.1 CREATININA, 7.4.2 UREA, 8.1 OCCULT BLOOD, 9.1 URINALYSIS]
+27/05/2024 06:31:01 PM BST INFO  ExamBrowsingManager:1280 - The Method: getExams DOES NOT have any Parameters
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:31:01 PM BST
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1044 - Method Number        : 8
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamRowBrowsingManager.getExamRowByExamCode
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1047 - Method Return Value  : [NEGATIVE, POSITIVE]
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1079 - Parameter Number     : 1
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1081 - Parameter Name       : aExamCode
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:31:01 PM BST INFO  ExamRowBrowsingManager:1122 - Parameter Value      : 06.03
+27/05/2024 06:31:05 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:31:05 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:31:05 PM BST
+27/05/2024 06:31:05 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:31:05 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:31:05 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:31:05 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:31:05 PM BST INFO  LabManager:1044 - Method Number        : 9
+27/05/2024 06:31:05 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getMaterialKey
+27/05/2024 06:31:05 PM BST INFO  LabManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:31:05 PM BST INFO  LabManager:1047 - Method Return Value  : blood
+27/05/2024 06:31:05 PM BST INFO  LabManager:1079 - Parameter Number     : 1
+27/05/2024 06:31:05 PM BST INFO  LabManager:1081 - Parameter Name       : description
+27/05/2024 06:31:05 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:31:05 PM BST INFO  LabManager:1122 - Parameter Value      : Blood
+27/05/2024 06:31:05 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:31:05 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:31:05 PM BST
+27/05/2024 06:31:05 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:31:05 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:31:05 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:31:05 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:31:05 PM BST INFO  LabManager:1044 - Method Number        : 10
+27/05/2024 06:31:05 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getLaboratory
+27/05/2024 06:31:05 PM BST INFO  LabManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:31:05 PM BST INFO  LabManager:1047 - Method Return Value  : [-------------------------------------------
+Laboratory{code=56, material=blood, exam=6.3 HIV, registrationDate=2024-05-27T18:31:05, examDate=2024-05-24, result=POSITIVE, lock=2, note=, patient=John Smith, patName=John Smith, InOutPatient=O, age=40, sex=M, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=62, material=undefined, exam=7.4.1 CREATININA, registrationDate=2024-05-26T23:55, examDate=2024-05-26, result=< 1.4 (NORMAL), lock=0, note=null, patient=Olivia Levine, patName=Olivia Levine, InOutPatient=O, age=45, sex=F, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=57, material=urine, exam=3.4 URINE MICROSCOPY, registrationDate=2024-05-26T23:41:55, examDate=2024-05-21, result=NEGATIVE, lock=1, note=, patient=Mary Brown, patName=Mary Brown, InOutPatient=I, age=20, sex=F, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=61, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-26T21:01, examDate=2024-05-26, result=< 1.4 (NORMAL), lock=0, note=null, patient=Jeremias Rodriguez, patName=Jeremias Rodriguez, InOutPatient=O, age=50, sex=M, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=59, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-22T22:01, examDate=2024-05-22, result=> 2.5, lock=0, note=null, patient=Jane Huston, patName=Jane Huston, InOutPatient=O, age=50, sex=F, hashCode=0}
+---------------------------------------------]
+27/05/2024 06:31:05 PM BST INFO  LabManager:1079 - Parameter Number     : 2
+27/05/2024 06:31:05 PM BST INFO  LabManager:1081 - Parameter Name       : dateFrom
+27/05/2024 06:31:05 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:31:05 PM BST INFO  LabManager:1122 - Parameter Value      : 2024-05-20T00:00
+27/05/2024 06:31:05 PM BST INFO  LabManager:1079 - Parameter Number     : 3
+27/05/2024 06:31:05 PM BST INFO  LabManager:1081 - Parameter Name       : dateTo
+27/05/2024 06:31:05 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:31:05 PM BST INFO  LabManager:1122 - Parameter Value      : 2024-05-27T00:00
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:31:24 PM BST
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 11
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [admin, doctor, guest, mlewis, ptaylor, sysadmin]
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1280 - The Method: getUser DOES NOT have any Parameters
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:31:24 PM BST
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 12
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUserGroup
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [admin, guest, physician]
+27/05/2024 06:31:24 PM BST INFO  UserBrowsingManager:1280 - The Method: getUserGroup DOES NOT have any Parameters
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:31:27 PM BST
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 13
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUserGroup
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [admin, guest, physician]
+27/05/2024 06:31:27 PM BST INFO  UserBrowsingManager:1280 - The Method: getUserGroup DOES NOT have any Parameters
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:31:56 PM BST
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 14
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.newUser
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.lang.Boolean
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : true
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : user
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.User
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:999 - The Parameter Name: user has the following Attributes:
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 1
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userName
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : dhill
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 2
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userGroupName
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : org.isf.menu.model.UserGroup
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:644 - The Attribute Name: userGroupName has the followings Sub-Attributes:
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : physician
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 2
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : desc
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : User with some privileges
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 3
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : hashCode
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : int
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : 0
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 3
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : passwd
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : $2a$10$DyQdr86U0idzxOFfx1N96OKus/wSzg5VH.rIpfOAKQOZPe2j0fBTm
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 4
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : desc
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : Physician of the Clinic
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 5
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : hashCode
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : int
+27/05/2024 06:31:56 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : 0
+27/05/2024 06:32:08 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+27/05/2024 06:32:08 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+27/05/2024 06:32:09 PM BST WARN  Webcam:964 - No webcam has been detected!
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:34:40 PM BST
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1044 - Method Number        : 15
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamBrowsingManager.getExams
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1047 - Method Return Value  : [1.1 HB, 1.1 HB (Procedure 3), 1.2 WBC Count, 1.3 Differential , 1.4 Film Comment, 1.5 ESR, 1.6 Sickling Test, 2.1 Grouping, 2.2 Comb's Test, 3.1 Blood Slide (Malaria), 3.2 Blood Slide (OTHERS, E.G. TRIUPHANOSOMIAS, MICRIFILARIA, LEISHMANIA, BORRELIA), 3.21 Trypanosomiasis, 3.22 MICROFILARIA, 3.23 LEISHMANIA, 3.24 BORRELIA, 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY, 3.5 TISSUE MICROSCOPY, 3.6 CSF WET PREP, 4.1 CULTURE AND SENSITIVITY (C&S) FOR HAEMOPHILUS INFUENZA TYPE B, 4.2 C&S FOR SALMONELA TYPHI, 4.3 C&S FOR VIBRO CHOLERA, 4.4 C&S FOR SHIGELLA DYSENTERIAE, 4.5 C&S FOR NEISSERIA MENINGITIDES, 4.6 OTHER C&S , 5.1 WET PREP, 5.2 GRAM STAIN, 5.3 INDIA INK, 5.4 LEISMANIA, 5.5 ZN, 5.6 WAYSON, 5.7 PAP SMEAR, 6.1 VDRL/RPR, 6.2 TPHA, 6.3 HIV, 6.4 HEPATITIS, 6.5 OTHERS E.G BRUCELLA, RHEUMATOID FACTOR, WEIL FELIX, 6.6 PREGANCY TEST, 7.1 PROTEIN, 7.2 SUGAR, 7.3 LFTS, 7.3.1 BILIRUBIN TOTAL, 7.3.2 BILIRUBIN DIRECT, 7.3.3 GOT, 7.3.4 ALT/GPT, 7.4 RFTS, 7.4.1 CREATININA, 7.4.2 UREA, 8.1 OCCULT BLOOD, 9.1 URINALYSIS]
+27/05/2024 06:34:40 PM BST INFO  ExamBrowsingManager:1280 - The Method: getExams DOES NOT have any Parameters
+27/05/2024 06:34:40 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:34:40 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:34:40 PM BST
+27/05/2024 06:34:40 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:34:40 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:34:40 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:34:40 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:34:40 PM BST INFO  LabManager:1044 - Method Number        : 16
+27/05/2024 06:34:40 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getLaboratory
+27/05/2024 06:34:40 PM BST INFO  LabManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:34:40 PM BST INFO  LabManager:1047 - Method Return Value  : [-------------------------------------------
+Laboratory{code=56, material=blood, exam=6.3 HIV, registrationDate=2024-05-27T18:31:05, examDate=2024-05-24, result=POSITIVE, lock=2, note=, patient=John Smith, patName=John Smith, InOutPatient=O, age=40, sex=M, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=62, material=undefined, exam=7.4.1 CREATININA, registrationDate=2024-05-26T23:55, examDate=2024-05-26, result=< 1.4 (NORMAL), lock=0, note=null, patient=Olivia Levine, patName=Olivia Levine, InOutPatient=O, age=45, sex=F, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=57, material=urine, exam=3.4 URINE MICROSCOPY, registrationDate=2024-05-26T23:41:55, examDate=2024-05-21, result=NEGATIVE, lock=1, note=, patient=Mary Brown, patName=Mary Brown, InOutPatient=I, age=20, sex=F, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=61, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-26T21:01, examDate=2024-05-26, result=< 1.4 (NORMAL), lock=0, note=null, patient=Jeremias Rodriguez, patName=Jeremias Rodriguez, InOutPatient=O, age=50, sex=M, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=59, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-22T22:01, examDate=2024-05-22, result=> 2.5, lock=0, note=null, patient=Jane Huston, patName=Jane Huston, InOutPatient=O, age=50, sex=F, hashCode=0}
+---------------------------------------------]
+27/05/2024 06:34:40 PM BST INFO  LabManager:1280 - The Method: getLaboratory DOES NOT have any Parameters
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 27/05/2024 06:35:10 PM BST
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 17
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.getCurrentAdmission
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : 
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : 
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Parameter Name       : patient
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Parameter Type       : org.isf.patient.model.Patient
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:999 - The Parameter Name: patient has the following Attributes:
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 1
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : code
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.Integer
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 159
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 2
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : firstName
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Guadalupe
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 3
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : secondName
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Valdez
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 4
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : name
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Guadalupe Valdez
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 5
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : birthDate
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.time.LocalDate
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 2004-05-11
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 6
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : age
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 20
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 7
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : agetype
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 8
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : sex
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : M
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 9
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : address
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Tulips 312
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 10
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : city
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : London, United Kingdom
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 11
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : nextKin
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 1
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 12
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : telephone
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : +39123456
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 13
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : note
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 14
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : motherName
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 15
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : mother
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : D
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 16
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : fatherName
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 17
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : father
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : D
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 18
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : bloodType
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0+
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 19
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : hasInsurance
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Y
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 20
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : parentTogether
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : N
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 21
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : taxCode
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 123
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 22
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : maritalStatus
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : single
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 23
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : profession
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : foodhospitality
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 24
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : deleted
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : N
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 25
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : lock
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 3
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 26
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : hashCode
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:35:10 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:35:10 PM BST
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 18
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Single
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : maritalKey
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : single
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:35:10 PM BST
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 19
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Food/Hospitality
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : professionKey
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:35:10 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : foodhospitality
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:35:54 PM BST
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1044 - Method Number        : 20
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamBrowsingManager.getExamType
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1047 - Method Return Value  : [1.Haematology, 2.Blood transfusion, 3.Parasitology, 4.Bacteriology, 5.Microscopy, 6.Serology, 7.Chemistry, 8.Occult Blood, OTHER]
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1280 - The Method: getExamType DOES NOT have any Parameters
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:35:54 PM BST
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1044 - Method Number        : 21
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamBrowsingManager.getExams
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1047 - Method Return Value  : [1.1 HB, 1.1 HB (Procedure 3), 1.2 WBC Count, 1.3 Differential , 1.4 Film Comment, 1.5 ESR, 1.6 Sickling Test, 2.1 Grouping, 2.2 Comb's Test, 3.1 Blood Slide (Malaria), 3.2 Blood Slide (OTHERS, E.G. TRIUPHANOSOMIAS, MICRIFILARIA, LEISHMANIA, BORRELIA), 3.21 Trypanosomiasis, 3.22 MICROFILARIA, 3.23 LEISHMANIA, 3.24 BORRELIA, 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY, 3.5 TISSUE MICROSCOPY, 3.6 CSF WET PREP, 4.1 CULTURE AND SENSITIVITY (C&S) FOR HAEMOPHILUS INFUENZA TYPE B, 4.2 C&S FOR SALMONELA TYPHI, 4.3 C&S FOR VIBRO CHOLERA, 4.4 C&S FOR SHIGELLA DYSENTERIAE, 4.5 C&S FOR NEISSERIA MENINGITIDES, 4.6 OTHER C&S , 5.1 WET PREP, 5.2 GRAM STAIN, 5.3 INDIA INK, 5.4 LEISMANIA, 5.5 ZN, 5.6 WAYSON, 5.7 PAP SMEAR, 6.1 VDRL/RPR, 6.2 TPHA, 6.3 HIV, 6.4 HEPATITIS, 6.5 OTHERS E.G BRUCELLA, RHEUMATOID FACTOR, WEIL FELIX, 6.6 PREGANCY TEST, 7.1 PROTEIN, 7.2 SUGAR, 7.3 LFTS, 7.3.1 BILIRUBIN TOTAL, 7.3.2 BILIRUBIN DIRECT, 7.3.3 GOT, 7.3.4 ALT/GPT, 7.4 RFTS, 7.4.1 CREATININA, 7.4.2 UREA, 8.1 OCCULT BLOOD, 9.1 URINALYSIS]
+27/05/2024 06:35:54 PM BST INFO  ExamBrowsingManager:1280 - The Method: getExams DOES NOT have any Parameters
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:36:47 PM BST
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1044 - Method Number        : 22
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamBrowsingManager.updateExam
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1046 - Method Return Type   : java.lang.Boolean
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1047 - Method Return Value  : true
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1079 - Parameter Number     : 1
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - Parameter Name       : exam
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - Parameter Type       : org.isf.exa.model.Exam
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:999 - The Parameter Name: exam has the following Attributes:
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1067 - Attribute Number     : 1
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - Attribute Name       : code
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1122 - Attribute Value      : 07.04.1
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1067 - Attribute Number     : 2
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - Attribute Name       : description
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1122 - Attribute Value      : 7.4.1 CREATININA
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1067 - Attribute Number     : 3
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - Attribute Name       : procedure
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - Attribute Type       : java.lang.Integer
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1122 - Attribute Value      : 1
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1067 - Attribute Number     : 4
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - Attribute Name       : defaultResult
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1122 - Attribute Value      : < 1.3 (NORMAL)
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1067 - Attribute Number     : 5
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - Attribute Name       : examtype
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - Attribute Type       : org.isf.exatype.model.ExamType
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:644 - The Attribute Name: examtype has the followings Sub-Attributes:
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1074 - SubAttribute Number     : 1
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - SubAttribute Name       : code
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1122 - SubAttribute Value      : CH
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1074 - SubAttribute Number     : 2
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - SubAttribute Name       : description
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1122 - SubAttribute Value      : 7.Chemistry
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1074 - SubAttribute Number     : 3
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - SubAttribute Name       : hashCode
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - SubAttribute Type       : int
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1122 - SubAttribute Value      : 0
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1067 - Attribute Number     : 6
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - Attribute Name       : lock
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - Attribute Type       : java.lang.Integer
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1122 - Attribute Value      : 3
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1067 - Attribute Number     : 7
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1081 - Attribute Name       : hashCode
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1082 - Attribute Type       : int
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1122 - Attribute Value      : 0
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:36:47 PM BST
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1044 - Method Number        : 23
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamBrowsingManager.getExams
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1047 - Method Return Value  : [1.1 HB, 1.1 HB (Procedure 3), 1.2 WBC Count, 1.3 Differential , 1.4 Film Comment, 1.5 ESR, 1.6 Sickling Test, 2.1 Grouping, 2.2 Comb's Test, 3.1 Blood Slide (Malaria), 3.2 Blood Slide (OTHERS, E.G. TRIUPHANOSOMIAS, MICRIFILARIA, LEISHMANIA, BORRELIA), 3.21 Trypanosomiasis, 3.22 MICROFILARIA, 3.23 LEISHMANIA, 3.24 BORRELIA, 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY, 3.5 TISSUE MICROSCOPY, 3.6 CSF WET PREP, 4.1 CULTURE AND SENSITIVITY (C&S) FOR HAEMOPHILUS INFUENZA TYPE B, 4.2 C&S FOR SALMONELA TYPHI, 4.3 C&S FOR VIBRO CHOLERA, 4.4 C&S FOR SHIGELLA DYSENTERIAE, 4.5 C&S FOR NEISSERIA MENINGITIDES, 4.6 OTHER C&S , 5.1 WET PREP, 5.2 GRAM STAIN, 5.3 INDIA INK, 5.4 LEISMANIA, 5.5 ZN, 5.6 WAYSON, 5.7 PAP SMEAR, 6.1 VDRL/RPR, 6.2 TPHA, 6.3 HIV, 6.4 HEPATITIS, 6.5 OTHERS E.G BRUCELLA, RHEUMATOID FACTOR, WEIL FELIX, 6.6 PREGANCY TEST, 7.1 PROTEIN, 7.2 SUGAR, 7.3 LFTS, 7.3.1 BILIRUBIN TOTAL, 7.3.2 BILIRUBIN DIRECT, 7.3.3 GOT, 7.3.4 ALT/GPT, 7.4 RFTS, 7.4.1 CREATININA, 7.4.2 UREA, 8.1 OCCULT BLOOD, 9.1 URINALYSIS]
+27/05/2024 06:36:47 PM BST INFO  ExamBrowsingManager:1280 - The Method: getExams DOES NOT have any Parameters
+27/05/2024 06:37:52 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:41:01 PM BST
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [admin, dhill, doctor, guest, mlewis, ptaylor, sysadmin]
+27/05/2024 06:41:01 PM BST INFO  UserBrowsingManager:1280 - The Method: getUser DOES NOT have any Parameters
+27/05/2024 06:41:08 PM BST INFO  MainMenu:87 - Logging: "dhill" user has logged into the system.
+27/05/2024 06:41:08 PM BST INFO  Login:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:41:08 PM BST INFO  Login:1036 - OS Current Time      : 27/05/2024 06:41:08 PM BST
+27/05/2024 06:41:08 PM BST INFO  Login:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:41:08 PM BST INFO  Login:1040 - OS Hostname          : f7.local
+27/05/2024 06:41:08 PM BST INFO  Login:1042 - OS UserName          : f7
+27/05/2024 06:41:08 PM BST INFO  Login:1043 - Annotation Type      : Method
+27/05/2024 06:41:08 PM BST INFO  Login:1044 - Method Number        : 2
+27/05/2024 06:41:08 PM BST INFO  Login:1045 - Method Name          : org.isf.menu.gui.Login.acceptPwd
+27/05/2024 06:41:08 PM BST INFO  Login:1046 - Method Return Type   : void
+27/05/2024 06:41:08 PM BST INFO  Login:1047 - Method Return Value  : 
+27/05/2024 06:41:08 PM BST INFO  Login:1280 - The Method: acceptPwd DOES NOT have any Parameters
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:41:08 PM BST
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 3
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [Cashier's Filter, Edit Patient, New Patient, Users, New, New Bill, New, Admission Type, Types, New, New, Pharmaceuticals, OPD Chart, Examination, Edit, Edit, Discharge Type, Edit Patient, Pharmaceutical Stock, Examination, Charge, Examination, Edit, Exams List, Edit, Examination, Hospital, New Bill, OPD, Edit, Bill Manager, Rectify, Groups, Merge, Operation, Ward, Delete, Delete, Admission/Patient, Delivery Type, Disease List, Delete, Delete, Report, Edit Bill, Operation, Discharge, Delete patient, Pharmaceutical Stock Ward, Delete, Admission Chart, Delivery Result Type, Excel, Data, Disease, Laboratory, Operation List, Launch Report , Edit Closed Bills, Malnutrition control, Delete Bill, Admission, Exams, Pharmacy, Bill, Disease Type, DICOM Patient, Exam Type, Operation, Vaccines, OPD, Report, Therapy, Accounting, Clinical sheet, Medicals Stock Mov Type, Receipt, Vaccine, Price Lists, Medicals Type, Worksheet, Operation Type, Supplier, Statistics, Pregnant Treatment, Reports, SMS Manager, Users & Groups, Communication, Other Prices, Settings, Age Type, Help, Vaccine Type, DICOM Type]
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : aUser
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.User
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:999 - The Parameter Name: aUser has the following Attributes:
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 1
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userName
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : dhill
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 2
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userGroupName
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : org.isf.menu.model.UserGroup
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:644 - The Attribute Name: userGroupName has the followings Sub-Attributes:
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : physician
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 2
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : desc
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : User with some privileges
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 3
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : hashCode
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : int
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : 0
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 3
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : passwd
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : $2a$10$DyQdr86U0idzxOFfx1N96OKus/wSzg5VH.rIpfOAKQOZPe2j0fBTm
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 4
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : desc
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : Physician of the Clinic
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 5
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : hashCode
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : int
+27/05/2024 06:41:08 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : 0
+27/05/2024 06:41:17 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+27/05/2024 06:41:17 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+27/05/2024 06:41:18 PM BST WARN  Webcam:964 - No webcam has been detected!
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:43:00 PM BST
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1044 - Method Number        : 4
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamBrowsingManager.getExams
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1047 - Method Return Value  : [1.1 HB, 1.1 HB (Procedure 3), 1.2 WBC Count, 1.3 Differential , 1.4 Film Comment, 1.5 ESR, 1.6 Sickling Test, 2.1 Grouping, 2.2 Comb's Test, 3.1 Blood Slide (Malaria), 3.2 Blood Slide (OTHERS, E.G. TRIUPHANOSOMIAS, MICRIFILARIA, LEISHMANIA, BORRELIA), 3.21 Trypanosomiasis, 3.22 MICROFILARIA, 3.23 LEISHMANIA, 3.24 BORRELIA, 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY, 3.5 TISSUE MICROSCOPY, 3.6 CSF WET PREP, 4.1 CULTURE AND SENSITIVITY (C&S) FOR HAEMOPHILUS INFUENZA TYPE B, 4.2 C&S FOR SALMONELA TYPHI, 4.3 C&S FOR VIBRO CHOLERA, 4.4 C&S FOR SHIGELLA DYSENTERIAE, 4.5 C&S FOR NEISSERIA MENINGITIDES, 4.6 OTHER C&S , 5.1 WET PREP, 5.2 GRAM STAIN, 5.3 INDIA INK, 5.4 LEISMANIA, 5.5 ZN, 5.6 WAYSON, 5.7 PAP SMEAR, 6.1 VDRL/RPR, 6.2 TPHA, 6.3 HIV, 6.4 HEPATITIS, 6.5 OTHERS E.G BRUCELLA, RHEUMATOID FACTOR, WEIL FELIX, 6.6 PREGANCY TEST, 7.1 PROTEIN, 7.2 SUGAR, 7.3 LFTS, 7.3.1 BILIRUBIN TOTAL, 7.3.2 BILIRUBIN DIRECT, 7.3.3 GOT, 7.3.4 ALT/GPT, 7.4 RFTS, 7.4.1 CREATININA, 7.4.2 UREA, 8.1 OCCULT BLOOD, 9.1 URINALYSIS]
+27/05/2024 06:43:00 PM BST INFO  ExamBrowsingManager:1280 - The Method: getExams DOES NOT have any Parameters
+27/05/2024 06:43:00 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:00 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:43:00 PM BST
+27/05/2024 06:43:00 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:00 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:00 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:43:00 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:00 PM BST INFO  LabManager:1044 - Method Number        : 5
+27/05/2024 06:43:00 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getLaboratory
+27/05/2024 06:43:00 PM BST INFO  LabManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:43:00 PM BST INFO  LabManager:1047 - Method Return Value  : [-------------------------------------------
+Laboratory{code=56, material=blood, exam=6.3 HIV, registrationDate=2024-05-27T18:31:05, examDate=2024-05-24, result=POSITIVE, lock=2, note=, patient=John Smith, patName=John Smith, InOutPatient=O, age=40, sex=M, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=62, material=undefined, exam=7.4.1 CREATININA, registrationDate=2024-05-26T23:55, examDate=2024-05-26, result=< 1.4 (NORMAL), lock=0, note=null, patient=Olivia Levine, patName=Olivia Levine, InOutPatient=O, age=45, sex=F, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=61, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-26T21:01, examDate=2024-05-26, result=< 1.4 (NORMAL), lock=0, note=null, patient=Jeremias Rodriguez, patName=Jeremias Rodriguez, InOutPatient=O, age=50, sex=M, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=59, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-22T22:01, examDate=2024-05-22, result=> 2.5, lock=0, note=null, patient=Jane Huston, patName=Jane Huston, InOutPatient=O, age=50, sex=F, hashCode=0}
+---------------------------------------------]
+27/05/2024 06:43:00 PM BST INFO  LabManager:1280 - The Method: getLaboratory DOES NOT have any Parameters
+27/05/2024 06:43:02 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:02 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:43:02 PM BST
+27/05/2024 06:43:02 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:02 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:02 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:43:02 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:02 PM BST INFO  LabManager:1044 - Method Number        : 6
+27/05/2024 06:43:02 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getMaterialList
+27/05/2024 06:43:02 PM BST INFO  LabManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:43:02 PM BST INFO  LabManager:1047 - Method Return Value  : [Undefined, Blood, CFS, Film, Sputum, Stool, Swabs, Tissues, Urine]
+27/05/2024 06:43:02 PM BST INFO  LabManager:1280 - The Method: getMaterialList DOES NOT have any Parameters
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:43:02 PM BST
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1044 - Method Number        : 7
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamBrowsingManager.getExams
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1047 - Method Return Value  : [1.1 HB, 1.1 HB (Procedure 3), 1.2 WBC Count, 1.3 Differential , 1.4 Film Comment, 1.5 ESR, 1.6 Sickling Test, 2.1 Grouping, 2.2 Comb's Test, 3.1 Blood Slide (Malaria), 3.2 Blood Slide (OTHERS, E.G. TRIUPHANOSOMIAS, MICRIFILARIA, LEISHMANIA, BORRELIA), 3.21 Trypanosomiasis, 3.22 MICROFILARIA, 3.23 LEISHMANIA, 3.24 BORRELIA, 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY, 3.5 TISSUE MICROSCOPY, 3.6 CSF WET PREP, 4.1 CULTURE AND SENSITIVITY (C&S) FOR HAEMOPHILUS INFUENZA TYPE B, 4.2 C&S FOR SALMONELA TYPHI, 4.3 C&S FOR VIBRO CHOLERA, 4.4 C&S FOR SHIGELLA DYSENTERIAE, 4.5 C&S FOR NEISSERIA MENINGITIDES, 4.6 OTHER C&S , 5.1 WET PREP, 5.2 GRAM STAIN, 5.3 INDIA INK, 5.4 LEISMANIA, 5.5 ZN, 5.6 WAYSON, 5.7 PAP SMEAR, 6.1 VDRL/RPR, 6.2 TPHA, 6.3 HIV, 6.4 HEPATITIS, 6.5 OTHERS E.G BRUCELLA, RHEUMATOID FACTOR, WEIL FELIX, 6.6 PREGANCY TEST, 7.1 PROTEIN, 7.2 SUGAR, 7.3 LFTS, 7.3.1 BILIRUBIN TOTAL, 7.3.2 BILIRUBIN DIRECT, 7.3.3 GOT, 7.3.4 ALT/GPT, 7.4 RFTS, 7.4.1 CREATININA, 7.4.2 UREA, 8.1 OCCULT BLOOD, 9.1 URINALYSIS]
+27/05/2024 06:43:02 PM BST INFO  ExamBrowsingManager:1280 - The Method: getExams DOES NOT have any Parameters
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:43:06 PM BST
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 8
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : [Javier Velasco, Michael Harrison, Gemma Cassidy, Chloe Raven, Olivia Levine, Rose Thompson, Charlotte Walker, Amelia White, Daisy Hill, William Allen, Everardo Martinez, Janet Thompson, John Smith, Janet Perez, Alan Tucker, Jane Huston, Ana Sanchez, Valentina Guzman Perez, Jeremias Rodriguez, Enrique Velazquez, Mary Brown, Guadalupe Valdez, Jane Smith, Patricia Gutierrez Perez, Miguel Perez Leon]
+27/05/2024 06:43:06 PM BST INFO  PatientBrowserManager:1280 - The Method: getPatientsByOneOfFieldsLike DOES NOT have any Parameters
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:43:10 PM BST
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 9
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientById
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : org.isf.patient.model.Patient
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Chloe Raven
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : code
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : 183
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:43:10 PM BST
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 10
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Single
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : maritalKey
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : single
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:43:10 PM BST
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 11
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Engineering
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : professionKey
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:10 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : engineering
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:43:12 PM BST
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 12
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientById
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : org.isf.patient.model.Patient
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Olivia Levine
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : code
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : 182
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:43:12 PM BST
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 13
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Married
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : maritalKey
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:12 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : married
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 27/05/2024 06:43:13 PM BST
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 14
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.getCurrentAdmission
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : 
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : 
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Parameter Name       : patient
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Parameter Type       : org.isf.patient.model.Patient
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:999 - The Parameter Name: patient has the following Attributes:
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 1
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : code
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.Integer
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 182
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 2
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : firstName
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Olivia
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 3
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : secondName
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Levine
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 4
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : name
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Olivia Levine
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 5
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : birthDate
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.time.LocalDate
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 1979-05-26
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 6
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : age
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 45
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 7
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : agetype
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 8
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : sex
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : F
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 9
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : address
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 35 Green Street
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 10
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : city
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Boston, Massachussets, United States
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 11
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : nextKin
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 123
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 12
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : telephone
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : +39
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 13
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : note
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 14
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : motherName
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 15
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : mother
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : D
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 16
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : fatherName
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 17
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : father
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : D
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 18
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : bloodType
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : A+
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 19
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : hasInsurance
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Y
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 20
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : parentTogether
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : N
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 21
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : taxCode
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 123
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 22
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : maritalStatus
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : married
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 23
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : profession
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : unknown
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 24
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : deleted
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : N
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 25
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : lock
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 26
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : hashCode
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:43:13 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0
+27/05/2024 06:43:23 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:23 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:43:23 PM BST
+27/05/2024 06:43:23 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:23 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:23 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:43:23 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:23 PM BST INFO  LabManager:1044 - Method Number        : 15
+27/05/2024 06:43:23 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getMaterialKey
+27/05/2024 06:43:23 PM BST INFO  LabManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:43:23 PM BST INFO  LabManager:1047 - Method Return Value  : undefined
+27/05/2024 06:43:23 PM BST INFO  LabManager:1280 - The Method: getMaterialKey DOES NOT have any Parameters
+27/05/2024 06:43:23 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:23 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:43:23 PM BST
+27/05/2024 06:43:23 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:23 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:23 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:43:23 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:23 PM BST INFO  LabManager:1044 - Method Number        : 16
+27/05/2024 06:43:23 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getMaterialTranslated
+27/05/2024 06:43:23 PM BST INFO  LabManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:43:23 PM BST INFO  LabManager:1047 - Method Return Value  : Undefined
+27/05/2024 06:43:23 PM BST INFO  LabManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:23 PM BST INFO  LabManager:1081 - Parameter Name       : materialKey
+27/05/2024 06:43:23 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:23 PM BST INFO  LabManager:1122 - Parameter Value      : undefined
+27/05/2024 06:43:23 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:23 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:43:23 PM BST
+27/05/2024 06:43:23 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:23 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:23 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:43:23 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:23 PM BST INFO  LabManager:1044 - Method Number        : 17
+27/05/2024 06:43:23 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getMaterialKey
+27/05/2024 06:43:23 PM BST INFO  LabManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:43:23 PM BST INFO  LabManager:1047 - Method Return Value  : undefined
+27/05/2024 06:43:23 PM BST INFO  LabManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:23 PM BST INFO  LabManager:1081 - Parameter Name       : description
+27/05/2024 06:43:23 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:23 PM BST INFO  LabManager:1122 - Parameter Value      : Undefined
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:43:23 PM BST
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1044 - Method Number        : 18
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1045 - Method Name          : org.isf.exa.manager.ExamRowBrowsingManager.getExamRowByExamCode
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1047 - Method Return Value  : [1.4 - 2.5, < 1.4 (NORMAL), > 2.5]
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1081 - Parameter Name       : aExamCode
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:23 PM BST INFO  ExamRowBrowsingManager:1122 - Parameter Value      : 07.04.1
+27/05/2024 06:43:40 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:40 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:43:40 PM BST
+27/05/2024 06:43:40 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:40 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:40 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:43:40 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:40 PM BST INFO  LabManager:1044 - Method Number        : 19
+27/05/2024 06:43:40 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getMaterialKey
+27/05/2024 06:43:40 PM BST INFO  LabManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:43:40 PM BST INFO  LabManager:1047 - Method Return Value  : blood
+27/05/2024 06:43:40 PM BST INFO  LabManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:40 PM BST INFO  LabManager:1081 - Parameter Name       : description
+27/05/2024 06:43:40 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:40 PM BST INFO  LabManager:1122 - Parameter Value      : Blood
+27/05/2024 06:43:43 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:43 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:43:43 PM BST
+27/05/2024 06:43:43 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:43 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:43 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:43:43 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:43 PM BST INFO  LabManager:1044 - Method Number        : 20
+27/05/2024 06:43:43 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.newLaboratory2
+27/05/2024 06:43:43 PM BST INFO  LabManager:1046 - Method Return Type   : java.lang.Boolean
+27/05/2024 06:43:43 PM BST INFO  LabManager:1047 - Method Return Value  : true
+27/05/2024 06:43:43 PM BST INFO  LabManager:1079 - Parameter Number     : 1
+27/05/2024 06:43:43 PM BST INFO  LabManager:1081 - Parameter Name       : labList
+27/05/2024 06:43:43 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:43 PM BST INFO  LabManager:1122 - Parameter Value      : [-------------------------------------------
+Laboratory{code=63, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-27T18:43, examDate=2024-05-27, result=< 1.3 (NORMAL), lock=0, note=null, patient=Olivia Levine, patName=Olivia Levine, InOutPatient=O, age=45, sex=F, hashCode=0}
+---------------------------------------------]
+27/05/2024 06:43:43 PM BST INFO  LabManager:1079 - Parameter Number     : 2
+27/05/2024 06:43:43 PM BST INFO  LabManager:1081 - Parameter Name       : labRowList
+27/05/2024 06:43:43 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:43:43 PM BST INFO  LabManager:1122 - Parameter Value      : [[]]
+27/05/2024 06:43:43 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:43:43 PM BST INFO  LabManager:1036 - OS Current Time      : 27/05/2024 06:43:43 PM BST
+27/05/2024 06:43:43 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:43:43 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:43:43 PM BST INFO  LabManager:1042 - OS UserName          : f7
+27/05/2024 06:43:43 PM BST INFO  LabManager:1043 - Annotation Type      : Method
+27/05/2024 06:43:43 PM BST INFO  LabManager:1044 - Method Number        : 21
+27/05/2024 06:43:43 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.getLaboratory
+27/05/2024 06:43:43 PM BST INFO  LabManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:43:43 PM BST INFO  LabManager:1047 - Method Return Value  : [-------------------------------------------
+Laboratory{code=63, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-27T18:43, examDate=2024-05-27, result=< 1.3 (NORMAL), lock=0, note=null, patient=Olivia Levine, patName=Olivia Levine, InOutPatient=O, age=45, sex=F, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=56, material=blood, exam=6.3 HIV, registrationDate=2024-05-27T18:31:05, examDate=2024-05-24, result=POSITIVE, lock=2, note=, patient=John Smith, patName=John Smith, InOutPatient=O, age=40, sex=M, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=62, material=undefined, exam=7.4.1 CREATININA, registrationDate=2024-05-26T23:55, examDate=2024-05-26, result=< 1.4 (NORMAL), lock=0, note=null, patient=Olivia Levine, patName=Olivia Levine, InOutPatient=O, age=45, sex=F, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=61, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-26T21:01, examDate=2024-05-26, result=< 1.4 (NORMAL), lock=0, note=null, patient=Jeremias Rodriguez, patName=Jeremias Rodriguez, InOutPatient=O, age=50, sex=M, hashCode=0}
+---------------------------------------------, -------------------------------------------
+Laboratory{code=59, material=blood, exam=7.4.1 CREATININA, registrationDate=2024-05-22T22:01, examDate=2024-05-22, result=> 2.5, lock=0, note=null, patient=Jane Huston, patName=Jane Huston, InOutPatient=O, age=50, sex=F, hashCode=0}
+---------------------------------------------]
+27/05/2024 06:43:43 PM BST INFO  LabManager:1280 - The Method: getLaboratory DOES NOT have any Parameters
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:44:05 PM BST
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 22
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : [Javier Velasco, Michael Harrison, Gemma Cassidy, Chloe Raven, Olivia Levine, Rose Thompson, Charlotte Walker, Amelia White, Daisy Hill, William Allen, Everardo Martinez, Janet Thompson, John Smith, Janet Perez, Alan Tucker, Jane Huston, Ana Sanchez, Valentina Guzman Perez, Jeremias Rodriguez, Enrique Velazquez, Mary Brown, Guadalupe Valdez, Jane Smith, Patricia Gutierrez Perez, Miguel Perez Leon]
+27/05/2024 06:44:05 PM BST INFO  PatientBrowserManager:1280 - The Method: getPatientsByOneOfFieldsLike DOES NOT have any Parameters
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:44:06 PM BST
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 23
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientById
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : org.isf.patient.model.Patient
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Valentina Guzman Perez
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : code
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : 163
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:44:06 PM BST
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 24
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Single
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : maritalKey
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : single
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:44:06 PM BST
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 25
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Engineering
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : professionKey
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:44:06 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : engineering
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:44:42 PM BST
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 26
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : [Javier Velasco, Michael Harrison, Gemma Cassidy, Chloe Raven, Olivia Levine, Rose Thompson, Charlotte Walker, Amelia White, Daisy Hill, William Allen, Everardo Martinez, Janet Thompson, John Smith, Janet Perez, Alan Tucker, Jane Huston, Ana Sanchez, Valentina Guzman Perez, Jeremias Rodriguez, Enrique Velazquez, Mary Brown, Guadalupe Valdez, Jane Smith, Patricia Gutierrez Perez, Miguel Perez Leon]
+27/05/2024 06:44:42 PM BST INFO  PatientBrowserManager:1280 - The Method: getPatientsByOneOfFieldsLike DOES NOT have any Parameters
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:44:46 PM BST
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 27
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientById
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : org.isf.patient.model.Patient
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Rose Thompson
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : code
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : 180
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:44:46 PM BST
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 28
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Married
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : maritalKey
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : married
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:44:46 PM BST
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 29
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Medicine
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : professionKey
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:44:46 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : medicine
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:45:02 PM BST
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 30
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getPatientById
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : org.isf.patient.model.Patient
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Rose Thompson
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : code
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:45:02 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : 180
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 27/05/2024 06:45:23 PM BST
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 31
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.getCurrentAdmission
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : org.isf.admission.model.Admission
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : org.isf.admission.model.Admission@c83
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Parameter Name       : patient
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Parameter Type       : org.isf.patient.model.Patient
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:999 - The Parameter Name: patient has the following Attributes:
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 1
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : code
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.Integer
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 137
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 2
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : firstName
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Miguel
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 3
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : secondName
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Perez Leon
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 4
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : name
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Miguel Perez Leon
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 5
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : birthDate
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.time.LocalDate
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 1968-06-10
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 6
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : age
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 55
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 7
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : agetype
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 8
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : sex
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : M
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 9
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : address
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 44 Gardenia Street
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 10
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : city
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : London, United Kingdom
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 11
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : nextKin
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 123
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 12
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : telephone
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : +39123456
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 13
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : note
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 14
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : motherName
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Maria
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 15
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : mother
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : A
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 16
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : fatherName
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Pedro
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 17
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : father
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : A
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 18
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : bloodType
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0+
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 19
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : hasInsurance
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Y
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 20
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : parentTogether
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Y
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 21
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : taxCode
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 123
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 22
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : maritalStatus
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : married
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 23
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : profession
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : construction
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 24
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : deleted
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : N
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 25
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : lock
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 26
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : hashCode
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 27/05/2024 06:45:23 PM BST
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 32
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.getCurrentAdmission
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : org.isf.admission.model.Admission
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : org.isf.admission.model.Admission@c83
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Parameter Name       : patient
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Parameter Type       : org.isf.patient.model.Patient
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:999 - The Parameter Name: patient has the following Attributes:
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 1
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : code
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.Integer
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 137
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 2
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : firstName
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Miguel
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 3
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : secondName
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Perez Leon
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 4
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : name
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Miguel Perez Leon
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 5
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : birthDate
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.time.LocalDate
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 1968-06-10
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 6
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : age
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 55
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 7
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : agetype
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 8
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : sex
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : M
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 9
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : address
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 44 Gardenia Street
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 10
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : city
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : London, United Kingdom
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 11
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : nextKin
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 123
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 12
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : telephone
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : +39123456
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 13
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : note
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 14
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : motherName
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Maria
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 15
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : mother
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : A
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 16
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : fatherName
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Pedro
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 17
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : father
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : A
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 18
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : bloodType
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0+
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 19
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : hasInsurance
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Y
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 20
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : parentTogether
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : char
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : Y
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 21
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : taxCode
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 123
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 22
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : maritalStatus
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : married
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 23
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : profession
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : construction
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 24
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : deleted
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : N
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 25
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : lock
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1067 - Attribute Number     : 26
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1081 - Attribute Name       : hashCode
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+27/05/2024 06:45:23 PM BST INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:45:23 PM BST
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 33
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Married
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : maritalKey
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : married
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 27/05/2024 06:45:23 PM BST
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 34
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Construction
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : professionKey
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : java.lang.String
+27/05/2024 06:45:23 PM BST INFO  PatientBrowserManager:1122 - Parameter Value      : construction
+27/05/2024 06:45:48 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:48:52 PM BST
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [admin, dhill, doctor, guest, mlewis, ptaylor, sysadmin]
+27/05/2024 06:48:52 PM BST INFO  UserBrowsingManager:1280 - The Method: getUser DOES NOT have any Parameters
+27/05/2024 06:49:04 PM BST INFO  MainMenu:87 - Logging: "mlewis" user has logged into the system.
+27/05/2024 06:49:04 PM BST INFO  Login:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:49:04 PM BST INFO  Login:1036 - OS Current Time      : 27/05/2024 06:49:04 PM BST
+27/05/2024 06:49:04 PM BST INFO  Login:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:49:04 PM BST INFO  Login:1040 - OS Hostname          : f7.local
+27/05/2024 06:49:04 PM BST INFO  Login:1042 - OS UserName          : f7
+27/05/2024 06:49:04 PM BST INFO  Login:1043 - Annotation Type      : Method
+27/05/2024 06:49:04 PM BST INFO  Login:1044 - Method Number        : 2
+27/05/2024 06:49:04 PM BST INFO  Login:1045 - Method Name          : org.isf.menu.gui.Login.acceptPwd
+27/05/2024 06:49:04 PM BST INFO  Login:1046 - Method Return Type   : void
+27/05/2024 06:49:04 PM BST INFO  Login:1047 - Method Return Value  : 
+27/05/2024 06:49:04 PM BST INFO  Login:1280 - The Method: acceptPwd DOES NOT have any Parameters
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:49:04 PM BST
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 3
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [New, Users, New Bill, Edit Patient, Cashier's Filter, Types, Admission Type, New, New, Pharmaceuticals, New, New Patient, Bill Manager, Edit, OPD Chart, Rectify, Examination, Edit Patient, Discharge Type, Exams List, Hospital, Edit, Pharmaceutical Stock, Examination, Edit, Edit, OPD, Examination, Groups, Edit, Examination, Charge, New Bill, Delete, Pharmaceutical Stock Ward, Disease List, Delivery Type, Delete, Delete, Delete, Operation, Merge, Report, Delete patient, Operation, Delete, Ward, Discharge, Edit Bill, Admission Chart, Admission/Patient, Edit Closed Bills, Excel, Launch Report , Disease, Delivery Result Type, Data, Laboratory, Malnutrition control, Operation List, Pharmacy, Disease Type, Admission, DICOM Patient, Exams, Delete Bill, Bill, Operation, Report, Exam Type, OPD, Vaccines, Therapy, Clinical sheet, Accounting, Receipt, Medicals Stock Mov Type, Vaccine, Worksheet, Price Lists, Medicals Type, Supplier, Operation Type, Statistics, SMS Manager, Pregnant Treatment, Reports, Communication, Users & Groups, Other Prices, Settings, Age Type, Vaccine Type, Help, DICOM Type]
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : aUser
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.User
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:999 - The Parameter Name: aUser has the following Attributes:
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 1
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userName
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : mlewis
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 2
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userGroupName
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : org.isf.menu.model.UserGroup
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:644 - The Attribute Name: userGroupName has the followings Sub-Attributes:
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : admin
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 2
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : desc
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : User with all the privileges
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 3
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : hashCode
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : int
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : 0
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 3
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : passwd
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : $2a$10$yOIDGjprsYERru/i/6EcNOX31euH/uCMLbJfDvaSYPjMvpslz1pWG
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 4
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : desc
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : System Administrator
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 5
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : hashCode
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : int
+27/05/2024 06:49:04 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : 0
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:50:03 PM BST
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 4
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [admin, dhill, doctor, guest, mlewis, ptaylor, sysadmin]
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1280 - The Method: getUser DOES NOT have any Parameters
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:50:03 PM BST
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 5
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUserGroup
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [admin, guest, physician]
+27/05/2024 06:50:03 PM BST INFO  UserBrowsingManager:1280 - The Method: getUserGroup DOES NOT have any Parameters
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:50:09 PM BST
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 6
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.deleteUser
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.lang.Boolean
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : true
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : user
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.User
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:999 - The Parameter Name: user has the following Attributes:
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 1
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userName
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : dhill
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 2
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userGroupName
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : org.isf.menu.model.UserGroup
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:644 - The Attribute Name: userGroupName has the followings Sub-Attributes:
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : physician
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 2
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : desc
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : User with some privileges
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 3
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : hashCode
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : int
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : 0
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 3
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : passwd
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : $2a$10$DyQdr86U0idzxOFfx1N96OKus/wSzg5VH.rIpfOAKQOZPe2j0fBTm
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 4
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : desc
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : Physician of the Clinic
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 5
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : hashCode
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : int
+27/05/2024 06:50:09 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : 0
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:50:49 PM BST
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 7
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [admin, doctor, guest, mlewis, ptaylor, sysadmin]
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1280 - The Method: getUser DOES NOT have any Parameters
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 27/05/2024 06:50:49 PM BST
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 8
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUserGroup
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [admin, guest, physician]
+27/05/2024 06:50:49 PM BST INFO  UserBrowsingManager:1280 - The Method: getUserGroup DOES NOT have any Parameters
+27/05/2024 06:51:40 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+27/05/2024 06:51:40 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+27/05/2024 06:51:41 PM BST WARN  Webcam:964 - No webcam has been detected!
+27/05/2024 06:52:51 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+

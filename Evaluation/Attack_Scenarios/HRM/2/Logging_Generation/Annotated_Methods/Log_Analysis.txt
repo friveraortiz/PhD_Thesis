@@ -1,0 +1,9 @@
+Methods:
+
+1.- call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 1 occurrence2.- call(void controller.EmployeeController.save(..))|| => 3 ocurrences3.- call(void model.EmployeeDatabase.save(..)); => 1 ocurrence.
+
+Annotations:
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Admin,UserLevel,=,Admin;
+Method,2,controller.EmployeeController.save,controller.EmployeeController,save,Method = controller.EmployeeController.save,Method,=,controller.EmployeeController.save;
+Parameter,3,model.EmployeeDatabase.save,model.EmployeeDatabase,save,employee.supervisor = Arthur Jones,supervisor,=,Arthur Jones;
+1.- The model.UserLevel model.UserDatabase.getUserLevel method is included in the security log 1 time. This time corresponds when during the attack scenario the System Administrator connected to the HRM software system.2.- The controller.EmployeeController.save is included 3 times in the security log. These times corresponds when during the attack scenario an employee was modified and he had as a manager Arthur Jones. Other times corresponds when two different employees were modified and they had as a manager Ana Maria Perez. This is correct because we indicated to include this method in the log to know the details of the employee such as Employee Id and Employee Name that were modified.3.- The model.EmployeeDatabase.save method is included in the security log: 1 time. This is the moment when during the attack scenario the security incident really happened an employee has as a manager Arthur Jones has been modified and we recorded the evidence.

@@ -1,0 +1,912 @@
+17/05/2024 07:15:57 PM BST INFO  Login:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:15:57 PM BST INFO  Login:1036 - OS Current Time      : 17/05/2024 07:15:57 PM BST
+17/05/2024 07:15:57 PM BST INFO  Login:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:15:57 PM BST INFO  Login:1040 - OS Hostname          : f7.local
+17/05/2024 07:15:57 PM BST INFO  Login:1042 - OS UserName          : f7
+17/05/2024 07:15:57 PM BST INFO  Login:1043 - Annotation Type      : Method
+17/05/2024 07:15:57 PM BST INFO  Login:1044 - Method Number        : 1
+17/05/2024 07:15:57 PM BST INFO  Login:1045 - Method Name          : org.isf.menu.gui.Login.acceptPwd
+17/05/2024 07:15:57 PM BST INFO  Login:1046 - Method Return Type   : void
+17/05/2024 07:15:57 PM BST INFO  Login:1047 - Method Return Value  : 
+17/05/2024 07:15:57 PM BST INFO  Login:1272 - The Method: acceptPwd DOES NOT have any Parameters
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 17/05/2024 07:15:57 PM BST
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 2
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [Edit Patient, New Patient, Users, New, New Bill, New, Admission Type, Types, New, New, Pharmaceuticals, Cashier's Filter, OPD Chart, Examination, Edit, Edit, Edit Patient, Discharge Type, Pharmaceutical Stock, Examination, Charge, Examination, Edit, Exams List, Examination, Edit, Hospital, New Bill, OPD, Edit, Rectify, Bill Manager, Groups, Delete, Admission/Patient, Delete, Delivery Type, Disease List, Delete, Delete, Report, Edit Bill, Operation, Discharge, Delete patient, Pharmaceutical Stock Ward, Delete, Admission Chart, Operation, Merge, Ward, Excel, Data, Disease, Laboratory, Operation List, Launch Report , Edit Closed Bills, Malnutrition control, Delivery Result Type, Delete Bill, Admission, Exams, Pharmacy, Bill, Disease Type, DICOM Patient, Exam Type, Operation, Vaccines, OPD, Report, Therapy, Accounting, Clinical sheet, Medicals Stock Mov Type, Receipt, Vaccine, Price Lists, Medicals Type, Worksheet, Operation Type, Supplier, Statistics, Pregnant Treatment, Reports, SMS Manager, Users & Groups, Communication, Other Prices, Age Type, Settings, Help, Vaccine Type, DICOM Type]
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : aUser
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.User
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:999 - The Parameter Name: aUser has the following Attributes:
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 1
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userName
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : ptaylor
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 2
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userGroupName
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : org.isf.menu.model.UserGroup
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:644 - The Attribute Name: userGroupName has the followings Sub-Attributes:
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : physician
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 2
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : desc
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : User with some privileges
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 3
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : hashCode
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : int
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : 0
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 3
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : passwd
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : $2a$10$RKJj90GFrOsFusdHWGF9qOX13.11TR8vOBJci5PePnQpq/HK5474e
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 4
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : desc
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : Physician of the Clinic
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 5
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : hashCode
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : int
+17/05/2024 07:15:57 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : 0
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1036 - OS Current Time      : 17/05/2024 07:16:07 PM BST
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1043 - Annotation Type      : Method
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1044 - Method Number        : 3
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1045 - Method Name          : org.isf.medicals.manager.MedicalBrowsingManager.getMedicals
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1047 - Method Return Value  : [4 Dimethyl Aminobenzaldelyde, Acetazolamide 250mg Tab, Acetic Acid Glacial 1 ltr, Aceton 99% 1ltr, Aciclovir, Acyclovir 200mg Tab, Adhesive Tape 2.5cm x 5m, Adhesive Tape 7.5cm x 5m, Adrenaline 1mg/ml 1ml Amp, Air ring set 43x15cm, rubber with pump, Airway Guedel Size 0, Airway Guedel Size 00, Airway Guedel Size 1, Airway Guedel Size 2, Airway Guedel Size 3, Albendazole 200mg Tab, Albendazole 400mg Tab, Alcohol 95% not denatured 20Ltrs, Aminophylline 100mg Tab, Aminophylline 25mg/ml,10ml Amp, Amitriptyline 25mg Tab, Ammonium Oxalate, Amoxicillin /Clavulanate 375mg Tab, Amoxicillin 125mg/5ml Powd. Susp 100ml, Amoxicillin 250mg Caps, Amphotericin B 50mg Vial, Ampicillin 500mg Vial, Anti Serum A 10ml, Anti Serum AB 10ml, Anti Serum B 10ml, Anti Serum D 10ml, Antihaemorrhoid suppositories, Apron Plastic Re-usable, Apron Plastic Re-usable local, Apron Polythene Disp Non Sterile, Ascorbic Acid 100mg tab, Aspirin 300mg Tab, Atenolol 100mg Tab, Atenolol 50mg Tab, Atropine 1mg/ml 1ml Amp, Barium Sulphate for X-Ray 1kg, Beclomethasone 50mcg Inhaler, Bedpan Plastic Autoclavable, Bedpan Stainless Steel, Bendrofluazide 5mg Tab, Benzathine Penicillin 2.4 MIU Vial, Benzhexol 2mg Tab, Benzhexol 5mg Tab, Benzyl Penicillin 1 MIU Vial, Benzyl Penicillin 5 MIU Vial, Betamethasone 0.1% eye/ear/nose drops, Betamethasone 0.1% Neomycin 0.35 %eye drops 7.5ml, Bisacodyl 5mg Tab, Blood giving set Disposable, Blood Transfer Bag 300ml, Body Bag 70 x 215cm  (Adult), Bowl Without Lid 10 x 24cm stainless steel, Bowl Without Lid 7 x 12cm stainless steel, Bowl Without Lid 8 x 16cm stainless steel, Brilliant Cresyl Blue, Calcium Lactate 300mg Tab, Carbamazepine 200mg Tab, Carbimazole 5mg Tab, Catheter Foley CH10 3 Way Balloon, Catheter Foley CH12 3 Way Balloon, Catheter Foley CH14 3 Way Balloon, Catheter Foley CH16 3 Way Balloon, Catheter Foley CH18 3 Way Balloon, Catheter Foley CH20 3 Way Balloon, Catheter Foley CH8 3 Way Balloon, Catheter Stopper for All sizes, Charcoal 250mg Tab, Chloramphenicol 0.5% Eye Drops 10ml, Chloramphenicol 125mg/5ml Susp 100ml, Chloramphenicol 125mg/5ml Susp 3Ltr, Chloramphenicol 1g Vial, Chloramphenicol 250mg Caps, Chlorhexidine/Cetrimide 1.5/15% 1Ltr, Chlorhexidine/Cetrimide 1.5/15% 5Ltr, Chloroquine 40mg Base/ml 5ml Amp, Chloroquine Coated 150mg Tab, Chloroquine Uncoated 150mg Tab, Chlorphenimine 4mg Tab, Chlorpromazine 100mg Tab, Chlorpromazine 25mg Tab, Chlorpromazine 25mg/ml/2ml Amp, Cimetidine 200mg Tab, Cimetidine 400mg Tab, Ciprofloxacine 250mg Tab, Ciprofloxacine 500mg Tab, Cloramphenicol 1% Eye Ointment 3.5g, Clotrimazole 100mg Pessaries, Clotrimazole 500mg Pessaries, Cloxacillin 250mg Tab, Cloxacillin 500mg Vial, Codein Phosphate 30mg Tab, Colostomy Bag closed 30mm size 2, Colostomy Bag closed 30mm size 3, Colostomy Bag open re-usable 35mm, Copper 11 Sulphate 500g, Cotrimoxazole 100/20mg Paed Tab, Cotrimoxazole 200+40mg/5ml Susp 100ml, Cotrimoxazole 200+40mg/5ml Susp 3Ltr, Cotrimoxazole 400/80mg Tab, Cotton Wool 200G, cotton Wool 500G, Creatinine 200ml (Calorimetric), Crystal Violet, Cyclophosphamide 200mg Vial, Cyclophosphamide 500mg Vial, Darrows Half Strength 500ml, Dexamethasone 0.5mg Tab, Dexamethasone 4mg/ml 1ml Amp, Dexamethasone 4mg/ml 2ml Amp, Dextrose 30% IV 100ml, Dextrose 5% IV 500ml, Dextrose 50% IV 100ml, Dextrose Monohydrate Apyrogen 25Kg, Diatrizoate Meglumin Sod 76% 20ml Amp, Diazepam 2mg/ml 2.5ml Rectal Tube, Diazepam 5mg / ml 2ml Amp, Diazepam 5mg Tab, Diclofenac 25mg/ml 3ml Amp, Diclofenac 50mg Tab, Diethylcarbamazine 50mg Tab, Digoxin 0.25 mg Tab, Digoxin 0.25 mg/ml 2ml Amp, Doxycycline 100mg Tab, Ear syringe rubber 60ml, EDTA Di- sodium salt 100g, Elastic Bandage 10cm x 4.5m, Elastic Bandage 7.5cm x 4.5m, Eosin Yellowish, Ephedrine 30mg Tab, Erythromycin 250mg Tab, Ethanol Absolute 1ltr, Eye Pad Sterile, Fansidar 500/25mg Tab, Fansidar 500/25mg Tab (50dosesx3), Ferrous Sulphate 200mg Tab, Field stain A and B, First Aid kit, Fluconazole 100mg 24 Caps, Fluconazole 100mg Tab, Folic Acid 15mg Tab, Folic Acid 1mg Tab, Folic Acid 5mg Tab, Folic Acid/Ferrous Sulp 0.5/200mg Tab, Formaldehyde solution 35-38% 1ltr, Frusemide 40mg Tab, Furosemide 10mg/ml 2ml Amp, Gallipot stainless steel 200ml/10cm, Gallipot stainless steel 300ml/15cm, Gauze Bandage 10cm x 4m, Gauze Bandage 7.5cm x 3.65-4m, Gauze Hydrophylic 90cm x 91cm, Gauze Pads  Sterile 10cm x 10cm, Gauze Pads Non Sterile 10cm x 10cm, Genitian Violet, Gentamicin 0.3% eye/ear drops 10ml, Gentamicin 40mg/ml 2ml, Gentian Violet 25g Tin, Giemsa Stain, Glibenclamide 5mg Tab, Gloves Domestic, Gloves Gynaecological 7.5-8, Gloves High risk non sterile Medium, Gloves Non Sterile Large Disposable, Gloves Non Sterile Medium Disposable, Gloves Surgical Sterile 6, Gloves Surgical Sterile 6.5, Gloves Surgical Sterile 7, Gloves Surgical Sterile 7.5, Gloves Surgical Sterile 8, Gloves Surgical Sterile 8.5, Glucose GOD PAD  6 x 100ml (Colorimetric), Glucose Test Strip, Glucose Test Strips (Hyloguard), GOT ( AST) 200ml (Calorimetric) AS 147, GOT ( AST) 200ml has no NAOH) AS 101, GPT (ALT) 200ml ( Does not have NAOH), Griseofulvin 500mg Tab, Haloperidol 5mg, Haloperidol 5mg Tab, Haloperidol 5mg/ml 1ml Amp, Haloperidol Decanoate 50mg/ml 1ml Amp, Handle for surgical blade No 3, Handle for surgical blade No 4, HIV 1/2 Capillus Kit 100Tests, HIV Buffer for determine Kit, HIV Determine 1/11 (Abbott) 100Tests, HIV UNIGOLD 1/11 Test Kits 20 Tests, Hot water Bottle 2Ltr, Hydralazine 20mg Vial, Hydralazine 25mg Tab, Hydrochloric Acid 30-33% 1ltr, Hydrocortisone 1% eye drops 5ml, Hydrocortisone 100mg Vial, Hydrogen Peroxide 6% 250ml, Hyoscine 10mg Tab, Hyoscine Butyl Bromide 20mg/ml/ Amp, Ibuprofen 200mg Tab, Imipramine 25mg Tab, Indomethacin 25mg Tab, Insectcide Spray 400g, Instrument Box With Lid 20x10x5cm, Instrument Tray 30 x 20 x 2cm, Insulin Isophane 100IU/ml 10ml Vial, Insulin Isophane 40IU/ml 10ml, Insulin Mixtard 30/70 100IU/ml 10ml Vial, Insulin Mixtard 30/70 100IU/ml 5x3ml catridges, Insulin Soluble 100IU/ml 10ml Vial, Insulin Syringe 100IU with Needle G26/29, Iodine Crystal 100g, Iodine Solution 2% 500ml, Iron Dextran 10mg/ml 2ml Vial, Irrigation can with accessories, Isoniazid 300mg Tab, IV Cannula G16 with Port, IV Cannula G18 with Port, IV Cannula G20 with Port, IV Cannula G22 with Port, IV Cannula G24 with Port, IV Cannula G24 without Port, IV Giving set Disposable, Ketamine 10mg/ml 10ml Vial, Ketamine 10mg/ml 20ml Vial, Ketoconazole 200mg Tab, Kidney Dish Polypropylene 24cm, Kidney Dish stainless Steel 20cm, Kidney Dish stainless Steel 24cm, Lead Apron 100cmx60cm, Lignocaine 2% 20ml Vial, Lignocaine 2% Adrenaline Dent.cartridges, Lignocaine spinal 50mg/ml 2ml Amp, Liquid detergent 20Ltr, liquid detergent 5Ltr Perfumed, Mackintosh Plastic (Apron) per 1m, Mackintosh Rubber Brown (sheeting) per 1m, Measuring Cup Graduated 25ml, Methanol 99% 1ltr, Methylergomeatrine 0.2mg/ml 1ml Amp, Methylergomeatrine 0.5mg/ml 1ml Amp, Metoclopramide 5mg/ml 100ml Amp, Metronidazole 5mg/ml 2ml IV, Morphine 15mg/ml 1ml Amp, Mosquito Net Impregnated Large, Mosquito Net Impregnated Medium, Mosquito Net Impregnation Liquid 500ml, Mosquito Net Impregnation Tablet, Mosquito Net Non Impregnated Large, Mosquito Net Non Impregnated Medium, Mosquito Wall spray Powder 80g, Nasogastric Tube G10 (Children), Nasogastric Tube G14 (Children), Nasogastric Tube G16 (Children), Nasogastric Tube G5 (Children), Nasogastric Tube G6 (Children), Nasogastric Tube G8 (Children), Neck Support Large, Neck Support Medium, Neck Support Small, Needle container disposable of contaminated, Needle suture No 5 cutting, Needle suture No 5 round, Needle suture No 6 Round, Needles Luer G20 Disposable, Needles Luer G21 Disposable, Needles Luer G22 Disposable, Needles Luer G23 Disposable, Needles Spinal G20x75-120mm, Needles Spinal G22x40mm, Needles Spinal G22x75-120mm, Needles Spinal G25x75-120mm, Neutral Red, Non 111 Chloride (Ferric chloride), Nystatin 100.000 IU Pessaries, Nystatin 500.000IU/ Susp/ Drops, Oral Rehydration Salt (ORS), Oxytocin 10 IU/ml 1ml Amp, Paracetamol 120mg/5ml 100ml, Paracetamol 120mg/5ml Syrup, Pethidine 100mg/ml 2ml Amp, Pethidine 50mg/ml 1ml Amp, Phenobarbital 100mg/ml 2ml Amp, Phenol crystals 1kg, Phytomenadione 10mg/ml 1ml Amp, Phytomenadione 1mg/ml 1ml Amp, Plaster of Paris 10cm, Plaster of Paris 15cm, Potassium iodide 100g, Potassium Oxalate, Pregnacy ( HGG Latex) 50 tests, Procaine Penicillin Fortified 4 MIU Vial, Promethazine 25mg/ml 2ml Amp, Pyridoxine 50mg Tab, Quinine 100mg/5ml Syrup 100ml, Quinine 300mg Tab, Quinine Di-HCI 300mg/ml 2ml Amp, Ranitidine 150mg Tab, Ranitidine 25mg/ml 2ml Amp, Razor Blades Disposable 5pc, Rectal Tube CH24, Rectal Tube CH26, Rifampicin/Isoniazid 150/100 Tab, RPR ( VDRL Carbon ) Antigen 5ml, RPR 125mm x 75mm, Salbutamol 4mg Tab, Salbutamol Inhaler 10ml, Salbutamol solution for inhalation 5ml, Scalp Vein G19 Infusion set, Scalp Vein G21 Infusion set, Scalp Vein G23 Infusion set, Scalp Vein G25 Infusion set, Soap Blue Bar 550g, Soap Powder Hand wash 5kg, Sodium Carbonate Anhydrous, Sodium Carbonate Anhydrous 500g, Sodium Chloride 0.9% IV 500ml, Sodium Chloride Apyrogen 50kg, Sodium Citrate 100g, Sodium Fluoride, Sodium Hypochlorite solution 0.75 Ltr, Sodium Hypochlorite solution 5Ltr, Sodium Lactate Compound IV 500ml, Sodium Nitrate 25g, Sodium Sulphate 500g, Spironolactone 25mg Tab, Spoon Medicine 5ml, Stethoscope Foetal Metal, Stethoscope Foetal Wood, Streptomycin 1g Vial, Suction Catheter Size 10 Disposable, Suction Catheter Size 12 Disposable, Suction Catheter Size 14 Disposable, Suction Catheter Size 16 Disposable, Suction Catheter Size 6 Disposable, Suction Catheter Size 8 Disposable, Sulphosalicylic Acid 500g, Sulphuric Acid Conc 1ltr, Surgical Blades No 20, Surgical Blades No 21, Surgical Blades No 22, Surgical Blades No 23, Surgical Brush (Scrubbing), Surgical Mop 12 x 15, Suture Cutgut Chromic (0), Suture Cutgut Chromic (2) RN22240TH, Suture Cutgut Chromic (2/0) RN22230TH, Suture Cutgut Chromic (3/0) RN2325TF, Suture Cutgut Plain (2/0) RN1230TF, Suture PGA (3/0) RN3330TF, Suture Silk (1) S595, Suture Silk (2/0) RN5230TF, Suxamethonium 500mg Vial, Suxamethonium 500mg/ml 2ml Amp, Syringe Feeding/Irrigation 50/60ml, Syringe Luer 10ml With Needle Disposable, Syringe Luer 20ml With Needle Disposable, Syringe Luer 2ml With Needle Disposable, Syringe Luer 5ml With Needle Disposable, Tablet Counting Tray, tetanus Antitoxin 1500 IU 1ml Amp, Tetracycline eye ointment 1% 3.5g, Thermometer Clinical Flat Type, Thermometer Clinical Prismatic Type, Thiopental Sodium 500mg Vial, Toilet Paper Rolls, Tolbutamide 500mg tab, Tongue depressor Disposable, Traction Kit Adult, Traction Kit Children, Trichloro acetic Acid, Trisodium Citrate, Umbilical Cord Tie non sterile 100m, Umbilical Cord Tie sterile 22m, UREA Calorimetric 300 Tests, Urinal 1Ltr / 2Ltr, Urine Collecting Bag sterile 2Ltr, Urine Test Strips 3 Parameters 100 tests, Vitamin A 200.000 IU Caps, Vitamin B Complex Tab, Water for Injection 10ml Vial, X-Ray Developer 2.6kg for 22.5Ltr, X-Ray Film 18x24cm, X-Ray Film 20x40cm, X-Ray Film 24x30cm, X-Ray Film 30x40cm, X-Ray Film 35x35cm, X-Ray Film 43x35cm, X-Ray Film Cassette  18x24cm with screen, X-Ray Film Cassette  24x30cm with screen, X-Ray Film Cassette  30x40cm with screen, X-Ray Film Cassette  35x35cm with screen, X-Ray Film Cassette  35x43cm with screen, X-Ray Fixer 3.3kg for 22.5 Ltr, Xylene 2.5 ltrs, Medicine for a rare seasonal virus]
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1079 - Parameter Number     : 2
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1081 - Parameter Name       : nameSorted
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:16:07 PM BST INFO  MedicalBrowsingManager:1122 - Parameter Value      : false
+17/05/2024 07:17:01 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:17:01 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 17/05/2024 07:17:01 PM BST
+17/05/2024 07:17:01 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:17:01 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:17:01 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:17:01 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:17:01 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 4
+17/05/2024 07:17:01 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients
+17/05/2024 07:17:01 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:17:01 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : [org.isf.admission.model.AdmittedPatient@3c0b8d02, org.isf.admission.model.AdmittedPatient@12794d2, org.isf.admission.model.AdmittedPatient@6f655642, org.isf.admission.model.AdmittedPatient@6a606f6b, org.isf.admission.model.AdmittedPatient@ae39cb8, org.isf.admission.model.AdmittedPatient@375f0832, org.isf.admission.model.AdmittedPatient@72cd8fdd, org.isf.admission.model.AdmittedPatient@1bbfbdd8, org.isf.admission.model.AdmittedPatient@d2ff44b, org.isf.admission.model.AdmittedPatient@427e7344, org.isf.admission.model.AdmittedPatient@5c53afb1, org.isf.admission.model.AdmittedPatient@3a64989e, org.isf.admission.model.AdmittedPatient@489bae35, org.isf.admission.model.AdmittedPatient@79ce0031, org.isf.admission.model.AdmittedPatient@38a1069e, org.isf.admission.model.AdmittedPatient@269fc97c, org.isf.admission.model.AdmittedPatient@3360319c]
+17/05/2024 07:17:02 PM BST INFO  AdmissionBrowserManager:1272 - The Method: getAdmittedPatients DOES NOT have any Parameters
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:17:02 PM BST
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1044 - Method Number        : 5
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:17:02 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:17:04 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+17/05/2024 07:17:04 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+17/05/2024 07:17:05 PM BST WARN  Webcam:964 - No webcam has been detected!
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1036 - OS Current Time      : 17/05/2024 07:19:05 PM BST
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1043 - Annotation Type      : Method
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1044 - Method Number        : 6
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1045 - Method Name          : org.isf.medicals.manager.MedicalBrowsingManager.getMedicals
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1047 - Method Return Value  : [4 Dimethyl Aminobenzaldelyde, Acetazolamide 250mg Tab, Acetic Acid Glacial 1 ltr, Aceton 99% 1ltr, Aciclovir, Acyclovir 200mg Tab, Adhesive Tape 2.5cm x 5m, Adhesive Tape 7.5cm x 5m, Adrenaline 1mg/ml 1ml Amp, Air ring set 43x15cm, rubber with pump, Airway Guedel Size 0, Airway Guedel Size 00, Airway Guedel Size 1, Airway Guedel Size 2, Airway Guedel Size 3, Albendazole 200mg Tab, Albendazole 400mg Tab, Alcohol 95% not denatured 20Ltrs, Aminophylline 100mg Tab, Aminophylline 25mg/ml,10ml Amp, Amitriptyline 25mg Tab, Ammonium Oxalate, Amoxicillin /Clavulanate 375mg Tab, Amoxicillin 125mg/5ml Powd. Susp 100ml, Amoxicillin 250mg Caps, Amphotericin B 50mg Vial, Ampicillin 500mg Vial, Anti Serum A 10ml, Anti Serum AB 10ml, Anti Serum B 10ml, Anti Serum D 10ml, Antihaemorrhoid suppositories, Apron Plastic Re-usable, Apron Plastic Re-usable local, Apron Polythene Disp Non Sterile, Ascorbic Acid 100mg tab, Aspirin 300mg Tab, Atenolol 100mg Tab, Atenolol 50mg Tab, Atropine 1mg/ml 1ml Amp, Barium Sulphate for X-Ray 1kg, Beclomethasone 50mcg Inhaler, Bedpan Plastic Autoclavable, Bedpan Stainless Steel, Bendrofluazide 5mg Tab, Benzathine Penicillin 2.4 MIU Vial, Benzhexol 2mg Tab, Benzhexol 5mg Tab, Benzyl Penicillin 1 MIU Vial, Benzyl Penicillin 5 MIU Vial, Betamethasone 0.1% eye/ear/nose drops, Betamethasone 0.1% Neomycin 0.35 %eye drops 7.5ml, Bisacodyl 5mg Tab, Blood giving set Disposable, Blood Transfer Bag 300ml, Body Bag 70 x 215cm  (Adult), Bowl Without Lid 10 x 24cm stainless steel, Bowl Without Lid 7 x 12cm stainless steel, Bowl Without Lid 8 x 16cm stainless steel, Brilliant Cresyl Blue, Calcium Lactate 300mg Tab, Carbamazepine 200mg Tab, Carbimazole 5mg Tab, Catheter Foley CH10 3 Way Balloon, Catheter Foley CH12 3 Way Balloon, Catheter Foley CH14 3 Way Balloon, Catheter Foley CH16 3 Way Balloon, Catheter Foley CH18 3 Way Balloon, Catheter Foley CH20 3 Way Balloon, Catheter Foley CH8 3 Way Balloon, Catheter Stopper for All sizes, Charcoal 250mg Tab, Chloramphenicol 0.5% Eye Drops 10ml, Chloramphenicol 125mg/5ml Susp 100ml, Chloramphenicol 125mg/5ml Susp 3Ltr, Chloramphenicol 1g Vial, Chloramphenicol 250mg Caps, Chlorhexidine/Cetrimide 1.5/15% 1Ltr, Chlorhexidine/Cetrimide 1.5/15% 5Ltr, Chloroquine 40mg Base/ml 5ml Amp, Chloroquine Coated 150mg Tab, Chloroquine Uncoated 150mg Tab, Chlorphenimine 4mg Tab, Chlorpromazine 100mg Tab, Chlorpromazine 25mg Tab, Chlorpromazine 25mg/ml/2ml Amp, Cimetidine 200mg Tab, Cimetidine 400mg Tab, Ciprofloxacine 250mg Tab, Ciprofloxacine 500mg Tab, Cloramphenicol 1% Eye Ointment 3.5g, Clotrimazole 100mg Pessaries, Clotrimazole 500mg Pessaries, Cloxacillin 250mg Tab, Cloxacillin 500mg Vial, Codein Phosphate 30mg Tab, Colostomy Bag closed 30mm size 2, Colostomy Bag closed 30mm size 3, Colostomy Bag open re-usable 35mm, Copper 11 Sulphate 500g, Cotrimoxazole 100/20mg Paed Tab, Cotrimoxazole 200+40mg/5ml Susp 100ml, Cotrimoxazole 200+40mg/5ml Susp 3Ltr, Cotrimoxazole 400/80mg Tab, Cotton Wool 200G, cotton Wool 500G, Creatinine 200ml (Calorimetric), Crystal Violet, Cyclophosphamide 200mg Vial, Cyclophosphamide 500mg Vial, Darrows Half Strength 500ml, Dexamethasone 0.5mg Tab, Dexamethasone 4mg/ml 1ml Amp, Dexamethasone 4mg/ml 2ml Amp, Dextrose 30% IV 100ml, Dextrose 5% IV 500ml, Dextrose 50% IV 100ml, Dextrose Monohydrate Apyrogen 25Kg, Diatrizoate Meglumin Sod 76% 20ml Amp, Diazepam 2mg/ml 2.5ml Rectal Tube, Diazepam 5mg / ml 2ml Amp, Diazepam 5mg Tab, Diclofenac 25mg/ml 3ml Amp, Diclofenac 50mg Tab, Diethylcarbamazine 50mg Tab, Digoxin 0.25 mg Tab, Digoxin 0.25 mg/ml 2ml Amp, Doxycycline 100mg Tab, Ear syringe rubber 60ml, EDTA Di- sodium salt 100g, Elastic Bandage 10cm x 4.5m, Elastic Bandage 7.5cm x 4.5m, Eosin Yellowish, Ephedrine 30mg Tab, Erythromycin 250mg Tab, Ethanol Absolute 1ltr, Eye Pad Sterile, Fansidar 500/25mg Tab, Fansidar 500/25mg Tab (50dosesx3), Ferrous Sulphate 200mg Tab, Field stain A and B, First Aid kit, Fluconazole 100mg 24 Caps, Fluconazole 100mg Tab, Folic Acid 15mg Tab, Folic Acid 1mg Tab, Folic Acid 5mg Tab, Folic Acid/Ferrous Sulp 0.5/200mg Tab, Formaldehyde solution 35-38% 1ltr, Frusemide 40mg Tab, Furosemide 10mg/ml 2ml Amp, Gallipot stainless steel 200ml/10cm, Gallipot stainless steel 300ml/15cm, Gauze Bandage 10cm x 4m, Gauze Bandage 7.5cm x 3.65-4m, Gauze Hydrophylic 90cm x 91cm, Gauze Pads  Sterile 10cm x 10cm, Gauze Pads Non Sterile 10cm x 10cm, Genitian Violet, Gentamicin 0.3% eye/ear drops 10ml, Gentamicin 40mg/ml 2ml, Gentian Violet 25g Tin, Giemsa Stain, Glibenclamide 5mg Tab, Gloves Domestic, Gloves Gynaecological 7.5-8, Gloves High risk non sterile Medium, Gloves Non Sterile Large Disposable, Gloves Non Sterile Medium Disposable, Gloves Surgical Sterile 6, Gloves Surgical Sterile 6.5, Gloves Surgical Sterile 7, Gloves Surgical Sterile 7.5, Gloves Surgical Sterile 8, Gloves Surgical Sterile 8.5, Glucose GOD PAD  6 x 100ml (Colorimetric), Glucose Test Strip, Glucose Test Strips (Hyloguard), GOT ( AST) 200ml (Calorimetric) AS 147, GOT ( AST) 200ml has no NAOH) AS 101, GPT (ALT) 200ml ( Does not have NAOH), Griseofulvin 500mg Tab, Haloperidol 5mg, Haloperidol 5mg Tab, Haloperidol 5mg/ml 1ml Amp, Haloperidol Decanoate 50mg/ml 1ml Amp, Handle for surgical blade No 3, Handle for surgical blade No 4, HIV 1/2 Capillus Kit 100Tests, HIV Buffer for determine Kit, HIV Determine 1/11 (Abbott) 100Tests, HIV UNIGOLD 1/11 Test Kits 20 Tests, Hot water Bottle 2Ltr, Hydralazine 20mg Vial, Hydralazine 25mg Tab, Hydrochloric Acid 30-33% 1ltr, Hydrocortisone 1% eye drops 5ml, Hydrocortisone 100mg Vial, Hydrogen Peroxide 6% 250ml, Hyoscine 10mg Tab, Hyoscine Butyl Bromide 20mg/ml/ Amp, Ibuprofen 200mg Tab, Imipramine 25mg Tab, Indomethacin 25mg Tab, Insectcide Spray 400g, Instrument Box With Lid 20x10x5cm, Instrument Tray 30 x 20 x 2cm, Insulin Isophane 100IU/ml 10ml Vial, Insulin Isophane 40IU/ml 10ml, Insulin Mixtard 30/70 100IU/ml 10ml Vial, Insulin Mixtard 30/70 100IU/ml 5x3ml catridges, Insulin Soluble 100IU/ml 10ml Vial, Insulin Syringe 100IU with Needle G26/29, Iodine Crystal 100g, Iodine Solution 2% 500ml, Iron Dextran 10mg/ml 2ml Vial, Irrigation can with accessories, Isoniazid 300mg Tab, IV Cannula G16 with Port, IV Cannula G18 with Port, IV Cannula G20 with Port, IV Cannula G22 with Port, IV Cannula G24 with Port, IV Cannula G24 without Port, IV Giving set Disposable, Ketamine 10mg/ml 10ml Vial, Ketamine 10mg/ml 20ml Vial, Ketoconazole 200mg Tab, Kidney Dish Polypropylene 24cm, Kidney Dish stainless Steel 20cm, Kidney Dish stainless Steel 24cm, Lead Apron 100cmx60cm, Lignocaine 2% 20ml Vial, Lignocaine 2% Adrenaline Dent.cartridges, Lignocaine spinal 50mg/ml 2ml Amp, Liquid detergent 20Ltr, liquid detergent 5Ltr Perfumed, Mackintosh Plastic (Apron) per 1m, Mackintosh Rubber Brown (sheeting) per 1m, Measuring Cup Graduated 25ml, Methanol 99% 1ltr, Methylergomeatrine 0.2mg/ml 1ml Amp, Methylergomeatrine 0.5mg/ml 1ml Amp, Metoclopramide 5mg/ml 100ml Amp, Metronidazole 5mg/ml 2ml IV, Morphine 15mg/ml 1ml Amp, Mosquito Net Impregnated Large, Mosquito Net Impregnated Medium, Mosquito Net Impregnation Liquid 500ml, Mosquito Net Impregnation Tablet, Mosquito Net Non Impregnated Large, Mosquito Net Non Impregnated Medium, Mosquito Wall spray Powder 80g, Nasogastric Tube G10 (Children), Nasogastric Tube G14 (Children), Nasogastric Tube G16 (Children), Nasogastric Tube G5 (Children), Nasogastric Tube G6 (Children), Nasogastric Tube G8 (Children), Neck Support Large, Neck Support Medium, Neck Support Small, Needle container disposable of contaminated, Needle suture No 5 cutting, Needle suture No 5 round, Needle suture No 6 Round, Needles Luer G20 Disposable, Needles Luer G21 Disposable, Needles Luer G22 Disposable, Needles Luer G23 Disposable, Needles Spinal G20x75-120mm, Needles Spinal G22x40mm, Needles Spinal G22x75-120mm, Needles Spinal G25x75-120mm, Neutral Red, Non 111 Chloride (Ferric chloride), Nystatin 100.000 IU Pessaries, Nystatin 500.000IU/ Susp/ Drops, Oral Rehydration Salt (ORS), Oxytocin 10 IU/ml 1ml Amp, Paracetamol 120mg/5ml 100ml, Paracetamol 120mg/5ml Syrup, Pethidine 100mg/ml 2ml Amp, Pethidine 50mg/ml 1ml Amp, Phenobarbital 100mg/ml 2ml Amp, Phenol crystals 1kg, Phytomenadione 10mg/ml 1ml Amp, Phytomenadione 1mg/ml 1ml Amp, Plaster of Paris 10cm, Plaster of Paris 15cm, Potassium iodide 100g, Potassium Oxalate, Pregnacy ( HGG Latex) 50 tests, Procaine Penicillin Fortified 4 MIU Vial, Promethazine 25mg/ml 2ml Amp, Pyridoxine 50mg Tab, Quinine 100mg/5ml Syrup 100ml, Quinine 300mg Tab, Quinine Di-HCI 300mg/ml 2ml Amp, Ranitidine 150mg Tab, Ranitidine 25mg/ml 2ml Amp, Razor Blades Disposable 5pc, Rectal Tube CH24, Rectal Tube CH26, Rifampicin/Isoniazid 150/100 Tab, RPR ( VDRL Carbon ) Antigen 5ml, RPR 125mm x 75mm, Salbutamol 4mg Tab, Salbutamol Inhaler 10ml, Salbutamol solution for inhalation 5ml, Scalp Vein G19 Infusion set, Scalp Vein G21 Infusion set, Scalp Vein G23 Infusion set, Scalp Vein G25 Infusion set, Soap Blue Bar 550g, Soap Powder Hand wash 5kg, Sodium Carbonate Anhydrous, Sodium Carbonate Anhydrous 500g, Sodium Chloride 0.9% IV 500ml, Sodium Chloride Apyrogen 50kg, Sodium Citrate 100g, Sodium Fluoride, Sodium Hypochlorite solution 0.75 Ltr, Sodium Hypochlorite solution 5Ltr, Sodium Lactate Compound IV 500ml, Sodium Nitrate 25g, Sodium Sulphate 500g, Spironolactone 25mg Tab, Spoon Medicine 5ml, Stethoscope Foetal Metal, Stethoscope Foetal Wood, Streptomycin 1g Vial, Suction Catheter Size 10 Disposable, Suction Catheter Size 12 Disposable, Suction Catheter Size 14 Disposable, Suction Catheter Size 16 Disposable, Suction Catheter Size 6 Disposable, Suction Catheter Size 8 Disposable, Sulphosalicylic Acid 500g, Sulphuric Acid Conc 1ltr, Surgical Blades No 20, Surgical Blades No 21, Surgical Blades No 22, Surgical Blades No 23, Surgical Brush (Scrubbing), Surgical Mop 12 x 15, Suture Cutgut Chromic (0), Suture Cutgut Chromic (2) RN22240TH, Suture Cutgut Chromic (2/0) RN22230TH, Suture Cutgut Chromic (3/0) RN2325TF, Suture Cutgut Plain (2/0) RN1230TF, Suture PGA (3/0) RN3330TF, Suture Silk (1) S595, Suture Silk (2/0) RN5230TF, Suxamethonium 500mg Vial, Suxamethonium 500mg/ml 2ml Amp, Syringe Feeding/Irrigation 50/60ml, Syringe Luer 10ml With Needle Disposable, Syringe Luer 20ml With Needle Disposable, Syringe Luer 2ml With Needle Disposable, Syringe Luer 5ml With Needle Disposable, Tablet Counting Tray, tetanus Antitoxin 1500 IU 1ml Amp, Tetracycline eye ointment 1% 3.5g, Thermometer Clinical Flat Type, Thermometer Clinical Prismatic Type, Thiopental Sodium 500mg Vial, Toilet Paper Rolls, Tolbutamide 500mg tab, Tongue depressor Disposable, Traction Kit Adult, Traction Kit Children, Trichloro acetic Acid, Trisodium Citrate, Umbilical Cord Tie non sterile 100m, Umbilical Cord Tie sterile 22m, UREA Calorimetric 300 Tests, Urinal 1Ltr / 2Ltr, Urine Collecting Bag sterile 2Ltr, Urine Test Strips 3 Parameters 100 tests, Vitamin A 200.000 IU Caps, Vitamin B Complex Tab, Water for Injection 10ml Vial, X-Ray Developer 2.6kg for 22.5Ltr, X-Ray Film 18x24cm, X-Ray Film 20x40cm, X-Ray Film 24x30cm, X-Ray Film 30x40cm, X-Ray Film 35x35cm, X-Ray Film 43x35cm, X-Ray Film Cassette  18x24cm with screen, X-Ray Film Cassette  24x30cm with screen, X-Ray Film Cassette  30x40cm with screen, X-Ray Film Cassette  35x35cm with screen, X-Ray Film Cassette  35x43cm with screen, X-Ray Fixer 3.3kg for 22.5 Ltr, Xylene 2.5 ltrs, Medicine for a migraine, Medicine for a rare seasonal virus]
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1079 - Parameter Number     : 2
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1081 - Parameter Name       : nameSorted
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:19:05 PM BST INFO  MedicalBrowsingManager:1122 - Parameter Value      : false
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 17/05/2024 07:19:28 PM BST
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 7
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : [org.isf.admission.model.AdmittedPatient@65c96544, org.isf.admission.model.AdmittedPatient@79976aa5, org.isf.admission.model.AdmittedPatient@2f0a6dcc, org.isf.admission.model.AdmittedPatient@37c4c715, org.isf.admission.model.AdmittedPatient@190977ec, org.isf.admission.model.AdmittedPatient@5b89e42a, org.isf.admission.model.AdmittedPatient@2711969a, org.isf.admission.model.AdmittedPatient@367c0102, org.isf.admission.model.AdmittedPatient@6418b636, org.isf.admission.model.AdmittedPatient@7024a62b, org.isf.admission.model.AdmittedPatient@5b2a5bf3, org.isf.admission.model.AdmittedPatient@d083585, org.isf.admission.model.AdmittedPatient@2c009b14, org.isf.admission.model.AdmittedPatient@79c06541, org.isf.admission.model.AdmittedPatient@703c5c49, org.isf.admission.model.AdmittedPatient@3cd4ebd6, org.isf.admission.model.AdmittedPatient@14a40f63, org.isf.admission.model.AdmittedPatient@6e349adb]
+17/05/2024 07:19:28 PM BST INFO  AdmissionBrowserManager:1272 - The Method: getAdmittedPatients DOES NOT have any Parameters
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:19:28 PM BST
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1044 - Method Number        : 8
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:19:28 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 17/05/2024 07:19:33 PM BST
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 9
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : org.isf.admission.model.AdmittedPatient
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : org.isf.admission.model.AdmittedPatient@1af93bab
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1079 - Parameter Number     : 1
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1081 - Parameter Name       : patientId
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:19:33 PM BST INFO  AdmissionBrowserManager:1122 - Parameter Value      : 176
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1036 - OS Current Time      : 17/05/2024 07:19:33 PM BST
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1043 - Annotation Type      : Method
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1044 - Method Number        : 10
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1045 - Method Name          : org.isf.medicals.manager.MedicalBrowsingManager.getMedicals
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1047 - Method Return Value  : [4 Dimethyl Aminobenzaldelyde, Acetazolamide 250mg Tab, Acetic Acid Glacial 1 ltr, Aceton 99% 1ltr, Aciclovir, Acyclovir 200mg Tab, Adhesive Tape 2.5cm x 5m, Adhesive Tape 7.5cm x 5m, Adrenaline 1mg/ml 1ml Amp, Air ring set 43x15cm, rubber with pump, Airway Guedel Size 0, Airway Guedel Size 00, Airway Guedel Size 1, Airway Guedel Size 2, Airway Guedel Size 3, Albendazole 200mg Tab, Albendazole 400mg Tab, Alcohol 95% not denatured 20Ltrs, Aminophylline 100mg Tab, Aminophylline 25mg/ml,10ml Amp, Amitriptyline 25mg Tab, Ammonium Oxalate, Amoxicillin /Clavulanate 375mg Tab, Amoxicillin 125mg/5ml Powd. Susp 100ml, Amoxicillin 250mg Caps, Amphotericin B 50mg Vial, Ampicillin 500mg Vial, Anti Serum A 10ml, Anti Serum AB 10ml, Anti Serum B 10ml, Anti Serum D 10ml, Antihaemorrhoid suppositories, Apron Plastic Re-usable, Apron Plastic Re-usable local, Apron Polythene Disp Non Sterile, Ascorbic Acid 100mg tab, Aspirin 300mg Tab, Atenolol 100mg Tab, Atenolol 50mg Tab, Atropine 1mg/ml 1ml Amp, Barium Sulphate for X-Ray 1kg, Beclomethasone 50mcg Inhaler, Bedpan Plastic Autoclavable, Bedpan Stainless Steel, Bendrofluazide 5mg Tab, Benzathine Penicillin 2.4 MIU Vial, Benzhexol 2mg Tab, Benzhexol 5mg Tab, Benzyl Penicillin 1 MIU Vial, Benzyl Penicillin 5 MIU Vial, Betamethasone 0.1% eye/ear/nose drops, Betamethasone 0.1% Neomycin 0.35 %eye drops 7.5ml, Bisacodyl 5mg Tab, Blood giving set Disposable, Blood Transfer Bag 300ml, Body Bag 70 x 215cm  (Adult), Bowl Without Lid 10 x 24cm stainless steel, Bowl Without Lid 7 x 12cm stainless steel, Bowl Without Lid 8 x 16cm stainless steel, Brilliant Cresyl Blue, Calcium Lactate 300mg Tab, Carbamazepine 200mg Tab, Carbimazole 5mg Tab, Catheter Foley CH10 3 Way Balloon, Catheter Foley CH12 3 Way Balloon, Catheter Foley CH14 3 Way Balloon, Catheter Foley CH16 3 Way Balloon, Catheter Foley CH18 3 Way Balloon, Catheter Foley CH20 3 Way Balloon, Catheter Foley CH8 3 Way Balloon, Catheter Stopper for All sizes, Charcoal 250mg Tab, Chloramphenicol 0.5% Eye Drops 10ml, Chloramphenicol 125mg/5ml Susp 100ml, Chloramphenicol 125mg/5ml Susp 3Ltr, Chloramphenicol 1g Vial, Chloramphenicol 250mg Caps, Chlorhexidine/Cetrimide 1.5/15% 1Ltr, Chlorhexidine/Cetrimide 1.5/15% 5Ltr, Chloroquine 40mg Base/ml 5ml Amp, Chloroquine Coated 150mg Tab, Chloroquine Uncoated 150mg Tab, Chlorphenimine 4mg Tab, Chlorpromazine 100mg Tab, Chlorpromazine 25mg Tab, Chlorpromazine 25mg/ml/2ml Amp, Cimetidine 200mg Tab, Cimetidine 400mg Tab, Ciprofloxacine 250mg Tab, Ciprofloxacine 500mg Tab, Cloramphenicol 1% Eye Ointment 3.5g, Clotrimazole 100mg Pessaries, Clotrimazole 500mg Pessaries, Cloxacillin 250mg Tab, Cloxacillin 500mg Vial, Codein Phosphate 30mg Tab, Colostomy Bag closed 30mm size 2, Colostomy Bag closed 30mm size 3, Colostomy Bag open re-usable 35mm, Copper 11 Sulphate 500g, Cotrimoxazole 100/20mg Paed Tab, Cotrimoxazole 200+40mg/5ml Susp 100ml, Cotrimoxazole 200+40mg/5ml Susp 3Ltr, Cotrimoxazole 400/80mg Tab, Cotton Wool 200G, cotton Wool 500G, Creatinine 200ml (Calorimetric), Crystal Violet, Cyclophosphamide 200mg Vial, Cyclophosphamide 500mg Vial, Darrows Half Strength 500ml, Dexamethasone 0.5mg Tab, Dexamethasone 4mg/ml 1ml Amp, Dexamethasone 4mg/ml 2ml Amp, Dextrose 30% IV 100ml, Dextrose 5% IV 500ml, Dextrose 50% IV 100ml, Dextrose Monohydrate Apyrogen 25Kg, Diatrizoate Meglumin Sod 76% 20ml Amp, Diazepam 2mg/ml 2.5ml Rectal Tube, Diazepam 5mg / ml 2ml Amp, Diazepam 5mg Tab, Diclofenac 25mg/ml 3ml Amp, Diclofenac 50mg Tab, Diethylcarbamazine 50mg Tab, Digoxin 0.25 mg Tab, Digoxin 0.25 mg/ml 2ml Amp, Doxycycline 100mg Tab, Ear syringe rubber 60ml, EDTA Di- sodium salt 100g, Elastic Bandage 10cm x 4.5m, Elastic Bandage 7.5cm x 4.5m, Eosin Yellowish, Ephedrine 30mg Tab, Erythromycin 250mg Tab, Ethanol Absolute 1ltr, Eye Pad Sterile, Fansidar 500/25mg Tab, Fansidar 500/25mg Tab (50dosesx3), Ferrous Sulphate 200mg Tab, Field stain A and B, First Aid kit, Fluconazole 100mg 24 Caps, Fluconazole 100mg Tab, Folic Acid 15mg Tab, Folic Acid 1mg Tab, Folic Acid 5mg Tab, Folic Acid/Ferrous Sulp 0.5/200mg Tab, Formaldehyde solution 35-38% 1ltr, Frusemide 40mg Tab, Furosemide 10mg/ml 2ml Amp, Gallipot stainless steel 200ml/10cm, Gallipot stainless steel 300ml/15cm, Gauze Bandage 10cm x 4m, Gauze Bandage 7.5cm x 3.65-4m, Gauze Hydrophylic 90cm x 91cm, Gauze Pads  Sterile 10cm x 10cm, Gauze Pads Non Sterile 10cm x 10cm, Genitian Violet, Gentamicin 0.3% eye/ear drops 10ml, Gentamicin 40mg/ml 2ml, Gentian Violet 25g Tin, Giemsa Stain, Glibenclamide 5mg Tab, Gloves Domestic, Gloves Gynaecological 7.5-8, Gloves High risk non sterile Medium, Gloves Non Sterile Large Disposable, Gloves Non Sterile Medium Disposable, Gloves Surgical Sterile 6, Gloves Surgical Sterile 6.5, Gloves Surgical Sterile 7, Gloves Surgical Sterile 7.5, Gloves Surgical Sterile 8, Gloves Surgical Sterile 8.5, Glucose GOD PAD  6 x 100ml (Colorimetric), Glucose Test Strip, Glucose Test Strips (Hyloguard), GOT ( AST) 200ml (Calorimetric) AS 147, GOT ( AST) 200ml has no NAOH) AS 101, GPT (ALT) 200ml ( Does not have NAOH), Griseofulvin 500mg Tab, Haloperidol 5mg, Haloperidol 5mg Tab, Haloperidol 5mg/ml 1ml Amp, Haloperidol Decanoate 50mg/ml 1ml Amp, Handle for surgical blade No 3, Handle for surgical blade No 4, HIV 1/2 Capillus Kit 100Tests, HIV Buffer for determine Kit, HIV Determine 1/11 (Abbott) 100Tests, HIV UNIGOLD 1/11 Test Kits 20 Tests, Hot water Bottle 2Ltr, Hydralazine 20mg Vial, Hydralazine 25mg Tab, Hydrochloric Acid 30-33% 1ltr, Hydrocortisone 1% eye drops 5ml, Hydrocortisone 100mg Vial, Hydrogen Peroxide 6% 250ml, Hyoscine 10mg Tab, Hyoscine Butyl Bromide 20mg/ml/ Amp, Ibuprofen 200mg Tab, Imipramine 25mg Tab, Indomethacin 25mg Tab, Insectcide Spray 400g, Instrument Box With Lid 20x10x5cm, Instrument Tray 30 x 20 x 2cm, Insulin Isophane 100IU/ml 10ml Vial, Insulin Isophane 40IU/ml 10ml, Insulin Mixtard 30/70 100IU/ml 10ml Vial, Insulin Mixtard 30/70 100IU/ml 5x3ml catridges, Insulin Soluble 100IU/ml 10ml Vial, Insulin Syringe 100IU with Needle G26/29, Iodine Crystal 100g, Iodine Solution 2% 500ml, Iron Dextran 10mg/ml 2ml Vial, Irrigation can with accessories, Isoniazid 300mg Tab, IV Cannula G16 with Port, IV Cannula G18 with Port, IV Cannula G20 with Port, IV Cannula G22 with Port, IV Cannula G24 with Port, IV Cannula G24 without Port, IV Giving set Disposable, Ketamine 10mg/ml 10ml Vial, Ketamine 10mg/ml 20ml Vial, Ketoconazole 200mg Tab, Kidney Dish Polypropylene 24cm, Kidney Dish stainless Steel 20cm, Kidney Dish stainless Steel 24cm, Lead Apron 100cmx60cm, Lignocaine 2% 20ml Vial, Lignocaine 2% Adrenaline Dent.cartridges, Lignocaine spinal 50mg/ml 2ml Amp, Liquid detergent 20Ltr, liquid detergent 5Ltr Perfumed, Mackintosh Plastic (Apron) per 1m, Mackintosh Rubber Brown (sheeting) per 1m, Measuring Cup Graduated 25ml, Methanol 99% 1ltr, Methylergomeatrine 0.2mg/ml 1ml Amp, Methylergomeatrine 0.5mg/ml 1ml Amp, Metoclopramide 5mg/ml 100ml Amp, Metronidazole 5mg/ml 2ml IV, Morphine 15mg/ml 1ml Amp, Mosquito Net Impregnated Large, Mosquito Net Impregnated Medium, Mosquito Net Impregnation Liquid 500ml, Mosquito Net Impregnation Tablet, Mosquito Net Non Impregnated Large, Mosquito Net Non Impregnated Medium, Mosquito Wall spray Powder 80g, Nasogastric Tube G10 (Children), Nasogastric Tube G14 (Children), Nasogastric Tube G16 (Children), Nasogastric Tube G5 (Children), Nasogastric Tube G6 (Children), Nasogastric Tube G8 (Children), Neck Support Large, Neck Support Medium, Neck Support Small, Needle container disposable of contaminated, Needle suture No 5 cutting, Needle suture No 5 round, Needle suture No 6 Round, Needles Luer G20 Disposable, Needles Luer G21 Disposable, Needles Luer G22 Disposable, Needles Luer G23 Disposable, Needles Spinal G20x75-120mm, Needles Spinal G22x40mm, Needles Spinal G22x75-120mm, Needles Spinal G25x75-120mm, Neutral Red, Non 111 Chloride (Ferric chloride), Nystatin 100.000 IU Pessaries, Nystatin 500.000IU/ Susp/ Drops, Oral Rehydration Salt (ORS), Oxytocin 10 IU/ml 1ml Amp, Paracetamol 120mg/5ml 100ml, Paracetamol 120mg/5ml Syrup, Pethidine 100mg/ml 2ml Amp, Pethidine 50mg/ml 1ml Amp, Phenobarbital 100mg/ml 2ml Amp, Phenol crystals 1kg, Phytomenadione 10mg/ml 1ml Amp, Phytomenadione 1mg/ml 1ml Amp, Plaster of Paris 10cm, Plaster of Paris 15cm, Potassium iodide 100g, Potassium Oxalate, Pregnacy ( HGG Latex) 50 tests, Procaine Penicillin Fortified 4 MIU Vial, Promethazine 25mg/ml 2ml Amp, Pyridoxine 50mg Tab, Quinine 100mg/5ml Syrup 100ml, Quinine 300mg Tab, Quinine Di-HCI 300mg/ml 2ml Amp, Ranitidine 150mg Tab, Ranitidine 25mg/ml 2ml Amp, Razor Blades Disposable 5pc, Rectal Tube CH24, Rectal Tube CH26, Rifampicin/Isoniazid 150/100 Tab, RPR ( VDRL Carbon ) Antigen 5ml, RPR 125mm x 75mm, Salbutamol 4mg Tab, Salbutamol Inhaler 10ml, Salbutamol solution for inhalation 5ml, Scalp Vein G19 Infusion set, Scalp Vein G21 Infusion set, Scalp Vein G23 Infusion set, Scalp Vein G25 Infusion set, Soap Blue Bar 550g, Soap Powder Hand wash 5kg, Sodium Carbonate Anhydrous, Sodium Carbonate Anhydrous 500g, Sodium Chloride 0.9% IV 500ml, Sodium Chloride Apyrogen 50kg, Sodium Citrate 100g, Sodium Fluoride, Sodium Hypochlorite solution 0.75 Ltr, Sodium Hypochlorite solution 5Ltr, Sodium Lactate Compound IV 500ml, Sodium Nitrate 25g, Sodium Sulphate 500g, Spironolactone 25mg Tab, Spoon Medicine 5ml, Stethoscope Foetal Metal, Stethoscope Foetal Wood, Streptomycin 1g Vial, Suction Catheter Size 10 Disposable, Suction Catheter Size 12 Disposable, Suction Catheter Size 14 Disposable, Suction Catheter Size 16 Disposable, Suction Catheter Size 6 Disposable, Suction Catheter Size 8 Disposable, Sulphosalicylic Acid 500g, Sulphuric Acid Conc 1ltr, Surgical Blades No 20, Surgical Blades No 21, Surgical Blades No 22, Surgical Blades No 23, Surgical Brush (Scrubbing), Surgical Mop 12 x 15, Suture Cutgut Chromic (0), Suture Cutgut Chromic (2) RN22240TH, Suture Cutgut Chromic (2/0) RN22230TH, Suture Cutgut Chromic (3/0) RN2325TF, Suture Cutgut Plain (2/0) RN1230TF, Suture PGA (3/0) RN3330TF, Suture Silk (1) S595, Suture Silk (2/0) RN5230TF, Suxamethonium 500mg Vial, Suxamethonium 500mg/ml 2ml Amp, Syringe Feeding/Irrigation 50/60ml, Syringe Luer 10ml With Needle Disposable, Syringe Luer 20ml With Needle Disposable, Syringe Luer 2ml With Needle Disposable, Syringe Luer 5ml With Needle Disposable, Tablet Counting Tray, tetanus Antitoxin 1500 IU 1ml Amp, Tetracycline eye ointment 1% 3.5g, Thermometer Clinical Flat Type, Thermometer Clinical Prismatic Type, Thiopental Sodium 500mg Vial, Toilet Paper Rolls, Tolbutamide 500mg tab, Tongue depressor Disposable, Traction Kit Adult, Traction Kit Children, Trichloro acetic Acid, Trisodium Citrate, Umbilical Cord Tie non sterile 100m, Umbilical Cord Tie sterile 22m, UREA Calorimetric 300 Tests, Urinal 1Ltr / 2Ltr, Urine Collecting Bag sterile 2Ltr, Urine Test Strips 3 Parameters 100 tests, Vitamin A 200.000 IU Caps, Vitamin B Complex Tab, Water for Injection 10ml Vial, X-Ray Developer 2.6kg for 22.5Ltr, X-Ray Film 18x24cm, X-Ray Film 20x40cm, X-Ray Film 24x30cm, X-Ray Film 30x40cm, X-Ray Film 35x35cm, X-Ray Film 43x35cm, X-Ray Film Cassette  18x24cm with screen, X-Ray Film Cassette  24x30cm with screen, X-Ray Film Cassette  30x40cm with screen, X-Ray Film Cassette  35x35cm with screen, X-Ray Film Cassette  35x43cm with screen, X-Ray Fixer 3.3kg for 22.5 Ltr, Xylene 2.5 ltrs, Medicine for an intense migraine, Medicine for a rare seasonal virus]
+17/05/2024 07:19:33 PM BST INFO  MedicalBrowsingManager:1272 - The Method: getMedicals DOES NOT have any Parameters
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 07:19:33 PM BST
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1044 - Method Number        : 11
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.getTherapyRows
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1047 - Method Return Value  : []
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:19:33 PM BST INFO  TherapyManager:1122 - Parameter Value      : 176
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1036 - OS Current Time      : 17/05/2024 07:19:33 PM BST
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1042 - OS UserName          : f7
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1043 - Annotation Type      : Method
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1044 - Method Number        : 12
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1045 - Method Name          : org.isf.visits.manager.VisitManager.getVisits
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1047 - Method Return Value  : []
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1079 - Parameter Number     : 1
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1081 - Parameter Name       : patID
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:19:33 PM BST INFO  VisitManager:1122 - Parameter Value      : 176
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1036 - OS Current Time      : 17/05/2024 07:19:35 PM BST
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1043 - Annotation Type      : Method
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1044 - Method Number        : 13
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1045 - Method Name          : org.isf.medicals.manager.MedicalBrowsingManager.getMedicals
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1047 - Method Return Value  : [4 Dimethyl Aminobenzaldelyde, Acetazolamide 250mg Tab, Acetic Acid Glacial 1 ltr, Aceton 99% 1ltr, Aciclovir, Acyclovir 200mg Tab, Adhesive Tape 2.5cm x 5m, Adhesive Tape 7.5cm x 5m, Adrenaline 1mg/ml 1ml Amp, Air ring set 43x15cm, rubber with pump, Airway Guedel Size 0, Airway Guedel Size 00, Airway Guedel Size 1, Airway Guedel Size 2, Airway Guedel Size 3, Albendazole 200mg Tab, Albendazole 400mg Tab, Alcohol 95% not denatured 20Ltrs, Aminophylline 100mg Tab, Aminophylline 25mg/ml,10ml Amp, Amitriptyline 25mg Tab, Ammonium Oxalate, Amoxicillin /Clavulanate 375mg Tab, Amoxicillin 125mg/5ml Powd. Susp 100ml, Amoxicillin 250mg Caps, Amphotericin B 50mg Vial, Ampicillin 500mg Vial, Anti Serum A 10ml, Anti Serum AB 10ml, Anti Serum B 10ml, Anti Serum D 10ml, Antihaemorrhoid suppositories, Apron Plastic Re-usable, Apron Plastic Re-usable local, Apron Polythene Disp Non Sterile, Ascorbic Acid 100mg tab, Aspirin 300mg Tab, Atenolol 100mg Tab, Atenolol 50mg Tab, Atropine 1mg/ml 1ml Amp, Barium Sulphate for X-Ray 1kg, Beclomethasone 50mcg Inhaler, Bedpan Plastic Autoclavable, Bedpan Stainless Steel, Bendrofluazide 5mg Tab, Benzathine Penicillin 2.4 MIU Vial, Benzhexol 2mg Tab, Benzhexol 5mg Tab, Benzyl Penicillin 1 MIU Vial, Benzyl Penicillin 5 MIU Vial, Betamethasone 0.1% eye/ear/nose drops, Betamethasone 0.1% Neomycin 0.35 %eye drops 7.5ml, Bisacodyl 5mg Tab, Blood giving set Disposable, Blood Transfer Bag 300ml, Body Bag 70 x 215cm  (Adult), Bowl Without Lid 10 x 24cm stainless steel, Bowl Without Lid 7 x 12cm stainless steel, Bowl Without Lid 8 x 16cm stainless steel, Brilliant Cresyl Blue, Calcium Lactate 300mg Tab, Carbamazepine 200mg Tab, Carbimazole 5mg Tab, Catheter Foley CH10 3 Way Balloon, Catheter Foley CH12 3 Way Balloon, Catheter Foley CH14 3 Way Balloon, Catheter Foley CH16 3 Way Balloon, Catheter Foley CH18 3 Way Balloon, Catheter Foley CH20 3 Way Balloon, Catheter Foley CH8 3 Way Balloon, Catheter Stopper for All sizes, Charcoal 250mg Tab, Chloramphenicol 0.5% Eye Drops 10ml, Chloramphenicol 125mg/5ml Susp 100ml, Chloramphenicol 125mg/5ml Susp 3Ltr, Chloramphenicol 1g Vial, Chloramphenicol 250mg Caps, Chlorhexidine/Cetrimide 1.5/15% 1Ltr, Chlorhexidine/Cetrimide 1.5/15% 5Ltr, Chloroquine 40mg Base/ml 5ml Amp, Chloroquine Coated 150mg Tab, Chloroquine Uncoated 150mg Tab, Chlorphenimine 4mg Tab, Chlorpromazine 100mg Tab, Chlorpromazine 25mg Tab, Chlorpromazine 25mg/ml/2ml Amp, Cimetidine 200mg Tab, Cimetidine 400mg Tab, Ciprofloxacine 250mg Tab, Ciprofloxacine 500mg Tab, Cloramphenicol 1% Eye Ointment 3.5g, Clotrimazole 100mg Pessaries, Clotrimazole 500mg Pessaries, Cloxacillin 250mg Tab, Cloxacillin 500mg Vial, Codein Phosphate 30mg Tab, Colostomy Bag closed 30mm size 2, Colostomy Bag closed 30mm size 3, Colostomy Bag open re-usable 35mm, Copper 11 Sulphate 500g, Cotrimoxazole 100/20mg Paed Tab, Cotrimoxazole 200+40mg/5ml Susp 100ml, Cotrimoxazole 200+40mg/5ml Susp 3Ltr, Cotrimoxazole 400/80mg Tab, Cotton Wool 200G, cotton Wool 500G, Creatinine 200ml (Calorimetric), Crystal Violet, Cyclophosphamide 200mg Vial, Cyclophosphamide 500mg Vial, Darrows Half Strength 500ml, Dexamethasone 0.5mg Tab, Dexamethasone 4mg/ml 1ml Amp, Dexamethasone 4mg/ml 2ml Amp, Dextrose 30% IV 100ml, Dextrose 5% IV 500ml, Dextrose 50% IV 100ml, Dextrose Monohydrate Apyrogen 25Kg, Diatrizoate Meglumin Sod 76% 20ml Amp, Diazepam 2mg/ml 2.5ml Rectal Tube, Diazepam 5mg / ml 2ml Amp, Diazepam 5mg Tab, Diclofenac 25mg/ml 3ml Amp, Diclofenac 50mg Tab, Diethylcarbamazine 50mg Tab, Digoxin 0.25 mg Tab, Digoxin 0.25 mg/ml 2ml Amp, Doxycycline 100mg Tab, Ear syringe rubber 60ml, EDTA Di- sodium salt 100g, Elastic Bandage 10cm x 4.5m, Elastic Bandage 7.5cm x 4.5m, Eosin Yellowish, Ephedrine 30mg Tab, Erythromycin 250mg Tab, Ethanol Absolute 1ltr, Eye Pad Sterile, Fansidar 500/25mg Tab, Fansidar 500/25mg Tab (50dosesx3), Ferrous Sulphate 200mg Tab, Field stain A and B, First Aid kit, Fluconazole 100mg 24 Caps, Fluconazole 100mg Tab, Folic Acid 15mg Tab, Folic Acid 1mg Tab, Folic Acid 5mg Tab, Folic Acid/Ferrous Sulp 0.5/200mg Tab, Formaldehyde solution 35-38% 1ltr, Frusemide 40mg Tab, Furosemide 10mg/ml 2ml Amp, Gallipot stainless steel 200ml/10cm, Gallipot stainless steel 300ml/15cm, Gauze Bandage 10cm x 4m, Gauze Bandage 7.5cm x 3.65-4m, Gauze Hydrophylic 90cm x 91cm, Gauze Pads  Sterile 10cm x 10cm, Gauze Pads Non Sterile 10cm x 10cm, Genitian Violet, Gentamicin 0.3% eye/ear drops 10ml, Gentamicin 40mg/ml 2ml, Gentian Violet 25g Tin, Giemsa Stain, Glibenclamide 5mg Tab, Gloves Domestic, Gloves Gynaecological 7.5-8, Gloves High risk non sterile Medium, Gloves Non Sterile Large Disposable, Gloves Non Sterile Medium Disposable, Gloves Surgical Sterile 6, Gloves Surgical Sterile 6.5, Gloves Surgical Sterile 7, Gloves Surgical Sterile 7.5, Gloves Surgical Sterile 8, Gloves Surgical Sterile 8.5, Glucose GOD PAD  6 x 100ml (Colorimetric), Glucose Test Strip, Glucose Test Strips (Hyloguard), GOT ( AST) 200ml (Calorimetric) AS 147, GOT ( AST) 200ml has no NAOH) AS 101, GPT (ALT) 200ml ( Does not have NAOH), Griseofulvin 500mg Tab, Haloperidol 5mg, Haloperidol 5mg Tab, Haloperidol 5mg/ml 1ml Amp, Haloperidol Decanoate 50mg/ml 1ml Amp, Handle for surgical blade No 3, Handle for surgical blade No 4, HIV 1/2 Capillus Kit 100Tests, HIV Buffer for determine Kit, HIV Determine 1/11 (Abbott) 100Tests, HIV UNIGOLD 1/11 Test Kits 20 Tests, Hot water Bottle 2Ltr, Hydralazine 20mg Vial, Hydralazine 25mg Tab, Hydrochloric Acid 30-33% 1ltr, Hydrocortisone 1% eye drops 5ml, Hydrocortisone 100mg Vial, Hydrogen Peroxide 6% 250ml, Hyoscine 10mg Tab, Hyoscine Butyl Bromide 20mg/ml/ Amp, Ibuprofen 200mg Tab, Imipramine 25mg Tab, Indomethacin 25mg Tab, Insectcide Spray 400g, Instrument Box With Lid 20x10x5cm, Instrument Tray 30 x 20 x 2cm, Insulin Isophane 100IU/ml 10ml Vial, Insulin Isophane 40IU/ml 10ml, Insulin Mixtard 30/70 100IU/ml 10ml Vial, Insulin Mixtard 30/70 100IU/ml 5x3ml catridges, Insulin Soluble 100IU/ml 10ml Vial, Insulin Syringe 100IU with Needle G26/29, Iodine Crystal 100g, Iodine Solution 2% 500ml, Iron Dextran 10mg/ml 2ml Vial, Irrigation can with accessories, Isoniazid 300mg Tab, IV Cannula G16 with Port, IV Cannula G18 with Port, IV Cannula G20 with Port, IV Cannula G22 with Port, IV Cannula G24 with Port, IV Cannula G24 without Port, IV Giving set Disposable, Ketamine 10mg/ml 10ml Vial, Ketamine 10mg/ml 20ml Vial, Ketoconazole 200mg Tab, Kidney Dish Polypropylene 24cm, Kidney Dish stainless Steel 20cm, Kidney Dish stainless Steel 24cm, Lead Apron 100cmx60cm, Lignocaine 2% 20ml Vial, Lignocaine 2% Adrenaline Dent.cartridges, Lignocaine spinal 50mg/ml 2ml Amp, Liquid detergent 20Ltr, liquid detergent 5Ltr Perfumed, Mackintosh Plastic (Apron) per 1m, Mackintosh Rubber Brown (sheeting) per 1m, Measuring Cup Graduated 25ml, Methanol 99% 1ltr, Methylergomeatrine 0.2mg/ml 1ml Amp, Methylergomeatrine 0.5mg/ml 1ml Amp, Metoclopramide 5mg/ml 100ml Amp, Metronidazole 5mg/ml 2ml IV, Morphine 15mg/ml 1ml Amp, Mosquito Net Impregnated Large, Mosquito Net Impregnated Medium, Mosquito Net Impregnation Liquid 500ml, Mosquito Net Impregnation Tablet, Mosquito Net Non Impregnated Large, Mosquito Net Non Impregnated Medium, Mosquito Wall spray Powder 80g, Nasogastric Tube G10 (Children), Nasogastric Tube G14 (Children), Nasogastric Tube G16 (Children), Nasogastric Tube G5 (Children), Nasogastric Tube G6 (Children), Nasogastric Tube G8 (Children), Neck Support Large, Neck Support Medium, Neck Support Small, Needle container disposable of contaminated, Needle suture No 5 cutting, Needle suture No 5 round, Needle suture No 6 Round, Needles Luer G20 Disposable, Needles Luer G21 Disposable, Needles Luer G22 Disposable, Needles Luer G23 Disposable, Needles Spinal G20x75-120mm, Needles Spinal G22x40mm, Needles Spinal G22x75-120mm, Needles Spinal G25x75-120mm, Neutral Red, Non 111 Chloride (Ferric chloride), Nystatin 100.000 IU Pessaries, Nystatin 500.000IU/ Susp/ Drops, Oral Rehydration Salt (ORS), Oxytocin 10 IU/ml 1ml Amp, Paracetamol 120mg/5ml 100ml, Paracetamol 120mg/5ml Syrup, Pethidine 100mg/ml 2ml Amp, Pethidine 50mg/ml 1ml Amp, Phenobarbital 100mg/ml 2ml Amp, Phenol crystals 1kg, Phytomenadione 10mg/ml 1ml Amp, Phytomenadione 1mg/ml 1ml Amp, Plaster of Paris 10cm, Plaster of Paris 15cm, Potassium iodide 100g, Potassium Oxalate, Pregnacy ( HGG Latex) 50 tests, Procaine Penicillin Fortified 4 MIU Vial, Promethazine 25mg/ml 2ml Amp, Pyridoxine 50mg Tab, Quinine 100mg/5ml Syrup 100ml, Quinine 300mg Tab, Quinine Di-HCI 300mg/ml 2ml Amp, Ranitidine 150mg Tab, Ranitidine 25mg/ml 2ml Amp, Razor Blades Disposable 5pc, Rectal Tube CH24, Rectal Tube CH26, Rifampicin/Isoniazid 150/100 Tab, RPR ( VDRL Carbon ) Antigen 5ml, RPR 125mm x 75mm, Salbutamol 4mg Tab, Salbutamol Inhaler 10ml, Salbutamol solution for inhalation 5ml, Scalp Vein G19 Infusion set, Scalp Vein G21 Infusion set, Scalp Vein G23 Infusion set, Scalp Vein G25 Infusion set, Soap Blue Bar 550g, Soap Powder Hand wash 5kg, Sodium Carbonate Anhydrous, Sodium Carbonate Anhydrous 500g, Sodium Chloride 0.9% IV 500ml, Sodium Chloride Apyrogen 50kg, Sodium Citrate 100g, Sodium Fluoride, Sodium Hypochlorite solution 0.75 Ltr, Sodium Hypochlorite solution 5Ltr, Sodium Lactate Compound IV 500ml, Sodium Nitrate 25g, Sodium Sulphate 500g, Spironolactone 25mg Tab, Spoon Medicine 5ml, Stethoscope Foetal Metal, Stethoscope Foetal Wood, Streptomycin 1g Vial, Suction Catheter Size 10 Disposable, Suction Catheter Size 12 Disposable, Suction Catheter Size 14 Disposable, Suction Catheter Size 16 Disposable, Suction Catheter Size 6 Disposable, Suction Catheter Size 8 Disposable, Sulphosalicylic Acid 500g, Sulphuric Acid Conc 1ltr, Surgical Blades No 20, Surgical Blades No 21, Surgical Blades No 22, Surgical Blades No 23, Surgical Brush (Scrubbing), Surgical Mop 12 x 15, Suture Cutgut Chromic (0), Suture Cutgut Chromic (2) RN22240TH, Suture Cutgut Chromic (2/0) RN22230TH, Suture Cutgut Chromic (3/0) RN2325TF, Suture Cutgut Plain (2/0) RN1230TF, Suture PGA (3/0) RN3330TF, Suture Silk (1) S595, Suture Silk (2/0) RN5230TF, Suxamethonium 500mg Vial, Suxamethonium 500mg/ml 2ml Amp, Syringe Feeding/Irrigation 50/60ml, Syringe Luer 10ml With Needle Disposable, Syringe Luer 20ml With Needle Disposable, Syringe Luer 2ml With Needle Disposable, Syringe Luer 5ml With Needle Disposable, Tablet Counting Tray, tetanus Antitoxin 1500 IU 1ml Amp, Tetracycline eye ointment 1% 3.5g, Thermometer Clinical Flat Type, Thermometer Clinical Prismatic Type, Thiopental Sodium 500mg Vial, Toilet Paper Rolls, Tolbutamide 500mg tab, Tongue depressor Disposable, Traction Kit Adult, Traction Kit Children, Trichloro acetic Acid, Trisodium Citrate, Umbilical Cord Tie non sterile 100m, Umbilical Cord Tie sterile 22m, UREA Calorimetric 300 Tests, Urinal 1Ltr / 2Ltr, Urine Collecting Bag sterile 2Ltr, Urine Test Strips 3 Parameters 100 tests, Vitamin A 200.000 IU Caps, Vitamin B Complex Tab, Water for Injection 10ml Vial, X-Ray Developer 2.6kg for 22.5Ltr, X-Ray Film 18x24cm, X-Ray Film 20x40cm, X-Ray Film 24x30cm, X-Ray Film 30x40cm, X-Ray Film 35x35cm, X-Ray Film 43x35cm, X-Ray Film Cassette  18x24cm with screen, X-Ray Film Cassette  24x30cm with screen, X-Ray Film Cassette  30x40cm with screen, X-Ray Film Cassette  35x35cm with screen, X-Ray Film Cassette  35x43cm with screen, X-Ray Fixer 3.3kg for 22.5 Ltr, Xylene 2.5 ltrs, Medicine for an intense migraine, Medicine for a rare seasonal virus]
+17/05/2024 07:19:35 PM BST INFO  MedicalBrowsingManager:1272 - The Method: getMedicals DOES NOT have any Parameters
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 07:20:29 PM BST
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1044 - Method Number        : 14
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.getTherapyRow
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1046 - Method Return Type   : org.isf.therapy.model.TherapyRow
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1047 - Method Return Value  : 54 - 0 1.0/2/1
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : therapyID
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Parameter Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 2
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : patID
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Parameter Value      : 176
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 3
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : startDate
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Parameter Value      : 2024-05-17T00:00
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 4
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : endDate
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Parameter Value      : 2024-05-21T00:00
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 5
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : medical
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : org.isf.medicals.model.Medical
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:999 - The Parameter Name: medical has the following Attributes:
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 1
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : code
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.Integer
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 54
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 2
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : prod_code
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 3
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : type
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : org.isf.medtype.model.MedicalType
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:644 - The Attribute Name: type has the followings Sub-Attributes:
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 1
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : code
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : D
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 2
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : description
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : Drugs
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 3
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : hashCode
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 4
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : description
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : Diazepam 5mg / ml 2ml Amp
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 5
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : initialqty
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : double
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0.0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 6
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : pcsperpck
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.Integer
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 7
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : inqty
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : double
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0.0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 8
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : outqty
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : double
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0.0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 9
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : minqty
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : double
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0.0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 10
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : lock
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.Integer
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 11
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : hashCode
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 6
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : qty
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Parameter Value      : 1.0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 7
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : unitID
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Parameter Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 8
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : freqInDay
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Parameter Value      : 2
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 9
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : freqInPeriod
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Parameter Value      : 1
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 11
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : notify
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Parameter Value      : false
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 12
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : sms
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Parameter Value      : false
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 07:20:29 PM BST
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1044 - Method Number        : 15
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.createTherapy
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1046 - Method Return Type   : org.isf.therapy.model.Therapy
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1047 - Method Return Value  : 1.0 of Diazepam 5mg / ml 2ml Amp - 2 per day
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Parameter Name       : th
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Parameter Type       : org.isf.therapy.model.TherapyRow
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:999 - The Parameter Name: th has the following Attributes:
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 1
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : therapyID
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 2
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : patient
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 1
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : code
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.Integer
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 176
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 2
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : firstName
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : William
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 3
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : secondName
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : Allen
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 4
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : name
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : William Allen
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 5
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : birthDate
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.time.LocalDate
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 1969-05-17
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 6
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : age
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 55
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 7
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : agetype
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 8
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : sex
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : char
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : M
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 9
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : address
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 18 Greene Street
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 10
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : city
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : New York, New York, USA
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 11
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : nextKin
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 1
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 12
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : telephone
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : +39123456
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 13
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : note
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 14
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : motherName
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 15
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : mother
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : char
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : D
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 16
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : fatherName
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 17
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : father
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : char
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : D
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 18
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : bloodType
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : AB+
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 19
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : hasInsurance
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : char
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : Y
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 20
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : parentTogether
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : char
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : N
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 21
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : taxCode
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 123
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 22
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : maritalStatus
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : married
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 23
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : profession
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : engineering
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 24
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : deleted
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : N
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 25
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : lock
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 26
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : hashCode
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 3
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : startDate
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.time.LocalDateTime
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 2024-05-17T00:00
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 4
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : endDate
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.time.LocalDateTime
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 2024-05-21T00:00
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 5
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : medicalId
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.Integer
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 54
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 6
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : qty
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.Double
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 1.0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 7
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : unitID
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 8
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : freqInDay
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 2
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 9
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : freqInPeriod
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 1
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 10
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : note
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.String
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 11
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : notifyInt
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 12
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : smsInt
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1067 - Attribute Number     : 13
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1081 - Attribute Name       : hashCode
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 07:20:29 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 07:20:34 PM BST
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1044 - Method Number        : 16
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.deleteAllTherapies
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.lang.Boolean
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1047 - Method Return Value  : true
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1122 - Parameter Value      : 176
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 07:20:34 PM BST
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1044 - Method Number        : 17
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.newTherapies
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.lang.Boolean
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1047 - Method Return Value  : true
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1081 - Parameter Name       : thRows
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:34 PM BST INFO  TherapyManager:1122 - Parameter Value      : [54 - 0 1.0/2/1]
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 07:20:35 PM BST
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1044 - Method Number        : 18
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.getTherapyRows
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1047 - Method Return Value  : [54 - 0 1.0/2/1]
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:35 PM BST INFO  TherapyManager:1122 - Parameter Value      : 176
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1036 - OS Current Time      : 17/05/2024 07:20:35 PM BST
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1042 - OS UserName          : f7
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1043 - Annotation Type      : Method
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1044 - Method Number        : 19
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1045 - Method Name          : org.isf.visits.manager.VisitManager.getVisits
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1047 - Method Return Value  : []
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1079 - Parameter Number     : 1
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1081 - Parameter Name       : patID
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:20:35 PM BST INFO  VisitManager:1122 - Parameter Value      : 176
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:23:41 PM BST
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1044 - Method Number        : 20
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:23:41 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:23:45 PM BST
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1044 - Method Number        : 21
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:23:45 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 17/05/2024 07:24:03 PM BST
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 22
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : [org.isf.admission.model.AdmittedPatient@4b8539bf, org.isf.admission.model.AdmittedPatient@83076a3, org.isf.admission.model.AdmittedPatient@752cef92, org.isf.admission.model.AdmittedPatient@2cb91b96, org.isf.admission.model.AdmittedPatient@4e93877f, org.isf.admission.model.AdmittedPatient@459d7560, org.isf.admission.model.AdmittedPatient@57df523e, org.isf.admission.model.AdmittedPatient@33de96f8, org.isf.admission.model.AdmittedPatient@61244783, org.isf.admission.model.AdmittedPatient@4fbc08b2, org.isf.admission.model.AdmittedPatient@625ffdd9, org.isf.admission.model.AdmittedPatient@25f1ce3c, org.isf.admission.model.AdmittedPatient@66aa9d5e, org.isf.admission.model.AdmittedPatient@497ce0a1, org.isf.admission.model.AdmittedPatient@54507d62, org.isf.admission.model.AdmittedPatient@7ffbd9fa, org.isf.admission.model.AdmittedPatient@4d09fb36, org.isf.admission.model.AdmittedPatient@635e73de]
+17/05/2024 07:24:03 PM BST INFO  AdmissionBrowserManager:1272 - The Method: getAdmittedPatients DOES NOT have any Parameters
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:24:03 PM BST
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1044 - Method Number        : 23
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:24:03 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 17/05/2024 07:24:09 PM BST
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 24
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : org.isf.admission.model.AdmittedPatient
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : org.isf.admission.model.AdmittedPatient@5c75127d
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1079 - Parameter Number     : 1
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1081 - Parameter Name       : patientId
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:24:09 PM BST INFO  AdmissionBrowserManager:1122 - Parameter Value      : 160
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:24:10 PM BST
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1044 - Method Number        : 25
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:24:10 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:24:41 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+17/05/2024 07:29:27 PM BST INFO  Login:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:29:27 PM BST INFO  Login:1036 - OS Current Time      : 17/05/2024 07:29:27 PM BST
+17/05/2024 07:29:27 PM BST INFO  Login:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:29:27 PM BST INFO  Login:1040 - OS Hostname          : f7.local
+17/05/2024 07:29:27 PM BST INFO  Login:1042 - OS UserName          : f7
+17/05/2024 07:29:27 PM BST INFO  Login:1043 - Annotation Type      : Method
+17/05/2024 07:29:27 PM BST INFO  Login:1044 - Method Number        : 1
+17/05/2024 07:29:27 PM BST INFO  Login:1045 - Method Name          : org.isf.menu.gui.Login.acceptPwd
+17/05/2024 07:29:27 PM BST INFO  Login:1046 - Method Return Type   : void
+17/05/2024 07:29:27 PM BST INFO  Login:1047 - Method Return Value  : 
+17/05/2024 07:29:27 PM BST INFO  Login:1272 - The Method: acceptPwd DOES NOT have any Parameters
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 17/05/2024 07:29:27 PM BST
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Method
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 2
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : [Users, New, New Bill, Edit Patient, Cashier's Filter, Types, Admission Type, New, New, Pharmaceuticals, New, New Patient, Rectify, Examination, Edit Patient, Exams List, Discharge Type, Hospital, Edit, Examination, Pharmaceutical Stock, Edit, Edit, OPD, Examination, Groups, Edit, Examination, Charge, New Bill, Bill Manager, OPD Chart, Edit, Delete, Disease List, Pharmaceutical Stock Ward, Delivery Type, Delete, Delete, Delete, Operation, Merge, Report, Delete patient, Operation, Ward, Discharge, Delete, Edit Bill, Admission Chart, Admission/Patient, Edit Closed Bills, Excel, Launch Report , Disease, Delivery Result Type, Data, Laboratory, Malnutrition control, Operation List, Disease Type, Admission, DICOM Patient, Exams, Delete Bill, Bill, Pharmacy, Operation, Report, Exam Type, OPD, Vaccines, Therapy, Clinical sheet, Accounting, Receipt, Medicals Stock Mov Type, Vaccine, Worksheet, Price Lists, Medicals Type, Supplier, Operation Type, Statistics, SMS Manager, Pregnant Treatment, Reports, Users & Groups, Other Prices, Communication, Age Type, Settings, Vaccine Type, Help, DICOM Type]
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : aUser
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.User
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:999 - The Parameter Name: aUser has the following Attributes:
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 1
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userName
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : mlewis
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 2
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : userGroupName
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : org.isf.menu.model.UserGroup
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:644 - The Attribute Name: userGroupName has the followings Sub-Attributes:
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : admin
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 2
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : desc
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : User with all the privileges
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 3
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : hashCode
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : int
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : 0
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 3
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : passwd
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : $2a$10$yOIDGjprsYERru/i/6EcNOX31euH/uCMLbJfDvaSYPjMvpslz1pWG
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 4
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : desc
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : java.lang.String
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : System Administrator
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1067 - Attribute Number     : 5
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1081 - Attribute Name       : hashCode
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1082 - Attribute Type       : int
+17/05/2024 07:29:27 PM BST INFO  UserBrowsingManager:1122 - Attribute Value      : 0
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1036 - OS Current Time      : 17/05/2024 07:30:09 PM BST
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1043 - Annotation Type      : Method
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1044 - Method Number        : 3
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1045 - Method Name          : org.isf.medicals.manager.MedicalBrowsingManager.getMedicals
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1047 - Method Return Value  : [4 Dimethyl Aminobenzaldelyde, Acetazolamide 250mg Tab, Acetic Acid Glacial 1 ltr, Aceton 99% 1ltr, Aciclovir, Acyclovir 200mg Tab, Adhesive Tape 2.5cm x 5m, Adhesive Tape 7.5cm x 5m, Adrenaline 1mg/ml 1ml Amp, Air ring set 43x15cm, rubber with pump, Airway Guedel Size 0, Airway Guedel Size 00, Airway Guedel Size 1, Airway Guedel Size 2, Airway Guedel Size 3, Albendazole 200mg Tab, Albendazole 400mg Tab, Alcohol 95% not denatured 20Ltrs, Aminophylline 100mg Tab, Aminophylline 25mg/ml,10ml Amp, Amitriptyline 25mg Tab, Ammonium Oxalate, Amoxicillin /Clavulanate 375mg Tab, Amoxicillin 125mg/5ml Powd. Susp 100ml, Amoxicillin 250mg Caps, Amphotericin B 50mg Vial, Ampicillin 500mg Vial, Anti Serum A 10ml, Anti Serum AB 10ml, Anti Serum B 10ml, Anti Serum D 10ml, Antihaemorrhoid suppositories, Apron Plastic Re-usable, Apron Plastic Re-usable local, Apron Polythene Disp Non Sterile, Ascorbic Acid 100mg tab, Aspirin 300mg Tab, Atenolol 100mg Tab, Atenolol 50mg Tab, Atropine 1mg/ml 1ml Amp, Barium Sulphate for X-Ray 1kg, Beclomethasone 50mcg Inhaler, Bedpan Plastic Autoclavable, Bedpan Stainless Steel, Bendrofluazide 5mg Tab, Benzathine Penicillin 2.4 MIU Vial, Benzhexol 2mg Tab, Benzhexol 5mg Tab, Benzyl Penicillin 1 MIU Vial, Benzyl Penicillin 5 MIU Vial, Betamethasone 0.1% eye/ear/nose drops, Betamethasone 0.1% Neomycin 0.35 %eye drops 7.5ml, Bisacodyl 5mg Tab, Blood giving set Disposable, Blood Transfer Bag 300ml, Body Bag 70 x 215cm  (Adult), Bowl Without Lid 10 x 24cm stainless steel, Bowl Without Lid 7 x 12cm stainless steel, Bowl Without Lid 8 x 16cm stainless steel, Brilliant Cresyl Blue, Calcium Lactate 300mg Tab, Carbamazepine 200mg Tab, Carbimazole 5mg Tab, Catheter Foley CH10 3 Way Balloon, Catheter Foley CH12 3 Way Balloon, Catheter Foley CH14 3 Way Balloon, Catheter Foley CH16 3 Way Balloon, Catheter Foley CH18 3 Way Balloon, Catheter Foley CH20 3 Way Balloon, Catheter Foley CH8 3 Way Balloon, Catheter Stopper for All sizes, Charcoal 250mg Tab, Chloramphenicol 0.5% Eye Drops 10ml, Chloramphenicol 125mg/5ml Susp 100ml, Chloramphenicol 125mg/5ml Susp 3Ltr, Chloramphenicol 1g Vial, Chloramphenicol 250mg Caps, Chlorhexidine/Cetrimide 1.5/15% 1Ltr, Chlorhexidine/Cetrimide 1.5/15% 5Ltr, Chloroquine 40mg Base/ml 5ml Amp, Chloroquine Coated 150mg Tab, Chloroquine Uncoated 150mg Tab, Chlorphenimine 4mg Tab, Chlorpromazine 100mg Tab, Chlorpromazine 25mg Tab, Chlorpromazine 25mg/ml/2ml Amp, Cimetidine 200mg Tab, Cimetidine 400mg Tab, Ciprofloxacine 250mg Tab, Ciprofloxacine 500mg Tab, Cloramphenicol 1% Eye Ointment 3.5g, Clotrimazole 100mg Pessaries, Clotrimazole 500mg Pessaries, Cloxacillin 250mg Tab, Cloxacillin 500mg Vial, Codein Phosphate 30mg Tab, Colostomy Bag closed 30mm size 2, Colostomy Bag closed 30mm size 3, Colostomy Bag open re-usable 35mm, Copper 11 Sulphate 500g, Cotrimoxazole 100/20mg Paed Tab, Cotrimoxazole 200+40mg/5ml Susp 100ml, Cotrimoxazole 200+40mg/5ml Susp 3Ltr, Cotrimoxazole 400/80mg Tab, Cotton Wool 200G, cotton Wool 500G, Creatinine 200ml (Calorimetric), Crystal Violet, Cyclophosphamide 200mg Vial, Cyclophosphamide 500mg Vial, Darrows Half Strength 500ml, Dexamethasone 0.5mg Tab, Dexamethasone 4mg/ml 1ml Amp, Dexamethasone 4mg/ml 2ml Amp, Dextrose 30% IV 100ml, Dextrose 5% IV 500ml, Dextrose 50% IV 100ml, Dextrose Monohydrate Apyrogen 25Kg, Diatrizoate Meglumin Sod 76% 20ml Amp, Diazepam 2mg/ml 2.5ml Rectal Tube, Diazepam 5mg / ml 2ml Amp, Diazepam 5mg Tab, Diclofenac 25mg/ml 3ml Amp, Diclofenac 50mg Tab, Diethylcarbamazine 50mg Tab, Digoxin 0.25 mg Tab, Digoxin 0.25 mg/ml 2ml Amp, Doxycycline 100mg Tab, Ear syringe rubber 60ml, EDTA Di- sodium salt 100g, Elastic Bandage 10cm x 4.5m, Elastic Bandage 7.5cm x 4.5m, Eosin Yellowish, Ephedrine 30mg Tab, Erythromycin 250mg Tab, Ethanol Absolute 1ltr, Eye Pad Sterile, Fansidar 500/25mg Tab, Fansidar 500/25mg Tab (50dosesx3), Ferrous Sulphate 200mg Tab, Field stain A and B, First Aid kit, Fluconazole 100mg 24 Caps, Fluconazole 100mg Tab, Folic Acid 15mg Tab, Folic Acid 1mg Tab, Folic Acid 5mg Tab, Folic Acid/Ferrous Sulp 0.5/200mg Tab, Formaldehyde solution 35-38% 1ltr, Frusemide 40mg Tab, Furosemide 10mg/ml 2ml Amp, Gallipot stainless steel 200ml/10cm, Gallipot stainless steel 300ml/15cm, Gauze Bandage 10cm x 4m, Gauze Bandage 7.5cm x 3.65-4m, Gauze Hydrophylic 90cm x 91cm, Gauze Pads  Sterile 10cm x 10cm, Gauze Pads Non Sterile 10cm x 10cm, Genitian Violet, Gentamicin 0.3% eye/ear drops 10ml, Gentamicin 40mg/ml 2ml, Gentian Violet 25g Tin, Giemsa Stain, Glibenclamide 5mg Tab, Gloves Domestic, Gloves Gynaecological 7.5-8, Gloves High risk non sterile Medium, Gloves Non Sterile Large Disposable, Gloves Non Sterile Medium Disposable, Gloves Surgical Sterile 6, Gloves Surgical Sterile 6.5, Gloves Surgical Sterile 7, Gloves Surgical Sterile 7.5, Gloves Surgical Sterile 8, Gloves Surgical Sterile 8.5, Glucose GOD PAD  6 x 100ml (Colorimetric), Glucose Test Strip, Glucose Test Strips (Hyloguard), GOT ( AST) 200ml (Calorimetric) AS 147, GOT ( AST) 200ml has no NAOH) AS 101, GPT (ALT) 200ml ( Does not have NAOH), Griseofulvin 500mg Tab, Haloperidol 5mg, Haloperidol 5mg Tab, Haloperidol 5mg/ml 1ml Amp, Haloperidol Decanoate 50mg/ml 1ml Amp, Handle for surgical blade No 3, Handle for surgical blade No 4, HIV 1/2 Capillus Kit 100Tests, HIV Buffer for determine Kit, HIV Determine 1/11 (Abbott) 100Tests, HIV UNIGOLD 1/11 Test Kits 20 Tests, Hot water Bottle 2Ltr, Hydralazine 20mg Vial, Hydralazine 25mg Tab, Hydrochloric Acid 30-33% 1ltr, Hydrocortisone 1% eye drops 5ml, Hydrocortisone 100mg Vial, Hydrogen Peroxide 6% 250ml, Hyoscine 10mg Tab, Hyoscine Butyl Bromide 20mg/ml/ Amp, Ibuprofen 200mg Tab, Imipramine 25mg Tab, Indomethacin 25mg Tab, Insectcide Spray 400g, Instrument Box With Lid 20x10x5cm, Instrument Tray 30 x 20 x 2cm, Insulin Isophane 100IU/ml 10ml Vial, Insulin Isophane 40IU/ml 10ml, Insulin Mixtard 30/70 100IU/ml 10ml Vial, Insulin Mixtard 30/70 100IU/ml 5x3ml catridges, Insulin Soluble 100IU/ml 10ml Vial, Insulin Syringe 100IU with Needle G26/29, Iodine Crystal 100g, Iodine Solution 2% 500ml, Iron Dextran 10mg/ml 2ml Vial, Irrigation can with accessories, Isoniazid 300mg Tab, IV Cannula G16 with Port, IV Cannula G18 with Port, IV Cannula G20 with Port, IV Cannula G22 with Port, IV Cannula G24 with Port, IV Cannula G24 without Port, IV Giving set Disposable, Ketamine 10mg/ml 10ml Vial, Ketamine 10mg/ml 20ml Vial, Ketoconazole 200mg Tab, Kidney Dish Polypropylene 24cm, Kidney Dish stainless Steel 20cm, Kidney Dish stainless Steel 24cm, Lead Apron 100cmx60cm, Lignocaine 2% 20ml Vial, Lignocaine 2% Adrenaline Dent.cartridges, Lignocaine spinal 50mg/ml 2ml Amp, Liquid detergent 20Ltr, liquid detergent 5Ltr Perfumed, Mackintosh Plastic (Apron) per 1m, Mackintosh Rubber Brown (sheeting) per 1m, Measuring Cup Graduated 25ml, Methanol 99% 1ltr, Methylergomeatrine 0.2mg/ml 1ml Amp, Methylergomeatrine 0.5mg/ml 1ml Amp, Metoclopramide 5mg/ml 100ml Amp, Metronidazole 5mg/ml 2ml IV, Morphine 15mg/ml 1ml Amp, Mosquito Net Impregnated Large, Mosquito Net Impregnated Medium, Mosquito Net Impregnation Liquid 500ml, Mosquito Net Impregnation Tablet, Mosquito Net Non Impregnated Large, Mosquito Net Non Impregnated Medium, Mosquito Wall spray Powder 80g, Nasogastric Tube G10 (Children), Nasogastric Tube G14 (Children), Nasogastric Tube G16 (Children), Nasogastric Tube G5 (Children), Nasogastric Tube G6 (Children), Nasogastric Tube G8 (Children), Neck Support Large, Neck Support Medium, Neck Support Small, Needle container disposable of contaminated, Needle suture No 5 cutting, Needle suture No 5 round, Needle suture No 6 Round, Needles Luer G20 Disposable, Needles Luer G21 Disposable, Needles Luer G22 Disposable, Needles Luer G23 Disposable, Needles Spinal G20x75-120mm, Needles Spinal G22x40mm, Needles Spinal G22x75-120mm, Needles Spinal G25x75-120mm, Neutral Red, Non 111 Chloride (Ferric chloride), Nystatin 100.000 IU Pessaries, Nystatin 500.000IU/ Susp/ Drops, Oral Rehydration Salt (ORS), Oxytocin 10 IU/ml 1ml Amp, Paracetamol 120mg/5ml 100ml, Paracetamol 120mg/5ml Syrup, Pethidine 100mg/ml 2ml Amp, Pethidine 50mg/ml 1ml Amp, Phenobarbital 100mg/ml 2ml Amp, Phenol crystals 1kg, Phytomenadione 10mg/ml 1ml Amp, Phytomenadione 1mg/ml 1ml Amp, Plaster of Paris 10cm, Plaster of Paris 15cm, Potassium iodide 100g, Potassium Oxalate, Pregnacy ( HGG Latex) 50 tests, Procaine Penicillin Fortified 4 MIU Vial, Promethazine 25mg/ml 2ml Amp, Pyridoxine 50mg Tab, Quinine 100mg/5ml Syrup 100ml, Quinine 300mg Tab, Quinine Di-HCI 300mg/ml 2ml Amp, Ranitidine 150mg Tab, Ranitidine 25mg/ml 2ml Amp, Razor Blades Disposable 5pc, Rectal Tube CH24, Rectal Tube CH26, Rifampicin/Isoniazid 150/100 Tab, RPR ( VDRL Carbon ) Antigen 5ml, RPR 125mm x 75mm, Salbutamol 4mg Tab, Salbutamol Inhaler 10ml, Salbutamol solution for inhalation 5ml, Scalp Vein G19 Infusion set, Scalp Vein G21 Infusion set, Scalp Vein G23 Infusion set, Scalp Vein G25 Infusion set, Soap Blue Bar 550g, Soap Powder Hand wash 5kg, Sodium Carbonate Anhydrous, Sodium Carbonate Anhydrous 500g, Sodium Chloride 0.9% IV 500ml, Sodium Chloride Apyrogen 50kg, Sodium Citrate 100g, Sodium Fluoride, Sodium Hypochlorite solution 0.75 Ltr, Sodium Hypochlorite solution 5Ltr, Sodium Lactate Compound IV 500ml, Sodium Nitrate 25g, Sodium Sulphate 500g, Spironolactone 25mg Tab, Spoon Medicine 5ml, Stethoscope Foetal Metal, Stethoscope Foetal Wood, Streptomycin 1g Vial, Suction Catheter Size 10 Disposable, Suction Catheter Size 12 Disposable, Suction Catheter Size 14 Disposable, Suction Catheter Size 16 Disposable, Suction Catheter Size 6 Disposable, Suction Catheter Size 8 Disposable, Sulphosalicylic Acid 500g, Sulphuric Acid Conc 1ltr, Surgical Blades No 20, Surgical Blades No 21, Surgical Blades No 22, Surgical Blades No 23, Surgical Brush (Scrubbing), Surgical Mop 12 x 15, Suture Cutgut Chromic (0), Suture Cutgut Chromic (2) RN22240TH, Suture Cutgut Chromic (2/0) RN22230TH, Suture Cutgut Chromic (3/0) RN2325TF, Suture Cutgut Plain (2/0) RN1230TF, Suture PGA (3/0) RN3330TF, Suture Silk (1) S595, Suture Silk (2/0) RN5230TF, Suxamethonium 500mg Vial, Suxamethonium 500mg/ml 2ml Amp, Syringe Feeding/Irrigation 50/60ml, Syringe Luer 10ml With Needle Disposable, Syringe Luer 20ml With Needle Disposable, Syringe Luer 2ml With Needle Disposable, Syringe Luer 5ml With Needle Disposable, Tablet Counting Tray, tetanus Antitoxin 1500 IU 1ml Amp, Tetracycline eye ointment 1% 3.5g, Thermometer Clinical Flat Type, Thermometer Clinical Prismatic Type, Thiopental Sodium 500mg Vial, Toilet Paper Rolls, Tolbutamide 500mg tab, Tongue depressor Disposable, Traction Kit Adult, Traction Kit Children, Trichloro acetic Acid, Trisodium Citrate, Umbilical Cord Tie non sterile 100m, Umbilical Cord Tie sterile 22m, UREA Calorimetric 300 Tests, Urinal 1Ltr / 2Ltr, Urine Collecting Bag sterile 2Ltr, Urine Test Strips 3 Parameters 100 tests, Vitamin A 200.000 IU Caps, Vitamin B Complex Tab, Water for Injection 10ml Vial, X-Ray Developer 2.6kg for 22.5Ltr, X-Ray Film 18x24cm, X-Ray Film 20x40cm, X-Ray Film 24x30cm, X-Ray Film 30x40cm, X-Ray Film 35x35cm, X-Ray Film 43x35cm, X-Ray Film Cassette  18x24cm with screen, X-Ray Film Cassette  24x30cm with screen, X-Ray Film Cassette  30x40cm with screen, X-Ray Film Cassette  35x35cm with screen, X-Ray Film Cassette  35x43cm with screen, X-Ray Fixer 3.3kg for 22.5 Ltr, Xylene 2.5 ltrs, Medicine for an intense migraine, Medicine for a rare seasonal virus]
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1079 - Parameter Number     : 2
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1081 - Parameter Name       : nameSorted
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:30:09 PM BST INFO  MedicalBrowsingManager:1122 - Parameter Value      : false
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 17/05/2024 07:31:09 PM BST
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 4
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : [org.isf.admission.model.AdmittedPatient@4b187952, org.isf.admission.model.AdmittedPatient@7d51f3dd, org.isf.admission.model.AdmittedPatient@337be59c, org.isf.admission.model.AdmittedPatient@324f1aa8, org.isf.admission.model.AdmittedPatient@3a15275a, org.isf.admission.model.AdmittedPatient@48a8e4de, org.isf.admission.model.AdmittedPatient@2413af52, org.isf.admission.model.AdmittedPatient@6ec36b22, org.isf.admission.model.AdmittedPatient@7dffbe57, org.isf.admission.model.AdmittedPatient@72fe2b22, org.isf.admission.model.AdmittedPatient@4b2e6310, org.isf.admission.model.AdmittedPatient@3ec18b2c, org.isf.admission.model.AdmittedPatient@3e4c87a5, org.isf.admission.model.AdmittedPatient@3de80c75, org.isf.admission.model.AdmittedPatient@5e6ce3b, org.isf.admission.model.AdmittedPatient@374cad40, org.isf.admission.model.AdmittedPatient@6de765a3, org.isf.admission.model.AdmittedPatient@109147ce]
+17/05/2024 07:31:09 PM BST INFO  AdmissionBrowserManager:1272 - The Method: getAdmittedPatients DOES NOT have any Parameters
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:31:09 PM BST
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1044 - Method Number        : 5
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:31:09 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:31:11 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+17/05/2024 07:31:11 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+17/05/2024 07:31:12 PM BST WARN  Webcam:964 - No webcam has been detected!
+17/05/2024 07:34:36 PM BST INFO  ConfigurationProperties:91 - File txtPrinter.properties loaded.
+17/05/2024 07:34:36 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_HEIGHT property not found: default is 10
+17/05/2024 07:34:36 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_WIDTH property not found: default is 10
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1036 - OS Current Time      : 17/05/2024 07:34:48 PM BST
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1043 - Annotation Type      : Method
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1044 - Method Number        : 6
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1045 - Method Name          : org.isf.medicals.manager.MedicalBrowsingManager.getMedicals
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1047 - Method Return Value  : [4 Dimethyl Aminobenzaldelyde, Acetazolamide 250mg Tab, Acetic Acid Glacial 1 ltr, Aceton 99% 1ltr, Aciclovir, Acyclovir 200mg Tab, Adhesive Tape 2.5cm x 5m, Adhesive Tape 7.5cm x 5m, Adrenaline 1mg/ml 1ml Amp, Air ring set 43x15cm, rubber with pump, Airway Guedel Size 0, Airway Guedel Size 00, Airway Guedel Size 1, Airway Guedel Size 2, Airway Guedel Size 3, Albendazole 200mg Tab, Albendazole 400mg Tab, Alcohol 95% not denatured 20Ltrs, Aminophylline 100mg Tab, Aminophylline 25mg/ml,10ml Amp, Amitriptyline 25mg Tab, Ammonium Oxalate, Amoxicillin /Clavulanate 375mg Tab, Amoxicillin 125mg/5ml Powd. Susp 100ml, Amoxicillin 250mg Caps, Amphotericin B 50mg Vial, Ampicillin 500mg Vial, Anti Serum A 10ml, Anti Serum AB 10ml, Anti Serum B 10ml, Anti Serum D 10ml, Antihaemorrhoid suppositories, Apron Plastic Re-usable, Apron Plastic Re-usable local, Apron Polythene Disp Non Sterile, Ascorbic Acid 100mg tab, Aspirin 300mg Tab, Atenolol 100mg Tab, Atenolol 50mg Tab, Atropine 1mg/ml 1ml Amp, Barium Sulphate for X-Ray 1kg, Beclomethasone 50mcg Inhaler, Bedpan Plastic Autoclavable, Bedpan Stainless Steel, Bendrofluazide 5mg Tab, Benzathine Penicillin 2.4 MIU Vial, Benzhexol 2mg Tab, Benzhexol 5mg Tab, Benzyl Penicillin 1 MIU Vial, Benzyl Penicillin 5 MIU Vial, Betamethasone 0.1% eye/ear/nose drops, Betamethasone 0.1% Neomycin 0.35 %eye drops 7.5ml, Bisacodyl 5mg Tab, Blood giving set Disposable, Blood Transfer Bag 300ml, Body Bag 70 x 215cm  (Adult), Bowl Without Lid 10 x 24cm stainless steel, Bowl Without Lid 7 x 12cm stainless steel, Bowl Without Lid 8 x 16cm stainless steel, Brilliant Cresyl Blue, Calcium Lactate 300mg Tab, Carbamazepine 200mg Tab, Carbimazole 5mg Tab, Catheter Foley CH10 3 Way Balloon, Catheter Foley CH12 3 Way Balloon, Catheter Foley CH14 3 Way Balloon, Catheter Foley CH16 3 Way Balloon, Catheter Foley CH18 3 Way Balloon, Catheter Foley CH20 3 Way Balloon, Catheter Foley CH8 3 Way Balloon, Catheter Stopper for All sizes, Charcoal 250mg Tab, Chloramphenicol 0.5% Eye Drops 10ml, Chloramphenicol 125mg/5ml Susp 100ml, Chloramphenicol 125mg/5ml Susp 3Ltr, Chloramphenicol 1g Vial, Chloramphenicol 250mg Caps, Chlorhexidine/Cetrimide 1.5/15% 1Ltr, Chlorhexidine/Cetrimide 1.5/15% 5Ltr, Chloroquine 40mg Base/ml 5ml Amp, Chloroquine Coated 150mg Tab, Chloroquine Uncoated 150mg Tab, Chlorphenimine 4mg Tab, Chlorpromazine 100mg Tab, Chlorpromazine 25mg Tab, Chlorpromazine 25mg/ml/2ml Amp, Cimetidine 200mg Tab, Cimetidine 400mg Tab, Ciprofloxacine 250mg Tab, Ciprofloxacine 500mg Tab, Cloramphenicol 1% Eye Ointment 3.5g, Clotrimazole 100mg Pessaries, Clotrimazole 500mg Pessaries, Cloxacillin 250mg Tab, Cloxacillin 500mg Vial, Codein Phosphate 30mg Tab, Colostomy Bag closed 30mm size 2, Colostomy Bag closed 30mm size 3, Colostomy Bag open re-usable 35mm, Copper 11 Sulphate 500g, Cotrimoxazole 100/20mg Paed Tab, Cotrimoxazole 200+40mg/5ml Susp 100ml, Cotrimoxazole 200+40mg/5ml Susp 3Ltr, Cotrimoxazole 400/80mg Tab, Cotton Wool 200G, cotton Wool 500G, Creatinine 200ml (Calorimetric), Crystal Violet, Cyclophosphamide 200mg Vial, Cyclophosphamide 500mg Vial, Darrows Half Strength 500ml, Dexamethasone 0.5mg Tab, Dexamethasone 4mg/ml 1ml Amp, Dexamethasone 4mg/ml 2ml Amp, Dextrose 30% IV 100ml, Dextrose 5% IV 500ml, Dextrose 50% IV 100ml, Dextrose Monohydrate Apyrogen 25Kg, Diatrizoate Meglumin Sod 76% 20ml Amp, Diazepam 2mg/ml 2.5ml Rectal Tube, Diazepam 5mg / ml 2ml Amp, Diazepam 5mg Tab, Diclofenac 25mg/ml 3ml Amp, Diclofenac 50mg Tab, Diethylcarbamazine 50mg Tab, Digoxin 0.25 mg Tab, Digoxin 0.25 mg/ml 2ml Amp, Doxycycline 100mg Tab, Ear syringe rubber 60ml, EDTA Di- sodium salt 100g, Elastic Bandage 10cm x 4.5m, Elastic Bandage 7.5cm x 4.5m, Eosin Yellowish, Ephedrine 30mg Tab, Erythromycin 250mg Tab, Ethanol Absolute 1ltr, Eye Pad Sterile, Fansidar 500/25mg Tab, Fansidar 500/25mg Tab (50dosesx3), Ferrous Sulphate 200mg Tab, Field stain A and B, First Aid kit, Fluconazole 100mg 24 Caps, Fluconazole 100mg Tab, Folic Acid 15mg Tab, Folic Acid 1mg Tab, Folic Acid 5mg Tab, Folic Acid/Ferrous Sulp 0.5/200mg Tab, Formaldehyde solution 35-38% 1ltr, Frusemide 40mg Tab, Furosemide 10mg/ml 2ml Amp, Gallipot stainless steel 200ml/10cm, Gallipot stainless steel 300ml/15cm, Gauze Bandage 10cm x 4m, Gauze Bandage 7.5cm x 3.65-4m, Gauze Hydrophylic 90cm x 91cm, Gauze Pads  Sterile 10cm x 10cm, Gauze Pads Non Sterile 10cm x 10cm, Genitian Violet, Gentamicin 0.3% eye/ear drops 10ml, Gentamicin 40mg/ml 2ml, Gentian Violet 25g Tin, Giemsa Stain, Glibenclamide 5mg Tab, Gloves Domestic, Gloves Gynaecological 7.5-8, Gloves High risk non sterile Medium, Gloves Non Sterile Large Disposable, Gloves Non Sterile Medium Disposable, Gloves Surgical Sterile 6, Gloves Surgical Sterile 6.5, Gloves Surgical Sterile 7, Gloves Surgical Sterile 7.5, Gloves Surgical Sterile 8, Gloves Surgical Sterile 8.5, Glucose GOD PAD  6 x 100ml (Colorimetric), Glucose Test Strip, Glucose Test Strips (Hyloguard), GOT ( AST) 200ml (Calorimetric) AS 147, GOT ( AST) 200ml has no NAOH) AS 101, GPT (ALT) 200ml ( Does not have NAOH), Griseofulvin 500mg Tab, Haloperidol 5mg, Haloperidol 5mg Tab, Haloperidol 5mg/ml 1ml Amp, Haloperidol Decanoate 50mg/ml 1ml Amp, Handle for surgical blade No 3, Handle for surgical blade No 4, HIV 1/2 Capillus Kit 100Tests, HIV Buffer for determine Kit, HIV Determine 1/11 (Abbott) 100Tests, HIV UNIGOLD 1/11 Test Kits 20 Tests, Hot water Bottle 2Ltr, Hydralazine 20mg Vial, Hydralazine 25mg Tab, Hydrochloric Acid 30-33% 1ltr, Hydrocortisone 1% eye drops 5ml, Hydrocortisone 100mg Vial, Hydrogen Peroxide 6% 250ml, Hyoscine 10mg Tab, Hyoscine Butyl Bromide 20mg/ml/ Amp, Ibuprofen 200mg Tab, Imipramine 25mg Tab, Indomethacin 25mg Tab, Insectcide Spray 400g, Instrument Box With Lid 20x10x5cm, Instrument Tray 30 x 20 x 2cm, Insulin Isophane 100IU/ml 10ml Vial, Insulin Isophane 40IU/ml 10ml, Insulin Mixtard 30/70 100IU/ml 10ml Vial, Insulin Mixtard 30/70 100IU/ml 5x3ml catridges, Insulin Soluble 100IU/ml 10ml Vial, Insulin Syringe 100IU with Needle G26/29, Iodine Crystal 100g, Iodine Solution 2% 500ml, Iron Dextran 10mg/ml 2ml Vial, Irrigation can with accessories, Isoniazid 300mg Tab, IV Cannula G16 with Port, IV Cannula G18 with Port, IV Cannula G20 with Port, IV Cannula G22 with Port, IV Cannula G24 with Port, IV Cannula G24 without Port, IV Giving set Disposable, Ketamine 10mg/ml 10ml Vial, Ketamine 10mg/ml 20ml Vial, Ketoconazole 200mg Tab, Kidney Dish Polypropylene 24cm, Kidney Dish stainless Steel 20cm, Kidney Dish stainless Steel 24cm, Lead Apron 100cmx60cm, Lignocaine 2% 20ml Vial, Lignocaine 2% Adrenaline Dent.cartridges, Lignocaine spinal 50mg/ml 2ml Amp, Liquid detergent 20Ltr, liquid detergent 5Ltr Perfumed, Mackintosh Plastic (Apron) per 1m, Mackintosh Rubber Brown (sheeting) per 1m, Measuring Cup Graduated 25ml, Methanol 99% 1ltr, Methylergomeatrine 0.2mg/ml 1ml Amp, Methylergomeatrine 0.5mg/ml 1ml Amp, Metoclopramide 5mg/ml 100ml Amp, Metronidazole 5mg/ml 2ml IV, Morphine 15mg/ml 1ml Amp, Mosquito Net Impregnated Large, Mosquito Net Impregnated Medium, Mosquito Net Impregnation Liquid 500ml, Mosquito Net Impregnation Tablet, Mosquito Net Non Impregnated Large, Mosquito Net Non Impregnated Medium, Mosquito Wall spray Powder 80g, Nasogastric Tube G10 (Children), Nasogastric Tube G14 (Children), Nasogastric Tube G16 (Children), Nasogastric Tube G5 (Children), Nasogastric Tube G6 (Children), Nasogastric Tube G8 (Children), Neck Support Large, Neck Support Medium, Neck Support Small, Needle container disposable of contaminated, Needle suture No 5 cutting, Needle suture No 5 round, Needle suture No 6 Round, Needles Luer G20 Disposable, Needles Luer G21 Disposable, Needles Luer G22 Disposable, Needles Luer G23 Disposable, Needles Spinal G20x75-120mm, Needles Spinal G22x40mm, Needles Spinal G22x75-120mm, Needles Spinal G25x75-120mm, Neutral Red, Non 111 Chloride (Ferric chloride), Nystatin 100.000 IU Pessaries, Nystatin 500.000IU/ Susp/ Drops, Oral Rehydration Salt (ORS), Oxytocin 10 IU/ml 1ml Amp, Paracetamol 120mg/5ml 100ml, Paracetamol 120mg/5ml Syrup, Pethidine 100mg/ml 2ml Amp, Pethidine 50mg/ml 1ml Amp, Phenobarbital 100mg/ml 2ml Amp, Phenol crystals 1kg, Phytomenadione 10mg/ml 1ml Amp, Phytomenadione 1mg/ml 1ml Amp, Plaster of Paris 10cm, Plaster of Paris 15cm, Potassium iodide 100g, Potassium Oxalate, Pregnacy ( HGG Latex) 50 tests, Procaine Penicillin Fortified 4 MIU Vial, Promethazine 25mg/ml 2ml Amp, Pyridoxine 50mg Tab, Quinine 100mg/5ml Syrup 100ml, Quinine 300mg Tab, Quinine Di-HCI 300mg/ml 2ml Amp, Ranitidine 150mg Tab, Ranitidine 25mg/ml 2ml Amp, Razor Blades Disposable 5pc, Rectal Tube CH24, Rectal Tube CH26, Rifampicin/Isoniazid 150/100 Tab, RPR ( VDRL Carbon ) Antigen 5ml, RPR 125mm x 75mm, Salbutamol 4mg Tab, Salbutamol Inhaler 10ml, Salbutamol solution for inhalation 5ml, Scalp Vein G19 Infusion set, Scalp Vein G21 Infusion set, Scalp Vein G23 Infusion set, Scalp Vein G25 Infusion set, Soap Blue Bar 550g, Soap Powder Hand wash 5kg, Sodium Carbonate Anhydrous, Sodium Carbonate Anhydrous 500g, Sodium Chloride 0.9% IV 500ml, Sodium Chloride Apyrogen 50kg, Sodium Citrate 100g, Sodium Fluoride, Sodium Hypochlorite solution 0.75 Ltr, Sodium Hypochlorite solution 5Ltr, Sodium Lactate Compound IV 500ml, Sodium Nitrate 25g, Sodium Sulphate 500g, Spironolactone 25mg Tab, Spoon Medicine 5ml, Stethoscope Foetal Metal, Stethoscope Foetal Wood, Streptomycin 1g Vial, Suction Catheter Size 10 Disposable, Suction Catheter Size 12 Disposable, Suction Catheter Size 14 Disposable, Suction Catheter Size 16 Disposable, Suction Catheter Size 6 Disposable, Suction Catheter Size 8 Disposable, Sulphosalicylic Acid 500g, Sulphuric Acid Conc 1ltr, Surgical Blades No 20, Surgical Blades No 21, Surgical Blades No 22, Surgical Blades No 23, Surgical Brush (Scrubbing), Surgical Mop 12 x 15, Suture Cutgut Chromic (0), Suture Cutgut Chromic (2) RN22240TH, Suture Cutgut Chromic (2/0) RN22230TH, Suture Cutgut Chromic (3/0) RN2325TF, Suture Cutgut Plain (2/0) RN1230TF, Suture PGA (3/0) RN3330TF, Suture Silk (1) S595, Suture Silk (2/0) RN5230TF, Suxamethonium 500mg Vial, Suxamethonium 500mg/ml 2ml Amp, Syringe Feeding/Irrigation 50/60ml, Syringe Luer 10ml With Needle Disposable, Syringe Luer 20ml With Needle Disposable, Syringe Luer 2ml With Needle Disposable, Syringe Luer 5ml With Needle Disposable, Tablet Counting Tray, tetanus Antitoxin 1500 IU 1ml Amp, Tetracycline eye ointment 1% 3.5g, Thermometer Clinical Flat Type, Thermometer Clinical Prismatic Type, Thiopental Sodium 500mg Vial, Toilet Paper Rolls, Tolbutamide 500mg tab, Tongue depressor Disposable, Traction Kit Adult, Traction Kit Children, Trichloro acetic Acid, Trisodium Citrate, Umbilical Cord Tie non sterile 100m, Umbilical Cord Tie sterile 22m, UREA Calorimetric 300 Tests, Urinal 1Ltr / 2Ltr, Urine Collecting Bag sterile 2Ltr, Urine Test Strips 3 Parameters 100 tests, Vitamin A 200.000 IU Caps, Vitamin B Complex Tab, Water for Injection 10ml Vial, X-Ray Developer 2.6kg for 22.5Ltr, X-Ray Film 18x24cm, X-Ray Film 20x40cm, X-Ray Film 24x30cm, X-Ray Film 30x40cm, X-Ray Film 35x35cm, X-Ray Film 43x35cm, X-Ray Film Cassette  18x24cm with screen, X-Ray Film Cassette  24x30cm with screen, X-Ray Film Cassette  30x40cm with screen, X-Ray Film Cassette  35x35cm with screen, X-Ray Film Cassette  35x43cm with screen, X-Ray Fixer 3.3kg for 22.5 Ltr, Xylene 2.5 ltrs, Medicine for an intense migraine, Medicine for a seasonal virus]
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1079 - Parameter Number     : 2
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1081 - Parameter Name       : nameSorted
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:34:48 PM BST INFO  MedicalBrowsingManager:1122 - Parameter Value      : false
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 17/05/2024 07:35:09 PM BST
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 7
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : [org.isf.admission.model.AdmittedPatient@26af8b4, org.isf.admission.model.AdmittedPatient@63047ceb, org.isf.admission.model.AdmittedPatient@7c3abfd4, org.isf.admission.model.AdmittedPatient@76bac8e, org.isf.admission.model.AdmittedPatient@52114b8f, org.isf.admission.model.AdmittedPatient@12b28602, org.isf.admission.model.AdmittedPatient@3bdf5f9f, org.isf.admission.model.AdmittedPatient@610a9bb6, org.isf.admission.model.AdmittedPatient@399fe92b, org.isf.admission.model.AdmittedPatient@3f9bea8c, org.isf.admission.model.AdmittedPatient@7ef96947, org.isf.admission.model.AdmittedPatient@4b1b9a05, org.isf.admission.model.AdmittedPatient@d8bf4fc, org.isf.admission.model.AdmittedPatient@6da4b04b, org.isf.admission.model.AdmittedPatient@58a24fe9, org.isf.admission.model.AdmittedPatient@4ffe3d4a, org.isf.admission.model.AdmittedPatient@1d801c5d, org.isf.admission.model.AdmittedPatient@556ec14e, org.isf.admission.model.AdmittedPatient@1ff9110d]
+17/05/2024 07:35:09 PM BST INFO  AdmissionBrowserManager:1272 - The Method: getAdmittedPatients DOES NOT have any Parameters
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:35:09 PM BST
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1044 - Method Number        : 8
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:35:09 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 17/05/2024 07:35:13 PM BST
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 9
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : org.isf.admission.model.AdmittedPatient
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : org.isf.admission.model.AdmittedPatient@524d3b50
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1079 - Parameter Number     : 1
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1081 - Parameter Name       : patientId
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:35:13 PM BST INFO  AdmissionBrowserManager:1122 - Parameter Value      : 138
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:35:13 PM BST
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1044 - Method Number        : 10
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:35:13 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 17/05/2024 07:36:01 PM BST
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 11
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : [org.isf.admission.model.AdmittedPatient@170f7289, org.isf.admission.model.AdmittedPatient@6e70622f, org.isf.admission.model.AdmittedPatient@3ee332d9, org.isf.admission.model.AdmittedPatient@204889e0, org.isf.admission.model.AdmittedPatient@4c3f3c5a, org.isf.admission.model.AdmittedPatient@21b34ee8, org.isf.admission.model.AdmittedPatient@6e1d5fd, org.isf.admission.model.AdmittedPatient@62024b48, org.isf.admission.model.AdmittedPatient@576a76be, org.isf.admission.model.AdmittedPatient@6c95a6b5, org.isf.admission.model.AdmittedPatient@6453c8e7, org.isf.admission.model.AdmittedPatient@147b972e, org.isf.admission.model.AdmittedPatient@1020cc99, org.isf.admission.model.AdmittedPatient@51c17026, org.isf.admission.model.AdmittedPatient@2b2f8e09, org.isf.admission.model.AdmittedPatient@6325aea5, org.isf.admission.model.AdmittedPatient@75f7f25c, org.isf.admission.model.AdmittedPatient@2f6dfc84, org.isf.admission.model.AdmittedPatient@786570a6]
+17/05/2024 07:36:01 PM BST INFO  AdmissionBrowserManager:1272 - The Method: getAdmittedPatients DOES NOT have any Parameters
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:36:01 PM BST
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1044 - Method Number        : 12
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:36:01 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1036 - OS Current Time      : 17/05/2024 07:36:05 PM BST
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1044 - Method Number        : 13
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1046 - Method Return Type   : org.isf.admission.model.AdmittedPatient
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1047 - Method Return Value  : org.isf.admission.model.AdmittedPatient@5abf5f2f
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1079 - Parameter Number     : 1
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1081 - Parameter Name       : patientId
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:36:05 PM BST INFO  AdmissionBrowserManager:1122 - Parameter Value      : 176
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1036 - OS Current Time      : 17/05/2024 07:36:05 PM BST
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1043 - Annotation Type      : Method
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1044 - Method Number        : 14
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1045 - Method Name          : org.isf.medicals.manager.MedicalBrowsingManager.getMedicals
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1047 - Method Return Value  : [4 Dimethyl Aminobenzaldelyde, Acetazolamide 250mg Tab, Acetic Acid Glacial 1 ltr, Aceton 99% 1ltr, Aciclovir, Acyclovir 200mg Tab, Adhesive Tape 2.5cm x 5m, Adhesive Tape 7.5cm x 5m, Adrenaline 1mg/ml 1ml Amp, Air ring set 43x15cm, rubber with pump, Airway Guedel Size 0, Airway Guedel Size 00, Airway Guedel Size 1, Airway Guedel Size 2, Airway Guedel Size 3, Albendazole 200mg Tab, Albendazole 400mg Tab, Alcohol 95% not denatured 20Ltrs, Aminophylline 100mg Tab, Aminophylline 25mg/ml,10ml Amp, Amitriptyline 25mg Tab, Ammonium Oxalate, Amoxicillin /Clavulanate 375mg Tab, Amoxicillin 125mg/5ml Powd. Susp 100ml, Amoxicillin 250mg Caps, Amphotericin B 50mg Vial, Ampicillin 500mg Vial, Anti Serum A 10ml, Anti Serum AB 10ml, Anti Serum B 10ml, Anti Serum D 10ml, Antihaemorrhoid suppositories, Apron Plastic Re-usable, Apron Plastic Re-usable local, Apron Polythene Disp Non Sterile, Ascorbic Acid 100mg tab, Aspirin 300mg Tab, Atenolol 100mg Tab, Atenolol 50mg Tab, Atropine 1mg/ml 1ml Amp, Barium Sulphate for X-Ray 1kg, Beclomethasone 50mcg Inhaler, Bedpan Plastic Autoclavable, Bedpan Stainless Steel, Bendrofluazide 5mg Tab, Benzathine Penicillin 2.4 MIU Vial, Benzhexol 2mg Tab, Benzhexol 5mg Tab, Benzyl Penicillin 1 MIU Vial, Benzyl Penicillin 5 MIU Vial, Betamethasone 0.1% eye/ear/nose drops, Betamethasone 0.1% Neomycin 0.35 %eye drops 7.5ml, Bisacodyl 5mg Tab, Blood giving set Disposable, Blood Transfer Bag 300ml, Body Bag 70 x 215cm  (Adult), Bowl Without Lid 10 x 24cm stainless steel, Bowl Without Lid 7 x 12cm stainless steel, Bowl Without Lid 8 x 16cm stainless steel, Brilliant Cresyl Blue, Calcium Lactate 300mg Tab, Carbamazepine 200mg Tab, Carbimazole 5mg Tab, Catheter Foley CH10 3 Way Balloon, Catheter Foley CH12 3 Way Balloon, Catheter Foley CH14 3 Way Balloon, Catheter Foley CH16 3 Way Balloon, Catheter Foley CH18 3 Way Balloon, Catheter Foley CH20 3 Way Balloon, Catheter Foley CH8 3 Way Balloon, Catheter Stopper for All sizes, Charcoal 250mg Tab, Chloramphenicol 0.5% Eye Drops 10ml, Chloramphenicol 125mg/5ml Susp 100ml, Chloramphenicol 125mg/5ml Susp 3Ltr, Chloramphenicol 1g Vial, Chloramphenicol 250mg Caps, Chlorhexidine/Cetrimide 1.5/15% 1Ltr, Chlorhexidine/Cetrimide 1.5/15% 5Ltr, Chloroquine 40mg Base/ml 5ml Amp, Chloroquine Coated 150mg Tab, Chloroquine Uncoated 150mg Tab, Chlorphenimine 4mg Tab, Chlorpromazine 100mg Tab, Chlorpromazine 25mg Tab, Chlorpromazine 25mg/ml/2ml Amp, Cimetidine 200mg Tab, Cimetidine 400mg Tab, Ciprofloxacine 250mg Tab, Ciprofloxacine 500mg Tab, Cloramphenicol 1% Eye Ointment 3.5g, Clotrimazole 100mg Pessaries, Clotrimazole 500mg Pessaries, Cloxacillin 250mg Tab, Cloxacillin 500mg Vial, Codein Phosphate 30mg Tab, Colostomy Bag closed 30mm size 2, Colostomy Bag closed 30mm size 3, Colostomy Bag open re-usable 35mm, Copper 11 Sulphate 500g, Cotrimoxazole 100/20mg Paed Tab, Cotrimoxazole 200+40mg/5ml Susp 100ml, Cotrimoxazole 200+40mg/5ml Susp 3Ltr, Cotrimoxazole 400/80mg Tab, Cotton Wool 200G, cotton Wool 500G, Creatinine 200ml (Calorimetric), Crystal Violet, Cyclophosphamide 200mg Vial, Cyclophosphamide 500mg Vial, Darrows Half Strength 500ml, Dexamethasone 0.5mg Tab, Dexamethasone 4mg/ml 1ml Amp, Dexamethasone 4mg/ml 2ml Amp, Dextrose 30% IV 100ml, Dextrose 5% IV 500ml, Dextrose 50% IV 100ml, Dextrose Monohydrate Apyrogen 25Kg, Diatrizoate Meglumin Sod 76% 20ml Amp, Diazepam 2mg/ml 2.5ml Rectal Tube, Diazepam 5mg / ml 2ml Amp, Diazepam 5mg Tab, Diclofenac 25mg/ml 3ml Amp, Diclofenac 50mg Tab, Diethylcarbamazine 50mg Tab, Digoxin 0.25 mg Tab, Digoxin 0.25 mg/ml 2ml Amp, Doxycycline 100mg Tab, Ear syringe rubber 60ml, EDTA Di- sodium salt 100g, Elastic Bandage 10cm x 4.5m, Elastic Bandage 7.5cm x 4.5m, Eosin Yellowish, Ephedrine 30mg Tab, Erythromycin 250mg Tab, Ethanol Absolute 1ltr, Eye Pad Sterile, Fansidar 500/25mg Tab, Fansidar 500/25mg Tab (50dosesx3), Ferrous Sulphate 200mg Tab, Field stain A and B, First Aid kit, Fluconazole 100mg 24 Caps, Fluconazole 100mg Tab, Folic Acid 15mg Tab, Folic Acid 1mg Tab, Folic Acid 5mg Tab, Folic Acid/Ferrous Sulp 0.5/200mg Tab, Formaldehyde solution 35-38% 1ltr, Frusemide 40mg Tab, Furosemide 10mg/ml 2ml Amp, Gallipot stainless steel 200ml/10cm, Gallipot stainless steel 300ml/15cm, Gauze Bandage 10cm x 4m, Gauze Bandage 7.5cm x 3.65-4m, Gauze Hydrophylic 90cm x 91cm, Gauze Pads  Sterile 10cm x 10cm, Gauze Pads Non Sterile 10cm x 10cm, Genitian Violet, Gentamicin 0.3% eye/ear drops 10ml, Gentamicin 40mg/ml 2ml, Gentian Violet 25g Tin, Giemsa Stain, Glibenclamide 5mg Tab, Gloves Domestic, Gloves Gynaecological 7.5-8, Gloves High risk non sterile Medium, Gloves Non Sterile Large Disposable, Gloves Non Sterile Medium Disposable, Gloves Surgical Sterile 6, Gloves Surgical Sterile 6.5, Gloves Surgical Sterile 7, Gloves Surgical Sterile 7.5, Gloves Surgical Sterile 8, Gloves Surgical Sterile 8.5, Glucose GOD PAD  6 x 100ml (Colorimetric), Glucose Test Strip, Glucose Test Strips (Hyloguard), GOT ( AST) 200ml (Calorimetric) AS 147, GOT ( AST) 200ml has no NAOH) AS 101, GPT (ALT) 200ml ( Does not have NAOH), Griseofulvin 500mg Tab, Haloperidol 5mg, Haloperidol 5mg Tab, Haloperidol 5mg/ml 1ml Amp, Haloperidol Decanoate 50mg/ml 1ml Amp, Handle for surgical blade No 3, Handle for surgical blade No 4, HIV 1/2 Capillus Kit 100Tests, HIV Buffer for determine Kit, HIV Determine 1/11 (Abbott) 100Tests, HIV UNIGOLD 1/11 Test Kits 20 Tests, Hot water Bottle 2Ltr, Hydralazine 20mg Vial, Hydralazine 25mg Tab, Hydrochloric Acid 30-33% 1ltr, Hydrocortisone 1% eye drops 5ml, Hydrocortisone 100mg Vial, Hydrogen Peroxide 6% 250ml, Hyoscine 10mg Tab, Hyoscine Butyl Bromide 20mg/ml/ Amp, Ibuprofen 200mg Tab, Imipramine 25mg Tab, Indomethacin 25mg Tab, Insectcide Spray 400g, Instrument Box With Lid 20x10x5cm, Instrument Tray 30 x 20 x 2cm, Insulin Isophane 100IU/ml 10ml Vial, Insulin Isophane 40IU/ml 10ml, Insulin Mixtard 30/70 100IU/ml 10ml Vial, Insulin Mixtard 30/70 100IU/ml 5x3ml catridges, Insulin Soluble 100IU/ml 10ml Vial, Insulin Syringe 100IU with Needle G26/29, Iodine Crystal 100g, Iodine Solution 2% 500ml, Iron Dextran 10mg/ml 2ml Vial, Irrigation can with accessories, Isoniazid 300mg Tab, IV Cannula G16 with Port, IV Cannula G18 with Port, IV Cannula G20 with Port, IV Cannula G22 with Port, IV Cannula G24 with Port, IV Cannula G24 without Port, IV Giving set Disposable, Ketamine 10mg/ml 10ml Vial, Ketamine 10mg/ml 20ml Vial, Ketoconazole 200mg Tab, Kidney Dish Polypropylene 24cm, Kidney Dish stainless Steel 20cm, Kidney Dish stainless Steel 24cm, Lead Apron 100cmx60cm, Lignocaine 2% 20ml Vial, Lignocaine 2% Adrenaline Dent.cartridges, Lignocaine spinal 50mg/ml 2ml Amp, Liquid detergent 20Ltr, liquid detergent 5Ltr Perfumed, Mackintosh Plastic (Apron) per 1m, Mackintosh Rubber Brown (sheeting) per 1m, Measuring Cup Graduated 25ml, Methanol 99% 1ltr, Methylergomeatrine 0.2mg/ml 1ml Amp, Methylergomeatrine 0.5mg/ml 1ml Amp, Metoclopramide 5mg/ml 100ml Amp, Metronidazole 5mg/ml 2ml IV, Morphine 15mg/ml 1ml Amp, Mosquito Net Impregnated Large, Mosquito Net Impregnated Medium, Mosquito Net Impregnation Liquid 500ml, Mosquito Net Impregnation Tablet, Mosquito Net Non Impregnated Large, Mosquito Net Non Impregnated Medium, Mosquito Wall spray Powder 80g, Nasogastric Tube G10 (Children), Nasogastric Tube G14 (Children), Nasogastric Tube G16 (Children), Nasogastric Tube G5 (Children), Nasogastric Tube G6 (Children), Nasogastric Tube G8 (Children), Neck Support Large, Neck Support Medium, Neck Support Small, Needle container disposable of contaminated, Needle suture No 5 cutting, Needle suture No 5 round, Needle suture No 6 Round, Needles Luer G20 Disposable, Needles Luer G21 Disposable, Needles Luer G22 Disposable, Needles Luer G23 Disposable, Needles Spinal G20x75-120mm, Needles Spinal G22x40mm, Needles Spinal G22x75-120mm, Needles Spinal G25x75-120mm, Neutral Red, Non 111 Chloride (Ferric chloride), Nystatin 100.000 IU Pessaries, Nystatin 500.000IU/ Susp/ Drops, Oral Rehydration Salt (ORS), Oxytocin 10 IU/ml 1ml Amp, Paracetamol 120mg/5ml 100ml, Paracetamol 120mg/5ml Syrup, Pethidine 100mg/ml 2ml Amp, Pethidine 50mg/ml 1ml Amp, Phenobarbital 100mg/ml 2ml Amp, Phenol crystals 1kg, Phytomenadione 10mg/ml 1ml Amp, Phytomenadione 1mg/ml 1ml Amp, Plaster of Paris 10cm, Plaster of Paris 15cm, Potassium iodide 100g, Potassium Oxalate, Pregnacy ( HGG Latex) 50 tests, Procaine Penicillin Fortified 4 MIU Vial, Promethazine 25mg/ml 2ml Amp, Pyridoxine 50mg Tab, Quinine 100mg/5ml Syrup 100ml, Quinine 300mg Tab, Quinine Di-HCI 300mg/ml 2ml Amp, Ranitidine 150mg Tab, Ranitidine 25mg/ml 2ml Amp, Razor Blades Disposable 5pc, Rectal Tube CH24, Rectal Tube CH26, Rifampicin/Isoniazid 150/100 Tab, RPR ( VDRL Carbon ) Antigen 5ml, RPR 125mm x 75mm, Salbutamol 4mg Tab, Salbutamol Inhaler 10ml, Salbutamol solution for inhalation 5ml, Scalp Vein G19 Infusion set, Scalp Vein G21 Infusion set, Scalp Vein G23 Infusion set, Scalp Vein G25 Infusion set, Soap Blue Bar 550g, Soap Powder Hand wash 5kg, Sodium Carbonate Anhydrous, Sodium Carbonate Anhydrous 500g, Sodium Chloride 0.9% IV 500ml, Sodium Chloride Apyrogen 50kg, Sodium Citrate 100g, Sodium Fluoride, Sodium Hypochlorite solution 0.75 Ltr, Sodium Hypochlorite solution 5Ltr, Sodium Lactate Compound IV 500ml, Sodium Nitrate 25g, Sodium Sulphate 500g, Spironolactone 25mg Tab, Spoon Medicine 5ml, Stethoscope Foetal Metal, Stethoscope Foetal Wood, Streptomycin 1g Vial, Suction Catheter Size 10 Disposable, Suction Catheter Size 12 Disposable, Suction Catheter Size 14 Disposable, Suction Catheter Size 16 Disposable, Suction Catheter Size 6 Disposable, Suction Catheter Size 8 Disposable, Sulphosalicylic Acid 500g, Sulphuric Acid Conc 1ltr, Surgical Blades No 20, Surgical Blades No 21, Surgical Blades No 22, Surgical Blades No 23, Surgical Brush (Scrubbing), Surgical Mop 12 x 15, Suture Cutgut Chromic (0), Suture Cutgut Chromic (2) RN22240TH, Suture Cutgut Chromic (2/0) RN22230TH, Suture Cutgut Chromic (3/0) RN2325TF, Suture Cutgut Plain (2/0) RN1230TF, Suture PGA (3/0) RN3330TF, Suture Silk (1) S595, Suture Silk (2/0) RN5230TF, Suxamethonium 500mg Vial, Suxamethonium 500mg/ml 2ml Amp, Syringe Feeding/Irrigation 50/60ml, Syringe Luer 10ml With Needle Disposable, Syringe Luer 20ml With Needle Disposable, Syringe Luer 2ml With Needle Disposable, Syringe Luer 5ml With Needle Disposable, Tablet Counting Tray, tetanus Antitoxin 1500 IU 1ml Amp, Tetracycline eye ointment 1% 3.5g, Thermometer Clinical Flat Type, Thermometer Clinical Prismatic Type, Thiopental Sodium 500mg Vial, Toilet Paper Rolls, Tolbutamide 500mg tab, Tongue depressor Disposable, Traction Kit Adult, Traction Kit Children, Trichloro acetic Acid, Trisodium Citrate, Umbilical Cord Tie non sterile 100m, Umbilical Cord Tie sterile 22m, UREA Calorimetric 300 Tests, Urinal 1Ltr / 2Ltr, Urine Collecting Bag sterile 2Ltr, Urine Test Strips 3 Parameters 100 tests, Vitamin A 200.000 IU Caps, Vitamin B Complex Tab, Water for Injection 10ml Vial, X-Ray Developer 2.6kg for 22.5Ltr, X-Ray Film 18x24cm, X-Ray Film 20x40cm, X-Ray Film 24x30cm, X-Ray Film 30x40cm, X-Ray Film 35x35cm, X-Ray Film 43x35cm, X-Ray Film Cassette  18x24cm with screen, X-Ray Film Cassette  24x30cm with screen, X-Ray Film Cassette  30x40cm with screen, X-Ray Film Cassette  35x35cm with screen, X-Ray Film Cassette  35x43cm with screen, X-Ray Fixer 3.3kg for 22.5 Ltr, Xylene 2.5 ltrs, Medicine for a seasonal virus]
+17/05/2024 07:36:05 PM BST INFO  MedicalBrowsingManager:1272 - The Method: getMedicals DOES NOT have any Parameters
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 07:36:05 PM BST
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1044 - Method Number        : 15
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.getTherapyRows
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1047 - Method Return Value  : [54 - 0 1.0/2/1]
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:36:05 PM BST INFO  TherapyManager:1122 - Parameter Value      : 176
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1036 - OS Current Time      : 17/05/2024 07:36:05 PM BST
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1042 - OS UserName          : f7
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1043 - Annotation Type      : Method
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1044 - Method Number        : 16
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1045 - Method Name          : org.isf.visits.manager.VisitManager.getVisits
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1047 - Method Return Value  : []
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1079 - Parameter Number     : 1
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1081 - Parameter Name       : patID
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:36:05 PM BST INFO  VisitManager:1122 - Parameter Value      : 176
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 07:36:11 PM BST
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1044 - Method Number        : 17
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.deleteAllTherapies
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.lang.Boolean
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1047 - Method Return Value  : true
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1122 - Parameter Value      : 176
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 07:36:11 PM BST
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1044 - Method Number        : 18
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.getTherapyRows
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1047 - Method Return Value  : []
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:36:11 PM BST INFO  TherapyManager:1122 - Parameter Value      : 176
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1036 - OS Current Time      : 17/05/2024 07:36:11 PM BST
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1042 - OS UserName          : f7
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1043 - Annotation Type      : Method
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1044 - Method Number        : 19
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1045 - Method Name          : org.isf.visits.manager.VisitManager.getVisits
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1047 - Method Return Value  : []
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1079 - Parameter Number     : 1
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1081 - Parameter Name       : patID
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 07:36:11 PM BST INFO  VisitManager:1122 - Parameter Value      : 176
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:36:40 PM BST
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1044 - Method Number        : 20
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:36:40 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1036 - OS Current Time      : 17/05/2024 07:37:00 PM BST
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1040 - OS Hostname          : f7.local
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1042 - OS UserName          : f7
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1043 - Annotation Type      : Method
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1044 - Method Number        : 21
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1045 - Method Name          : org.isf.ward.manager.WardBrowserManager.getWards
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1047 - Method Return Value  : [1, INTERNAL MEDICINE, MATERNITY, NURSERY, SURGERY, New Ward]
+17/05/2024 07:37:00 PM BST INFO  WardBrowserManager:1272 - The Method: getWards DOES NOT have any Parameters
+17/05/2024 07:38:00 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+

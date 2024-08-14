@@ -1,0 +1,504 @@
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 19/05/2024 02:12:26 PM BST
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : 
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:12:26 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : physician
+19/05/2024 02:16:28 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+19/05/2024 02:16:28 PM BST INFO  LabManager:1036 - OS Current Time      : 19/05/2024 02:16:28 PM BST
+19/05/2024 02:16:28 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+19/05/2024 02:16:28 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+19/05/2024 02:16:28 PM BST INFO  LabManager:1042 - OS UserName          : f7
+19/05/2024 02:16:28 PM BST INFO  LabManager:1043 - Annotation Type      : ReturnType
+19/05/2024 02:16:28 PM BST INFO  LabManager:1044 - Method Number        : 2
+19/05/2024 02:16:28 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.newLaboratory2
+19/05/2024 02:16:28 PM BST INFO  LabManager:1046 - Method Return Type   : java.lang.Boolean
+19/05/2024 02:16:28 PM BST INFO  LabManager:1047 - Method Return Value  : true
+19/05/2024 02:16:28 PM BST INFO  LabManager:1079 - Parameter Number     : 1
+19/05/2024 02:16:28 PM BST INFO  LabManager:1081 - Parameter Name       : labList
+19/05/2024 02:16:28 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+19/05/2024 02:16:28 PM BST INFO  LabManager:1122 - Parameter Value      : [-------------------------------------------
+Laboratory{code=54, material=blood, exam=6.3 HIV, registrationDate=2024-05-19T14:16, examDate=2024-05-19, result=POSITIVE, lock=0, note=null, patient=Daisy Hill, patName=Daisy Hill, InOutPatient=O, age=42, sex=F, hashCode=0}
+---------------------------------------------]
+19/05/2024 02:16:28 PM BST INFO  LabManager:1079 - Parameter Number     : 2
+19/05/2024 02:16:28 PM BST INFO  LabManager:1081 - Parameter Name       : labRowList
+19/05/2024 02:16:28 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+19/05/2024 02:16:28 PM BST INFO  LabManager:1122 - Parameter Value      : [[]]
+19/05/2024 02:18:52 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 19/05/2024 02:22:16 PM BST
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : 
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:22:16 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : admin
+19/05/2024 02:26:01 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+19/05/2024 02:26:01 PM BST INFO  LabManager:1036 - OS Current Time      : 19/05/2024 02:26:01 PM BST
+19/05/2024 02:26:01 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+19/05/2024 02:26:01 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+19/05/2024 02:26:01 PM BST INFO  LabManager:1042 - OS UserName          : f7
+19/05/2024 02:26:01 PM BST INFO  LabManager:1043 - Annotation Type      : ReturnType
+19/05/2024 02:26:01 PM BST INFO  LabManager:1044 - Method Number        : 2
+19/05/2024 02:26:01 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.updateLaboratory
+19/05/2024 02:26:01 PM BST INFO  LabManager:1046 - Method Return Type   : java.lang.Boolean
+19/05/2024 02:26:01 PM BST INFO  LabManager:1047 - Method Return Value  : true
+19/05/2024 02:26:01 PM BST INFO  LabManager:1079 - Parameter Number     : 1
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Parameter Name       : laboratory
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Parameter Type       : org.isf.lab.model.Laboratory
+19/05/2024 02:26:01 PM BST INFO  LabManager:999 - The Parameter Name: laboratory has the following Attributes:
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 1
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : code
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.Integer
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : 54
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 2
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : material
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : blood
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 3
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : exam
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : org.isf.exa.model.Exam
+19/05/2024 02:26:01 PM BST INFO  LabManager:644 - The Attribute Name: exam has the followings Sub-Attributes:
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 1
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : code
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 06.03
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 2
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : description
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 6.3 HIV
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 3
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : procedure
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.Integer
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 1
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 4
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : defaultResult
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : NEGATIVE
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 5
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : examtype
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : org.isf.exatype.model.ExamType
+19/05/2024 02:26:01 PM BST INFO  LabManager:644 - The Attribute Name: examtype has the followings Sub-Attributes:
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 1
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : code
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : SE
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 2
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : description
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 6.Serology
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 3
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : hashCode
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : int
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 0
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 4
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : lock
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.Integer
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 1
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 5
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : hashCode
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : int
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 0
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 4
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : labDate
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : java.time.LocalDateTime
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : 2024-05-19T14:26:01.630
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 5
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : examDate
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : java.time.LocalDate
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : 2024-05-19
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 6
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : result
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : NEGATIVE
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 7
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : lock
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : int
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : 0
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 8
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : note
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : The results are good. The Patient does not have HIV.
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 9
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : patient
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+19/05/2024 02:26:01 PM BST INFO  LabManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 1
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : code
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.Integer
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 177
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 2
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : firstName
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : Daisy
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 3
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : secondName
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : Hill
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 4
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : name
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : Daisy Hill
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 5
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : birthDate
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.time.LocalDate
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 1982-05-17
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 6
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : age
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : int
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 42
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 7
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : agetype
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 8
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : sex
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : char
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : F
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 9
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : address
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 400 Mercer Street
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 10
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : city
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : Boston, MA, USA
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 11
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : nextKin
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 1
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 12
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : telephone
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : +39123456
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 13
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : note
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 14
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : motherName
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 15
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : mother
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : char
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : D
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 16
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : fatherName
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 17
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : father
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : char
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : D
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 18
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : bloodType
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : AB-
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 19
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : hasInsurance
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : char
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : Y
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 20
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : parentTogether
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : char
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : N
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 21
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : taxCode
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 123
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 22
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : maritalStatus
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : single
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 23
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : profession
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : business
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 24
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : deleted
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : N
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 25
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : lock
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : int
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 0
+19/05/2024 02:26:01 PM BST INFO  LabManager:1074 - SubAttribute Number     : 26
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - SubAttribute Name       : hashCode
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - SubAttribute Type       : int
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - SubAttribute Value      : 0
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 10
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : patName
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : Daisy Hill
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 11
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : inOutPatient
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : O
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 12
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : age
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.Integer
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : 42
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 13
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : sex
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : F
+19/05/2024 02:26:01 PM BST INFO  LabManager:1067 - Attribute Number     : 14
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Attribute Name       : hashCode
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Attribute Type       : int
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Attribute Value      : 0
+19/05/2024 02:26:01 PM BST INFO  LabManager:1079 - Parameter Number     : 2
+19/05/2024 02:26:01 PM BST INFO  LabManager:1081 - Parameter Name       : labRow
+19/05/2024 02:26:01 PM BST INFO  LabManager:1082 - Parameter Type       : java.lang.String
+19/05/2024 02:26:01 PM BST INFO  LabManager:1122 - Parameter Value      : []
+19/05/2024 02:26:36 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+19/05/2024 02:26:36 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+19/05/2024 02:26:37 PM BST WARN  Webcam:964 - No webcam has been detected!
+19/05/2024 02:31:19 PM BST INFO  ConfigurationProperties:91 - File txtPrinter.properties loaded.
+19/05/2024 02:31:19 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_HEIGHT property not found: default is 10
+19/05/2024 02:31:19 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_WIDTH property not found: default is 10
+19/05/2024 02:33:59 PM BST INFO  LabManager:1035 - OS Name              : Windows Server 2016
+19/05/2024 02:33:59 PM BST INFO  LabManager:1036 - OS Current Time      : 19/05/2024 02:33:59 PM BST
+19/05/2024 02:33:59 PM BST INFO  LabManager:1038 - OS IP Address        : 189.122.67.106
+19/05/2024 02:33:59 PM BST INFO  LabManager:1040 - OS Hostname          : f7.local
+19/05/2024 02:33:59 PM BST INFO  LabManager:1042 - OS UserName          : f7
+19/05/2024 02:33:59 PM BST INFO  LabManager:1043 - Annotation Type      : ReturnType
+19/05/2024 02:33:59 PM BST INFO  LabManager:1044 - Method Number        : 3
+19/05/2024 02:33:59 PM BST INFO  LabManager:1045 - Method Name          : org.isf.lab.manager.LabManager.deleteLaboratory
+19/05/2024 02:33:59 PM BST INFO  LabManager:1046 - Method Return Type   : java.lang.Boolean
+19/05/2024 02:33:59 PM BST INFO  LabManager:1047 - Method Return Value  : true
+19/05/2024 02:33:59 PM BST INFO  LabManager:1079 - Parameter Number     : 1
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - Parameter Name       : laboratory
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - Parameter Type       : org.isf.lab.model.Laboratory
+19/05/2024 02:33:59 PM BST INFO  LabManager:999 - The Parameter Name: laboratory has the following Attributes:
+19/05/2024 02:33:59 PM BST INFO  LabManager:1067 - Attribute Number     : 1
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - Attribute Name       : code
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.Integer
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - Attribute Value      : 54
+19/05/2024 02:33:59 PM BST INFO  LabManager:1067 - Attribute Number     : 2
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - Attribute Name       : material
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - Attribute Value      : blood
+19/05/2024 02:33:59 PM BST INFO  LabManager:1067 - Attribute Number     : 3
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - Attribute Name       : exam
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - Attribute Type       : org.isf.exa.model.Exam
+19/05/2024 02:33:59 PM BST INFO  LabManager:644 - The Attribute Name: exam has the followings Sub-Attributes:
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 1
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : code
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 06.03
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 2
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : description
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 6.3 HIV
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 3
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : procedure
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.Integer
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 1
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 4
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : defaultResult
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : NEGATIVE
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 5
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : examtype
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : org.isf.exatype.model.ExamType
+19/05/2024 02:33:59 PM BST INFO  LabManager:644 - The Attribute Name: examtype has the followings Sub-Attributes:
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 1
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : code
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : SE
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 2
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : description
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 6.Serology
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 3
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : hashCode
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : int
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 0
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 4
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : lock
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.Integer
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 1
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 5
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : hashCode
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : int
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 0
+19/05/2024 02:33:59 PM BST INFO  LabManager:1067 - Attribute Number     : 4
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - Attribute Name       : labDate
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - Attribute Type       : java.time.LocalDateTime
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - Attribute Value      : 2024-05-19T14:26:01
+19/05/2024 02:33:59 PM BST INFO  LabManager:1067 - Attribute Number     : 5
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - Attribute Name       : examDate
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - Attribute Type       : java.time.LocalDate
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - Attribute Value      : 2024-05-19
+19/05/2024 02:33:59 PM BST INFO  LabManager:1067 - Attribute Number     : 6
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - Attribute Name       : result
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - Attribute Value      : NEGATIVE
+19/05/2024 02:33:59 PM BST INFO  LabManager:1067 - Attribute Number     : 7
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - Attribute Name       : lock
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - Attribute Type       : int
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - Attribute Value      : 1
+19/05/2024 02:33:59 PM BST INFO  LabManager:1067 - Attribute Number     : 8
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - Attribute Name       : note
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - Attribute Value      : The results are good. The Patient does not have HIV.
+19/05/2024 02:33:59 PM BST INFO  LabManager:1067 - Attribute Number     : 9
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - Attribute Name       : patient
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+19/05/2024 02:33:59 PM BST INFO  LabManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 1
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : code
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.Integer
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 177
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 2
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : firstName
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : Daisy
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 3
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : secondName
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : Hill
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 4
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : name
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : Daisy Hill
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 5
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : birthDate
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.time.LocalDate
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 1982-05-17
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 6
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : age
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : int
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 42
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 7
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : agetype
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 8
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : sex
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : char
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : F
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 9
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : address
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 400 Mercer Street
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 10
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : city
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : Boston, MA, USA
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 11
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : nextKin
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 1
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 12
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : telephone
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : +39123456
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 13
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : note
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 14
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : motherName
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 15
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : mother
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : char
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : D
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 16
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : fatherName
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 17
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : father
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : char
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : D
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 18
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : bloodType
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : AB-
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 19
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : hasInsurance
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : char
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : Y
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 20
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : parentTogether
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : char
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : N
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 21
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : taxCode
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : 123
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 22
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : maritalStatus
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : single
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 23
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : profession
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : business
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 24
+19/05/2024 02:33:59 PM BST INFO  LabManager:1081 - SubAttribute Name       : deleted
+19/05/2024 02:33:59 PM BST INFO  LabManager:1082 - SubAttribute Type       : java.lang.String
+19/05/2024 02:33:59 PM BST INFO  LabManager:1122 - SubAttribute Value      : N
+19/05/2024 02:33:59 PM BST INFO  LabManager:1074 - SubAttribute Number     : 25
+19/05/2024 02:34:00 PM BST INFO  LabManager:1081 - SubAttribute Name       : lock
+19/05/2024 02:34:00 PM BST INFO  LabManager:1082 - SubAttribute Type       : int
+19/05/2024 02:34:00 PM BST INFO  LabManager:1122 - SubAttribute Value      : 0
+19/05/2024 02:34:00 PM BST INFO  LabManager:1074 - SubAttribute Number     : 26
+19/05/2024 02:34:00 PM BST INFO  LabManager:1081 - SubAttribute Name       : hashCode
+19/05/2024 02:34:00 PM BST INFO  LabManager:1082 - SubAttribute Type       : int
+19/05/2024 02:34:00 PM BST INFO  LabManager:1122 - SubAttribute Value      : 0
+19/05/2024 02:34:00 PM BST INFO  LabManager:1067 - Attribute Number     : 10
+19/05/2024 02:34:00 PM BST INFO  LabManager:1081 - Attribute Name       : patName
+19/05/2024 02:34:00 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:34:00 PM BST INFO  LabManager:1122 - Attribute Value      : Daisy Hill
+19/05/2024 02:34:00 PM BST INFO  LabManager:1067 - Attribute Number     : 11
+19/05/2024 02:34:00 PM BST INFO  LabManager:1081 - Attribute Name       : inOutPatient
+19/05/2024 02:34:00 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:34:00 PM BST INFO  LabManager:1122 - Attribute Value      : O
+19/05/2024 02:34:00 PM BST INFO  LabManager:1067 - Attribute Number     : 12
+19/05/2024 02:34:00 PM BST INFO  LabManager:1081 - Attribute Name       : age
+19/05/2024 02:34:00 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.Integer
+19/05/2024 02:34:00 PM BST INFO  LabManager:1122 - Attribute Value      : 42
+19/05/2024 02:34:00 PM BST INFO  LabManager:1067 - Attribute Number     : 13
+19/05/2024 02:34:00 PM BST INFO  LabManager:1081 - Attribute Name       : sex
+19/05/2024 02:34:00 PM BST INFO  LabManager:1082 - Attribute Type       : java.lang.String
+19/05/2024 02:34:00 PM BST INFO  LabManager:1122 - Attribute Value      : F
+19/05/2024 02:34:00 PM BST INFO  LabManager:1067 - Attribute Number     : 14
+19/05/2024 02:34:00 PM BST INFO  LabManager:1081 - Attribute Name       : hashCode
+19/05/2024 02:34:00 PM BST INFO  LabManager:1082 - Attribute Type       : int
+19/05/2024 02:34:00 PM BST INFO  LabManager:1122 - Attribute Value      : 0
+19/05/2024 02:37:54 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+

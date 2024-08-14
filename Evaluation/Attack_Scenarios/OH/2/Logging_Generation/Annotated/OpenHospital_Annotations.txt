@@ -1,0 +1,4 @@
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = physician,code,=,physician;
+Parameter,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+Method,3,org.isf.patient.manager.PatientBrowserManager.savePatient,org.isf.patient.manager.PatientBrowserManager,savePatient,Method = org.isf.patient.manager.PatientBrowserManager.savePatient,Method,=,org.isf.patient.manager.PatientBrowserManager.savePatient;
+Parameter,4,org.isf.patient.manager.PatientBrowserManager.savePatient,org.isf.patient.manager.PatientBrowserManager,savePatient,patient.bloodType = B+,bloodType,=,B+;

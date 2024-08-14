@@ -1,0 +1,18 @@
+Methods:
+
+1.- call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 2 Occurrences 
+2.- call(int org.isf.admission.manager.AdmissionBrowserManager.newAdmissionReturnKey(..))|| => 1 Occurrence 
+3.- call(boolean org.isf.admission.manager.AdmissionBrowserManager.updateAdmission(..)); => 1 Occurrence 
+
+
+Annotations:
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = physician,code,=,physician;
+Parameter,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+ReturnType,3,org.isf.admission.manager.AdmissionBrowserManager.newAdmissionReturnKey,org.isf.admission.manager.AdmissionBrowserManager,newAdmissionReturnKey,int >= 1,int,>=,1;
+ReturnType,4,org.isf.admission.manager.AdmissionBrowserManager.updateAdmission,org.isf.admission.manager.AdmissionBrowserManager,updateAdmission,boolean = true,boolean,=,true;
+
+
+1.- The org.isf.menu.manager.UserBrowsingManager.getMenu method is included in the security log 2 times. These times corresponds when during the attack scenaro A Physician connected to the OH software system or when a System Administrator connected to the OH software system.
+2.- The org.isf.admission.manager.AdmissionBrowserManager.newAdmissionReturnKey is included 1 times in the security log. This time corresponds when during the attack scenario an admission was created by a physician.
+3.- The org.isf.admission.manager.AdmissionBrowserManager.updateAdmission is included 1 times in the security log. This time corresponds when during the attack scenario an admission was discharged by a system administator. This is the moment when the security incident happened: a system administrator discharged a patient. We recorded the evidence.
+

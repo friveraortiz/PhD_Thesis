@@ -1,0 +1,18 @@
+Methods:
+
+1.- call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 1 Occurrence
+2.- call(void controller.TravelRequestController.save(..))|| => 1 Occurrence
+3.- call(void model.TravelRequestDatabase.save(..)); => 2 Occurrences
+
+
+Annotations:
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Employee,UserLevel,=,Employee;
+Parameter,2,controller.TravelRequestController.save,controller.TravelRequestController,save,ev.totalFunding >= 2000,totalFunding,>=,2000;
+Method,3,model.TravelRequestDatabase.save,model.TravelRequestDatabase,save,Method = model.TravelRequestDatabase.save,Method,=,model.TravelRequestDatabase.save;
+
+
+1.- The model.UserDatabase.getUserLevel is included in the security log 1 time. This time corresponds when during the attack scenario the External Attacker misused the credentials of an Employee and connected to the HRM software system. 
+
+2.- The controller.TravelRequestController.save method is included 1 time in the security log. This time corresponds when during the attack scenario: A travel request was modified with an amount of 2,000.00 This is the moment when the Security Incident happened and we recorded the evidence.
+
+3.- The model.TravelRequestDatabase.save method is included 2 times in the security log. These times corresponds when during the attack scenario, a travel request was modified either with an amount of 2,000 euros or 999.99 Canadian Dollars. This is correct because  we included this method to be in the log to know the detais of the travel request such as travel request number, employee name, status.

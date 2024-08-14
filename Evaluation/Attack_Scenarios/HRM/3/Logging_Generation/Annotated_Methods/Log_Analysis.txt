@@ -1,0 +1,14 @@
+Methods:
+
+1.- call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 1 ocurrence
+2.- call(void controller.EmployeeController.delete(..))|| => 2 ocurrences
+3.- call(void model.EmployeeDatabase.delete(..)); => 1 ocurrence
+
+Annotations:
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Admin,UserLevel,=,Admin;
+Method,2,controller.EmployeeController.delete,controller.EmployeeController,delete,Method = controller.EmployeeController.delete,Method,=,controller.EmployeeController.delete;
+Parameter,3,model.EmployeeDatabase.delete,model.EmployeeDatabase,delete,employee.jobTitle = Accountant,jobTitle,=,Accountant;
+
+1.- The model.UserLevel model.UserDatabase.getUserLevel is included in the security log 1 time. This time corresponds when during the attack scenario the System Administrator connected to the HRM software system.
+2.- The controller.EmployeeController.delete method is included 2 times in the security log. These times corresponds when during the attack scenario An employee with a job title as an Accountant was deleted and an employee with a job title as a Biologist was deleted. This is correct because we indicated to always include this method method in the log to knowthe details of the employee such as Employee Id and Employee Name that were deleted.
+3.- The model.EmployeeDatabase.delete method is included in the security log: 1 time. This is the moment when during the attack scenario the security incident really happened an employee with a job title “Accountant” has been deleted and we recorded the evidence.

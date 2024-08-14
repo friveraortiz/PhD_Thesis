@@ -1,0 +1,112 @@
+Methods:
+
+1.- call(boolean controller.UserController.validateUser(..))|| => 3 Occurrences
+    call(boolean model.UserDatabase.validateUser(..))|| => 3 Occurrences
+    call(model.UserLevel controller.UserController.getUserLevel(..))|| => 3 Occurrences
+    call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 3 Occurrences
+
+2.- call(void controller.ModuleController.saveModules(..))|| => 20 Occurrences
+    call(void model.ModuleDatabase.saveModules(..))|| => 20 Occurrences
+    call(java.lang.String[] controller.ModuleController.getModules(..))|| => 20 Occurrences
+    call(java.lang.String[] model.ModuleDatabase.getModules(..))|| => 20 Occurrences
+    call(java.lang.String[][] controller.ModuleController.getSubModules(..))|| => 20 Occurrences
+    call(java.lang.String[][] model.ModuleDatabase.getSubModules(..))|| => 20 Occurrences
+
+
+3.- call(ArrayList<model.Employee> controller.UserController.loadFullNameEmployees(..))|| => 27 Occurrences
+    call(ArrayList<model.Employee> model.UserDatabase.loadFullNameEmployees(..))|| => 27 Occurrences
+
+4.- call(void controller.UserController.load(..))|| => 12 Occurrences
+    call(void model.UserDatabase.load(..))|| => 12 Occurrences
+
+5.- call(boolean controller.UserController.validateEmployee(..))|| => 5 Occurrences
+    call(boolean model.UserDatabase.validateEmployee(..))|| => 5 Occurrences
+    call(boolean controller.UserController.validateUserName(..))|| => 5 Occurrences
+    call(boolean model.UserDatabase.validateUserName(..))|| => 5 Occurrences
+    call(boolean controller.UserController.validateEmail(..))|| => 5 Occurrences
+    call(boolean model.UserDatabase.validateEmail(..))|| => 5 Occurrences
+
+6.- call(void controller.UserController.save(..))|| => 5 Occurrences
+    call(void model.UserDatabase.save(..))|| => 5 Occurrences
+
+7.- call(ArrayList<model.Employee> controller.TravelRequestController.loadFullNameEmployees(..))|| => 36 Occurrences
+    call(ArrayList<model.Employee> model.TravelRequestDatabase.loadFullNameEmployees(..))|| => 36 Occurrences
+    
+8.- call(int controller.TravelRequestController.maxNumTravelRequest(..))|| => 36 Occurrences
+    call(int model.TravelRequestDatabase.maxNumTravelRequest(..))|| => 36 Occurrences
+
+9.- call(void controller.TravelRequestController.load(..))||  => 17 Occurrences
+    call(void model.TravelRequestDatabase.load(..))|| => 17 Occurrences
+
+10.- call(void controller.TravelRequestController.save(..))|| => 6 Occurrences
+    call(void model.TravelRequestDatabase.save(..))|| => 6 Occurrences
+
+11.- call(boolean controller.UserController.validateDeleteUser(..))|| => 2 Occurrences
+     call(boolean model.UserDatabase.validateDeleteUser(..))|| => 2 Occurrences
+
+12.- call(void controller.UserController.delete(..))|| => 1 Occurrence
+     call(void model.UserDatabase.delete(..)); => 1 Occurrence
+
+Annotations:
+Method,1,controller.UserController.validateUser,controller.UserController,validateUser,Method = controller.UserController.validateUser,Method,=,controller.UserController.validateUser;
+Method,2,model.UserDatabase.validateUser,model.UserDatabase,validateUser,Method = model.UserDatabase.validateUser,Method,=,model.UserDatabase.validateUser;
+Method,3,controller.UserController.getUserLevel,controller.UserController,getUserLevel,Method = controller.UserController.getUserLevel,Method,=,controller.UserController.getUserLevel;
+Method,4,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,Method = model.UserDatabase.getUserLevel,Method,=,model.UserDatabase.getUserLevel;
+Method,5,controller.ModuleController.saveModules,controller.ModuleController,saveModules,Method = controller.ModuleController.saveModules,Method,=,controller.ModuleController.saveModules;
+Method,6,model.ModuleDatabase.saveModules,model.ModuleDatabase,saveModules,Method = model.ModuleDatabase.saveModules,Method,=,model.ModuleDatabase.saveModules;
+Method,7,controller.ModuleController.getModules,controller.ModuleController,getModules,Method = controller.ModuleController.getModules,Method,=,controller.ModuleController.getModules;
+Method,8,model.ModuleDatabase.getModules,model.ModuleDatabase,getModules,Method = model.ModuleDatabase.getModules,Method,=,model.ModuleDatabase.getModules;
+Method,9,controller.ModuleController.getSubModules,controller.ModuleController,getSubModules,Method = controller.ModuleController.getSubModules,Method,=,controller.ModuleController.getSubModules;
+Method,10,model.ModuleDatabase.getSubModules,model.ModuleDatabase,getSubModules,Method = model.ModuleDatabase.getSubModules,Method,=,model.ModuleDatabase.getSubModules;
+Method,11,controller.UserController.loadFullNameEmployees,controller.UserController,loadFullNameEmployees,Method = controller.UserController.loadFullNameEmployees,Method,=,controller.UserController.loadFullNameEmployees;
+Method,12,model.UserDatabase.loadFullNameEmployees,model.UserDatabase,loadFullNameEmployees,Method = model.UserDatabase.loadFullNameEmployees,Method,=,model.UserDatabase.loadFullNameEmployees;
+Method,13,controller.UserController.load,controller.UserController,load,Method = controller.UserController.load,Method,=,controller.UserController.load;
+Method,14,model.UserDatabase.load,model.UserDatabase,load,Method = model.UserDatabase.load,Method,=,model.UserDatabase.load;
+Method,15,controller.UserController.validateEmployee,controller.UserController,validateEmployee,Method = controller.UserController.validateEmployee,Method,=,controller.UserController.validateEmployee;
+Method,16,model.UserDatabase.validateEmployee,model.UserDatabase,validateEmployee,Method = model.UserDatabase.validateEmployee,Method,=,model.UserDatabase.validateEmployee;
+Method,17,controller.UserController.validateUserName,controller.UserController,validateUserName,Method = controller.UserController.validateUserName,Method,=,controller.UserController.validateUserName;
+Method,18,model.UserDatabase.validateUserName,model.UserDatabase,validateUserName,Method = model.UserDatabase.validateUserName,Method,=,model.UserDatabase.validateUserName;
+Method,19,controller.UserController.validateEmail,controller.UserController,validateEmail,Method = controller.UserController.validateEmail,Method,=,controller.UserController.validateEmail;
+Method,20,model.UserDatabase.validateEmail,model.UserDatabase,validateEmail,Method = model.UserDatabase.validateEmail,Method,=,model.UserDatabase.validateEmail;
+Method,21,controller.UserController.save,controller.UserController,save,Method = controller.UserController.save,Method,=,controller.UserController.save;
+Method,22,model.UserDatabase.save,model.UserDatabase,save,Method = model.UserDatabase.save,Method,=,model.UserDatabase.save;
+Method,23,controller.TravelRequestController.loadFullNameEmployees,controller.TravelRequestController,loadFullNameEmployees,Method = controller.TravelRequestController.loadFullNameEmployees,Method,=,controller.TravelRequestController.loadFullNameEmployees;
+Method,24,model.TravelRequestDatabase.loadFullNameEmployees,model.TravelRequestDatabase,loadFullNameEmployees,Method = model.TravelRequestDatabase.loadFullNameEmployees,Method,=,model.TravelRequestDatabase.loadFullNameEmployees;
+Method,25,controller.TravelRequestController.maxNumTravelRequest,controller.TravelRequestController,maxNumTravelRequest,Method = controller.TravelRequestController.maxNumTravelRequest,Method,=,controller.TravelRequestController.maxNumTravelRequest;
+Method,26,model.TravelRequestDatabase.maxNumTravelRequest,model.TravelRequestDatabase,maxNumTravelRequest,Method = model.TravelRequestDatabase.maxNumTravelRequest,Method,=,model.TravelRequestDatabase.maxNumTravelRequest;
+Method,27,controller.TravelRequestController.load,controller.TravelRequestController,load,Method = controller.TravelRequestController.load,Method,=,controller.TravelRequestController.load;
+Method,28,model.TravelRequestDatabase.load,model.TravelRequestDatabase,load,Method = model.TravelRequestDatabase.load,Method,=,model.TravelRequestDatabase.load;
+Method,29,controller.TravelRequestController.save,controller.TravelRequestController,save,Method = controller.TravelRequestController.save,Method,=,controller.TravelRequestController.save;
+Method,30,model.TravelRequestDatabase.save,model.TravelRequestDatabase,save,Method = model.TravelRequestDatabase.save,Method,=,model.TravelRequestDatabase.save;
+Method,31,controller.UserController.validateDeleteUser,controller.UserController,validateDeleteUser,Method = controller.UserController.validateDeleteUser,Method,=,controller.UserController.validateDeleteUser;
+Method,32,model.UserDatabase.validateDeleteUser,model.UserDatabase,validateDeleteUser,Method = model.UserDatabase.validateDeleteUser,Method,=,model.UserDatabase.validateDeleteUser;
+Method,33,controller.UserController.delete,controller.UserController,delete,Method = controller.UserController.delete,Method,=,controller.UserController.delete;
+Method,34,model.UserDatabase.delete,model.UserDatabase,delete,Method = model.UserDatabase.delete,Method,=,model.UserDatabase.delete;
+
+
+1.- The controller.UserController.validateUser, model.UserDatabase.validateUser, controller.UserController.getUserLevel and model.UserDatabase.getUserLevel methods are included in the security log 3 times. These times corresponds when during the attack scenario a User Connected either a Fake System Administrator or a Fake Manager.
+
+2.- The controller.ModuleController.saveModules, model.ModuleDatabase.saveModules, controller.ModuleController.getModules, model.ModuleDatabase.getModules, controller.ModuleController.getSubModules, model.ModuleDatabase.getSubModules methods are included in the security log 20 times. These times corresponds, when a User, either Henry or Hortensia accessed to the main screen in the HRM called: “Human Resources Management System Menu”. In this moment, the HRM software system generated the modules and submodules that a User could accessed in the HRM software system.
+
+3.- The controller.UserController.loadFullNameEmployees, model.UserDatabase.loadFullNameEmployees methods are included in the security log 27 times. These times corresponds when during the attack scenario, the HRM software system consulted the full Name of the existing Employees and displayed them in the Users Main Menu Screen.
+
+4.- The controller.UserController.load, model.UserDatabase.load methods are included in the security log 12 times. These times corresponds when during the attack scenario, the HRM software system consulted the information of the existing Users to displayed them in the Users Main Menu Screen.
+
+5.- The controller.UserController.validateEmployee, model.UserDatabase.validateEmployee, controller.UserController.validateUserName, model.UserDatabase.validateUserName, controller.UserController.validateEmail, model.UserDatabase.validateEmail methods are included in the security log 5 times. These times corresponds to a review performed before creating or modifiying a user in the HRM software system. These reviews were related to check if the employee was associated with a User or if the username or the email address were correct.
+
+6.- The controller.UserController.save, model.UserDatabase.save methods are included in the security log 5 times. These times corresponds when during the attack scenario a User was created or modified in the HRM software system.
+
+7.- The controller.TravelRequestController.loadFullNameEmployees, model.TravelRequestDatabase.loadFullNameEmployees methods are included in the security log 36 times. These times corresponds when during the attack scenario, the HRM consulted the full Name of the existing Employees and displayed them in the Travel Request Main Menu Screen.
+
+8.- The controller.TravelRequestController.maxNumTravelRequest, model.TravelRequestDatabase.maxNumTravelRequest methods are included in the security log 36 times. These times corresponds when during the attack scenario, the HRM consulted the highest number of travel request and displayed the next number in the Travel Request Main Menu Screen.
+
+
+9.- The controller.TravelRequestController.load, model.TravelRequestDatabase.load methods are included in the security log 17 times. These times corresponds when during the attack scenario, either the System Administrator: Henry or the Manager Hortensia, consulted the existing information of a Travel Request.
+
+
+10.- The controller.TravelRequestController.save and model.TravelRequestDatabase.save methods are included 6 times in the security log. These times corresponds when during the attack scenario: A Travel Request was created, modified, approved or rejected.
+
+
+11.- The ccontroller.UserController.validateDeleteUser and model.UserDatabase.validateDeleteUser methods are included 2 times in the security log. These times corresponds when during the attack scenario, before a User was deleted, these method reviewed if the User had Travel Requests or if the User was a Manager. These methods prevented a User to be deleted. 
+
+12.- The controller.UserController.delete and model.UserDatabase.delete methods are included 1 times in the security log. These times corresponds when during the attack scenario a User was deleted. This is the moment when the security incident happened and we recorded the evidence.

@@ -1,0 +1,153 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the OpenHospital ==
+actor User_1 order 1
+participant org.isf.menu.gui.Login order 2
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.Login
+end note
+User_1 ->org.isf.menu.gui.Login: 1.acceptPwd()
+||20||
+actor User_1 order 3
+participant org.isf.menu.manager.UserBrowsingManager order 4
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.MainMenu
+end note
+User_1 ->org.isf.menu.manager.UserBrowsingManager: 2.getMenu()
+||20||
+actor User_1 order 5
+participant org.isf.menu.manager.UserBrowsingManager order 6
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.menu.manager.UserBrowsingManager: 3.getCurrentUser()
+||20||
+actor User_1 order 7
+participant org.isf.hospital.manager.HospitalBrowsingManager order 8
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.hospital.manager.HospitalBrowsingManager: 4.getHospitalCurrencyCod()
+||20||
+actor User_1 order 9
+participant org.isf.hospital.manager.HospitalBrowsingManager order 10
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.hospital.manager.HospitalBrowsingManager: 5.getCurrentUser()
+||20||
+actor User_1 order 11
+participant org.isf.hospital.manager.HospitalBrowsingManager order 12
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.hospital.manager.HospitalBrowsingManager: 6.getHospitalCurrencyCod()
+||20||
+actor User_1 order 13
+participant org.isf.priceslist.manager.PriceListManager order 14
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.priceslist.manager.PriceListManager: 7.getPrices()
+||20||
+actor User_1 order 15
+participant org.isf.pricesothers.manager.PricesOthersManager order 16
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.pricesothers.manager.PricesOthersManager: 8.getOthers()
+||20||
+actor User_1 order 17
+participant org.isf.accounting.manager.BillBrowserManager order 18
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 9.getItems()
+||20||
+actor User_1 order 19
+participant org.isf.accounting.manager.BillBrowserManager order 20
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 10.getPayments()
+||20||
+actor User_1 order 21
+participant org.isf.pricesothers.manager.PricesOthersManager order 22
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.pricesothers.manager.PricesOthersManager: 11.getOthers()
+||20||
+actor User_1 order 23
+participant org.isf.patient.manager.PatientBrowserManager order 24
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 12.getPatientsByOneOfFieldsLike()
+||20||
+actor User_1 order 25
+participant org.isf.patient.manager.PatientBrowserManager order 26
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 13.getPatientById()
+||20||
+participant org.isf.patient.gui.PatientSummary order 27
+participant org.isf.patient.manager.PatientBrowserManager order 28
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 14.getMaritalTranslated([single])
+||20||
+participant org.isf.patient.gui.PatientSummary order 29
+participant org.isf.patient.manager.PatientBrowserManager order 30
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 15.getProfessionTranslated([engineering])
+||20||
+actor User_1 order 31
+participant org.isf.accounting.manager.BillBrowserManager order 32
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 16.getPendingBills()
+||20||
+actor User_1 order 33
+participant org.isf.accounting.manager.BillBrowserManager order 34
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 17.getBill()
+||20||
+actor User_1 order 35
+participant org.isf.accounting.manager.BillBrowserManager order 36
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 18.newBill()
+||20||
+actor User_1 order 37
+participant org.isf.priceslist.manager.PriceListManager order 38
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.priceslist.manager.PriceListManager: 19.getPrices()
+||20||
+actor User_1 order 39
+participant org.isf.pricesothers.manager.PricesOthersManager order 40
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.pricesothers.manager.PricesOthersManager: 20.getOthers()
+||20||
+@enduml

@@ -1,0 +1,1232 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the OpenHospital ==
+actor User_1 order 1
+participant org.isf.menu.gui.Login order 2
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.Login
+end note
+User_1 ->org.isf.menu.gui.Login: 1.acceptPwd()
+||20||
+actor User_1 order 3
+participant org.isf.menu.manager.UserBrowsingManager order 4
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.MainMenu
+end note
+User_1 ->org.isf.menu.manager.UserBrowsingManager: 2.getMenu()
+||20||
+actor User_1 order 5
+participant org.isf.admission.manager.AdmissionBrowserManager order 6
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 3.getAdmittedPatients()
+||20||
+actor User_1 order 7
+participant org.isf.ward.manager.WardBrowserManager order 8
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.ward.manager.WardBrowserManager: 4.getWards()
+||20||
+actor User_1 order 9
+participant org.isf.admission.manager.AdmissionBrowserManager order 10
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 5.loadAdmittedPatients()
+||20||
+actor User_1 order 11
+participant org.isf.disease.manager.DiseaseBrowserManager order 12
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmissionBrowser
+end note
+User_1 ->org.isf.disease.manager.DiseaseBrowserManager: 6.getDiseaseIpdOut()
+||20||
+actor User_1 order 13
+participant org.isf.admission.manager.AdmissionBrowserManager order 14
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmissionBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 7.getCurrentAdmission()
+||20||
+actor User_1 order 15
+participant org.isf.operation.manager.OperationBrowserManager order 16
+note left of User_1 #lightskyblue 
+org.isf.operation.gui.OperationRowBase
+end note
+User_1 ->org.isf.operation.manager.OperationBrowserManager: 8.getResultDescriptionList()
+||20||
+participant org.isf.operation.gui.OperationRowAdm order 17
+participant org.isf.operation.manager.OperationBrowserManager order 18
+org.isf.operation.gui.OperationRowAdm ->org.isf.operation.manager.OperationBrowserManager: 9.getOperationAdm([])
+||20||
+actor User_1 order 19
+participant org.isf.disease.manager.DiseaseBrowserManager order 20
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmissionBrowser
+end note
+User_1 ->org.isf.disease.manager.DiseaseBrowserManager: 10.getDiseaseIpdIn()
+||20||
+participant org.isf.patient.gui.PatientSummary order 21
+participant org.isf.patient.manager.PatientBrowserManager order 22
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 11.getMaritalTranslated([married])
+||20||
+participant org.isf.patient.gui.PatientSummary order 23
+participant org.isf.patient.manager.PatientBrowserManager order 24
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 12.getProfessionTranslated([engineering])
+||20||
+participant org.isf.admission.gui.ward.WardComboBoxInitializer order 25
+participant org.isf.ward.manager.WardBrowserManager order 26
+org.isf.admission.gui.ward.WardComboBoxInitializer ->org.isf.ward.manager.WardBrowserManager: 13.getWards([])
+||20||
+actor User_1 order 27
+participant org.isf.admission.manager.AdmissionBrowserManager order 28
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmissionBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 14.getAdmissionType()
+||20||
+actor User_1 order 29
+participant org.isf.admission.manager.AdmissionBrowserManager order 30
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmissionBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 15.getDischargeType()
+||20||
+actor User_1 order 31
+participant org.isf.operation.manager.OperationBrowserManager order 32
+note left of User_1 #lightskyblue 
+org.isf.operation.gui.OperationRowBase
+end note
+User_1 ->org.isf.operation.manager.OperationBrowserManager: 16.getOperation()
+||20||
+participant org.isf.operation.gui.OperationRowAdm order 33
+participant org.isf.operation.manager.OperationBrowserManager order 34
+org.isf.operation.gui.OperationRowAdm ->org.isf.operation.manager.OperationBrowserManager: 17.getResultDescriptionKey([Success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 35
+participant org.isf.operation.manager.OperationBrowserManager order 36
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 18.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 37
+participant org.isf.operation.manager.OperationBrowserManager order 38
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 19.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 39
+participant org.isf.operation.manager.OperationBrowserManager order 40
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 20.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 41
+participant org.isf.operation.manager.OperationBrowserManager order 42
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 21.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 43
+participant org.isf.operation.manager.OperationBrowserManager order 44
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 22.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 45
+participant org.isf.operation.manager.OperationBrowserManager order 46
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 23.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 47
+participant org.isf.operation.manager.OperationBrowserManager order 48
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 24.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 49
+participant org.isf.operation.manager.OperationBrowserManager order 50
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 25.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 51
+participant org.isf.operation.manager.OperationBrowserManager order 52
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 26.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 53
+participant org.isf.operation.manager.OperationBrowserManager order 54
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 27.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 55
+participant org.isf.operation.manager.OperationBrowserManager order 56
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 28.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 57
+participant org.isf.operation.manager.OperationBrowserManager order 58
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 29.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 59
+participant org.isf.operation.manager.OperationBrowserManager order 60
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 30.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 61
+participant org.isf.operation.manager.OperationBrowserManager order 62
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 31.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 63
+participant org.isf.operation.manager.OperationBrowserManager order 64
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 32.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 65
+participant org.isf.operation.manager.OperationBrowserManager order 66
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 33.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 67
+participant org.isf.operation.manager.OperationBrowserManager order 68
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 34.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 69
+participant org.isf.operation.manager.OperationBrowserManager order 70
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 35.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 71
+participant org.isf.operation.manager.OperationBrowserManager order 72
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 36.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 73
+participant org.isf.operation.manager.OperationBrowserManager order 74
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 37.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 75
+participant org.isf.operation.manager.OperationBrowserManager order 76
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 38.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 77
+participant org.isf.operation.manager.OperationBrowserManager order 78
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 39.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 79
+participant org.isf.operation.manager.OperationBrowserManager order 80
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 40.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 81
+participant org.isf.operation.manager.OperationBrowserManager order 82
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 41.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 83
+participant org.isf.operation.manager.OperationBrowserManager order 84
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 42.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 85
+participant org.isf.operation.manager.OperationBrowserManager order 86
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 43.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 87
+participant org.isf.operation.manager.OperationBrowserManager order 88
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 44.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 89
+participant org.isf.operation.manager.OperationBrowserManager order 90
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 45.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 91
+participant org.isf.operation.manager.OperationBrowserManager order 92
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 46.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 93
+participant org.isf.operation.manager.OperationBrowserManager order 94
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 47.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 95
+participant org.isf.operation.manager.OperationBrowserManager order 96
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 48.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 97
+participant org.isf.operation.manager.OperationBrowserManager order 98
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 49.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 99
+participant org.isf.operation.manager.OperationBrowserManager order 100
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 50.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 101
+participant org.isf.operation.manager.OperationBrowserManager order 102
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 51.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 103
+participant org.isf.operation.manager.OperationBrowserManager order 104
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 52.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 105
+participant org.isf.operation.manager.OperationBrowserManager order 106
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 53.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 107
+participant org.isf.operation.manager.OperationBrowserManager order 108
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 54.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 109
+participant org.isf.operation.manager.OperationBrowserManager order 110
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 55.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 111
+participant org.isf.operation.manager.OperationBrowserManager order 112
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 56.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 113
+participant org.isf.operation.manager.OperationBrowserManager order 114
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 57.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 115
+participant org.isf.operation.manager.OperationBrowserManager order 116
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 58.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 117
+participant org.isf.operation.manager.OperationBrowserManager order 118
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 59.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 119
+participant org.isf.operation.manager.OperationBrowserManager order 120
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 60.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 121
+participant org.isf.operation.manager.OperationBrowserManager order 122
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 61.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 123
+participant org.isf.operation.manager.OperationBrowserManager order 124
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 62.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 125
+participant org.isf.operation.manager.OperationBrowserManager order 126
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 63.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 127
+participant org.isf.operation.manager.OperationBrowserManager order 128
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 64.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 129
+participant org.isf.operation.manager.OperationBrowserManager order 130
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 65.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 131
+participant org.isf.operation.manager.OperationBrowserManager order 132
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 66.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 133
+participant org.isf.operation.manager.OperationBrowserManager order 134
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 67.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 135
+participant org.isf.operation.manager.OperationBrowserManager order 136
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 68.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 137
+participant org.isf.operation.manager.OperationBrowserManager order 138
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 69.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 139
+participant org.isf.operation.manager.OperationBrowserManager order 140
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 70.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 141
+participant org.isf.operation.manager.OperationBrowserManager order 142
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 71.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 143
+participant org.isf.operation.manager.OperationBrowserManager order 144
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 72.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 145
+participant org.isf.operation.manager.OperationBrowserManager order 146
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 73.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 147
+participant org.isf.operation.manager.OperationBrowserManager order 148
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 74.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 149
+participant org.isf.operation.manager.OperationBrowserManager order 150
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 75.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 151
+participant org.isf.operation.manager.OperationBrowserManager order 152
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 76.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 153
+participant org.isf.operation.manager.OperationBrowserManager order 154
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 77.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 155
+participant org.isf.operation.manager.OperationBrowserManager order 156
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 78.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 157
+participant org.isf.operation.manager.OperationBrowserManager order 158
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 79.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 159
+participant org.isf.operation.manager.OperationBrowserManager order 160
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 80.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 161
+participant org.isf.operation.manager.OperationBrowserManager order 162
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 81.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 163
+participant org.isf.operation.manager.OperationBrowserManager order 164
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 82.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 165
+participant org.isf.operation.manager.OperationBrowserManager order 166
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 83.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 167
+participant org.isf.operation.manager.OperationBrowserManager order 168
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 84.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 169
+participant org.isf.operation.manager.OperationBrowserManager order 170
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 85.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 171
+participant org.isf.operation.manager.OperationBrowserManager order 172
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 86.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 173
+participant org.isf.operation.manager.OperationBrowserManager order 174
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 87.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 175
+participant org.isf.operation.manager.OperationBrowserManager order 176
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 88.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 177
+participant org.isf.operation.manager.OperationBrowserManager order 178
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 89.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 179
+participant org.isf.operation.manager.OperationBrowserManager order 180
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 90.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 181
+participant org.isf.operation.manager.OperationBrowserManager order 182
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 91.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 183
+participant org.isf.operation.manager.OperationBrowserManager order 184
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 92.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 185
+participant org.isf.operation.manager.OperationBrowserManager order 186
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 93.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 187
+participant org.isf.operation.manager.OperationBrowserManager order 188
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 94.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 189
+participant org.isf.operation.manager.OperationBrowserManager order 190
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 95.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 191
+participant org.isf.operation.manager.OperationBrowserManager order 192
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 96.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 193
+participant org.isf.operation.manager.OperationBrowserManager order 194
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 97.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 195
+participant org.isf.operation.manager.OperationBrowserManager order 196
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 98.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 197
+participant org.isf.operation.manager.OperationBrowserManager order 198
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 99.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 199
+participant org.isf.operation.manager.OperationBrowserManager order 200
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 100.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 201
+participant org.isf.operation.manager.OperationBrowserManager order 202
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 101.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 203
+participant org.isf.operation.manager.OperationBrowserManager order 204
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 102.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 205
+participant org.isf.operation.manager.OperationBrowserManager order 206
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 103.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 207
+participant org.isf.operation.manager.OperationBrowserManager order 208
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 104.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 209
+participant org.isf.operation.manager.OperationBrowserManager order 210
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 105.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 211
+participant org.isf.operation.manager.OperationBrowserManager order 212
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 106.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 213
+participant org.isf.operation.manager.OperationBrowserManager order 214
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 107.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 215
+participant org.isf.operation.manager.OperationBrowserManager order 216
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 108.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 217
+participant org.isf.operation.manager.OperationBrowserManager order 218
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 109.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 219
+participant org.isf.operation.manager.OperationBrowserManager order 220
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 110.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 221
+participant org.isf.operation.manager.OperationBrowserManager order 222
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 111.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 223
+participant org.isf.operation.manager.OperationBrowserManager order 224
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 112.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 225
+participant org.isf.operation.manager.OperationBrowserManager order 226
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 113.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 227
+participant org.isf.operation.manager.OperationBrowserManager order 228
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 114.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 229
+participant org.isf.operation.manager.OperationBrowserManager order 230
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 115.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 231
+participant org.isf.operation.manager.OperationBrowserManager order 232
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 116.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 233
+participant org.isf.operation.manager.OperationBrowserManager order 234
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 117.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 235
+participant org.isf.operation.manager.OperationBrowserManager order 236
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 118.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 237
+participant org.isf.operation.manager.OperationBrowserManager order 238
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 119.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 239
+participant org.isf.operation.manager.OperationBrowserManager order 240
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 120.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 241
+participant org.isf.operation.manager.OperationBrowserManager order 242
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 121.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 243
+participant org.isf.operation.manager.OperationBrowserManager order 244
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 122.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 245
+participant org.isf.operation.manager.OperationBrowserManager order 246
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 123.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 247
+participant org.isf.operation.manager.OperationBrowserManager order 248
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 124.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 249
+participant org.isf.operation.manager.OperationBrowserManager order 250
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 125.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 251
+participant org.isf.operation.manager.OperationBrowserManager order 252
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 126.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 253
+participant org.isf.operation.manager.OperationBrowserManager order 254
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 127.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 255
+participant org.isf.operation.manager.OperationBrowserManager order 256
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 128.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 257
+participant org.isf.operation.manager.OperationBrowserManager order 258
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 129.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 259
+participant org.isf.operation.manager.OperationBrowserManager order 260
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 130.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 261
+participant org.isf.operation.manager.OperationBrowserManager order 262
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 131.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 263
+participant org.isf.operation.manager.OperationBrowserManager order 264
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 132.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 265
+participant org.isf.operation.manager.OperationBrowserManager order 266
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 133.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 267
+participant org.isf.operation.manager.OperationBrowserManager order 268
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 134.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 269
+participant org.isf.operation.manager.OperationBrowserManager order 270
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 135.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 271
+participant org.isf.operation.manager.OperationBrowserManager order 272
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 136.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.operation.gui.OperationRowAdm order 273
+participant org.isf.operation.manager.OperationBrowserManager order 274
+org.isf.operation.gui.OperationRowAdm ->org.isf.operation.manager.OperationBrowserManager: 137.getOperationAdm([])
+||20||
+actor User_1 order 275
+participant org.isf.operation.manager.OperationBrowserManager order 276
+note left of User_1 #lightskyblue 
+org.isf.operation.gui.OperationRowBase
+end note
+User_1 ->org.isf.operation.manager.OperationBrowserManager: 138.getResultDescriptionKey()
+||20||
+actor User_1 order 277
+participant org.isf.operation.manager.OperationBrowserManager order 278
+note left of User_1 #lightskyblue 
+org.isf.operation.gui.OperationRowBase
+end note
+User_1 ->org.isf.operation.manager.OperationBrowserManager: 139.getResultDescriptionKey()
+||20||
+actor User_1 order 279
+participant org.isf.operation.manager.OperationBrowserManager order 280
+note left of User_1 #lightskyblue 
+org.isf.operation.gui.OperationRowBase
+end note
+User_1 ->org.isf.operation.manager.OperationBrowserManager: 140.getResultDescriptionKey()
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 281
+participant org.isf.operation.manager.OperationBrowserManager order 282
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 141.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 283
+participant org.isf.operation.manager.OperationBrowserManager order 284
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 142.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 285
+participant org.isf.operation.manager.OperationBrowserManager order 286
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 143.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 287
+participant org.isf.operation.manager.OperationBrowserManager order 288
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 144.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 289
+participant org.isf.operation.manager.OperationBrowserManager order 290
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 145.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 291
+participant org.isf.operation.manager.OperationBrowserManager order 292
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 146.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 293
+participant org.isf.operation.manager.OperationBrowserManager order 294
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 147.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 295
+participant org.isf.operation.manager.OperationBrowserManager order 296
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 148.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 297
+participant org.isf.operation.manager.OperationBrowserManager order 298
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 149.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 299
+participant org.isf.operation.manager.OperationBrowserManager order 300
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 150.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 301
+participant org.isf.operation.manager.OperationBrowserManager order 302
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 151.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 303
+participant org.isf.operation.manager.OperationBrowserManager order 304
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 152.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 305
+participant org.isf.operation.manager.OperationBrowserManager order 306
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 153.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 307
+participant org.isf.operation.manager.OperationBrowserManager order 308
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 154.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 309
+participant org.isf.operation.manager.OperationBrowserManager order 310
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 155.getOperationByCode([38])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 311
+participant org.isf.operation.manager.OperationBrowserManager order 312
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 156.getResultDescriptionTranslated([success])
+||20||
+participant org.isf.utils.jobjects.OhTableOperationModel order 313
+participant org.isf.operation.manager.OperationBrowserManager order 314
+org.isf.utils.jobjects.OhTableOperationModel ->org.isf.operation.manager.OperationBrowserManager: 157.getOperationByCode([38])
+||20||
+actor User_1 order 315
+participant org.isf.admission.manager.AdmissionBrowserManager order 316
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 158.loadAdmittedPatients()
+||20||
+actor User_1 order 317
+participant org.isf.medicals.manager.MedicalBrowsingManager order 318
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.medicals.manager.MedicalBrowsingManager: 159.getMedicals()
+||20||
+actor User_1 order 319
+participant org.isf.therapy.manager.TherapyManager order 320
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 160.getTherapyRows()
+||20||
+actor User_1 order 321
+participant org.isf.visits.manager.VisitManager order 322
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 161.getVisits()
+||20||
+actor User_1 order 323
+participant org.isf.medicals.manager.MedicalBrowsingManager order 324
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEntryForm
+end note
+User_1 ->org.isf.medicals.manager.MedicalBrowsingManager: 162.getMedicals()
+||20||
+actor User_1 order 325
+participant org.isf.therapy.manager.TherapyManager order 326
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEntryForm
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 163.getTherapyRow()
+||20||
+actor User_1 order 327
+participant org.isf.therapy.manager.TherapyManager order 328
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 164.createTherapy()
+||20||
+actor User_1 order 329
+participant org.isf.therapy.manager.TherapyManager order 330
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 165.deleteAllTherapies()
+||20||
+actor User_1 order 331
+participant org.isf.therapy.manager.TherapyManager order 332
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 166.newTherapies()
+||20||
+actor User_1 order 333
+participant org.isf.therapy.manager.TherapyManager order 334
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 167.getTherapyRows()
+||20||
+actor User_1 order 335
+participant org.isf.visits.manager.VisitManager order 336
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 168.getVisits()
+||20||
+actor User_1 order 337
+participant org.isf.exa.manager.ExamBrowsingManager order 338
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+User_1 ->org.isf.exa.manager.ExamBrowsingManager: 169.getExams()
+||20||
+actor User_1 order 339
+participant org.isf.lab.manager.LabManager order 340
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+User_1 ->org.isf.lab.manager.LabManager: 170.getLaboratory()
+||20||
+actor User_1 order 341
+participant org.isf.lab.manager.LabManager order 342
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 171.getMaterialList()
+||20||
+actor User_1 order 343
+participant org.isf.exa.manager.ExamBrowsingManager order 344
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.exa.manager.ExamBrowsingManager: 172.getExams()
+||20||
+actor User_1 order 345
+participant org.isf.patient.manager.PatientBrowserManager order 346
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 173.getPatientsByOneOfFieldsLike()
+||20||
+actor User_1 order 347
+participant org.isf.patient.manager.PatientBrowserManager order 348
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 174.getPatientById()
+||20||
+participant org.isf.patient.gui.PatientSummary order 349
+participant org.isf.patient.manager.PatientBrowserManager order 350
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 175.getMaritalTranslated([single])
+||20||
+participant org.isf.patient.gui.PatientSummary order 351
+participant org.isf.patient.manager.PatientBrowserManager order 352
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 176.getProfessionTranslated([business])
+||20||
+actor User_1 order 353
+participant org.isf.admission.manager.AdmissionBrowserManager order 354
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 177.getCurrentAdmission()
+||20||
+actor User_1 order 355
+participant org.isf.lab.manager.LabManager order 356
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 178.getMaterialKey()
+||20||
+actor User_1 order 357
+participant org.isf.lab.manager.LabManager order 358
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 179.getMaterialTranslated()
+||20||
+actor User_1 order 359
+participant org.isf.lab.manager.LabManager order 360
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 180.getMaterialKey()
+||20||
+actor User_1 order 361
+participant org.isf.exa.manager.ExamRowBrowsingManager order 362
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.exa.manager.ExamRowBrowsingManager: 181.getExamRowByExamCode()
+||20||
+actor User_1 order 363
+participant org.isf.lab.manager.LabManager order 364
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 182.getMaterialKey()
+||20||
+actor User_1 order 365
+participant org.isf.lab.manager.LabManager order 366
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 183.newLaboratory2()
+||20||
+actor User_1 order 367
+participant org.isf.lab.manager.LabManager order 368
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+User_1 ->org.isf.lab.manager.LabManager: 184.getLaboratory()
+||20||
+actor User_1 order 369
+participant org.isf.vactype.manager.VaccineTypeBrowserManager order 370
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacBrowser
+end note
+User_1 ->org.isf.vactype.manager.VaccineTypeBrowserManager: 185.getVaccineType()
+||20||
+actor User_1 order 371
+participant org.isf.vaccine.manager.VaccineBrowserManager order 372
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacBrowser
+end note
+User_1 ->org.isf.vaccine.manager.VaccineBrowserManager: 186.getVaccine()
+||20||
+actor User_1 order 373
+participant org.isf.patvac.manager.PatVacManager order 374
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacBrowser
+end note
+User_1 ->org.isf.patvac.manager.PatVacManager: 187.getPatientVaccine()
+||20||
+actor User_1 order 375
+participant org.isf.patvac.manager.PatVacManager order 376
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacEdit
+end note
+User_1 ->org.isf.patvac.manager.PatVacManager: 188.getProgYear()
+||20||
+actor User_1 order 377
+participant org.isf.patient.manager.PatientBrowserManager order 378
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacEdit
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 189.getPatient()
+||20||
+actor User_1 order 379
+participant org.isf.vactype.manager.VaccineTypeBrowserManager order 380
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacEdit
+end note
+User_1 ->org.isf.vactype.manager.VaccineTypeBrowserManager: 190.getVaccineType()
+||20||
+actor User_1 order 381
+participant org.isf.vaccine.manager.VaccineBrowserManager order 382
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacEdit
+end note
+User_1 ->org.isf.vaccine.manager.VaccineBrowserManager: 191.getVaccine()
+||20||
+actor User_1 order 383
+participant org.isf.patvac.manager.PatVacManager order 384
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacEdit
+end note
+User_1 ->org.isf.patvac.manager.PatVacManager: 192.updatePatientVaccine()
+||20||
+actor User_1 order 385
+participant org.isf.admission.manager.AdmissionBrowserManager order 386
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 193.getAdmittedPatients()
+||20||
+actor User_1 order 387
+participant org.isf.ward.manager.WardBrowserManager order 388
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.ward.manager.WardBrowserManager: 194.getWards()
+||20||
+actor User_1 order 389
+participant org.isf.admission.manager.AdmissionBrowserManager order 390
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 195.loadAdmittedPatients()
+||20||
+actor User_1 order 391
+participant org.isf.medicals.manager.MedicalBrowsingManager order 392
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.medicals.manager.MedicalBrowsingManager: 196.getMedicals()
+||20||
+actor User_1 order 393
+participant org.isf.therapy.manager.TherapyManager order 394
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 197.getTherapyRows()
+||20||
+actor User_1 order 395
+participant org.isf.visits.manager.VisitManager order 396
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 198.getVisits()
+||20||
+actor User_1 order 397
+participant org.isf.medicals.manager.MedicalBrowsingManager order 398
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEntryForm
+end note
+User_1 ->org.isf.medicals.manager.MedicalBrowsingManager: 199.getMedicals()
+||20||
+actor User_1 order 399
+participant org.isf.therapy.manager.TherapyManager order 400
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEntryForm
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 200.getTherapyRow()
+||20||
+actor User_1 order 401
+participant org.isf.therapy.manager.TherapyManager order 402
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 201.createTherapy()
+||20||
+actor User_1 order 403
+participant org.isf.therapy.manager.TherapyManager order 404
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 202.deleteAllTherapies()
+||20||
+actor User_1 order 405
+participant org.isf.therapy.manager.TherapyManager order 406
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 203.newTherapies()
+||20||
+actor User_1 order 407
+participant org.isf.therapy.manager.TherapyManager order 408
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 204.getTherapyRows()
+||20||
+actor User_1 order 409
+participant org.isf.visits.manager.VisitManager order 410
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 205.getVisits()
+||20||
+actor User_1 order 411
+participant org.isf.ward.manager.WardBrowserManager order 412
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.VisitView
+end note
+User_1 ->org.isf.ward.manager.WardBrowserManager: 206.getWards()
+||20||
+actor User_1 order 413
+participant org.isf.visits.manager.VisitManager order 414
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.VisitView
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 207.getVisitsWard()
+||20||
+actor User_1 order 415
+participant org.isf.ward.manager.WardBrowserManager order 416
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.InsertVisit
+end note
+User_1 ->org.isf.ward.manager.WardBrowserManager: 208.getWards()
+||20||
+participant org.isf.utils.jobjects.GoodDateTimeVisitChooser order 417
+participant org.isf.hospital.manager.HospitalBrowsingManager order 418
+org.isf.utils.jobjects.GoodDateTimeVisitChooser ->org.isf.hospital.manager.HospitalBrowsingManager: 209.getHospital([])
+||20||
+actor User_1 order 419
+participant org.isf.patient.manager.PatientBrowserManager order 420
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 210.getPatientsByOneOfFieldsLike()
+||20||
+actor User_1 order 421
+participant org.isf.patient.manager.PatientBrowserManager order 422
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 211.getPatientById()
+||20||
+participant org.isf.patient.gui.PatientSummary order 423
+participant org.isf.patient.manager.PatientBrowserManager order 424
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 212.getMaritalTranslated([single])
+||20||
+participant org.isf.patient.gui.PatientSummary order 425
+participant org.isf.patient.manager.PatientBrowserManager order 426
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 213.getProfessionTranslated([foodhospitality])
+||20||
+actor User_1 order 427
+participant org.isf.patient.manager.PatientBrowserManager order 428
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 214.getPatientById()
+||20||
+participant org.isf.patient.gui.PatientSummary order 429
+participant org.isf.patient.manager.PatientBrowserManager order 430
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 215.getMaritalTranslated([single])
+||20||
+participant org.isf.patient.gui.PatientSummary order 431
+participant org.isf.patient.manager.PatientBrowserManager order 432
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 216.getProfessionTranslated([other])
+||20||
+actor User_1 order 433
+participant org.isf.visits.manager.VisitManager order 434
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.InsertVisit
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 217.newVisit()
+||20||
+actor User_1 order 435
+participant org.isf.visits.manager.VisitManager order 436
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.VisitView
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 218.getVisitsWard()
+||20||
+actor User_1 order 437
+participant org.isf.visits.manager.VisitManager order 438
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.VisitView
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 219.deleteVisit()
+||20||
+actor User_1 order 439
+participant org.isf.visits.manager.VisitManager order 440
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.VisitView
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 220.getVisitsWard()
+||20||
+actor User_1 order 441
+participant org.isf.patient.manager.PatientBrowserManager order 442
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 221.getCurrentUser()
+||20||
+actor User_1 order 443
+participant org.isf.hospital.manager.HospitalBrowsingManager order 444
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.hospital.manager.HospitalBrowsingManager: 222.getHospitalCurrencyCod()
+||20||
+actor User_1 order 445
+participant org.isf.hospital.manager.HospitalBrowsingManager order 446
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.hospital.manager.HospitalBrowsingManager: 223.getCurrentUser()
+||20||
+actor User_1 order 447
+participant org.isf.hospital.manager.HospitalBrowsingManager order 448
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.hospital.manager.HospitalBrowsingManager: 224.getHospitalCurrencyCod()
+||20||
+actor User_1 order 449
+participant org.isf.priceslist.manager.PriceListManager order 450
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.priceslist.manager.PriceListManager: 225.getPrices()
+||20||
+actor User_1 order 451
+participant org.isf.pricesothers.manager.PricesOthersManager order 452
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.pricesothers.manager.PricesOthersManager: 226.getOthers()
+||20||
+actor User_1 order 453
+participant org.isf.accounting.manager.BillBrowserManager order 454
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 227.getItems()
+||20||
+actor User_1 order 455
+participant org.isf.accounting.manager.BillBrowserManager order 456
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 228.getPayments()
+||20||
+actor User_1 order 457
+participant org.isf.pricesothers.manager.PricesOthersManager order 458
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.pricesothers.manager.PricesOthersManager: 229.getOthers()
+||20||
+actor User_1 order 459
+participant org.isf.patient.manager.PatientBrowserManager order 460
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 230.getPatientsByOneOfFieldsLike()
+||20||
+actor User_1 order 461
+participant org.isf.patient.manager.PatientBrowserManager order 462
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 231.getPatientById()
+||20||
+participant org.isf.patient.gui.PatientSummary order 463
+participant org.isf.patient.manager.PatientBrowserManager order 464
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 232.getMaritalTranslated([married])
+||20||
+participant org.isf.patient.gui.PatientSummary order 465
+participant org.isf.patient.manager.PatientBrowserManager order 466
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 233.getProfessionTranslated([business])
+||20||
+actor User_1 order 467
+participant org.isf.accounting.manager.BillBrowserManager order 468
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 234.getPendingBills()
+||20||
+actor User_1 order 469
+participant org.isf.accounting.manager.BillBrowserManager order 470
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 235.getBill()
+||20||
+actor User_1 order 471
+participant org.isf.accounting.manager.BillBrowserManager order 472
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 236.newBill()
+||20||
+actor User_1 order 473
+participant org.isf.priceslist.manager.PriceListManager order 474
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.priceslist.manager.PriceListManager: 237.getPrices()
+||20||
+actor User_1 order 475
+participant org.isf.pricesothers.manager.PricesOthersManager order 476
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.pricesothers.manager.PricesOthersManager: 238.getOthers()
+||20||
+@enduml

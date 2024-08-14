@@ -1,0 +1,27 @@
+Methods:
+1.- call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 3 Ocurrences
+2.- call(boolean org.isf.menu.manager.UserBrowsingManager.newUser(..))|| => 1 Ocurrence
+3.- call(org.isf.hospital.model.Hospital org.isf.hospital.manager.HospitalBrowsingManager.updateHospital(..))|| => 1 Ocurrence
+4.- call(boolean org.isf.menu.manager.UserBrowsingManager.deleteUser(..)); => 1 Ocurrence
+
+
+Annotations:
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+ReturnType,2,org.isf.menu.manager.UserBrowsingManager.newUser,org.isf.menu.manager.UserBrowsingManager,newUser,boolean = true,boolean,=,true;
+Method,3,org.isf.hospital.manager.HospitalBrowsingManager.updateHospital,org.isf.hospital.manager.HospitalBrowsingManager,updateHospital,Method = org.isf.hospital.manager.HospitalBrowsingManager.updateHospital,Method,=,org.isf.hospital.manager.HospitalBrowsingManager.updateHospital;
+ReturnType,4,org.isf.menu.manager.UserBrowsingManager.deleteUser,org.isf.menu.manager.UserBrowsingManager,deleteUser,boolean = true,boolean,=,true;
+
+
+
+1.- The org.isf.menu.manager.UserBrowsingManager.getMenu method is included in the security log 3 times. 
+These times corresponds when during the attack scenario: A Fake System Administrator connected to the OH software system.
+
+2.- The org.isf.menu.manager.UserBrowsingManager.newUser method is included in the security log 1 time. 
+This time corresponds when during the attack scenario, a Fake System Administrator created a new user that is a System Administrator in the in the OH software system. This is the moment the security incident happens and we recorded the evidence.
+
+3.- The org.isf.hospital.manager.HospitalBrowsingManager.updateHospital method is included in the security log 1 time. 
+This time corresponds when during the attack scenario, a Fake System Administrator modified the visit duration inside the Hospital in the Settings > Hospital Screen. This is the moment the security incident happens and we recorded the evidence.
+
+4.- The org.isf.menu.manager.UserBrowsingManager.deleteUser method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Fake System Administrator deleted an existing user that is a System Administrator in the in the OH software system. This is the moment the security incident happens and we recorded the evidence.
+

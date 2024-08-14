@@ -1,0 +1,580 @@
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 24/05/2024 05:40:16 PM BST
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : 
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:40:16 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : physician
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1035 - OS Name              : Windows Server 2016
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1036 - OS Current Time      : 24/05/2024 05:43:02 PM BST
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1038 - OS IP Address        : 189.122.67.106
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1040 - OS Hostname          : f7.local
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1042 - OS UserName          : f7
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1043 - Annotation Type      : ReturnType
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1044 - Method Number        : 2
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1045 - Method Name          : org.isf.patvac.manager.PatVacManager.newPatientVaccine
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1046 - Method Return Type   : java.lang.Boolean
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1047 - Method Return Value  : true
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1079 - Parameter Number     : 1
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - Parameter Name       : patVac
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - Parameter Type       : org.isf.patvac.model.PatientVaccine
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:999 - The Parameter Name: patVac has the following Attributes:
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1067 - Attribute Number     : 1
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - Attribute Name       : code
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - Attribute Value      : 48
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1067 - Attribute Number     : 2
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - Attribute Name       : progr
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - Attribute Value      : 21
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1067 - Attribute Number     : 3
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - Attribute Name       : vaccineDate
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - Attribute Type       : java.time.LocalDateTime
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - Attribute Value      : 2024-05-24T00:00
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1067 - Attribute Number     : 4
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - Attribute Name       : patient
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : code
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.Integer
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 177
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 2
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : firstName
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Daisy
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 3
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : secondName
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Hill
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 4
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : name
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Daisy Hill
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 5
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : birthDate
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.time.LocalDate
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 1982-05-17
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 6
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : age
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 42
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 7
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : agetype
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 8
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : sex
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : F
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 9
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : address
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 400 Mercer Street
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 10
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : city
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Boston, MA, USA
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 11
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : nextKin
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 1
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 12
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : telephone
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : +39123456
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 13
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : note
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 14
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : motherName
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 15
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : mother
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : D
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 16
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : fatherName
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 17
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : father
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : D
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 18
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : bloodType
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : AB-
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 19
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : hasInsurance
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Y
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 20
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : parentTogether
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : N
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 21
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : taxCode
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 123
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 22
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : maritalStatus
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : single
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 23
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : profession
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : business
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 24
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : deleted
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : N
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 25
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : lock
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 0
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 26
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : hashCode
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 3236
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1067 - Attribute Number     : 5
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - Attribute Name       : vaccine
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - Attribute Type       : org.isf.vaccine.model.Vaccine
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:644 - The Attribute Name: vaccine has the followings Sub-Attributes:
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : code
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 002
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 2
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : description
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : CoVid19
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 3
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : vaccineType
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : org.isf.vactype.model.VaccineType
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:644 - The Attribute Name: vaccineType has the followings Sub-Attributes:
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : code
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : B
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 2
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : description
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Bacillo
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 3
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : hashCode
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 0
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 4
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : lock
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.Integer
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 0
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1067 - Attribute Number     : 6
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - Attribute Name       : lock
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - Attribute Value      : 0
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1067 - Attribute Number     : 7
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1081 - Attribute Name       : hashCode
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:43:02 PM BST INFO  PatVacManager:1122 - Attribute Value      : 0
+24/05/2024 05:43:52 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+24/05/2024 05:43:52 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+24/05/2024 05:43:53 PM BST WARN  Webcam:964 - No webcam has been detected!
+24/05/2024 05:44:37 PM BST INFO  ConfigurationProperties:91 - File txtPrinter.properties loaded.
+24/05/2024 05:44:37 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_HEIGHT property not found: default is 10
+24/05/2024 05:44:37 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_WIDTH property not found: default is 10
+24/05/2024 05:45:01 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 24/05/2024 05:48:13 PM BST
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : 
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:48:13 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : admin
+24/05/2024 05:48:41 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+24/05/2024 05:48:41 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+24/05/2024 05:48:41 PM BST WARN  Webcam:964 - No webcam has been detected!
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1035 - OS Name              : Windows Server 2016
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1036 - OS Current Time      : 24/05/2024 05:51:22 PM BST
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1038 - OS IP Address        : 189.122.67.106
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1040 - OS Hostname          : f7.local
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1042 - OS UserName          : f7
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1043 - Annotation Type      : ReturnType
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1044 - Method Number        : 2
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1045 - Method Name          : org.isf.patvac.manager.PatVacManager.updatePatientVaccine
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1046 - Method Return Type   : java.lang.Boolean
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1047 - Method Return Value  : true
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1079 - Parameter Number     : 1
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - Parameter Name       : patVac
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - Parameter Type       : org.isf.patvac.model.PatientVaccine
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:999 - The Parameter Name: patVac has the following Attributes:
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1067 - Attribute Number     : 1
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - Attribute Name       : code
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - Attribute Value      : 48
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1067 - Attribute Number     : 2
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - Attribute Name       : progr
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - Attribute Value      : 21
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1067 - Attribute Number     : 3
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - Attribute Name       : vaccineDate
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - Attribute Type       : java.time.LocalDateTime
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - Attribute Value      : 2024-05-24T00:00
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1067 - Attribute Number     : 4
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - Attribute Name       : patient
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : code
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.Integer
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 177
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 2
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : firstName
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Daisy
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 3
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : secondName
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Hill
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 4
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : name
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Daisy Hill
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 5
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : birthDate
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.time.LocalDate
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 1982-05-17
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 6
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : age
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 42
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 7
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : agetype
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 8
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : sex
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : F
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 9
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : address
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 400 Mercer Street
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 10
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : city
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Boston, MA, USA
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 11
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : nextKin
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 1
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 12
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : telephone
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : +39123456
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 13
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : note
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 14
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : motherName
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 15
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : mother
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : D
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 16
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : fatherName
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 17
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : father
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : D
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 18
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : bloodType
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : AB-
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 19
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : hasInsurance
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Y
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 20
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : parentTogether
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : N
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 21
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : taxCode
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 123
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 22
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : maritalStatus
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : single
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 23
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : profession
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : business
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 24
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : deleted
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : N
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 25
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : lock
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 0
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 26
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : hashCode
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 3236
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1067 - Attribute Number     : 5
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - Attribute Name       : vaccine
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - Attribute Type       : org.isf.vaccine.model.Vaccine
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:644 - The Attribute Name: vaccine has the followings Sub-Attributes:
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : code
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 001
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 2
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : description
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Rare Seasonal Virus
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 3
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : vaccineType
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : org.isf.vactype.model.VaccineType
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:644 - The Attribute Name: vaccineType has the followings Sub-Attributes:
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : code
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : B
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 2
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : description
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Bacillo
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 3
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : hashCode
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 0
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 4
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : lock
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.Integer
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 1
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1067 - Attribute Number     : 6
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - Attribute Name       : lock
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - Attribute Value      : 0
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1067 - Attribute Number     : 7
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1081 - Attribute Name       : hashCode
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:51:22 PM BST INFO  PatVacManager:1122 - Attribute Value      : 0
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1035 - OS Name              : Windows Server 2016
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1036 - OS Current Time      : 24/05/2024 05:54:48 PM BST
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1038 - OS IP Address        : 189.122.67.106
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1040 - OS Hostname          : f7.local
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1042 - OS UserName          : f7
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1043 - Annotation Type      : ReturnType
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1044 - Method Number        : 3
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1045 - Method Name          : org.isf.patvac.manager.PatVacManager.deletePatientVaccine
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1046 - Method Return Type   : java.lang.Boolean
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1047 - Method Return Value  : true
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1079 - Parameter Number     : 1
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - Parameter Name       : patVac
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - Parameter Type       : org.isf.patvac.model.PatientVaccine
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:999 - The Parameter Name: patVac has the following Attributes:
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1067 - Attribute Number     : 1
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - Attribute Name       : code
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - Attribute Value      : 48
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1067 - Attribute Number     : 2
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - Attribute Name       : progr
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - Attribute Value      : 21
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1067 - Attribute Number     : 3
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - Attribute Name       : vaccineDate
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - Attribute Type       : java.time.LocalDateTime
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - Attribute Value      : 2024-05-24T00:00
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1067 - Attribute Number     : 4
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - Attribute Name       : patient
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : code
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.Integer
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 177
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 2
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : firstName
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Daisy
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 3
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : secondName
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Hill
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 4
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : name
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Daisy Hill
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 5
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : birthDate
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.time.LocalDate
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 1982-05-17
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 6
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : age
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 42
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 7
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : agetype
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 8
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : sex
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:54:48 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : F
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 9
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : address
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 400 Mercer Street
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 10
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : city
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Boston, MA, USA
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 11
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : nextKin
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 1
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 12
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : telephone
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : +39123456
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 13
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : note
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 14
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : motherName
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 15
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : mother
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : D
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 16
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : fatherName
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 17
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : father
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : D
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 18
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : bloodType
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : AB-
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 19
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : hasInsurance
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Y
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 20
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : parentTogether
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : char
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : N
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 21
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : taxCode
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 123
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 22
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : maritalStatus
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : single
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 23
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : profession
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : business
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 24
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : deleted
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : N
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 25
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : lock
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 0
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 26
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : hashCode
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 3236
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1067 - Attribute Number     : 5
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - Attribute Name       : vaccine
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - Attribute Type       : org.isf.vaccine.model.Vaccine
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:644 - The Attribute Name: vaccine has the followings Sub-Attributes:
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : code
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 001
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 2
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : description
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Rare Seasonal Virus
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 3
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : vaccineType
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : org.isf.vactype.model.VaccineType
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:644 - The Attribute Name: vaccineType has the followings Sub-Attributes:
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 1
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : code
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : B
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 2
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : description
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.String
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : Bacillo
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 3
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : hashCode
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : int
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 0
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1074 - SubAttribute Number     : 4
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - SubAttribute Name       : lock
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - SubAttribute Type       : java.lang.Integer
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - SubAttribute Value      : 1
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1067 - Attribute Number     : 6
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - Attribute Name       : lock
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - Attribute Value      : 0
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1067 - Attribute Number     : 7
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1081 - Attribute Name       : hashCode
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1082 - Attribute Type       : int
+24/05/2024 05:54:49 PM BST INFO  PatVacManager:1122 - Attribute Value      : 0
+24/05/2024 05:57:23 PM BST INFO  ConfigurationProperties:91 - File txtPrinter.properties loaded.
+24/05/2024 05:57:23 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_HEIGHT property not found: default is 10
+24/05/2024 05:57:23 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_WIDTH property not found: default is 10
+24/05/2024 05:57:30 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+

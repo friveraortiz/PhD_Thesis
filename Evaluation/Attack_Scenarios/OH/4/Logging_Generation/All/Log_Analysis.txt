@@ -1,0 +1,92 @@
+Methods:
+1.- call(void org.isf.menu.gui.Login.acceptPwd(..))|| => 2 Occurrences
+    call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 2 Occurrences
+
+2.- call(java.lang.String org.isf.menu.manager.UserBrowsingManager.getCurrentUser(..))|| => 11 Occurrences
+
+3.- call(java.lang.String org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod(..))|| => 5 Occurrences
+
+4.- call(List<org.isf.priceslist.model.Price> org.isf.priceslist.manager.PriceListManager.getPrices(..))|| => 3 Occurrences
+
+5.- call(List<org.isf.pricesothers.model.PricesOthers> org.isf.pricesothers.manager.PricesOthersManager.getOthers(..))|| => 5 Occurrences
+
+6.- call(List<org.isf.accounting.model.BillItems> org.isf.accounting.manager.BillBrowserManager.getItems(..))|| => 2 Occurrences
+
+7.- call(List<org.isf.accounting.model.BillPayments> org.isf.accounting.manager.BillBrowserManager.getPayments(..))|| => 6 Occurrences
+
+8.- call(List<org.isf.patient.model.Patient> org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike(..))|| => 4 Occurrences
+
+9.- call(org.isf.patient.model.Patient org.isf.patient.manager.PatientBrowserManager.getPatientById(..))|| => 5 Occurrences
+
+10.- call(java.lang.String org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated(..))|| => 5 Occurrences
+call(java.lang.String org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated(..))|| => 5 Occurrences
+
+11.- call(List<org.isf.accounting.model.Bill> org.isf.accounting.manager.BillBrowserManager.getPendingBills(..))|| => 1 Occurrences
+     call(org.isf.accounting.model.Bill org.isf.accounting.manager.BillBrowserManager.getBill(..))||
+
+12.- call(int org.isf.accounting.manager.BillBrowserManager.newBill(..))|| => 1 Occurrence
+
+13.- call(List<java.lang.String> org.isf.accounting.manager.BillBrowserManager.getUsers(..))|| => 2 Occurrences
+
+14.- call(List<org.isf.accounting.model.Bill> org.isf.accounting.manager.BillBrowserManager.getBills(..))|| => 8 Occurrences
+
+15.- call(boolean org.isf.accounting.manager.BillBrowserManager.updateBill(..)); => 1 Occurrence
+
+
+Annotations:
+Method,1,org.isf.menu.gui.Login.acceptPwd,org.isf.menu.gui.Login,acceptPwd,Method = org.isf.menu.gui.Login.acceptPwd,Method,=,org.isf.menu.gui.Login.acceptPwd;
+Method,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,Method = org.isf.menu.manager.UserBrowsingManager.getMenu,Method,=,org.isf.menu.manager.UserBrowsingManager.getMenu;
+Method,3,org.isf.menu.manager.UserBrowsingManager.getCurrentUser,org.isf.menu.manager.UserBrowsingManager,getCurrentUser,Method = org.isf.menu.manager.UserBrowsingManager.getCurrentUser,Method,=,org.isf.menu.manager.UserBrowsingManager.getCurrentUser;
+Method,4,org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod,org.isf.hospital.manager.HospitalBrowsingManager,getHospitalCurrencyCod,Method = org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod,Method,=,org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod;
+Method,5,org.isf.priceslist.manager.PriceListManager.getPrices,org.isf.priceslist.manager.PriceListManager,getPrices,Method = org.isf.priceslist.manager.PriceListManager.getPrices,Method,=,org.isf.priceslist.manager.PriceListManager.getPrices;
+Method,6,org.isf.pricesothers.manager.PricesOthersManager.getOthers,org.isf.pricesothers.manager.PricesOthersManager,getOthers,Method = org.isf.pricesothers.manager.PricesOthersManager.getOthers,Method,=,org.isf.pricesothers.manager.PricesOthersManager.getOthers;
+Method,7,org.isf.accounting.manager.BillBrowserManager.getItems,org.isf.accounting.manager.BillBrowserManager,getItems,Method = org.isf.accounting.manager.BillBrowserManager.getItems,Method,=,org.isf.accounting.manager.BillBrowserManager.getItems;
+Method,8,org.isf.accounting.manager.BillBrowserManager.getPayments,org.isf.accounting.manager.BillBrowserManager,getPayments,Method = org.isf.accounting.manager.BillBrowserManager.getPayments,Method,=,org.isf.accounting.manager.BillBrowserManager.getPayments;
+Method,9,org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike,org.isf.patient.manager.PatientBrowserManager,getPatientsByOneOfFieldsLike,Method = org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike,Method,=,org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike;
+Method,10,org.isf.patient.manager.PatientBrowserManager.getPatientById,org.isf.patient.manager.PatientBrowserManager,getPatientById,Method = org.isf.patient.manager.PatientBrowserManager.getPatientById,Method,=,org.isf.patient.manager.PatientBrowserManager.getPatientById;
+Method,11,org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated,org.isf.patient.manager.PatientBrowserManager,getMaritalTranslated,Method = org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated,Method,=,org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated;
+Method,12,org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated,org.isf.patient.manager.PatientBrowserManager,getProfessionTranslated,Method = org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated,Method,=,org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated;
+Method,13,org.isf.accounting.manager.BillBrowserManager.getPendingBills,org.isf.accounting.manager.BillBrowserManager,getPendingBills,Method = org.isf.accounting.manager.BillBrowserManager.getPendingBills,Method,=,org.isf.accounting.manager.BillBrowserManager.getPendingBills;
+Method,14,org.isf.accounting.manager.BillBrowserManager.getBill,org.isf.accounting.manager.BillBrowserManager,getBill,Method = org.isf.accounting.manager.BillBrowserManager.getBill,Method,=,org.isf.accounting.manager.BillBrowserManager.getBill;
+Method,15,org.isf.accounting.manager.BillBrowserManager.newBill,org.isf.accounting.manager.BillBrowserManager,newBill,Method = org.isf.accounting.manager.BillBrowserManager.newBill,Method,=,org.isf.accounting.manager.BillBrowserManager.newBill;
+Method,16,org.isf.accounting.manager.BillBrowserManager.getUsers,org.isf.accounting.manager.BillBrowserManager,getUsers,Method = org.isf.accounting.manager.BillBrowserManager.getUsers,Method,=,org.isf.accounting.manager.BillBrowserManager.getUsers;
+Method,17,org.isf.accounting.manager.BillBrowserManager.getBills,org.isf.accounting.manager.BillBrowserManager,getBills,Method = org.isf.accounting.manager.BillBrowserManager.getBills,Method,=,org.isf.accounting.manager.BillBrowserManager.getBills;
+Method,18,org.isf.accounting.manager.BillBrowserManager.updateBill,org.isf.accounting.manager.BillBrowserManager,updateBill,Method = org.isf.accounting.manager.BillBrowserManager.updateBill,Method,=,org.isf.accounting.manager.BillBrowserManager.updateBill;
+
+
+
+1.- The org.isf.menu.gui.Login.acceptPwd, org.isf.menu.manager.UserBrowsingManager.getMenu methods are included in the security log 2 times. 
+These times corresponds when during the attack scenario: A Physician or a System Administrator connected to the OH software system. 
+
+2.- The org.isf.menu.manager.UserBrowsingManager.getCurrentUser method is included in the security log 11 times.
+These times corresponds when during the attack scenario, the OH software system consulted the current User connected to present it in the different screens in the OH software system. 
+
+3.- The org.isf.hospital.manager.HospitalBrowsingManager.getHospitalCurrencyCod is included in the security log 11 times.
+These times corresponds when during the attack scenario, the OH software system consulted the Hospital currency code to present it in the different screens in the OH software system. 
+
+4.- The org.isf.priceslist.manager.PriceListManager.getPrices method is included in the security log 3 times. These times corresponds when during the attack scenario, the OH software system consulted the list of the exams such as 3.3 STOOL MICROSCOPY, 3.4 URINE MICROSCOPY to know the name and the price to present it in the different screens in the OH software system.
+
+5.- The org.isf.pricesothers.manager.PricesOthersManager.getOthers method is included in the security log 5 times. These times corresponds when during the attack scenario, the OH software system consulted the price for "others" to present it in the different screens in the OH software system.  
+
+6.- The org.isf.accounting.manager.BillBrowserManager.getItems method is included in the security log 2 times. These times corresponds when during the attack scenario, the OH software system consulted the list of the items to present it in the different screens in the OH software system.  
+
+7.- The org.isf.accounting.manager.BillBrowserManager.getPayments method is included in the security log 6 times. These times corresponds when during the attack scenario, the OH software system consulted the billId for a payment to present it in the different screens in the OH software system.
+
+8.- The org.isf.patient.manager.PatientBrowserManager.getPatientsByOneOfFieldsLike method is included in the security log 4 times. These times corresponds when during the attack scenario, the OH software system consulted the list of the current Patients to present it in the different screens in the OH software system.
+
+9.- The org.isf.patient.manager.PatientBrowserManager.getPatientById methods is included in the security log 5 times. These times corresponds when during the attack scenario, the OH software system consulted the Patient Id and the Name to present it in the different screens in the OH software system.
+
+
+10.- The org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated and org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated methods are included in the security log 5 times. These times corresponds when the OH software system consulted the description of a marital status of a patient such as divorced, married and presented them in the Patient Browser screen in the OH software system or when the OH software system consulted the description of a profession of a patient such as farming, engineering in the Patient Browser screen in the OH software system.
+
+
+11.- The org.isf.accounting.manager.BillBrowserManager.getPendingBills and org.isf.accounting.manager.BillBrowserManager.getBill methods are included in the security log 1 time. This time corresponds when during the attack scenario the OH software system consulted the list of pending bills and current bills for a patient to present it in the different screens in the OH software system.
+
+12.- The org.isf.accounting.manager.BillBrowserManager.newBill is included 1 time in the security log. These times corresponds when during the attack scenario, a bill for a patient was created. This is the moment when the security incident happend and we recorded the evidence.
+
+13.- The org.isf.accounting.manager.BillBrowserManager.getUsers method is included in the security log 2 times. These times corresponds when during the attack scenario the OH software system consulted the list of users such as admin, doctor, mlewis ptaylor to present it in the different screens in the OH software system.
+
+14.- The org.isf.accounting.manager.BillBrowserManager.getBills method is included in the security log 8 times. These times corresponds when during the attack scenario the OH software system consulted the list of the bills for all the patients to present it in the different screens in the OH software system.
+
+15.- The org.isf.accounting.manager.BillBrowserManager.updateBill is included 1 time in the security log. These times corresponds when during the attack scenario, a bill for a patient was updated to "Paid". This is the moment when the security incident happend and we recorded the evidence.
+

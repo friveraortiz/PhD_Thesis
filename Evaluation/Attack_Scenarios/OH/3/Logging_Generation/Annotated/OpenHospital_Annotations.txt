@@ -1,0 +1,4 @@
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+Method,2,org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients,org.isf.admission.manager.AdmissionBrowserManager,loadAdmittedPatients,Method = org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients,Method,=,org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients;
+Parameter,3,org.isf.patient.manager.PatientBrowserManager.savePatient,org.isf.patient.manager.PatientBrowserManager,savePatient,patient.hasInsurance != Y,hasInsurance,!=,Y;
+ReturnType,4,org.isf.patient.manager.PatientBrowserManager.deletePatient,org.isf.patient.manager.PatientBrowserManager,deletePatient,boolean = true,boolean,=,true;

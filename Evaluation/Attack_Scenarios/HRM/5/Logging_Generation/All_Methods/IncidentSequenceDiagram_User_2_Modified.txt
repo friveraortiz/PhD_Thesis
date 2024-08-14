@@ -1,0 +1,257 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the HRMApplication ==
+actor User_2 order 61
+participant controller.UserController order 62
+note left of User_2 #lightskyblue 
+gui.LoginFrame
+end note
+note left of User_2 #lightpink
+Method = controller.UserController.validateUser
+end note
+User_2 -[#purple]>controller.UserController: 1.validateUser()
+||20||
+participant controller.UserController order 63
+participant model.UserDatabase order 64
+note left of User_2 #lightpink
+Method = model.UserDatabase.validateUser
+end note
+controller.UserController -[#purple]>model.UserDatabase: 2.validateUser([0
+||20||
+actor User_2 order 65
+participant controller.UserController order 66
+note left of User_2 #lightskyblue 
+gui.LoginFrame
+end note
+note left of User_2 #lightpink
+Method = controller.UserController.getUserLevel
+end note
+User_2 -[#purple]>controller.UserController: 3.getUserLevel()
+||20||
+participant controller.UserController order 67
+participant model.UserDatabase order 68
+note left of User_2 #lightpink
+Method = model.UserDatabase.getUserLevel
+end note
+controller.UserController -[#purple]>model.UserDatabase: 4.getUserLevel([0
+||20||
+actor User_2 order 69
+participant controller.ModuleController order 70
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_2 #lightpink
+Method = controller.ModuleController.saveModules
+end note
+User_2 -[#purple]>controller.ModuleController: 5.saveModules()
+||20||
+participant controller.ModuleController order 71
+participant model.ModuleDatabase order 72
+note left of User_2 #lightpink
+Method = model.ModuleDatabase.saveModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 6.saveModules([])
+||20||
+actor User_2 order 73
+participant controller.ModuleController order 74
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_2 #lightpink
+Method = controller.ModuleController.getModules
+end note
+User_2 -[#purple]>controller.ModuleController: 7.getModules()
+||20||
+participant controller.ModuleController order 75
+participant model.ModuleDatabase order 76
+note left of User_2 #lightpink
+Method = model.ModuleDatabase.getModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 8.getModules([3
+||20||
+actor User_2 order 77
+participant controller.ModuleController order 78
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_2 #lightpink
+Method = controller.ModuleController.getSubModules
+end note
+User_2 -[#purple]>controller.ModuleController: 9.getSubModules()
+||20||
+participant controller.ModuleController order 79
+participant model.ModuleDatabase order 80
+controller.ModuleController -[#purple]>model.ModuleDatabase: 10.getSubModules([4
+||20||
+note left of User_2 #lightpink
+Method = model.ModuleDatabase.getSubModules
+end note
+actor User_2 order 81
+participant controller.TravelRequestController order 82
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.TravelRequestController.loadFullNameEmployees
+end note
+User_2 -[#purple]>controller.TravelRequestController: 11.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 83
+participant model.TravelRequestDatabase order 84
+note left of User_2 #lightpink
+Method = model.TravelRequestDatabase.loadFullNameEmployees
+end note
+controller.TravelRequestController -[#purple]>model.TravelRequestDatabase: 12.loadFullNameEmployees([wallen, Employee])
+||20||
+actor User_2 order 85
+participant controller.TravelRequestController order 86
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.TravelRequestController.maxNumTravelRequest
+end note
+User_2 -[#purple]>controller.TravelRequestController: 13.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 87
+participant model.TravelRequestDatabase order 88
+note left of User_2 #lightpink
+Method = model.TravelRequestDatabase.maxNumTravelRequest
+end note
+controller.TravelRequestController -[#purple]>model.TravelRequestDatabase: 14.maxNumTravelRequest([])
+||20||
+actor User_2 order 89
+participant controller.TravelRequestController order 90
+note left of User_2 #lightskyblue 
+gui.TravelRequestFrame
+end note
+note left of User_2 #lightpink
+Method = controller.TravelRequestController.load
+end note
+User_2 -[#purple]>controller.TravelRequestController: 15.load()
+||20||
+participant controller.TravelRequestController order 91
+participant model.TravelRequestDatabase order 92
+note left of User_2 #lightpink
+Method = model.TravelRequestDatabase.load
+end note
+controller.TravelRequestController -[#purple]>model.TravelRequestDatabase: 16.load([wallen, Employee])
+||20||
+actor User_2 order 93
+participant controller.TravelRequestController order 94
+note left of User_2 #lightskyblue 
+gui.TravelRequestFrame
+end note
+note left of User_2 #lightpink
+Method = controller.TravelRequestController.save
+end note
+User_2 -[#purple]>controller.TravelRequestController: 17.save()
+||20||
+participant controller.TravelRequestController order 95
+participant model.TravelRequestDatabase order 96
+note left of User_2 #lightpink
+Method = model.TravelRequestDatabase.save
+end note
+controller.TravelRequestController -[#purple]>model.TravelRequestDatabase: 18.save([2
+||20||
+actor User_2 order 97
+participant controller.TravelRequestController order 98
+note left of User_2 #lightskyblue 
+gui.TravelRequestFrame
+end note
+note left of User_2 #lightpink
+Method = controller.TravelRequestController.load
+end note
+User_2 -[#purple]>controller.TravelRequestController: 19.load()
+||20||
+participant controller.TravelRequestController order 99
+participant model.TravelRequestDatabase order 100
+note left of User_2 #lightpink
+Method = model.TravelRequestDatabase.load
+end note
+controller.TravelRequestController -[#purple]>model.TravelRequestDatabase: 20.load([wallen, Employee])
+||20||
+actor User_2 order 101
+participant controller.TravelRequestController order 102
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.TravelRequestController.loadFullNameEmployees
+end note
+User_2 -[#purple]>controller.TravelRequestController: 21.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 103
+participant model.TravelRequestDatabase order 104
+note left of User_2 #lightpink
+Method = model.TravelRequestDatabase.loadFullNameEmployees
+end note
+controller.TravelRequestController -[#purple]>model.TravelRequestDatabase: 22.loadFullNameEmployees([wallen, Employee])
+||20||
+actor User_2 order 105
+participant controller.TravelRequestController order 106
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.TravelRequestController.maxNumTravelRequest
+end note
+User_2 -[#purple]>controller.TravelRequestController: 23.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 107
+participant model.TravelRequestDatabase order 108
+note left of User_2 #lightpink
+Method = model.TravelRequestDatabase.maxNumTravelRequest
+end note
+controller.TravelRequestController -[#purple]>model.TravelRequestDatabase: 24.maxNumTravelRequest([])
+||20||
+actor User_2 order 109
+participant controller.TravelRequestController order 110
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.TravelRequestController.loadFullNameEmployees
+end note
+User_2 -[#purple]>controller.TravelRequestController: 25.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 111
+participant model.TravelRequestDatabase order 112
+note left of User_2 #lightpink
+Method = model.TravelRequestDatabase.loadFullNameEmployees
+end note
+controller.TravelRequestController -[#purple]>model.TravelRequestDatabase: 26.loadFullNameEmployees([wallen, Employee])
+||20||
+actor User_2 order 113
+participant controller.TravelRequestController order 114
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.TravelRequestController.maxNumTravelRequest
+end note
+User_2 -[#purple]>controller.TravelRequestController: 27.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 115
+participant model.TravelRequestDatabase order 116
+note left of User_2 #lightpink
+Method = model.TravelRequestDatabase.maxNumTravelRequest
+end note
+controller.TravelRequestController -[#purple]>model.TravelRequestDatabase: 28.maxNumTravelRequest([])
+||20||
+@enduml

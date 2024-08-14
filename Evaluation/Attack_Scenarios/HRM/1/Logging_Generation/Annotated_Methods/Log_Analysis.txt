@@ -1,0 +1,15 @@
+Methods:
+
+ 1.- call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 2 Ocurrences
+ 2.- call(void model.TravelRequestDatabase.save(..)); => 2 Ocurrences
+
+
+Annotations:
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Admin,UserLevel,=,Admin;
+ReturnType,2,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Manager,UserLevel,=,Manager;
+Parameter,3,model.TravelRequestDatabase.save,model.TravelRequestDatabase,save,model.TravelRequest.travelRequest.status = Pending,status,=,Pending;
+Parameter,4,model.TravelRequestDatabase.save,model.TravelRequestDatabase,save,model.TravelRequest.travelRequest.status = Approved,status,=,Approved;
+
+
+1.- The model.UserLevel model.UserDatabase.getUserLevel method is included in the security log 2 time. These times corresponds when during the attack scenairo A System Administrator connected to the HRM software system or when a Manager connected to the HRM software system.
+2.- The model.TravelRequestDatabase.save method is included 2 times in the security log. These times corresponds when during the attack scenario A travel request was created with the status = Pending or  when a travel request was approved by Arthur Jone with the status = Approved. This is the moment when the security incident happened, in this moment “a fake manager” is using the credentials of Arthur Jones and approved the travel request. We recorded the evidence. 

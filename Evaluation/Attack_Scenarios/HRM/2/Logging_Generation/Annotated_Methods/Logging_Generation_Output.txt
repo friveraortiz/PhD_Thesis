@@ -1,0 +1,470 @@
+Message FRL: Welcome to the Forensic-Ready Logger ...
+Message FRL: The UML Sequence Diagram FILES were CREATED in =>: 7 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUser() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUser([0: hsmith null null]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUserLevel() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUserLevel([0: hsmith null null]) was CREATED in =>: 1 milliseconds.
+Message FRL: The Security Log for the HEADER: model.UserDatabase.getUserLevel was CREATED in =>: 13 milliseconds
+Message FRL: The Security Log for the DETAIL: user was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: serialVersionUID was CREATED in =>: 2 milliseconds
+Message FRL: The Security Log for the VALUE: -542727119035768593 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: count was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: 1 was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: id was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: hsmith was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: password was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 12345 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules([1:   Admin]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules([2:   Admin]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 1 milliseconds.
+Loading the current Users from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 1 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateDeleteUser() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateDeleteUser([47: vhernandez1 Veronica Hernandez Employee]) was CREATED in =>: 8 milliseconds.
+Deleting a User from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: delete() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: delete([47: vhernandez1 Veronica Hernandez Employee]) was CREATED in =>: 1 milliseconds.
+Deleting an User with ID: 47
+Loading the current Users from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 1 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules() was CREATED in =>: 8 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules([3:   Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules([4:   Admin]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([hsmith, Admin]) was CREATED in =>: 0 milliseconds.
+Loading Travel Requests ... 
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 1 milliseconds.
+Saving a Travel Request into HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save([31: T000000267 Henry Smith Pending]) was CREATED in =>: 2 milliseconds.
+Updating a Travel Request with ID: 31
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Loading Travel Requests ... 
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules([5:   Admin]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules([6:   Admin]) was CREATED in =>: 1 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 0 milliseconds.
+Loading the current Users from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 1 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateEmployee() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateEmployee([80: vhernandez Valentina Guadalupe Hernandez Perez Employee]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUserName() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUserName([80: vhernandez Valentina Guadalupe Hernandez Perez Employee]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateEmail() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateEmail([80: vhernandez Valentina Guadalupe Hernandez Perez Employee]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save([80: vhernandez Valentina Guadalupe Hernandez Perez Employee]) was CREATED in =>: 0 milliseconds.
+Updating an User with ID: 80
+Loading the current Users from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 1 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 1 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 5 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules([7:   Admin]) was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules([8:   Admin]) was CREATED in =>: 2 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([hsmith, Admin]) was CREATED in =>: 0 milliseconds.
+Loading Travel Requests ... 
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 1 milliseconds.
+Deleting a Travel Request from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: delete() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: delete([17: T000000253 Henry Smith Rejected]) was CREATED in =>: 1 milliseconds.
+Deleting a Travel Request with ID: 17
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([hsmith, Admin]) was CREATED in =>: 0 milliseconds.
+Loading Travel Requests ... 
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules([]) was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules([9:   Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules([10:   Admin]) was CREATED in =>: 0 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 3 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 1 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 1 milliseconds.
+validEmployee2: true
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateFullName() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateFullName([9: Benito  Perez]) was CREATED in =>: 2 milliseconds.
+Saving an Employee into HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save([9: Benito  Perez]) was CREATED in =>: 1 milliseconds.
+Updating an Employee with ID: 9
+Message FRL: The Security Log for the HEADER: model.EmployeeDatabase.save was CREATED in =>: 2 milliseconds
+Message FRL: The Security Log for the DETAIL: employee was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: supervisor was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: Arthur Jones was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the HEADER: controller.EmployeeController.save was CREATED in =>: 2 milliseconds
+Message FRL: The Security Log for the DETAIL: ev was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: id was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: 9 was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: number was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: E000000005 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: firstName was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: Benito was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: middleName was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE:  was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: lastName was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Perez was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: dob was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 17/10/1972 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: gender was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: Male was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: maritalStatus was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: Divorced was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: mobilePhone was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 123 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: joinedDate was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 23/02/2024 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: terminatedDate was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 20/05/3002 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: jobTitle was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: Chemist was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: department was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Chemistry was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: supervisor was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Arthur Jones was CREATED in =>: 0 milliseconds
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 0 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 1 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 9 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 3 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules([11:   Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules([12:   Admin]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([hsmith, Admin]) was CREATED in =>: 0 milliseconds.
+Loading Travel Requests ... 
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 1 milliseconds.
+Saving a Travel Request into HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save([31: T000000267 Henry Smith Approved]) was CREATED in =>: 0 milliseconds.
+Updating a Travel Request with ID: 31
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Loading Travel Requests ... 
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 8 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([hsmith, Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules([13:   Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules([14:   Admin]) was CREATED in =>: 1 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 0 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 1 milliseconds.
+validEmployee2: true
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateFullName() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateFullName([16: Felipe  Calderon Hinojosa]) was CREATED in =>: 1 milliseconds.
+Saving an Employee into HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save([16: Felipe  Calderon Hinojosa]) was CREATED in =>: 0 milliseconds.
+Updating an Employee with ID: 16
+Message FRL: The Security Log for the HEADER: controller.EmployeeController.save was CREATED in =>: 3 milliseconds
+Message FRL: The Security Log for the DETAIL: ev was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: id was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 16 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: number was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: E000000045 was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: firstName was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Felipe was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: middleName was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE:  was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: lastName was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: Calderon Hinojosa was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: dob was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 15/03/1958 was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: gender was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Male was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: maritalStatus was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Married was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: mobilePhone was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: 124456 was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: joinedDate was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: 24/02/2024 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: terminatedDate was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 24/02/3004 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: jobTitle was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: Politician was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: department was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Politics was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: supervisor was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Ana Maria Perez was CREATED in =>: 1 milliseconds
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 5 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 0 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 4 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 4 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 1 milliseconds.
+validEmployee2: true
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateFullName() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateFullName([75: James  Brown]) was CREATED in =>: 1 milliseconds.
+Saving an Employee into HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save([77: James  Brown]) was CREATED in =>: 0 milliseconds.
+Inserting an Employee with ID: 77
+Message FRL: The Security Log for the HEADER: controller.EmployeeController.save was CREATED in =>: 4 milliseconds
+Message FRL: The Security Log for the DETAIL: ev was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: id was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: number was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: E000000054 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: firstName was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: James was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: middleName was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE:  was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: lastName was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Brown was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: dob was CREATED in =>: 2 milliseconds
+Message FRL: The Security Log for the VALUE: 10/03/1973 was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: gender was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: Male was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: maritalStatus was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Divorced was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: mobilePhone was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: 1 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: joinedDate was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 12/04/2024 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: terminatedDate was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 12/04/3004 was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: jobTitle was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Writter was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: department was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: Science was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: supervisor was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: Ana Maria Perez was CREATED in =>: 0 milliseconds
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 0 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 1 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 1 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateDeleteEmployee1() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateDeleteEmployee1([92: Pedro  Guzman]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateDeleteEmployee2() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateDeleteEmployee2([92: Pedro  Guzman]) was CREATED in =>: 1 milliseconds.
+Deleting an Employee from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: delete() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: delete([92: Pedro  Guzman]) was CREATED in =>: 1 milliseconds.
+Deleting an Employee with ID: 92
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 2 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 0 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 3 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules([]) was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules([15:   Admin]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules([16:   Admin]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 3 milliseconds.
+Loading the current Users from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateEmployee() was CREATED in =>: 5 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateEmployee([116: gguzman Gonzalo Genaro Guzman Manager]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUserName() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUserName([116: gguzman Gonzalo Genaro Guzman Manager]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateEmail() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateEmail([116: gguzman Gonzalo Genaro Guzman Manager]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: save([116: gguzman Gonzalo Genaro Guzman Manager]) was CREATED in =>: 1 milliseconds.
+Updating an User with ID: 116
+Loading the current Users from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 1 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules([]) was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules([17:   Admin]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules([18:   Admin]) was CREATED in =>: 1 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 3 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([]) was CREATED in =>: 0 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 4 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 7 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 0 milliseconds.
+Loading the current Supervisors from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadSupervisors([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumEmployee([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram FILES were FINISHED in =>: 3417 milliseconds
+Message FRL: UML Sequence Diagram Text File created  : /Users/f7/eclipse-workspace/Directories/Output/IncidentSequenceDiagram.txt
+Message FRL: UML Sequence Diagram Image File created : /Users/f7/eclipse-workspace/Directories/Output/IncidentSequenceDiagram.png
+Message FRL: Good Bye to the Forensic-Ready Logger.

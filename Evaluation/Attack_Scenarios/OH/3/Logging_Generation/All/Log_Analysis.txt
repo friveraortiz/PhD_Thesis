@@ -1,0 +1,79 @@
+Methods:
+1.- call(void org.isf.menu.gui.Login.acceptPwd(..))|| => 2 Occurrences
+    call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 2 Occurrences
+
+2.- call(List<org.isf.admission.model.AdmittedPatient> org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients(..))|| => 5 Occurrences
+
+3.- call(List<org.isf.ward.model.Ward> org.isf.ward.manager.WardBrowserManager.getWards(..))|| => 8 Occurrences
+
+4.- call(org.isf.admission.model.AdmittedPatient org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients(..))|| => 2 Occurrences
+
+
+5.- call(java.lang.String[] org.isf.patient.manager.PatientBrowserManager.getMaritalList(..))|| => 5 Occurrences
+    call(java.lang.String[] org.isf.patient.manager.PatientBrowserManager.getProfessionList(..))||  => 5 Occurrences
+
+
+6.- call(java.lang.String org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated(..))||=> 6 Occurrences
+    call(java.lang.String org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated(..))|| => 6 Occurrences
+
+
+7.- call(java.lang.String org.isf.patient.manager.PatientBrowserManager.getMaritalKey(..))|| => 5 Occurrences
+    call(java.lang.String org.isf.patient.manager.PatientBrowserManager.getProfessionKey(..))|| => 5 Occurrences
+
+
+8.- call(org.isf.patient.model.Patient org.isf.patient.manager.PatientBrowserManager.savePatient(..))|| => 5 Occurrences
+
+9.- call(boolean org.isf.patient.manager.PatientBrowserManager.deletePatient(..))|| => 1 Occurrence
+
+10.- call(List<org.isf.admission.model.Admission> org.isf.admission.manager.AdmissionBrowserManager.getAdmissions(..))||  => 1 Occurrence
+
+11.- call(boolean org.isf.admission.manager.AdmissionBrowserManager.setDeleted(..)); => 0 Occurrences
+
+
+Annotations:
+Method,1,org.isf.menu.gui.Login.acceptPwd,org.isf.menu.gui.Login,acceptPwd,Method = org.isf.menu.gui.Login.acceptPwd,Method,=,org.isf.menu.gui.Login.acceptPwd;
+Method,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,Method = org.isf.menu.manager.UserBrowsingManager.getMenu,Method,=,org.isf.menu.manager.UserBrowsingManager.getMenu;
+Method,3,org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients,org.isf.admission.manager.AdmissionBrowserManager,getAdmittedPatients,Method = org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients,Method,=,org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients;
+Method,4,org.isf.ward.manager.WardBrowserManager.getWards,org.isf.ward.manager.WardBrowserManager,getWards,Method = org.isf.ward.manager.WardBrowserManager.getWards,Method,=,org.isf.ward.manager.WardBrowserManager.getWards;
+Method,5,org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients,org.isf.admission.manager.AdmissionBrowserManager,loadAdmittedPatients,Method = org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients,Method,=,org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients;
+Method,6,org.isf.patient.manager.PatientBrowserManager.getMaritalList,org.isf.patient.manager.PatientBrowserManager,getMaritalList,Method = org.isf.patient.manager.PatientBrowserManager.getMaritalList,Method,=,org.isf.patient.manager.PatientBrowserManager.getMaritalList;
+Method,7,org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated,org.isf.patient.manager.PatientBrowserManager,getMaritalTranslated,Method = org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated,Method,=,org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated;
+Method,8,org.isf.patient.manager.PatientBrowserManager.getProfessionList,org.isf.patient.manager.PatientBrowserManager,getProfessionList,Method = org.isf.patient.manager.PatientBrowserManager.getProfessionList,Method,=,org.isf.patient.manager.PatientBrowserManager.getProfessionList;
+Method,9,org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated,org.isf.patient.manager.PatientBrowserManager,getProfessionTranslated,Method = org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated,Method,=,org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated;
+Method,10,org.isf.patient.manager.PatientBrowserManager.getMaritalKey,org.isf.patient.manager.PatientBrowserManager,getMaritalKey,Method = org.isf.patient.manager.PatientBrowserManager.getMaritalKey,Method,=,org.isf.patient.manager.PatientBrowserManager.getMaritalKey;
+Method,11,org.isf.patient.manager.PatientBrowserManager.getProfessionKey,org.isf.patient.manager.PatientBrowserManager,getProfessionKey,Method = org.isf.patient.manager.PatientBrowserManager.getProfessionKey,Method,=,org.isf.patient.manager.PatientBrowserManager.getProfessionKey;
+Method,12,org.isf.patient.manager.PatientBrowserManager.savePatient,org.isf.patient.manager.PatientBrowserManager,savePatient,Method = org.isf.patient.manager.PatientBrowserManager.savePatient,Method,=,org.isf.patient.manager.PatientBrowserManager.savePatient;
+Method,13,org.isf.patient.manager.PatientBrowserManager.deletePatient,org.isf.patient.manager.PatientBrowserManager,deletePatient,Method = org.isf.patient.manager.PatientBrowserManager.deletePatient,Method,=,org.isf.patient.manager.PatientBrowserManager.deletePatient;
+Method,14,org.isf.admission.manager.AdmissionBrowserManager.getAdmissions,org.isf.admission.manager.AdmissionBrowserManager,getAdmissions,Method = org.isf.admission.manager.AdmissionBrowserManager.getAdmissions,Method,=,org.isf.admission.manager.AdmissionBrowserManager.getAdmissions;
+Method,15,org.isf.admission.manager.AdmissionBrowserManager.setDeleted,org.isf.admission.manager.AdmissionBrowserManager,setDeleted,Method = org.isf.admission.manager.AdmissionBrowserManager.setDeleted,Method,=,org.isf.admission.manager.AdmissionBrowserManager.setDeleted;
+
+
+
+1.- The org.isf.menu.gui.Login.acceptPwd, org.isf.menu.manager.UserBrowsingManager.getMenu methods are included in the security log 1 time. 
+This time corresponds when during the attack scenario: A System Administrator connected to the OH software system. 
+
+2.- The org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients is included in the security log 5 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of admitted patients in the hospital to present them in diverse screens in the OH software system.
+
+3.- The org.isf.ward.manager.WardBrowserManager.getWards is included in the security log 8 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of existing wards such as internal medicine, maternity to present them in diverse screens in the OH software system.
+
+
+4.- The org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients method is included 2 times in the security log. These times corresponds when during the attack scenario a patient was modified in the hasInsurance field in the Patient Browser screen in the OH software system. This method presents the Patient Id that was modified. This is the moment when a security incident happened and we recorded the evidence.
+
+
+5.- The  org.isf.patient.manager.PatientBrowserManager.getMaritalList and org.isf.patient.manager.PatientBrowserManager.getProfessionList methods are included in the security log 5 times. These times corresponds when the OH software system consulted the list of marital status or the list of professions existing in the OH software system and presented them in the Patient Browser screen in the OH software system.
+
+6.- The org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated and org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated methods are included in the security log 6 times. These times corresponds when the OH software system consulted the description of a marital status of a patient such as divorced, married and presented them in the Patient Browser screen in the OH software system or when the OH software system consulted the description of a profession of a patient such as farming, engineering in the Patient Browser screen in the OH software system.
+
+
+7.- The org.isf.patient.manager.PatientBrowserManager.getMaritalKey and org.isf.patient.manager.PatientBrowserManager.getProfessionKey methods are included in the security log 5 times. These times corresponds when the OH software system consulted the description of a marital status of a patient such as divorced, married and presented them in the Patient Browser screen in the OH software system or when the OH software system consulted the description of a profession of a patient such as farming, engineering in the Patient Browser screen in the OH software system.
+
+
+8.- The org.isf.patient.manager.PatientBrowserManager.savePatient method is included 5 times in the security log. These times corresponds when during the attack scenario a new patient was created or was modified in the Patient Browser screen in the OH software system.
+
+
+9.- The org.isf.patient.manager.PatientBrowserManager.deletePatient method is included 1 time in the security log. This time corresponds when during the attack scenario an existing patient was deleted in the Patient Browser screen in the OH software system. This is the moment when a security incident happened and we recorded the evidence.
+
+
+10.- The org.isf.admission.manager.AdmissionBrowserManager.getAdmissions method is included 1 time in the security log. This time corresponds when during the attack scenario an existing patient was deleted in the Patient Browser screen in the OH software system. This method presented an update of the current list of admissions of Patients in the OH software system.

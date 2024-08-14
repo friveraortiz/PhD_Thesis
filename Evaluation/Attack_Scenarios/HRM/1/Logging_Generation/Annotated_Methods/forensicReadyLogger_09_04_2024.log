@@ -1,0 +1,102 @@
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1035 - OS Name              : Mac OS X
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1036 - OS Current Time      : 09/04/2024 11:54:35 PM IST
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1038 - OS IP Address        : 189.122.67.106
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1040 - OS Hostname          : f7.local
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1042 - OS UserName          : f7
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1043 - Annotation Type      : ReturnType
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1044 - Method Number        : 1
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1045 - Method Name          : model.UserDatabase.getUserLevel
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1046 - Method Return Type   : model.UserLevel
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1047 - Method Return Value  : Admin
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1079 - Parameter Number     : 1
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1081 - Parameter Name       : user
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1082 - Parameter Type       : model.User
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:998 - The Parameter Name: user has the following Attributes:
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1067 - Attribute Number     : 1
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1081 - Attribute Name       : serialVersionUID
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1082 - Attribute Type       : long
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1122 - Attribute Value      : -542727119035768593
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1067 - Attribute Number     : 2
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1081 - Attribute Name       : count
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1122 - Attribute Value      : 1
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1067 - Attribute Number     : 3
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1081 - Attribute Name       : id
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1122 - Attribute Value      : 0
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1067 - Attribute Number     : 4
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1081 - Attribute Name       : userName
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1122 - Attribute Value      : hsmith
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1067 - Attribute Number     : 5
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1081 - Attribute Name       : password
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+09/04/2024 11:54:35 PM IST INFO  UserDatabase:1122 - Attribute Value      : 12345
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1035 - OS Name              : Mac OS X
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1036 - OS Current Time      : 09/04/2024 11:56:42 PM IST
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1038 - OS IP Address        : 189.122.67.106
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1040 - OS Hostname          : f7.local
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1042 - OS UserName          : f7
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1043 - Annotation Type      : Parameter
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1044 - Method Number        : 2
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1045 - Method Name          : model.TravelRequestDatabase.save
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1046 - Method Return Type   : void
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1047 - Method Return Value  : Admin
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1079 - Parameter Number     : 1
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1081 - Parameter Name       : travelRequest
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1082 - Parameter Type       : model.TravelRequest
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1067 - Attribute Number     : 1
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1081 - Attribute Name       : status
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1082 - Attribute Type       : model.Status
+09/04/2024 11:56:42 PM IST INFO  TravelRequestDatabase:1122 - Attribute Value      : Pending
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1035 - OS Name              : Mac OS X
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1036 - OS Current Time      : 10/04/2024 12:02:47 AM IST
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1038 - OS IP Address        : 189.122.67.106
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1040 - OS Hostname          : f7.local
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1042 - OS UserName          : f7
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1043 - Annotation Type      : ReturnType
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1044 - Method Number        : 3
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1045 - Method Name          : model.UserDatabase.getUserLevel
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1046 - Method Return Type   : model.UserLevel
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1047 - Method Return Value  : Manager
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1079 - Parameter Number     : 1
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1081 - Parameter Name       : user
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1082 - Parameter Type       : model.User
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:998 - The Parameter Name: user has the following Attributes:
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1067 - Attribute Number     : 1
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1081 - Attribute Name       : serialVersionUID
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1082 - Attribute Type       : long
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1122 - Attribute Value      : -542727119035768593
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1067 - Attribute Number     : 2
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1081 - Attribute Name       : count
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1082 - Attribute Type       : int
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1122 - Attribute Value      : 90
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1067 - Attribute Number     : 3
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1081 - Attribute Name       : id
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1082 - Attribute Type       : int
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1122 - Attribute Value      : 0
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1067 - Attribute Number     : 4
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1081 - Attribute Name       : userName
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1122 - Attribute Value      : ajones
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1067 - Attribute Number     : 5
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1081 - Attribute Name       : password
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+10/04/2024 12:02:47 AM IST INFO  UserDatabase:1122 - Attribute Value      : 123
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1035 - OS Name              : Mac OS X
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1036 - OS Current Time      : 10/04/2024 12:04:49 AM IST
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1038 - OS IP Address        : 189.122.67.106
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1040 - OS Hostname          : f7.local
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1042 - OS UserName          : f7
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1043 - Annotation Type      : Parameter
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1044 - Method Number        : 4
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1045 - Method Name          : model.TravelRequestDatabase.save
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1046 - Method Return Type   : void
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1047 - Method Return Value  : Manager
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1079 - Parameter Number     : 1
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1081 - Parameter Name       : travelRequest
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1082 - Parameter Type       : model.TravelRequest
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1067 - Attribute Number     : 1
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1081 - Attribute Name       : status
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1082 - Attribute Type       : model.Status
+10/04/2024 12:04:49 AM IST INFO  TravelRequestDatabase:1122 - Attribute Value      : Approved

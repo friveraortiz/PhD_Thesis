@@ -1,0 +1,12 @@
+Methods:
+1.- call(boolean controller.UserController.validateUser(..))|| => 3 times
+    call(boolean model.UserDatabase.validateUser(..)); => 3 times
+    
+Annotations:
+Method,1,controller.UserController.validateUser,controller.UserController,validateUser,Method = controller.UserController.validateUser,Method,=,controller.UserController.validateUser;
+Method,2,model.UserDatabase.validateUser,model.UserDatabase,validateUser,Method = model.UserDatabase.validateUser,Method,=,model.UserDatabase.validateUser;
+    
+
+1.- The controller.UserController.validateUser and model.UserDatabase.validateUser methods are included in the security log 3 times. 
+These times corresponds when during the attack scenario an external attacker misused the credentials of a System Administrator
+and tried to connected to the HRM software System. This is the moment when a brute force security incident happened and we recorded the evidence.

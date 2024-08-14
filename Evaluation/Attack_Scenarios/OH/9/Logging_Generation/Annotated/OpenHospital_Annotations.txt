@@ -1,0 +1,6 @@
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+Parameter,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = physician,code,=,physician;
+ReturnType,3,org.isf.menu.manager.UserBrowsingManager.newUser,org.isf.menu.manager.UserBrowsingManager,newUser,boolean = true,boolean,=,true;
+Method,4,org.isf.exa.manager.ExamBrowsingManager.updateExam,org.isf.exa.manager.ExamBrowsingManager,updateExam,Method = org.isf.exa.manager.ExamBrowsingManager.updateExam,Method,=,org.isf.exa.manager.ExamBrowsingManager.updateExam;
+ReturnType,5,org.isf.lab.manager.LabManager.newLaboratory2,org.isf.lab.manager.LabManager,newLaboratory2,boolean = true,boolean,=,true;
+ReturnType,6,org.isf.menu.manager.UserBrowsingManager.deleteUser,org.isf.menu.manager.UserBrowsingManager,deleteUser,boolean = true,boolean,=,true;

@@ -1,0 +1,49 @@
+Methods:
+1.- call(void org.isf.menu.gui.Login.acceptPwd(..))|| => 3 Occurrences
+    call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 3 Occurrences
+      
+2.- call(List<org.isf.menu.model.User> org.isf.menu.manager.UserBrowsingManager.getUser(..))|| => 6 Occurrences
+
+3.- call(List<org.isf.menu.model.UserGroup> org.isf.menu.manager.UserBrowsingManager.getUserGroup(..))||  => 4 Occurrences
+
+4.- call(boolean org.isf.menu.manager.UserBrowsingManager.newUser(..))|| => 1 Occurrence
+
+5.- call(org.isf.hospital.model.Hospital org.isf.hospital.manager.HospitalBrowsingManager.getHospital(..))||  => 3 Occurrences
+
+6.- call(org.isf.hospital.model.Hospital org.isf.hospital.manager.HospitalBrowsingManager.updateHospital(..))||  => 1 Occurrence
+
+7.- call(boolean org.isf.menu.manager.UserBrowsingManager.deleteUser(..)); => 1 Occurrence
+
+Annotations:
+Method,1,org.isf.menu.gui.Login.acceptPwd,org.isf.menu.gui.Login,acceptPwd,Method = org.isf.menu.gui.Login.acceptPwd,Method,=,org.isf.menu.gui.Login.acceptPwd;
+Method,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,Method = org.isf.menu.manager.UserBrowsingManager.getMenu,Method,=,org.isf.menu.manager.UserBrowsingManager.getMenu;
+Method,3,org.isf.menu.manager.UserBrowsingManager.getUser,org.isf.menu.manager.UserBrowsingManager,getUser,Method = org.isf.menu.manager.UserBrowsingManager.getUser,Method,=,org.isf.menu.manager.UserBrowsingManager.getUser;
+Method,4,org.isf.menu.manager.UserBrowsingManager.getUserGroup,org.isf.menu.manager.UserBrowsingManager,getUserGroup,Method = org.isf.menu.manager.UserBrowsingManager.getUserGroup,Method,=,org.isf.menu.manager.UserBrowsingManager.getUserGroup;
+Method,5,org.isf.menu.manager.UserBrowsingManager.newUser,org.isf.menu.manager.UserBrowsingManager,newUser,Method = org.isf.menu.manager.UserBrowsingManager.newUser,Method,=,org.isf.menu.manager.UserBrowsingManager.newUser;
+Method,6,org.isf.hospital.manager.HospitalBrowsingManager.getHospital,org.isf.hospital.manager.HospitalBrowsingManager,getHospital,Method = org.isf.hospital.manager.HospitalBrowsingManager.getHospital,Method,=,org.isf.hospital.manager.HospitalBrowsingManager.getHospital;
+Method,7,org.isf.hospital.manager.HospitalBrowsingManager.updateHospital,org.isf.hospital.manager.HospitalBrowsingManager,updateHospital,Method = org.isf.hospital.manager.HospitalBrowsingManager.updateHospital,Method,=,org.isf.hospital.manager.HospitalBrowsingManager.updateHospital;
+Method,8,org.isf.menu.manager.UserBrowsingManager.deleteUser,org.isf.menu.manager.UserBrowsingManager,deleteUser,Method = org.isf.menu.manager.UserBrowsingManager.deleteUser,Method,=,org.isf.menu.manager.UserBrowsingManager.deleteUser;
+
+
+
+1.- The org.isf.menu.manager.UserBrowsingManager.getMenu method is included in the security log 3 times. 
+These times corresponds when during the attack scenario: A Fake System Administrator or a New Created System Administrator connected to the OH software system.
+
+2.- The org.isf.menu.manager.UserBrowsingManager.getUser method is included in the security log 6 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of the Users such as mlewis, ptaylor to present them in the different screens in the OH software system.
+
+3.- The org.isf.menu.manager.UserBrowsingManager.getUserGroup method is included in the security log 4 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of the User roles such as admin, guest, physician to present them in the different screens in the OH software system.
+
+4.- The org.isf.menu.manager.UserBrowsingManager.newUser method is included in the security log 1 time. 
+This time corresponds when during the attack scenario, a Fake System Administrator created a New User as a System Administrator in the in the OH software system. This is the moment the security incident happens and we recorded the evidence.
+
+5.- The org.isf.hospital.manager.HospitalBrowsingManager.getHospital method is included in the security log 3 times.
+These times corresponds when during the attack scenario the OH software system consulted the name of the Hospital to present it in the different screens in the OH software system.
+
+6.- The org.isf.hospital.manager.HospitalBrowsingManager.updateHospital method is included in the security log 1 time. 
+This time corresponds when during the attack scenario, a New System Administrator User modified the visit duration inside the Hospital in the Settings > Hospital Screen. This is the moment the security incident happens and we recorded the evidence.
+
+7.- The org.isf.menu.manager.UserBrowsingManager.deleteUser method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Fake System Administrator deleted an existing user that is a System Administrator in the in the OH software system. This is the moment the security incident happens and we recorded the evidence.
+

@@ -1,0 +1,4 @@
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Admin,UserLevel,=,Admin;
+ReturnType,2,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Manager,UserLevel,=,Manager;
+Parameter,3,model.TravelRequestDatabase.save,model.TravelRequestDatabase,save,model.TravelRequest.travelRequest.status = Pending,status,=,Pending;
+Parameter,4,model.TravelRequestDatabase.save,model.TravelRequestDatabase,save,model.TravelRequest.travelRequest.status = Approved,status,=,Approved;

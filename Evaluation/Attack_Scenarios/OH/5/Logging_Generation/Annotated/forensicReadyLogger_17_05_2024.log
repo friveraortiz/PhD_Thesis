@@ -1,0 +1,309 @@
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 17/05/2024 04:17:23 PM BST
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : 
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:17:23 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : physician
+17/05/2024 04:18:33 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+17/05/2024 04:18:33 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+17/05/2024 04:18:34 PM BST WARN  Webcam:964 - No webcam has been detected!
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 04:21:38 PM BST
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1044 - Method Number        : 2
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.getTherapyRows
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1047 - Method Return Value  : []
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 04:21:38 PM BST INFO  TherapyManager:1122 - Parameter Value      : 174
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 04:22:28 PM BST
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1044 - Method Number        : 3
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.createTherapy
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1046 - Method Return Type   : org.isf.therapy.model.Therapy
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1047 - Method Return Value  : 1.0 of Ampicillin 500mg Vial - 1 per day
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Parameter Name       : th
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Parameter Type       : org.isf.therapy.model.TherapyRow
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:999 - The Parameter Name: th has the following Attributes:
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 1
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : therapyID
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 2
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : patient
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 1
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : code
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.Integer
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 174
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 2
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : firstName
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : Janet
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 3
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : secondName
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : Thompson
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 4
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : name
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : Janet Thompson
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 5
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : birthDate
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.time.LocalDate
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 1974-05-17
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 6
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : age
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : int
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 50
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 7
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : agetype
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 8
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : sex
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : char
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : F
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 9
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : address
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 721 Broadway
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 10
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : city
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : New York, New York, USA
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 11
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : nextKin
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 1
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 12
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : telephone
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : +39123456
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 13
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : note
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 14
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : motherName
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 15
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : mother
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : char
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : D
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 16
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : fatherName
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 17
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : father
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : char
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : D
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 18
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : bloodType
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : A+
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 19
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : hasInsurance
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : char
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : Y
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 20
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : parentTogether
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : char
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : N
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 21
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : taxCode
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 123
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 22
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : maritalStatus
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : single
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 23
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : profession
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : engineering
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 24
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : deleted
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : N
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 25
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : lock
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : int
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 0
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1074 - SubAttribute Number     : 26
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - SubAttribute Name       : hashCode
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - SubAttribute Type       : int
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - SubAttribute Value      : 0
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 3
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : startDate
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.time.LocalDateTime
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 2024-05-17T00:00
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 4
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : endDate
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.time.LocalDateTime
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 2024-05-23T00:00
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 5
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : medicalId
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.Integer
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 43
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 6
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : qty
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.Double
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 1.0
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 7
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : unitID
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 8
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : freqInDay
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 1
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 9
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : freqInPeriod
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 1
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 10
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : note
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : java.lang.String
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 11
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : notifyInt
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 12
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : smsInt
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1067 - Attribute Number     : 13
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1081 - Attribute Name       : hashCode
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1082 - Attribute Type       : int
+17/05/2024 04:22:28 PM BST INFO  TherapyManager:1122 - Attribute Value      : 0
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 04:22:33 PM BST
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1043 - Annotation Type      : ReturnType
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1044 - Method Number        : 4
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.deleteAllTherapies
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.lang.Boolean
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1047 - Method Return Value  : true
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 04:22:33 PM BST INFO  TherapyManager:1122 - Parameter Value      : 174
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 04:22:34 PM BST
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1044 - Method Number        : 5
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.getTherapyRows
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1047 - Method Return Value  : [43 - 0 1.0/1/1]
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 04:22:34 PM BST INFO  TherapyManager:1122 - Parameter Value      : 174
+17/05/2024 04:25:46 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 17/05/2024 04:28:58 PM BST
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : 
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+17/05/2024 04:28:58 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : admin
+17/05/2024 04:30:53 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+17/05/2024 04:30:53 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+17/05/2024 04:30:54 PM BST WARN  Webcam:964 - No webcam has been detected!
+17/05/2024 04:32:27 PM BST INFO  ConfigurationProperties:91 - File txtPrinter.properties loaded.
+17/05/2024 04:32:27 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_HEIGHT property not found: default is 10
+17/05/2024 04:32:27 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_WIDTH property not found: default is 10
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 04:34:02 PM BST
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1044 - Method Number        : 2
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.getTherapyRows
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1047 - Method Return Value  : [43 - 0 1.0/1/1]
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 04:34:02 PM BST INFO  TherapyManager:1122 - Parameter Value      : 174
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 04:34:09 PM BST
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1043 - Annotation Type      : ReturnType
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1044 - Method Number        : 3
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.deleteAllTherapies
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.lang.Boolean
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1047 - Method Return Value  : true
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1122 - Parameter Value      : 174
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1035 - OS Name              : Windows Server 2016
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1036 - OS Current Time      : 17/05/2024 04:34:09 PM BST
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1038 - OS IP Address        : 189.122.67.106
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1040 - OS Hostname          : f7.local
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1042 - OS UserName          : f7
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1043 - Annotation Type      : Method
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1044 - Method Number        : 4
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1045 - Method Name          : org.isf.therapy.manager.TherapyManager.getTherapyRows
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1046 - Method Return Type   : java.util.ArrayList
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1047 - Method Return Value  : []
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1079 - Parameter Number     : 1
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1081 - Parameter Name       : code
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1082 - Parameter Type       : java.lang.String
+17/05/2024 04:34:09 PM BST INFO  TherapyManager:1122 - Parameter Value      : 174
+17/05/2024 04:36:22 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+

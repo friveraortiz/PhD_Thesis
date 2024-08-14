@@ -1,0 +1,3288 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the HRMApplication ==
+actor User_1 order 1
+participant controller.UserController order 2
+note left of User_1 #lightskyblue 
+gui.LoginFrame
+end note
+User_1 ->controller.UserController: 1.validateUser()
+||20||
+participant controller.UserController order 3
+participant model.UserDatabase order 4
+controller.UserController ->model.UserDatabase: 2.validateUser([0
+||20||
+actor User_1 order 5
+participant controller.UserController order 6
+note left of User_1 #lightskyblue 
+gui.LoginFrame
+end note
+User_1 ->controller.UserController: 3.getUserLevel()
+||20||
+participant controller.UserController order 7
+participant model.UserDatabase order 8
+controller.UserController ->model.UserDatabase: 4.getUserLevel([0
+||20||
+actor User_1 order 9
+participant controller.ModuleController order 10
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 5.saveModules()
+||20||
+participant controller.ModuleController order 11
+participant model.ModuleDatabase order 12
+controller.ModuleController ->model.ModuleDatabase: 6.saveModules([])
+||20||
+actor User_1 order 13
+participant controller.ModuleController order 14
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 7.getModules()
+||20||
+participant controller.ModuleController order 15
+participant model.ModuleDatabase order 16
+controller.ModuleController ->model.ModuleDatabase: 8.getModules([1
+||20||
+actor User_1 order 17
+participant controller.ModuleController order 18
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 9.getSubModules()
+||20||
+participant controller.ModuleController order 19
+participant model.ModuleDatabase order 20
+controller.ModuleController ->model.ModuleDatabase: 10.getSubModules([2
+||20||
+actor User_1 order 21
+participant controller.UserController order 22
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 11.loadFullNameEmployees()
+||20||
+participant controller.UserController order 23
+participant model.UserDatabase order 24
+controller.UserController ->model.UserDatabase: 12.loadFullNameEmployees([])
+||20||
+actor User_1 order 25
+participant controller.UserController order 26
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 13.load()
+||20||
+participant controller.UserController order 27
+participant model.UserDatabase order 28
+controller.UserController ->model.UserDatabase: 14.load([])
+||20||
+actor User_1 order 29
+participant controller.UserController order 30
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 15.loadFullNameEmployees()
+||20||
+participant controller.UserController order 31
+participant model.UserDatabase order 32
+controller.UserController ->model.UserDatabase: 16.loadFullNameEmployees([])
+||20||
+actor User_1 order 33
+participant controller.UserController order 34
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 17.loadFullNameEmployees()
+||20||
+participant controller.UserController order 35
+participant model.UserDatabase order 36
+controller.UserController ->model.UserDatabase: 18.loadFullNameEmployees([])
+||20||
+actor User_1 order 37
+participant controller.ModuleController order 38
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 19.saveModules()
+||20||
+participant controller.ModuleController order 39
+participant model.ModuleDatabase order 40
+controller.ModuleController ->model.ModuleDatabase: 20.saveModules([])
+||20||
+actor User_1 order 41
+participant controller.ModuleController order 42
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 21.getModules()
+||20||
+participant controller.ModuleController order 43
+participant model.ModuleDatabase order 44
+controller.ModuleController ->model.ModuleDatabase: 22.getModules([3
+||20||
+actor User_1 order 45
+participant controller.ModuleController order 46
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 23.getSubModules()
+||20||
+participant controller.ModuleController order 47
+participant model.ModuleDatabase order 48
+controller.ModuleController ->model.ModuleDatabase: 24.getSubModules([4
+||20||
+actor User_1 order 49
+participant controller.TravelRequestController order 50
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 25.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 51
+participant model.TravelRequestDatabase order 52
+controller.TravelRequestController ->model.TravelRequestDatabase: 26.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_1 order 53
+participant controller.TravelRequestController order 54
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 27.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 55
+participant model.TravelRequestDatabase order 56
+controller.TravelRequestController ->model.TravelRequestDatabase: 28.maxNumTravelRequest([])
+||20||
+actor User_1 order 57
+participant controller.TravelRequestController order 58
+note left of User_1 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_1 ->controller.TravelRequestController: 29.load()
+||20||
+participant controller.TravelRequestController order 59
+participant model.TravelRequestDatabase order 60
+controller.TravelRequestController ->model.TravelRequestDatabase: 30.load([hsmith, Admin])
+||20||
+actor User_1 order 61
+participant controller.TravelRequestController order 62
+note left of User_1 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_1 ->controller.TravelRequestController: 31.save()
+||20||
+participant controller.TravelRequestController order 63
+participant model.TravelRequestDatabase order 64
+controller.TravelRequestController ->model.TravelRequestDatabase: 32.save([27
+||20||
+actor User_1 order 65
+participant controller.TravelRequestController order 66
+note left of User_1 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_1 ->controller.TravelRequestController: 33.load()
+||20||
+participant controller.TravelRequestController order 67
+participant model.TravelRequestDatabase order 68
+controller.TravelRequestController ->model.TravelRequestDatabase: 34.load([hsmith, Admin])
+||20||
+actor User_1 order 69
+participant controller.TravelRequestController order 70
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 35.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 71
+participant model.TravelRequestDatabase order 72
+controller.TravelRequestController ->model.TravelRequestDatabase: 36.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_1 order 73
+participant controller.TravelRequestController order 74
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 37.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 75
+participant model.TravelRequestDatabase order 76
+controller.TravelRequestController ->model.TravelRequestDatabase: 38.maxNumTravelRequest([])
+||20||
+actor User_1 order 77
+participant controller.TravelRequestController order 78
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 39.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 79
+participant model.TravelRequestDatabase order 80
+controller.TravelRequestController ->model.TravelRequestDatabase: 40.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_1 order 81
+participant controller.TravelRequestController order 82
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 41.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 83
+participant model.TravelRequestDatabase order 84
+controller.TravelRequestController ->model.TravelRequestDatabase: 42.maxNumTravelRequest([])
+||20||
+actor User_1 order 85
+participant controller.ModuleController order 86
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 43.saveModules()
+||20||
+participant controller.ModuleController order 87
+participant model.ModuleDatabase order 88
+controller.ModuleController ->model.ModuleDatabase: 44.saveModules([])
+||20||
+actor User_1 order 89
+participant controller.ModuleController order 90
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 45.getModules()
+||20||
+participant controller.ModuleController order 91
+participant model.ModuleDatabase order 92
+controller.ModuleController ->model.ModuleDatabase: 46.getModules([5
+||20||
+actor User_1 order 93
+participant controller.ModuleController order 94
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 47.getSubModules()
+||20||
+participant controller.ModuleController order 95
+participant model.ModuleDatabase order 96
+controller.ModuleController ->model.ModuleDatabase: 48.getSubModules([6
+||20||
+actor User_1 order 97
+participant controller.EmployeeController order 98
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 49.loadSupervisors()
+||20||
+participant controller.EmployeeController order 99
+participant model.EmployeeDatabase order 100
+controller.EmployeeController ->model.EmployeeDatabase: 50.loadSupervisors([])
+||20||
+actor User_1 order 101
+participant controller.EmployeeController order 102
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 51.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 103
+participant model.EmployeeDatabase order 104
+controller.EmployeeController ->model.EmployeeDatabase: 52.maxNumEmployee([])
+||20||
+actor User_1 order 105
+participant controller.EmployeeController order 106
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 53.load()
+||20||
+participant controller.EmployeeController order 107
+participant model.EmployeeDatabase order 108
+controller.EmployeeController ->model.EmployeeDatabase: 54.load([])
+||20||
+actor User_1 order 109
+participant controller.EmployeeController order 110
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 55.loadSupervisors()
+||20||
+participant controller.EmployeeController order 111
+participant model.EmployeeDatabase order 112
+controller.EmployeeController ->model.EmployeeDatabase: 56.loadSupervisors([])
+||20||
+actor User_1 order 113
+participant controller.EmployeeController order 114
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 57.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 115
+participant model.EmployeeDatabase order 116
+controller.EmployeeController ->model.EmployeeDatabase: 58.maxNumEmployee([])
+||20||
+actor User_1 order 117
+participant controller.EmployeeController order 118
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 59.validateDeleteEmployee1()
+||20||
+participant controller.EmployeeController order 119
+participant model.EmployeeDatabase order 120
+controller.EmployeeController ->model.EmployeeDatabase: 60.validateDeleteEmployee1([65
+||20||
+actor User_1 order 121
+participant controller.EmployeeController order 122
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 61.validateDeleteEmployee2()
+||20||
+participant controller.EmployeeController order 123
+participant model.EmployeeDatabase order 124
+controller.EmployeeController ->model.EmployeeDatabase: 62.validateDeleteEmployee2([65
+||20||
+actor User_1 order 125
+participant controller.EmployeeController order 126
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 63.delete()
+||20||
+participant controller.EmployeeController order 127
+participant model.EmployeeDatabase order 128
+controller.EmployeeController ->model.EmployeeDatabase: 64.delete([65
+||20||
+actor User_1 order 129
+participant controller.EmployeeController order 130
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 65.load()
+||20||
+participant controller.EmployeeController order 131
+participant model.EmployeeDatabase order 132
+controller.EmployeeController ->model.EmployeeDatabase: 66.load([])
+||20||
+actor User_1 order 133
+participant controller.EmployeeController order 134
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 67.loadSupervisors()
+||20||
+participant controller.EmployeeController order 135
+participant model.EmployeeDatabase order 136
+controller.EmployeeController ->model.EmployeeDatabase: 68.loadSupervisors([])
+||20||
+actor User_1 order 137
+participant controller.EmployeeController order 138
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 69.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 139
+participant model.EmployeeDatabase order 140
+controller.EmployeeController ->model.EmployeeDatabase: 70.maxNumEmployee([])
+||20||
+actor User_1 order 141
+participant controller.EmployeeController order 142
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 71.loadSupervisors()
+||20||
+participant controller.EmployeeController order 143
+participant model.EmployeeDatabase order 144
+controller.EmployeeController ->model.EmployeeDatabase: 72.loadSupervisors([])
+||20||
+actor User_1 order 145
+participant controller.EmployeeController order 146
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 73.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 147
+participant model.EmployeeDatabase order 148
+controller.EmployeeController ->model.EmployeeDatabase: 74.maxNumEmployee([])
+||20||
+actor User_1 order 149
+participant controller.ModuleController order 150
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 75.saveModules()
+||20||
+participant controller.ModuleController order 151
+participant model.ModuleDatabase order 152
+controller.ModuleController ->model.ModuleDatabase: 76.saveModules([])
+||20||
+actor User_1 order 153
+participant controller.ModuleController order 154
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 77.getModules()
+||20||
+participant controller.ModuleController order 155
+participant model.ModuleDatabase order 156
+controller.ModuleController ->model.ModuleDatabase: 78.getModules([7
+||20||
+actor User_1 order 157
+participant controller.ModuleController order 158
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 79.getSubModules()
+||20||
+participant controller.ModuleController order 159
+participant model.ModuleDatabase order 160
+controller.ModuleController ->model.ModuleDatabase: 80.getSubModules([8
+||20||
+actor User_1 order 161
+participant controller.UserController order 162
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 81.loadFullNameEmployees()
+||20||
+participant controller.UserController order 163
+participant model.UserDatabase order 164
+controller.UserController ->model.UserDatabase: 82.loadFullNameEmployees([])
+||20||
+actor User_1 order 165
+participant controller.UserController order 166
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 83.load()
+||20||
+participant controller.UserController order 167
+participant model.UserDatabase order 168
+controller.UserController ->model.UserDatabase: 84.load([])
+||20||
+actor User_1 order 169
+participant controller.UserController order 170
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 85.validateEmployee()
+||20||
+participant controller.UserController order 171
+participant model.UserDatabase order 172
+controller.UserController ->model.UserDatabase: 86.validateEmployee([11
+||20||
+actor User_1 order 173
+participant controller.UserController order 174
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 87.validateUserName()
+||20||
+participant controller.UserController order 175
+participant model.UserDatabase order 176
+controller.UserController ->model.UserDatabase: 88.validateUserName([12
+||20||
+actor User_1 order 177
+participant controller.UserController order 178
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 89.validateEmail()
+||20||
+participant controller.UserController order 179
+participant model.UserDatabase order 180
+controller.UserController ->model.UserDatabase: 90.validateEmail([13
+||20||
+actor User_1 order 181
+participant controller.UserController order 182
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 91.save()
+||20||
+participant controller.UserController order 183
+participant model.UserDatabase order 184
+controller.UserController ->model.UserDatabase: 92.save([15
+||20||
+actor User_1 order 185
+participant controller.UserController order 186
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 93.load()
+||20||
+participant controller.UserController order 187
+participant model.UserDatabase order 188
+controller.UserController ->model.UserDatabase: 94.load([])
+||20||
+actor User_1 order 189
+participant controller.UserController order 190
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 95.loadFullNameEmployees()
+||20||
+participant controller.UserController order 191
+participant model.UserDatabase order 192
+controller.UserController ->model.UserDatabase: 96.loadFullNameEmployees([])
+||20||
+actor User_1 order 193
+participant controller.UserController order 194
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 97.validateEmployee()
+||20||
+participant controller.UserController order 195
+participant model.UserDatabase order 196
+controller.UserController ->model.UserDatabase: 98.validateEmployee([22
+||20||
+actor User_1 order 197
+participant controller.UserController order 198
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 99.validateUserName()
+||20||
+participant controller.UserController order 199
+participant model.UserDatabase order 200
+controller.UserController ->model.UserDatabase: 100.validateUserName([23
+||20||
+actor User_1 order 201
+participant controller.UserController order 202
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 101.validateEmail()
+||20||
+participant controller.UserController order 203
+participant model.UserDatabase order 204
+controller.UserController ->model.UserDatabase: 102.validateEmail([24
+||20||
+actor User_1 order 205
+participant controller.UserController order 206
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 103.save()
+||20||
+participant controller.UserController order 207
+participant model.UserDatabase order 208
+controller.UserController ->model.UserDatabase: 104.save([26
+||20||
+actor User_1 order 209
+participant controller.UserController order 210
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 105.load()
+||20||
+participant controller.UserController order 211
+participant model.UserDatabase order 212
+controller.UserController ->model.UserDatabase: 106.load([])
+||20||
+actor User_1 order 213
+participant controller.UserController order 214
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 107.loadFullNameEmployees()
+||20||
+participant controller.UserController order 215
+participant model.UserDatabase order 216
+controller.UserController ->model.UserDatabase: 108.loadFullNameEmployees([])
+||20||
+actor User_1 order 217
+participant controller.UserController order 218
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 109.loadFullNameEmployees()
+||20||
+participant controller.UserController order 219
+participant model.UserDatabase order 220
+controller.UserController ->model.UserDatabase: 110.loadFullNameEmployees([])
+||20||
+actor User_1 order 221
+participant controller.ModuleController order 222
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 111.saveModules()
+||20||
+participant controller.ModuleController order 223
+participant model.ModuleDatabase order 224
+controller.ModuleController ->model.ModuleDatabase: 112.saveModules([])
+||20||
+actor User_1 order 225
+participant controller.ModuleController order 226
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 113.getModules()
+||20||
+participant controller.ModuleController order 227
+participant model.ModuleDatabase order 228
+controller.ModuleController ->model.ModuleDatabase: 114.getModules([9
+||20||
+actor User_1 order 229
+participant controller.ModuleController order 230
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 115.getSubModules()
+||20||
+participant controller.ModuleController order 231
+participant model.ModuleDatabase order 232
+controller.ModuleController ->model.ModuleDatabase: 116.getSubModules([10
+||20||
+actor User_1 order 233
+participant controller.EmployeeController order 234
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 117.loadSupervisors()
+||20||
+participant controller.EmployeeController order 235
+participant model.EmployeeDatabase order 236
+controller.EmployeeController ->model.EmployeeDatabase: 118.loadSupervisors([])
+||20||
+actor User_1 order 237
+participant controller.EmployeeController order 238
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 119.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 239
+participant model.EmployeeDatabase order 240
+controller.EmployeeController ->model.EmployeeDatabase: 120.maxNumEmployee([])
+||20||
+actor User_1 order 241
+participant controller.EmployeeController order 242
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 121.load()
+||20||
+participant controller.EmployeeController order 243
+participant model.EmployeeDatabase order 244
+controller.EmployeeController ->model.EmployeeDatabase: 122.load([])
+||20||
+actor User_1 order 245
+participant controller.EmployeeController order 246
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 123.validateFullName()
+||20||
+participant controller.EmployeeController order 247
+participant model.EmployeeDatabase order 248
+controller.EmployeeController ->model.EmployeeDatabase: 124.validateFullName([42
+||20||
+actor User_1 order 249
+participant controller.EmployeeController order 250
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 125.save()
+||20||
+participant controller.EmployeeController order 251
+participant model.EmployeeDatabase order 252
+controller.EmployeeController ->model.EmployeeDatabase: 126.save([44
+||20||
+actor User_1 order 253
+participant controller.EmployeeController order 254
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 127.load()
+||20||
+participant controller.EmployeeController order 255
+participant model.EmployeeDatabase order 256
+controller.EmployeeController ->model.EmployeeDatabase: 128.load([])
+||20||
+actor User_1 order 257
+participant controller.EmployeeController order 258
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 129.loadSupervisors()
+||20||
+participant controller.EmployeeController order 259
+participant model.EmployeeDatabase order 260
+controller.EmployeeController ->model.EmployeeDatabase: 130.loadSupervisors([])
+||20||
+actor User_1 order 261
+participant controller.EmployeeController order 262
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 131.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 263
+participant model.EmployeeDatabase order 264
+controller.EmployeeController ->model.EmployeeDatabase: 132.maxNumEmployee([])
+||20||
+actor User_1 order 265
+participant controller.EmployeeController order 266
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 133.loadSupervisors()
+||20||
+participant controller.EmployeeController order 267
+participant model.EmployeeDatabase order 268
+controller.EmployeeController ->model.EmployeeDatabase: 134.loadSupervisors([])
+||20||
+actor User_1 order 269
+participant controller.EmployeeController order 270
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 135.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 271
+participant model.EmployeeDatabase order 272
+controller.EmployeeController ->model.EmployeeDatabase: 136.maxNumEmployee([])
+||20||
+actor User_1 order 273
+participant controller.ModuleController order 274
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 137.saveModules()
+||20||
+participant controller.ModuleController order 275
+participant model.ModuleDatabase order 276
+controller.ModuleController ->model.ModuleDatabase: 138.saveModules([])
+||20||
+actor User_1 order 277
+participant controller.ModuleController order 278
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 139.getModules()
+||20||
+participant controller.ModuleController order 279
+participant model.ModuleDatabase order 280
+controller.ModuleController ->model.ModuleDatabase: 140.getModules([11
+||20||
+actor User_1 order 281
+participant controller.ModuleController order 282
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 141.getSubModules()
+||20||
+participant controller.ModuleController order 283
+participant model.ModuleDatabase order 284
+controller.ModuleController ->model.ModuleDatabase: 142.getSubModules([12
+||20||
+actor User_1 order 285
+participant controller.TravelRequestController order 286
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 143.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 287
+participant model.TravelRequestDatabase order 288
+controller.TravelRequestController ->model.TravelRequestDatabase: 144.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_1 order 289
+participant controller.TravelRequestController order 290
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 145.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 291
+participant model.TravelRequestDatabase order 292
+controller.TravelRequestController ->model.TravelRequestDatabase: 146.maxNumTravelRequest([])
+||20||
+actor User_1 order 293
+participant controller.TravelRequestController order 294
+note left of User_1 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_1 ->controller.TravelRequestController: 147.load()
+||20||
+participant controller.TravelRequestController order 295
+participant model.TravelRequestDatabase order 296
+controller.TravelRequestController ->model.TravelRequestDatabase: 148.load([hsmith, Admin])
+||20||
+actor User_1 order 297
+participant controller.TravelRequestController order 298
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 149.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 299
+participant model.TravelRequestDatabase order 300
+controller.TravelRequestController ->model.TravelRequestDatabase: 150.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_1 order 301
+participant controller.TravelRequestController order 302
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 151.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 303
+participant model.TravelRequestDatabase order 304
+controller.TravelRequestController ->model.TravelRequestDatabase: 152.maxNumTravelRequest([])
+||20||
+actor User_1 order 305
+participant controller.TravelRequestController order 306
+note left of User_1 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_1 ->controller.TravelRequestController: 153.save()
+||20||
+participant controller.TravelRequestController order 307
+participant model.TravelRequestDatabase order 308
+controller.TravelRequestController ->model.TravelRequestDatabase: 154.save([235
+||20||
+actor User_1 order 309
+participant controller.TravelRequestController order 310
+note left of User_1 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_1 ->controller.TravelRequestController: 155.load()
+||20||
+participant controller.TravelRequestController order 311
+participant model.TravelRequestDatabase order 312
+controller.TravelRequestController ->model.TravelRequestDatabase: 156.load([hsmith, Admin])
+||20||
+actor User_1 order 313
+participant controller.TravelRequestController order 314
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 157.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 315
+participant model.TravelRequestDatabase order 316
+controller.TravelRequestController ->model.TravelRequestDatabase: 158.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_1 order 317
+participant controller.TravelRequestController order 318
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 159.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 319
+participant model.TravelRequestDatabase order 320
+controller.TravelRequestController ->model.TravelRequestDatabase: 160.maxNumTravelRequest([])
+||20||
+actor User_1 order 321
+participant controller.TravelRequestController order 322
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 161.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 323
+participant model.TravelRequestDatabase order 324
+controller.TravelRequestController ->model.TravelRequestDatabase: 162.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_1 order 325
+participant controller.TravelRequestController order 326
+note left of User_1 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_1 ->controller.TravelRequestController: 163.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 327
+participant model.TravelRequestDatabase order 328
+controller.TravelRequestController ->model.TravelRequestDatabase: 164.maxNumTravelRequest([])
+||20||
+actor User_1 order 329
+participant controller.ModuleController order 330
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 165.saveModules()
+||20||
+participant controller.ModuleController order 331
+participant model.ModuleDatabase order 332
+controller.ModuleController ->model.ModuleDatabase: 166.saveModules([])
+||20||
+actor User_1 order 333
+participant controller.ModuleController order 334
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 167.getModules()
+||20||
+participant controller.ModuleController order 335
+participant model.ModuleDatabase order 336
+controller.ModuleController ->model.ModuleDatabase: 168.getModules([13
+||20||
+actor User_1 order 337
+participant controller.ModuleController order 338
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 169.getSubModules()
+||20||
+participant controller.ModuleController order 339
+participant model.ModuleDatabase order 340
+controller.ModuleController ->model.ModuleDatabase: 170.getSubModules([14
+||20||
+actor User_1 order 341
+participant controller.UserController order 342
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 171.loadFullNameEmployees()
+||20||
+participant controller.UserController order 343
+participant model.UserDatabase order 344
+controller.UserController ->model.UserDatabase: 172.loadFullNameEmployees([])
+||20||
+actor User_1 order 345
+participant controller.UserController order 346
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 173.load()
+||20||
+participant controller.UserController order 347
+participant model.UserDatabase order 348
+controller.UserController ->model.UserDatabase: 174.load([])
+||20||
+actor User_1 order 349
+participant controller.UserController order 350
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 175.loadFullNameEmployees()
+||20||
+participant controller.UserController order 351
+participant model.UserDatabase order 352
+controller.UserController ->model.UserDatabase: 176.loadFullNameEmployees([])
+||20||
+actor User_1 order 353
+participant controller.UserController order 354
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 177.validateDeleteUser()
+||20||
+participant controller.UserController order 355
+participant model.UserDatabase order 356
+controller.UserController ->model.UserDatabase: 178.validateDeleteUser([26
+||20||
+actor User_1 order 357
+participant controller.UserController order 358
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 179.delete()
+||20||
+participant controller.UserController order 359
+participant model.UserDatabase order 360
+controller.UserController ->model.UserDatabase: 180.delete([26
+||20||
+actor User_1 order 361
+participant controller.UserController order 362
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 181.load()
+||20||
+participant controller.UserController order 363
+participant model.UserDatabase order 364
+controller.UserController ->model.UserDatabase: 182.load([])
+||20||
+actor User_1 order 365
+participant controller.UserController order 366
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 183.loadFullNameEmployees()
+||20||
+participant controller.UserController order 367
+participant model.UserDatabase order 368
+controller.UserController ->model.UserDatabase: 184.loadFullNameEmployees([])
+||20||
+actor User_1 order 369
+participant controller.UserController order 370
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 185.loadFullNameEmployees()
+||20||
+participant controller.UserController order 371
+participant model.UserDatabase order 372
+controller.UserController ->model.UserDatabase: 186.loadFullNameEmployees([])
+||20||
+actor User_1 order 373
+participant controller.ModuleController order 374
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 187.saveModules()
+||20||
+participant controller.ModuleController order 375
+participant model.ModuleDatabase order 376
+controller.ModuleController ->model.ModuleDatabase: 188.saveModules([])
+||20||
+actor User_1 order 377
+participant controller.ModuleController order 378
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 189.getModules()
+||20||
+participant controller.ModuleController order 379
+participant model.ModuleDatabase order 380
+controller.ModuleController ->model.ModuleDatabase: 190.getModules([15
+||20||
+actor User_1 order 381
+participant controller.ModuleController order 382
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 191.getSubModules()
+||20||
+participant controller.ModuleController order 383
+participant model.ModuleDatabase order 384
+controller.ModuleController ->model.ModuleDatabase: 192.getSubModules([16
+||20||
+actor User_1 order 385
+participant controller.EmployeeController order 386
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 193.loadSupervisors()
+||20||
+participant controller.EmployeeController order 387
+participant model.EmployeeDatabase order 388
+controller.EmployeeController ->model.EmployeeDatabase: 194.loadSupervisors([])
+||20||
+actor User_1 order 389
+participant controller.EmployeeController order 390
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 195.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 391
+participant model.EmployeeDatabase order 392
+controller.EmployeeController ->model.EmployeeDatabase: 196.maxNumEmployee([])
+||20||
+actor User_1 order 393
+participant controller.EmployeeController order 394
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 197.load()
+||20||
+participant controller.EmployeeController order 395
+participant model.EmployeeDatabase order 396
+controller.EmployeeController ->model.EmployeeDatabase: 198.load([])
+||20||
+actor User_1 order 397
+participant controller.EmployeeController order 398
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 199.loadSupervisors()
+||20||
+participant controller.EmployeeController order 399
+participant model.EmployeeDatabase order 400
+controller.EmployeeController ->model.EmployeeDatabase: 200.loadSupervisors([])
+||20||
+actor User_1 order 401
+participant controller.EmployeeController order 402
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 201.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 403
+participant model.EmployeeDatabase order 404
+controller.EmployeeController ->model.EmployeeDatabase: 202.maxNumEmployee([])
+||20||
+actor User_1 order 405
+participant controller.EmployeeController order 406
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 203.validateFullName()
+||20||
+participant controller.EmployeeController order 407
+participant model.EmployeeDatabase order 408
+controller.EmployeeController ->model.EmployeeDatabase: 204.validateFullName([44
+||20||
+actor User_1 order 409
+participant controller.EmployeeController order 410
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 205.save()
+||20||
+participant controller.EmployeeController order 411
+participant model.EmployeeDatabase order 412
+controller.EmployeeController ->model.EmployeeDatabase: 206.save([44
+||20||
+actor User_1 order 413
+participant controller.EmployeeController order 414
+note left of User_1 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_1 ->controller.EmployeeController: 207.load()
+||20||
+participant controller.EmployeeController order 415
+participant model.EmployeeDatabase order 416
+controller.EmployeeController ->model.EmployeeDatabase: 208.load([])
+||20||
+actor User_1 order 417
+participant controller.EmployeeController order 418
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 209.loadSupervisors()
+||20||
+participant controller.EmployeeController order 419
+participant model.EmployeeDatabase order 420
+controller.EmployeeController ->model.EmployeeDatabase: 210.loadSupervisors([])
+||20||
+actor User_1 order 421
+participant controller.EmployeeController order 422
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 211.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 423
+participant model.EmployeeDatabase order 424
+controller.EmployeeController ->model.EmployeeDatabase: 212.maxNumEmployee([])
+||20||
+actor User_1 order 425
+participant controller.EmployeeController order 426
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 213.loadSupervisors()
+||20||
+participant controller.EmployeeController order 427
+participant model.EmployeeDatabase order 428
+controller.EmployeeController ->model.EmployeeDatabase: 214.loadSupervisors([])
+||20||
+actor User_1 order 429
+participant controller.EmployeeController order 430
+note left of User_1 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_1 ->controller.EmployeeController: 215.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 431
+participant model.EmployeeDatabase order 432
+controller.EmployeeController ->model.EmployeeDatabase: 216.maxNumEmployee([])
+||20||
+== Authenticates to the HRMApplication ==
+actor User_2 order 433
+participant controller.UserController order 434
+note left of User_2 #lightskyblue 
+gui.LoginFrame
+end note
+User_2 ->controller.UserController: 1.validateUser()
+||20||
+participant controller.UserController order 435
+participant model.UserDatabase order 436
+controller.UserController ->model.UserDatabase: 2.validateUser([0
+||20||
+actor User_2 order 437
+participant controller.UserController order 438
+note left of User_2 #lightskyblue 
+gui.LoginFrame
+end note
+User_2 ->controller.UserController: 3.getUserLevel()
+||20||
+participant controller.UserController order 439
+participant model.UserDatabase order 440
+controller.UserController ->model.UserDatabase: 4.getUserLevel([0
+||20||
+actor User_2 order 441
+participant controller.ModuleController order 442
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 5.saveModules()
+||20||
+participant controller.ModuleController order 443
+participant model.ModuleDatabase order 444
+controller.ModuleController ->model.ModuleDatabase: 6.saveModules([])
+||20||
+actor User_2 order 445
+participant controller.ModuleController order 446
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 7.getModules()
+||20||
+participant controller.ModuleController order 447
+participant model.ModuleDatabase order 448
+controller.ModuleController ->model.ModuleDatabase: 8.getModules([17
+||20||
+actor User_2 order 449
+participant controller.ModuleController order 450
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 9.getSubModules()
+||20||
+participant controller.ModuleController order 451
+participant model.ModuleDatabase order 452
+controller.ModuleController ->model.ModuleDatabase: 10.getSubModules([18
+||20||
+actor User_2 order 453
+participant controller.UserController order 454
+note left of User_2 #lightskyblue 
+gui.UserFormPanel
+end note
+User_2 ->controller.UserController: 11.loadFullNameEmployees()
+||20||
+participant controller.UserController order 455
+participant model.UserDatabase order 456
+controller.UserController ->model.UserDatabase: 12.loadFullNameEmployees([])
+||20||
+actor User_2 order 457
+participant controller.UserController order 458
+note left of User_2 #lightskyblue 
+gui.UserFrame
+end note
+User_2 ->controller.UserController: 13.load()
+||20||
+participant controller.UserController order 459
+participant model.UserDatabase order 460
+controller.UserController ->model.UserDatabase: 14.load([])
+||20||
+actor User_2 order 461
+participant controller.UserController order 462
+note left of User_2 #lightskyblue 
+gui.UserFormPanel
+end note
+User_2 ->controller.UserController: 15.loadFullNameEmployees()
+||20||
+participant controller.UserController order 463
+participant model.UserDatabase order 464
+controller.UserController ->model.UserDatabase: 16.loadFullNameEmployees([])
+||20||
+actor User_2 order 465
+participant controller.UserController order 466
+note left of User_2 #lightskyblue 
+gui.UserFrame
+end note
+User_2 ->controller.UserController: 17.validateEmployee()
+||20||
+participant controller.UserController order 467
+participant model.UserDatabase order 468
+controller.UserController ->model.UserDatabase: 18.validateEmployee([113
+||20||
+actor User_2 order 469
+participant controller.UserController order 470
+note left of User_2 #lightskyblue 
+gui.UserFrame
+end note
+User_2 ->controller.UserController: 19.validateUserName()
+||20||
+participant controller.UserController order 471
+participant model.UserDatabase order 472
+controller.UserController ->model.UserDatabase: 20.validateUserName([113
+||20||
+actor User_2 order 473
+participant controller.UserController order 474
+note left of User_2 #lightskyblue 
+gui.UserFrame
+end note
+User_2 ->controller.UserController: 21.validateEmail()
+||20||
+participant controller.UserController order 475
+participant model.UserDatabase order 476
+controller.UserController ->model.UserDatabase: 22.validateEmail([113
+||20||
+actor User_2 order 477
+participant controller.UserController order 478
+note left of User_2 #lightskyblue 
+gui.UserFrame
+end note
+User_2 ->controller.UserController: 23.save()
+||20||
+participant controller.UserController order 479
+participant model.UserDatabase order 480
+controller.UserController ->model.UserDatabase: 24.save([113
+||20||
+actor User_2 order 481
+participant controller.UserController order 482
+note left of User_2 #lightskyblue 
+gui.UserFrame
+end note
+User_2 ->controller.UserController: 25.load()
+||20||
+participant controller.UserController order 483
+participant model.UserDatabase order 484
+controller.UserController ->model.UserDatabase: 26.load([])
+||20||
+actor User_2 order 485
+participant controller.UserController order 486
+note left of User_2 #lightskyblue 
+gui.UserFormPanel
+end note
+User_2 ->controller.UserController: 27.loadFullNameEmployees()
+||20||
+participant controller.UserController order 487
+participant model.UserDatabase order 488
+controller.UserController ->model.UserDatabase: 28.loadFullNameEmployees([])
+||20||
+actor User_2 order 489
+participant controller.UserController order 490
+note left of User_2 #lightskyblue 
+gui.UserFormPanel
+end note
+User_2 ->controller.UserController: 29.loadFullNameEmployees()
+||20||
+participant controller.UserController order 491
+participant model.UserDatabase order 492
+controller.UserController ->model.UserDatabase: 30.loadFullNameEmployees([])
+||20||
+actor User_2 order 493
+participant controller.ModuleController order 494
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 31.saveModules()
+||20||
+participant controller.ModuleController order 495
+participant model.ModuleDatabase order 496
+controller.ModuleController ->model.ModuleDatabase: 32.saveModules([])
+||20||
+actor User_2 order 497
+participant controller.ModuleController order 498
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 33.getModules()
+||20||
+participant controller.ModuleController order 499
+participant model.ModuleDatabase order 500
+controller.ModuleController ->model.ModuleDatabase: 34.getModules([19
+||20||
+actor User_2 order 501
+participant controller.ModuleController order 502
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 35.getSubModules()
+||20||
+participant controller.ModuleController order 503
+participant model.ModuleDatabase order 504
+controller.ModuleController ->model.ModuleDatabase: 36.getSubModules([20
+||20||
+actor User_2 order 505
+participant controller.EmployeeController order 506
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 37.loadSupervisors()
+||20||
+participant controller.EmployeeController order 507
+participant model.EmployeeDatabase order 508
+controller.EmployeeController ->model.EmployeeDatabase: 38.loadSupervisors([])
+||20||
+actor User_2 order 509
+participant controller.EmployeeController order 510
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 39.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 511
+participant model.EmployeeDatabase order 512
+controller.EmployeeController ->model.EmployeeDatabase: 40.maxNumEmployee([])
+||20||
+actor User_2 order 513
+participant controller.EmployeeController order 514
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 41.load()
+||20||
+participant controller.EmployeeController order 515
+participant model.EmployeeDatabase order 516
+controller.EmployeeController ->model.EmployeeDatabase: 42.load([])
+||20||
+actor User_2 order 517
+participant controller.EmployeeController order 518
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 43.loadSupervisors()
+||20||
+participant controller.EmployeeController order 519
+participant model.EmployeeDatabase order 520
+controller.EmployeeController ->model.EmployeeDatabase: 44.loadSupervisors([])
+||20||
+actor User_2 order 521
+participant controller.EmployeeController order 522
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 45.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 523
+participant model.EmployeeDatabase order 524
+controller.EmployeeController ->model.EmployeeDatabase: 46.maxNumEmployee([])
+||20||
+actor User_2 order 525
+participant controller.EmployeeController order 526
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 47.loadSupervisors()
+||20||
+participant controller.EmployeeController order 527
+participant model.EmployeeDatabase order 528
+controller.EmployeeController ->model.EmployeeDatabase: 48.loadSupervisors([])
+||20||
+actor User_2 order 529
+participant controller.EmployeeController order 530
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 49.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 531
+participant model.EmployeeDatabase order 532
+controller.EmployeeController ->model.EmployeeDatabase: 50.maxNumEmployee([])
+||20||
+actor User_2 order 533
+participant controller.ModuleController order 534
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 51.saveModules()
+||20||
+participant controller.ModuleController order 535
+participant model.ModuleDatabase order 536
+controller.ModuleController ->model.ModuleDatabase: 52.saveModules([])
+||20||
+actor User_2 order 537
+participant controller.ModuleController order 538
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 53.getModules()
+||20||
+participant controller.ModuleController order 539
+participant model.ModuleDatabase order 540
+controller.ModuleController ->model.ModuleDatabase: 54.getModules([21
+||20||
+actor User_2 order 541
+participant controller.ModuleController order 542
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 55.getSubModules()
+||20||
+participant controller.ModuleController order 543
+participant model.ModuleDatabase order 544
+controller.ModuleController ->model.ModuleDatabase: 56.getSubModules([22
+||20||
+actor User_2 order 545
+participant controller.TravelRequestController order 546
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 57.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 547
+participant model.TravelRequestDatabase order 548
+controller.TravelRequestController ->model.TravelRequestDatabase: 58.loadFullNameEmployees([iserrato, Admin])
+||20||
+actor User_2 order 549
+participant controller.TravelRequestController order 550
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 59.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 551
+participant model.TravelRequestDatabase order 552
+controller.TravelRequestController ->model.TravelRequestDatabase: 60.maxNumTravelRequest([])
+||20||
+actor User_2 order 553
+participant controller.TravelRequestController order 554
+note left of User_2 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_2 ->controller.TravelRequestController: 61.load()
+||20||
+participant controller.TravelRequestController order 555
+participant model.TravelRequestDatabase order 556
+controller.TravelRequestController ->model.TravelRequestDatabase: 62.load([iserrato, Admin])
+||20||
+actor User_2 order 557
+participant controller.TravelRequestController order 558
+note left of User_2 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_2 ->controller.TravelRequestController: 63.save()
+||20||
+participant controller.TravelRequestController order 559
+participant model.TravelRequestDatabase order 560
+controller.TravelRequestController ->model.TravelRequestDatabase: 64.save([135
+||20||
+actor User_2 order 561
+participant controller.TravelRequestController order 562
+note left of User_2 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_2 ->controller.TravelRequestController: 65.load()
+||20||
+participant controller.TravelRequestController order 563
+participant model.TravelRequestDatabase order 564
+controller.TravelRequestController ->model.TravelRequestDatabase: 66.load([iserrato, Admin])
+||20||
+actor User_2 order 565
+participant controller.TravelRequestController order 566
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 67.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 567
+participant model.TravelRequestDatabase order 568
+controller.TravelRequestController ->model.TravelRequestDatabase: 68.loadFullNameEmployees([iserrato, Admin])
+||20||
+actor User_2 order 569
+participant controller.TravelRequestController order 570
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 69.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 571
+participant model.TravelRequestDatabase order 572
+controller.TravelRequestController ->model.TravelRequestDatabase: 70.maxNumTravelRequest([])
+||20||
+actor User_2 order 573
+participant controller.TravelRequestController order 574
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 71.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 575
+participant model.TravelRequestDatabase order 576
+controller.TravelRequestController ->model.TravelRequestDatabase: 72.loadFullNameEmployees([iserrato, Admin])
+||20||
+actor User_2 order 577
+participant controller.TravelRequestController order 578
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 73.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 579
+participant model.TravelRequestDatabase order 580
+controller.TravelRequestController ->model.TravelRequestDatabase: 74.maxNumTravelRequest([])
+||20||
+actor User_2 order 581
+participant controller.ModuleController order 582
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 75.saveModules()
+||20||
+participant controller.ModuleController order 583
+participant model.ModuleDatabase order 584
+controller.ModuleController ->model.ModuleDatabase: 76.saveModules([])
+||20||
+actor User_2 order 585
+participant controller.ModuleController order 586
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 77.getModules()
+||20||
+participant controller.ModuleController order 587
+participant model.ModuleDatabase order 588
+controller.ModuleController ->model.ModuleDatabase: 78.getModules([23
+||20||
+actor User_2 order 589
+participant controller.ModuleController order 590
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 79.getSubModules()
+||20||
+participant controller.ModuleController order 591
+participant model.ModuleDatabase order 592
+controller.ModuleController ->model.ModuleDatabase: 80.getSubModules([24
+||20||
+actor User_2 order 593
+participant controller.EmployeeController order 594
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 81.loadSupervisors()
+||20||
+participant controller.EmployeeController order 595
+participant model.EmployeeDatabase order 596
+controller.EmployeeController ->model.EmployeeDatabase: 82.loadSupervisors([])
+||20||
+actor User_2 order 597
+participant controller.EmployeeController order 598
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 83.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 599
+participant model.EmployeeDatabase order 600
+controller.EmployeeController ->model.EmployeeDatabase: 84.maxNumEmployee([])
+||20||
+actor User_2 order 601
+participant controller.EmployeeController order 602
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 85.load()
+||20||
+participant controller.EmployeeController order 603
+participant model.EmployeeDatabase order 604
+controller.EmployeeController ->model.EmployeeDatabase: 86.load([])
+||20||
+actor User_2 order 605
+participant controller.EmployeeController order 606
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 87.loadSupervisors()
+||20||
+participant controller.EmployeeController order 607
+participant model.EmployeeDatabase order 608
+controller.EmployeeController ->model.EmployeeDatabase: 88.loadSupervisors([])
+||20||
+actor User_2 order 609
+participant controller.EmployeeController order 610
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 89.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 611
+participant model.EmployeeDatabase order 612
+controller.EmployeeController ->model.EmployeeDatabase: 90.maxNumEmployee([])
+||20||
+actor User_2 order 613
+participant controller.EmployeeController order 614
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 91.validateFullName()
+||20||
+participant controller.EmployeeController order 615
+participant model.EmployeeDatabase order 616
+controller.EmployeeController ->model.EmployeeDatabase: 92.validateFullName([23
+||20||
+actor User_2 order 617
+participant controller.EmployeeController order 618
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 93.save()
+||20||
+participant controller.EmployeeController order 619
+participant model.EmployeeDatabase order 620
+controller.EmployeeController ->model.EmployeeDatabase: 94.save([23
+||20||
+actor User_2 order 621
+participant controller.EmployeeController order 622
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 95.load()
+||20||
+participant controller.EmployeeController order 623
+participant model.EmployeeDatabase order 624
+controller.EmployeeController ->model.EmployeeDatabase: 96.load([])
+||20||
+actor User_2 order 625
+participant controller.EmployeeController order 626
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 97.loadSupervisors()
+||20||
+participant controller.EmployeeController order 627
+participant model.EmployeeDatabase order 628
+controller.EmployeeController ->model.EmployeeDatabase: 98.loadSupervisors([])
+||20||
+actor User_2 order 629
+participant controller.EmployeeController order 630
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 99.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 631
+participant model.EmployeeDatabase order 632
+controller.EmployeeController ->model.EmployeeDatabase: 100.maxNumEmployee([])
+||20||
+actor User_2 order 633
+participant controller.EmployeeController order 634
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 101.loadSupervisors()
+||20||
+participant controller.EmployeeController order 635
+participant model.EmployeeDatabase order 636
+controller.EmployeeController ->model.EmployeeDatabase: 102.loadSupervisors([])
+||20||
+actor User_2 order 637
+participant controller.EmployeeController order 638
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 103.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 639
+participant model.EmployeeDatabase order 640
+controller.EmployeeController ->model.EmployeeDatabase: 104.maxNumEmployee([])
+||20||
+actor User_2 order 641
+participant controller.ModuleController order 642
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 105.saveModules()
+||20||
+participant controller.ModuleController order 643
+participant model.ModuleDatabase order 644
+controller.ModuleController ->model.ModuleDatabase: 106.saveModules([])
+||20||
+actor User_2 order 645
+participant controller.ModuleController order 646
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 107.getModules()
+||20||
+participant controller.ModuleController order 647
+participant model.ModuleDatabase order 648
+controller.ModuleController ->model.ModuleDatabase: 108.getModules([25
+||20||
+actor User_2 order 649
+participant controller.ModuleController order 650
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 109.getSubModules()
+||20||
+participant controller.ModuleController order 651
+participant model.ModuleDatabase order 652
+controller.ModuleController ->model.ModuleDatabase: 110.getSubModules([26
+||20||
+actor User_2 order 653
+participant controller.UserController order 654
+note left of User_2 #lightskyblue 
+gui.UserFormPanel
+end note
+User_2 ->controller.UserController: 111.loadFullNameEmployees()
+||20||
+participant controller.UserController order 655
+participant model.UserDatabase order 656
+controller.UserController ->model.UserDatabase: 112.loadFullNameEmployees([])
+||20||
+actor User_2 order 657
+participant controller.UserController order 658
+note left of User_2 #lightskyblue 
+gui.UserFrame
+end note
+User_2 ->controller.UserController: 113.load()
+||20||
+participant controller.UserController order 659
+participant model.UserDatabase order 660
+controller.UserController ->model.UserDatabase: 114.load([])
+||20||
+actor User_2 order 661
+participant controller.UserController order 662
+note left of User_2 #lightskyblue 
+gui.UserFormPanel
+end note
+User_2 ->controller.UserController: 115.loadFullNameEmployees()
+||20||
+participant controller.UserController order 663
+participant model.UserDatabase order 664
+controller.UserController ->model.UserDatabase: 116.loadFullNameEmployees([])
+||20||
+actor User_2 order 665
+participant controller.UserController order 666
+note left of User_2 #lightskyblue 
+gui.UserFormPanel
+end note
+User_2 ->controller.UserController: 117.loadFullNameEmployees()
+||20||
+participant controller.UserController order 667
+participant model.UserDatabase order 668
+controller.UserController ->model.UserDatabase: 118.loadFullNameEmployees([])
+||20||
+actor User_2 order 669
+participant controller.ModuleController order 670
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 119.saveModules()
+||20||
+participant controller.ModuleController order 671
+participant model.ModuleDatabase order 672
+controller.ModuleController ->model.ModuleDatabase: 120.saveModules([])
+||20||
+actor User_2 order 673
+participant controller.ModuleController order 674
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 121.getModules()
+||20||
+participant controller.ModuleController order 675
+participant model.ModuleDatabase order 676
+controller.ModuleController ->model.ModuleDatabase: 122.getModules([27
+||20||
+actor User_2 order 677
+participant controller.ModuleController order 678
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 123.getSubModules()
+||20||
+participant controller.ModuleController order 679
+participant model.ModuleDatabase order 680
+controller.ModuleController ->model.ModuleDatabase: 124.getSubModules([28
+||20||
+actor User_2 order 681
+participant controller.EmployeeController order 682
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 125.loadSupervisors()
+||20||
+participant controller.EmployeeController order 683
+participant model.EmployeeDatabase order 684
+controller.EmployeeController ->model.EmployeeDatabase: 126.loadSupervisors([])
+||20||
+actor User_2 order 685
+participant controller.EmployeeController order 686
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 127.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 687
+participant model.EmployeeDatabase order 688
+controller.EmployeeController ->model.EmployeeDatabase: 128.maxNumEmployee([])
+||20||
+actor User_2 order 689
+participant controller.EmployeeController order 690
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 129.load()
+||20||
+participant controller.EmployeeController order 691
+participant model.EmployeeDatabase order 692
+controller.EmployeeController ->model.EmployeeDatabase: 130.load([])
+||20||
+actor User_2 order 693
+participant controller.EmployeeController order 694
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 131.loadSupervisors()
+||20||
+participant controller.EmployeeController order 695
+participant model.EmployeeDatabase order 696
+controller.EmployeeController ->model.EmployeeDatabase: 132.loadSupervisors([])
+||20||
+actor User_2 order 697
+participant controller.EmployeeController order 698
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 133.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 699
+participant model.EmployeeDatabase order 700
+controller.EmployeeController ->model.EmployeeDatabase: 134.maxNumEmployee([])
+||20||
+actor User_2 order 701
+participant controller.EmployeeController order 702
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 135.validateFullName()
+||20||
+participant controller.EmployeeController order 703
+participant model.EmployeeDatabase order 704
+controller.EmployeeController ->model.EmployeeDatabase: 136.validateFullName([2
+||20||
+actor User_2 order 705
+participant controller.EmployeeController order 706
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 137.save()
+||20||
+participant controller.EmployeeController order 707
+participant model.EmployeeDatabase order 708
+controller.EmployeeController ->model.EmployeeDatabase: 138.save([2
+||20||
+actor User_2 order 709
+participant controller.EmployeeController order 710
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 139.load()
+||20||
+participant controller.EmployeeController order 711
+participant model.EmployeeDatabase order 712
+controller.EmployeeController ->model.EmployeeDatabase: 140.load([])
+||20||
+actor User_2 order 713
+participant controller.EmployeeController order 714
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 141.loadSupervisors()
+||20||
+participant controller.EmployeeController order 715
+participant model.EmployeeDatabase order 716
+controller.EmployeeController ->model.EmployeeDatabase: 142.loadSupervisors([])
+||20||
+actor User_2 order 717
+participant controller.EmployeeController order 718
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 143.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 719
+participant model.EmployeeDatabase order 720
+controller.EmployeeController ->model.EmployeeDatabase: 144.maxNumEmployee([])
+||20||
+actor User_2 order 721
+participant controller.EmployeeController order 722
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 145.loadSupervisors()
+||20||
+participant controller.EmployeeController order 723
+participant model.EmployeeDatabase order 724
+controller.EmployeeController ->model.EmployeeDatabase: 146.loadSupervisors([])
+||20||
+actor User_2 order 725
+participant controller.EmployeeController order 726
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 147.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 727
+participant model.EmployeeDatabase order 728
+controller.EmployeeController ->model.EmployeeDatabase: 148.maxNumEmployee([])
+||20||
+actor User_2 order 729
+participant controller.ModuleController order 730
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 149.saveModules()
+||20||
+participant controller.ModuleController order 731
+participant model.ModuleDatabase order 732
+controller.ModuleController ->model.ModuleDatabase: 150.saveModules([])
+||20||
+actor User_2 order 733
+participant controller.ModuleController order 734
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 151.getModules()
+||20||
+participant controller.ModuleController order 735
+participant model.ModuleDatabase order 736
+controller.ModuleController ->model.ModuleDatabase: 152.getModules([29
+||20||
+actor User_2 order 737
+participant controller.ModuleController order 738
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 153.getSubModules()
+||20||
+participant controller.ModuleController order 739
+participant model.ModuleDatabase order 740
+controller.ModuleController ->model.ModuleDatabase: 154.getSubModules([30
+||20||
+actor User_2 order 741
+participant controller.TravelRequestController order 742
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 155.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 743
+participant model.TravelRequestDatabase order 744
+controller.TravelRequestController ->model.TravelRequestDatabase: 156.loadFullNameEmployees([iserrato, Admin])
+||20||
+actor User_2 order 745
+participant controller.TravelRequestController order 746
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 157.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 747
+participant model.TravelRequestDatabase order 748
+controller.TravelRequestController ->model.TravelRequestDatabase: 158.maxNumTravelRequest([])
+||20||
+actor User_2 order 749
+participant controller.TravelRequestController order 750
+note left of User_2 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_2 ->controller.TravelRequestController: 159.load()
+||20||
+participant controller.TravelRequestController order 751
+participant model.TravelRequestDatabase order 752
+controller.TravelRequestController ->model.TravelRequestDatabase: 160.load([iserrato, Admin])
+||20||
+actor User_2 order 753
+participant controller.TravelRequestController order 754
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 161.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 755
+participant model.TravelRequestDatabase order 756
+controller.TravelRequestController ->model.TravelRequestDatabase: 162.loadFullNameEmployees([iserrato, Admin])
+||20||
+actor User_2 order 757
+participant controller.TravelRequestController order 758
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 163.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 759
+participant model.TravelRequestDatabase order 760
+controller.TravelRequestController ->model.TravelRequestDatabase: 164.maxNumTravelRequest([])
+||20||
+actor User_2 order 761
+participant controller.TravelRequestController order 762
+note left of User_2 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_2 ->controller.TravelRequestController: 165.save()
+||20||
+participant controller.TravelRequestController order 763
+participant model.TravelRequestDatabase order 764
+controller.TravelRequestController ->model.TravelRequestDatabase: 166.save([281
+||20||
+actor User_2 order 765
+participant controller.TravelRequestController order 766
+note left of User_2 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_2 ->controller.TravelRequestController: 167.load()
+||20||
+participant controller.TravelRequestController order 767
+participant model.TravelRequestDatabase order 768
+controller.TravelRequestController ->model.TravelRequestDatabase: 168.load([iserrato, Admin])
+||20||
+actor User_2 order 769
+participant controller.TravelRequestController order 770
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 169.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 771
+participant model.TravelRequestDatabase order 772
+controller.TravelRequestController ->model.TravelRequestDatabase: 170.loadFullNameEmployees([iserrato, Admin])
+||20||
+actor User_2 order 773
+participant controller.TravelRequestController order 774
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 171.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 775
+participant model.TravelRequestDatabase order 776
+controller.TravelRequestController ->model.TravelRequestDatabase: 172.maxNumTravelRequest([])
+||20||
+actor User_2 order 777
+participant controller.TravelRequestController order 778
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 173.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 779
+participant model.TravelRequestDatabase order 780
+controller.TravelRequestController ->model.TravelRequestDatabase: 174.loadFullNameEmployees([iserrato, Admin])
+||20||
+actor User_2 order 781
+participant controller.TravelRequestController order 782
+note left of User_2 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_2 ->controller.TravelRequestController: 175.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 783
+participant model.TravelRequestDatabase order 784
+controller.TravelRequestController ->model.TravelRequestDatabase: 176.maxNumTravelRequest([])
+||20||
+actor User_2 order 785
+participant controller.ModuleController order 786
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 177.saveModules()
+||20||
+participant controller.ModuleController order 787
+participant model.ModuleDatabase order 788
+controller.ModuleController ->model.ModuleDatabase: 178.saveModules([])
+||20||
+actor User_2 order 789
+participant controller.ModuleController order 790
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 179.getModules()
+||20||
+participant controller.ModuleController order 791
+participant model.ModuleDatabase order 792
+controller.ModuleController ->model.ModuleDatabase: 180.getModules([31
+||20||
+actor User_2 order 793
+participant controller.ModuleController order 794
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 181.getSubModules()
+||20||
+participant controller.ModuleController order 795
+participant model.ModuleDatabase order 796
+controller.ModuleController ->model.ModuleDatabase: 182.getSubModules([32
+||20||
+actor User_2 order 797
+participant controller.EmployeeController order 798
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 183.loadSupervisors()
+||20||
+participant controller.EmployeeController order 799
+participant model.EmployeeDatabase order 800
+controller.EmployeeController ->model.EmployeeDatabase: 184.loadSupervisors([])
+||20||
+actor User_2 order 801
+participant controller.EmployeeController order 802
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 185.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 803
+participant model.EmployeeDatabase order 804
+controller.EmployeeController ->model.EmployeeDatabase: 186.maxNumEmployee([])
+||20||
+actor User_2 order 805
+participant controller.EmployeeController order 806
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 187.load()
+||20||
+participant controller.EmployeeController order 807
+participant model.EmployeeDatabase order 808
+controller.EmployeeController ->model.EmployeeDatabase: 188.load([])
+||20||
+actor User_2 order 809
+participant controller.EmployeeController order 810
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 189.loadSupervisors()
+||20||
+participant controller.EmployeeController order 811
+participant model.EmployeeDatabase order 812
+controller.EmployeeController ->model.EmployeeDatabase: 190.loadSupervisors([])
+||20||
+actor User_2 order 813
+participant controller.EmployeeController order 814
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 191.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 815
+participant model.EmployeeDatabase order 816
+controller.EmployeeController ->model.EmployeeDatabase: 192.maxNumEmployee([])
+||20||
+actor User_2 order 817
+participant controller.EmployeeController order 818
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 193.validateDeleteEmployee1()
+||20||
+participant controller.EmployeeController order 819
+participant model.EmployeeDatabase order 820
+controller.EmployeeController ->model.EmployeeDatabase: 194.validateDeleteEmployee1([44
+||20||
+actor User_2 order 821
+participant controller.EmployeeController order 822
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 195.validateDeleteEmployee2()
+||20||
+participant controller.EmployeeController order 823
+participant model.EmployeeDatabase order 824
+controller.EmployeeController ->model.EmployeeDatabase: 196.validateDeleteEmployee2([44
+||20||
+actor User_2 order 825
+participant controller.EmployeeController order 826
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 197.delete()
+||20||
+participant controller.EmployeeController order 827
+participant model.EmployeeDatabase order 828
+controller.EmployeeController ->model.EmployeeDatabase: 198.delete([44
+||20||
+actor User_2 order 829
+participant controller.EmployeeController order 830
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 199.load()
+||20||
+participant controller.EmployeeController order 831
+participant model.EmployeeDatabase order 832
+controller.EmployeeController ->model.EmployeeDatabase: 200.load([])
+||20||
+actor User_2 order 833
+participant controller.EmployeeController order 834
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 201.loadSupervisors()
+||20||
+participant controller.EmployeeController order 835
+participant model.EmployeeDatabase order 836
+controller.EmployeeController ->model.EmployeeDatabase: 202.loadSupervisors([])
+||20||
+actor User_2 order 837
+participant controller.EmployeeController order 838
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 203.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 839
+participant model.EmployeeDatabase order 840
+controller.EmployeeController ->model.EmployeeDatabase: 204.maxNumEmployee([])
+||20||
+actor User_2 order 841
+participant controller.EmployeeController order 842
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 205.loadSupervisors()
+||20||
+participant controller.EmployeeController order 843
+participant model.EmployeeDatabase order 844
+controller.EmployeeController ->model.EmployeeDatabase: 206.loadSupervisors([])
+||20||
+actor User_2 order 845
+participant controller.EmployeeController order 846
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 207.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 847
+participant model.EmployeeDatabase order 848
+controller.EmployeeController ->model.EmployeeDatabase: 208.maxNumEmployee([])
+||20||
+== Authenticates to the HRMApplication ==
+actor User_3 order 849
+participant controller.UserController order 850
+note left of User_3 #lightskyblue 
+gui.LoginFrame
+end note
+User_3 ->controller.UserController: 1.validateUser()
+||20||
+participant controller.UserController order 851
+participant model.UserDatabase order 852
+controller.UserController ->model.UserDatabase: 2.validateUser([0
+||20||
+actor User_3 order 853
+participant controller.UserController order 854
+note left of User_3 #lightskyblue 
+gui.LoginFrame
+end note
+User_3 ->controller.UserController: 3.getUserLevel()
+||20||
+participant controller.UserController order 855
+participant model.UserDatabase order 856
+controller.UserController ->model.UserDatabase: 4.getUserLevel([0
+||20||
+actor User_3 order 857
+participant controller.ModuleController order 858
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 5.saveModules()
+||20||
+participant controller.ModuleController order 859
+participant model.ModuleDatabase order 860
+controller.ModuleController ->model.ModuleDatabase: 6.saveModules([])
+||20||
+actor User_3 order 861
+participant controller.ModuleController order 862
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 7.getModules()
+||20||
+participant controller.ModuleController order 863
+participant model.ModuleDatabase order 864
+controller.ModuleController ->model.ModuleDatabase: 8.getModules([33
+||20||
+actor User_3 order 865
+participant controller.ModuleController order 866
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 9.getSubModules()
+||20||
+participant controller.ModuleController order 867
+participant model.ModuleDatabase order 868
+controller.ModuleController ->model.ModuleDatabase: 10.getSubModules([34
+||20||
+actor User_3 order 869
+participant controller.TravelRequestController order 870
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 11.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 871
+participant model.TravelRequestDatabase order 872
+controller.TravelRequestController ->model.TravelRequestDatabase: 12.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_3 order 873
+participant controller.TravelRequestController order 874
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 13.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 875
+participant model.TravelRequestDatabase order 876
+controller.TravelRequestController ->model.TravelRequestDatabase: 14.maxNumTravelRequest([])
+||20||
+actor User_3 order 877
+participant controller.TravelRequestController order 878
+note left of User_3 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_3 ->controller.TravelRequestController: 15.load()
+||20||
+participant controller.TravelRequestController order 879
+participant model.TravelRequestDatabase order 880
+controller.TravelRequestController ->model.TravelRequestDatabase: 16.load([hsmith, Admin])
+||20||
+actor User_3 order 881
+participant controller.TravelRequestController order 882
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 17.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 883
+participant model.TravelRequestDatabase order 884
+controller.TravelRequestController ->model.TravelRequestDatabase: 18.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_3 order 885
+participant controller.TravelRequestController order 886
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 19.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 887
+participant model.TravelRequestDatabase order 888
+controller.TravelRequestController ->model.TravelRequestDatabase: 20.maxNumTravelRequest([])
+||20||
+actor User_3 order 889
+participant controller.TravelRequestController order 890
+note left of User_3 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_3 ->controller.TravelRequestController: 21.delete()
+||20||
+participant controller.TravelRequestController order 891
+participant model.TravelRequestDatabase order 892
+controller.TravelRequestController ->model.TravelRequestDatabase: 22.delete([23
+||20||
+actor User_3 order 893
+participant controller.TravelRequestController order 894
+note left of User_3 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_3 ->controller.TravelRequestController: 23.load()
+||20||
+participant controller.TravelRequestController order 895
+participant model.TravelRequestDatabase order 896
+controller.TravelRequestController ->model.TravelRequestDatabase: 24.load([hsmith, Admin])
+||20||
+actor User_3 order 897
+participant controller.TravelRequestController order 898
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 25.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 899
+participant model.TravelRequestDatabase order 900
+controller.TravelRequestController ->model.TravelRequestDatabase: 26.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_3 order 901
+participant controller.TravelRequestController order 902
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 27.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 903
+participant model.TravelRequestDatabase order 904
+controller.TravelRequestController ->model.TravelRequestDatabase: 28.maxNumTravelRequest([])
+||20||
+actor User_3 order 905
+participant controller.TravelRequestController order 906
+note left of User_3 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_3 ->controller.TravelRequestController: 29.delete()
+||20||
+participant controller.TravelRequestController order 907
+participant model.TravelRequestDatabase order 908
+controller.TravelRequestController ->model.TravelRequestDatabase: 30.delete([23
+||20||
+actor User_3 order 909
+participant controller.TravelRequestController order 910
+note left of User_3 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_3 ->controller.TravelRequestController: 31.load()
+||20||
+participant controller.TravelRequestController order 911
+participant model.TravelRequestDatabase order 912
+controller.TravelRequestController ->model.TravelRequestDatabase: 32.load([hsmith, Admin])
+||20||
+actor User_3 order 913
+participant controller.TravelRequestController order 914
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 33.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 915
+participant model.TravelRequestDatabase order 916
+controller.TravelRequestController ->model.TravelRequestDatabase: 34.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_3 order 917
+participant controller.TravelRequestController order 918
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 35.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 919
+participant model.TravelRequestDatabase order 920
+controller.TravelRequestController ->model.TravelRequestDatabase: 36.maxNumTravelRequest([])
+||20||
+actor User_3 order 921
+participant controller.TravelRequestController order 922
+note left of User_3 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_3 ->controller.TravelRequestController: 37.delete()
+||20||
+participant controller.TravelRequestController order 923
+participant model.TravelRequestDatabase order 924
+controller.TravelRequestController ->model.TravelRequestDatabase: 38.delete([23
+||20||
+actor User_3 order 925
+participant controller.TravelRequestController order 926
+note left of User_3 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_3 ->controller.TravelRequestController: 39.load()
+||20||
+participant controller.TravelRequestController order 927
+participant model.TravelRequestDatabase order 928
+controller.TravelRequestController ->model.TravelRequestDatabase: 40.load([hsmith, Admin])
+||20||
+actor User_3 order 929
+participant controller.TravelRequestController order 930
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 41.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 931
+participant model.TravelRequestDatabase order 932
+controller.TravelRequestController ->model.TravelRequestDatabase: 42.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_3 order 933
+participant controller.TravelRequestController order 934
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 43.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 935
+participant model.TravelRequestDatabase order 936
+controller.TravelRequestController ->model.TravelRequestDatabase: 44.maxNumTravelRequest([])
+||20||
+actor User_3 order 937
+participant controller.TravelRequestController order 938
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 45.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 939
+participant model.TravelRequestDatabase order 940
+controller.TravelRequestController ->model.TravelRequestDatabase: 46.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_3 order 941
+participant controller.TravelRequestController order 942
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 47.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 943
+participant model.TravelRequestDatabase order 944
+controller.TravelRequestController ->model.TravelRequestDatabase: 48.maxNumTravelRequest([])
+||20||
+actor User_3 order 945
+participant controller.TravelRequestController order 946
+note left of User_3 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_3 ->controller.TravelRequestController: 49.save()
+||20||
+participant controller.TravelRequestController order 947
+participant model.TravelRequestDatabase order 948
+controller.TravelRequestController ->model.TravelRequestDatabase: 50.save([331
+||20||
+actor User_3 order 949
+participant controller.TravelRequestController order 950
+note left of User_3 #lightskyblue 
+gui.TravelRequestFrame
+end note
+User_3 ->controller.TravelRequestController: 51.load()
+||20||
+participant controller.TravelRequestController order 951
+participant model.TravelRequestDatabase order 952
+controller.TravelRequestController ->model.TravelRequestDatabase: 52.load([hsmith, Admin])
+||20||
+actor User_3 order 953
+participant controller.TravelRequestController order 954
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 53.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 955
+participant model.TravelRequestDatabase order 956
+controller.TravelRequestController ->model.TravelRequestDatabase: 54.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_3 order 957
+participant controller.TravelRequestController order 958
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 55.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 959
+participant model.TravelRequestDatabase order 960
+controller.TravelRequestController ->model.TravelRequestDatabase: 56.maxNumTravelRequest([])
+||20||
+actor User_3 order 961
+participant controller.TravelRequestController order 962
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 57.loadFullNameEmployees()
+||20||
+participant controller.TravelRequestController order 963
+participant model.TravelRequestDatabase order 964
+controller.TravelRequestController ->model.TravelRequestDatabase: 58.loadFullNameEmployees([hsmith, Admin])
+||20||
+actor User_3 order 965
+participant controller.TravelRequestController order 966
+note left of User_3 #lightskyblue 
+gui.TravelRequestFormPanel
+end note
+User_3 ->controller.TravelRequestController: 59.maxNumTravelRequest()
+||20||
+participant controller.TravelRequestController order 967
+participant model.TravelRequestDatabase order 968
+controller.TravelRequestController ->model.TravelRequestDatabase: 60.maxNumTravelRequest([])
+||20||
+actor User_3 order 969
+participant controller.ModuleController order 970
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 61.saveModules()
+||20||
+participant controller.ModuleController order 971
+participant model.ModuleDatabase order 972
+controller.ModuleController ->model.ModuleDatabase: 62.saveModules([])
+||20||
+actor User_3 order 973
+participant controller.ModuleController order 974
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 63.getModules()
+||20||
+participant controller.ModuleController order 975
+participant model.ModuleDatabase order 976
+controller.ModuleController ->model.ModuleDatabase: 64.getModules([35
+||20||
+actor User_3 order 977
+participant controller.ModuleController order 978
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 65.getSubModules()
+||20||
+participant controller.ModuleController order 979
+participant model.ModuleDatabase order 980
+controller.ModuleController ->model.ModuleDatabase: 66.getSubModules([36
+||20||
+actor User_3 order 981
+participant controller.UserController order 982
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 67.loadFullNameEmployees()
+||20||
+participant controller.UserController order 983
+participant model.UserDatabase order 984
+controller.UserController ->model.UserDatabase: 68.loadFullNameEmployees([])
+||20||
+actor User_3 order 985
+participant controller.UserController order 986
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 69.load()
+||20||
+participant controller.UserController order 987
+participant model.UserDatabase order 988
+controller.UserController ->model.UserDatabase: 70.load([])
+||20||
+actor User_3 order 989
+participant controller.UserController order 990
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 71.loadFullNameEmployees()
+||20||
+participant controller.UserController order 991
+participant model.UserDatabase order 992
+controller.UserController ->model.UserDatabase: 72.loadFullNameEmployees([])
+||20||
+actor User_3 order 993
+participant controller.UserController order 994
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 73.loadFullNameEmployees()
+||20||
+participant controller.UserController order 995
+participant model.UserDatabase order 996
+controller.UserController ->model.UserDatabase: 74.loadFullNameEmployees([])
+||20||
+actor User_3 order 997
+participant controller.UserController order 998
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 75.loadFullNameEmployees()
+||20||
+participant controller.UserController order 999
+participant model.UserDatabase order 1000
+controller.UserController ->model.UserDatabase: 76.loadFullNameEmployees([])
+||20||
+actor User_3 order 1001
+participant controller.UserController order 1002
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 77.validateDeleteUser()
+||20||
+participant controller.UserController order 1003
+participant model.UserDatabase order 1004
+controller.UserController ->model.UserDatabase: 78.validateDeleteUser([15
+||20||
+actor User_3 order 1005
+participant controller.UserController order 1006
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 79.delete()
+||20||
+participant controller.UserController order 1007
+participant model.UserDatabase order 1008
+controller.UserController ->model.UserDatabase: 80.delete([15
+||20||
+actor User_3 order 1009
+participant controller.UserController order 1010
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 81.load()
+||20||
+participant controller.UserController order 1011
+participant model.UserDatabase order 1012
+controller.UserController ->model.UserDatabase: 82.load([])
+||20||
+actor User_3 order 1013
+participant controller.UserController order 1014
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 83.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1015
+participant model.UserDatabase order 1016
+controller.UserController ->model.UserDatabase: 84.loadFullNameEmployees([])
+||20||
+actor User_3 order 1017
+participant controller.UserController order 1018
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 85.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1019
+participant model.UserDatabase order 1020
+controller.UserController ->model.UserDatabase: 86.loadFullNameEmployees([])
+||20||
+actor User_3 order 1021
+participant controller.ModuleController order 1022
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 87.saveModules()
+||20||
+participant controller.ModuleController order 1023
+participant model.ModuleDatabase order 1024
+controller.ModuleController ->model.ModuleDatabase: 88.saveModules([])
+||20||
+actor User_3 order 1025
+participant controller.ModuleController order 1026
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 89.getModules()
+||20||
+participant controller.ModuleController order 1027
+participant model.ModuleDatabase order 1028
+controller.ModuleController ->model.ModuleDatabase: 90.getModules([37
+||20||
+actor User_3 order 1029
+participant controller.ModuleController order 1030
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 91.getSubModules()
+||20||
+participant controller.ModuleController order 1031
+participant model.ModuleDatabase order 1032
+controller.ModuleController ->model.ModuleDatabase: 92.getSubModules([38
+||20||
+actor User_3 order 1033
+participant controller.EmployeeController order 1034
+note left of User_3 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_3 ->controller.EmployeeController: 93.loadSupervisors()
+||20||
+participant controller.EmployeeController order 1035
+participant model.EmployeeDatabase order 1036
+controller.EmployeeController ->model.EmployeeDatabase: 94.loadSupervisors([])
+||20||
+actor User_3 order 1037
+participant controller.EmployeeController order 1038
+note left of User_3 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_3 ->controller.EmployeeController: 95.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 1039
+participant model.EmployeeDatabase order 1040
+controller.EmployeeController ->model.EmployeeDatabase: 96.maxNumEmployee([])
+||20||
+actor User_3 order 1041
+participant controller.EmployeeController order 1042
+note left of User_3 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_3 ->controller.EmployeeController: 97.load()
+||20||
+participant controller.EmployeeController order 1043
+participant model.EmployeeDatabase order 1044
+controller.EmployeeController ->model.EmployeeDatabase: 98.load([])
+||20||
+actor User_3 order 1045
+participant controller.EmployeeController order 1046
+note left of User_3 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_3 ->controller.EmployeeController: 99.loadSupervisors()
+||20||
+participant controller.EmployeeController order 1047
+participant model.EmployeeDatabase order 1048
+controller.EmployeeController ->model.EmployeeDatabase: 100.loadSupervisors([])
+||20||
+actor User_3 order 1049
+participant controller.EmployeeController order 1050
+note left of User_3 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_3 ->controller.EmployeeController: 101.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 1051
+participant model.EmployeeDatabase order 1052
+controller.EmployeeController ->model.EmployeeDatabase: 102.maxNumEmployee([])
+||20||
+actor User_3 order 1053
+participant controller.EmployeeController order 1054
+note left of User_3 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_3 ->controller.EmployeeController: 103.validateDeleteEmployee1()
+||20||
+participant controller.EmployeeController order 1055
+participant model.EmployeeDatabase order 1056
+controller.EmployeeController ->model.EmployeeDatabase: 104.validateDeleteEmployee1([36
+||20||
+actor User_3 order 1057
+participant controller.EmployeeController order 1058
+note left of User_3 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_3 ->controller.EmployeeController: 105.validateDeleteEmployee2()
+||20||
+participant controller.EmployeeController order 1059
+participant model.EmployeeDatabase order 1060
+controller.EmployeeController ->model.EmployeeDatabase: 106.validateDeleteEmployee2([36
+||20||
+actor User_3 order 1061
+participant controller.EmployeeController order 1062
+note left of User_3 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_3 ->controller.EmployeeController: 107.delete()
+||20||
+participant controller.EmployeeController order 1063
+participant model.EmployeeDatabase order 1064
+controller.EmployeeController ->model.EmployeeDatabase: 108.delete([36
+||20||
+actor User_3 order 1065
+participant controller.EmployeeController order 1066
+note left of User_3 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_3 ->controller.EmployeeController: 109.load()
+||20||
+participant controller.EmployeeController order 1067
+participant model.EmployeeDatabase order 1068
+controller.EmployeeController ->model.EmployeeDatabase: 110.load([])
+||20||
+actor User_3 order 1069
+participant controller.EmployeeController order 1070
+note left of User_3 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_3 ->controller.EmployeeController: 111.loadSupervisors()
+||20||
+participant controller.EmployeeController order 1071
+participant model.EmployeeDatabase order 1072
+controller.EmployeeController ->model.EmployeeDatabase: 112.loadSupervisors([])
+||20||
+actor User_3 order 1073
+participant controller.EmployeeController order 1074
+note left of User_3 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_3 ->controller.EmployeeController: 113.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 1075
+participant model.EmployeeDatabase order 1076
+controller.EmployeeController ->model.EmployeeDatabase: 114.maxNumEmployee([])
+||20||
+actor User_3 order 1077
+participant controller.EmployeeController order 1078
+note left of User_3 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_3 ->controller.EmployeeController: 115.loadSupervisors()
+||20||
+participant controller.EmployeeController order 1079
+participant model.EmployeeDatabase order 1080
+controller.EmployeeController ->model.EmployeeDatabase: 116.loadSupervisors([])
+||20||
+actor User_3 order 1081
+participant controller.EmployeeController order 1082
+note left of User_3 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_3 ->controller.EmployeeController: 117.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 1083
+participant model.EmployeeDatabase order 1084
+controller.EmployeeController ->model.EmployeeDatabase: 118.maxNumEmployee([])
+||20||
+actor User_3 order 1085
+participant controller.ModuleController order 1086
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 119.saveModules()
+||20||
+participant controller.ModuleController order 1087
+participant model.ModuleDatabase order 1088
+controller.ModuleController ->model.ModuleDatabase: 120.saveModules([])
+||20||
+actor User_3 order 1089
+participant controller.ModuleController order 1090
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 121.getModules()
+||20||
+participant controller.ModuleController order 1091
+participant model.ModuleDatabase order 1092
+controller.ModuleController ->model.ModuleDatabase: 122.getModules([39
+||20||
+actor User_3 order 1093
+participant controller.ModuleController order 1094
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 123.getSubModules()
+||20||
+participant controller.ModuleController order 1095
+participant model.ModuleDatabase order 1096
+controller.ModuleController ->model.ModuleDatabase: 124.getSubModules([40
+||20||
+actor User_3 order 1097
+participant controller.UserController order 1098
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 125.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1099
+participant model.UserDatabase order 1100
+controller.UserController ->model.UserDatabase: 126.loadFullNameEmployees([])
+||20||
+actor User_3 order 1101
+participant controller.UserController order 1102
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 127.load()
+||20||
+participant controller.UserController order 1103
+participant model.UserDatabase order 1104
+controller.UserController ->model.UserDatabase: 128.load([])
+||20||
+actor User_3 order 1105
+participant controller.UserController order 1106
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 129.validateEmployee()
+||20||
+participant controller.UserController order 1107
+participant model.UserDatabase order 1108
+controller.UserController ->model.UserDatabase: 130.validateEmployee([92
+||20||
+actor User_3 order 1109
+participant controller.UserController order 1110
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 131.validateUserName()
+||20||
+participant controller.UserController order 1111
+participant model.UserDatabase order 1112
+controller.UserController ->model.UserDatabase: 132.validateUserName([93
+||20||
+actor User_3 order 1113
+participant controller.UserController order 1114
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 133.validateEmail()
+||20||
+participant controller.UserController order 1115
+participant model.UserDatabase order 1116
+controller.UserController ->model.UserDatabase: 134.validateEmail([94
+||20||
+actor User_3 order 1117
+participant controller.UserController order 1118
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 135.save()
+||20||
+participant controller.UserController order 1119
+participant model.UserDatabase order 1120
+controller.UserController ->model.UserDatabase: 136.save([96
+||20||
+actor User_3 order 1121
+participant controller.UserController order 1122
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 137.load()
+||20||
+participant controller.UserController order 1123
+participant model.UserDatabase order 1124
+controller.UserController ->model.UserDatabase: 138.load([])
+||20||
+actor User_3 order 1125
+participant controller.UserController order 1126
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 139.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1127
+participant model.UserDatabase order 1128
+controller.UserController ->model.UserDatabase: 140.loadFullNameEmployees([])
+||20||
+actor User_3 order 1129
+participant controller.UserController order 1130
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 141.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1131
+participant model.UserDatabase order 1132
+controller.UserController ->model.UserDatabase: 142.loadFullNameEmployees([])
+||20||
+actor User_3 order 1133
+participant controller.UserController order 1134
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 143.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1135
+participant model.UserDatabase order 1136
+controller.UserController ->model.UserDatabase: 144.loadFullNameEmployees([])
+||20||
+actor User_3 order 1137
+participant controller.UserController order 1138
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 145.validateDeleteUser()
+||20||
+participant controller.UserController order 1139
+participant model.UserDatabase order 1140
+controller.UserController ->model.UserDatabase: 146.validateDeleteUser([113
+||20||
+actor User_3 order 1141
+participant controller.UserController order 1142
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 147.delete()
+||20||
+participant controller.UserController order 1143
+participant model.UserDatabase order 1144
+controller.UserController ->model.UserDatabase: 148.delete([113
+||20||
+actor User_3 order 1145
+participant controller.UserController order 1146
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 149.load()
+||20||
+participant controller.UserController order 1147
+participant model.UserDatabase order 1148
+controller.UserController ->model.UserDatabase: 150.load([])
+||20||
+actor User_3 order 1149
+participant controller.UserController order 1150
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 151.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1151
+participant model.UserDatabase order 1152
+controller.UserController ->model.UserDatabase: 152.loadFullNameEmployees([])
+||20||
+actor User_3 order 1153
+participant controller.UserController order 1154
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 153.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1155
+participant model.UserDatabase order 1156
+controller.UserController ->model.UserDatabase: 154.loadFullNameEmployees([])
+||20||
+actor User_3 order 1157
+participant controller.UserController order 1158
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 155.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1159
+participant model.UserDatabase order 1160
+controller.UserController ->model.UserDatabase: 156.loadFullNameEmployees([])
+||20||
+actor User_3 order 1161
+participant controller.UserController order 1162
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 157.validateEmployee()
+||20||
+participant controller.UserController order 1163
+participant model.UserDatabase order 1164
+controller.UserController ->model.UserDatabase: 158.validateEmployee([23
+||20||
+actor User_3 order 1165
+participant controller.UserController order 1166
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 159.validateUserName()
+||20||
+participant controller.UserController order 1167
+participant model.UserDatabase order 1168
+controller.UserController ->model.UserDatabase: 160.validateUserName([23
+||20||
+actor User_3 order 1169
+participant controller.UserController order 1170
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 161.validateEmail()
+||20||
+participant controller.UserController order 1171
+participant model.UserDatabase order 1172
+controller.UserController ->model.UserDatabase: 162.validateEmail([23
+||20||
+actor User_3 order 1173
+participant controller.UserController order 1174
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 163.save()
+||20||
+participant controller.UserController order 1175
+participant model.UserDatabase order 1176
+controller.UserController ->model.UserDatabase: 164.save([23
+||20||
+actor User_3 order 1177
+participant controller.UserController order 1178
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 165.load()
+||20||
+participant controller.UserController order 1179
+participant model.UserDatabase order 1180
+controller.UserController ->model.UserDatabase: 166.load([])
+||20||
+actor User_3 order 1181
+participant controller.UserController order 1182
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 167.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1183
+participant model.UserDatabase order 1184
+controller.UserController ->model.UserDatabase: 168.loadFullNameEmployees([])
+||20||
+actor User_3 order 1185
+participant controller.UserController order 1186
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 169.loadFullNameEmployees()
+||20||
+participant controller.UserController order 1187
+participant model.UserDatabase order 1188
+controller.UserController ->model.UserDatabase: 170.loadFullNameEmployees([])
+||20||
+@enduml

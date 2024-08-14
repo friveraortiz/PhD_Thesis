@@ -1,0 +1,12 @@
+      call(void org.isf.menu.gui.Login.acceptPwd(..))||
+      call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))||
+      call(List<org.isf.admission.model.AdmittedPatient> org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients(..))||
+      call(List<org.isf.ward.model.Ward> org.isf.ward.manager.WardBrowserManager.getWards(..))||
+      call(org.isf.admission.model.AdmittedPatient org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients(..))||
+      call(List<org.isf.medicals.model.Medical> org.isf.medicals.manager.MedicalBrowsingManager.getMedicals(..))||
+      call(List<org.isf.therapy.model.TherapyRow> org.isf.therapy.manager.TherapyManager.getTherapyRows(..))||
+      call(List<org.isf.visits.model.Visit> org.isf.visits.manager.VisitManager.getVisits(..))||
+      call(org.isf.therapy.model.TherapyRow org.isf.therapy.manager.TherapyManager.getTherapyRow(..))||
+      call(org.isf.therapy.model.Therapy org.isf.therapy.manager.TherapyManager.createTherapy(..))||
+      call(boolean org.isf.therapy.manager.TherapyManager.deleteAllTherapies(..))||
+      call(boolean org.isf.therapy.manager.TherapyManager.newTherapies(..));

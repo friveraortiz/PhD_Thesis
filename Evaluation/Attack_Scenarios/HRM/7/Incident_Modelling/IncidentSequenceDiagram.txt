@@ -1,0 +1,505 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the HRMApplication ==
+actor User_1 order 1
+participant controller.UserController order 2
+note left of User_1 #lightskyblue 
+gui.LoginFrame
+end note
+User_1 ->controller.UserController: 1.validateUser()
+||20||
+participant controller.UserController order 3
+participant model.UserDatabase order 4
+controller.UserController ->model.UserDatabase: 2.validateUser([0
+||20||
+actor User_1 order 5
+participant controller.UserController order 6
+note left of User_1 #lightskyblue 
+gui.LoginFrame
+end note
+User_1 ->controller.UserController: 3.getUserLevel()
+||20||
+participant controller.UserController order 7
+participant model.UserDatabase order 8
+controller.UserController ->model.UserDatabase: 4.getUserLevel([0
+||20||
+actor User_1 order 9
+participant controller.ModuleController order 10
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 5.saveModules()
+||20||
+participant controller.ModuleController order 11
+participant model.ModuleDatabase order 12
+controller.ModuleController ->model.ModuleDatabase: 6.saveModules([])
+||20||
+actor User_1 order 13
+participant controller.ModuleController order 14
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 7.getModules()
+||20||
+participant controller.ModuleController order 15
+participant model.ModuleDatabase order 16
+controller.ModuleController ->model.ModuleDatabase: 8.getModules([1
+||20||
+actor User_1 order 17
+participant controller.ModuleController order 18
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+User_1 ->controller.ModuleController: 9.getSubModules()
+||20||
+participant controller.ModuleController order 19
+participant model.ModuleDatabase order 20
+controller.ModuleController ->model.ModuleDatabase: 10.getSubModules([2
+||20||
+actor User_1 order 21
+participant controller.UserController order 22
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 11.loadFullNameEmployees()
+||20||
+participant controller.UserController order 23
+participant model.UserDatabase order 24
+controller.UserController ->model.UserDatabase: 12.loadFullNameEmployees([])
+||20||
+actor User_1 order 25
+participant controller.UserController order 26
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 13.load()
+||20||
+participant controller.UserController order 27
+participant model.UserDatabase order 28
+controller.UserController ->model.UserDatabase: 14.load([])
+||20||
+actor User_1 order 29
+participant controller.UserController order 30
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 15.validateEmployee()
+||20||
+participant controller.UserController order 31
+participant model.UserDatabase order 32
+controller.UserController ->model.UserDatabase: 16.validateEmployee([5
+||20||
+actor User_1 order 33
+participant controller.UserController order 34
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 17.validateUserName()
+||20||
+participant controller.UserController order 35
+participant model.UserDatabase order 36
+controller.UserController ->model.UserDatabase: 18.validateUserName([6
+||20||
+actor User_1 order 37
+participant controller.UserController order 38
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 19.validateEmail()
+||20||
+participant controller.UserController order 39
+participant model.UserDatabase order 40
+controller.UserController ->model.UserDatabase: 20.validateEmail([7
+||20||
+actor User_1 order 41
+participant controller.UserController order 42
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 21.save()
+||20||
+participant controller.UserController order 43
+participant model.UserDatabase order 44
+controller.UserController ->model.UserDatabase: 22.save([9
+||20||
+actor User_1 order 45
+participant controller.UserController order 46
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+User_1 ->controller.UserController: 23.load()
+||20||
+participant controller.UserController order 47
+participant model.UserDatabase order 48
+controller.UserController ->model.UserDatabase: 24.load([])
+||20||
+actor User_1 order 49
+participant controller.UserController order 50
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 25.loadFullNameEmployees()
+||20||
+participant controller.UserController order 51
+participant model.UserDatabase order 52
+controller.UserController ->model.UserDatabase: 26.loadFullNameEmployees([])
+||20||
+actor User_1 order 53
+participant controller.UserController order 54
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+User_1 ->controller.UserController: 27.loadFullNameEmployees()
+||20||
+participant controller.UserController order 55
+participant model.UserDatabase order 56
+controller.UserController ->model.UserDatabase: 28.loadFullNameEmployees([])
+||20||
+== Authenticates to the HRMApplication ==
+actor User_2 order 57
+participant controller.UserController order 58
+note left of User_2 #lightskyblue 
+gui.LoginFrame
+end note
+User_2 ->controller.UserController: 1.validateUser()
+||20||
+participant controller.UserController order 59
+participant model.UserDatabase order 60
+controller.UserController ->model.UserDatabase: 2.validateUser([0
+||20||
+actor User_2 order 61
+participant controller.UserController order 62
+note left of User_2 #lightskyblue 
+gui.LoginFrame
+end note
+User_2 ->controller.UserController: 3.getUserLevel()
+||20||
+participant controller.UserController order 63
+participant model.UserDatabase order 64
+controller.UserController ->model.UserDatabase: 4.getUserLevel([0
+||20||
+actor User_2 order 65
+participant controller.ModuleController order 66
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 5.saveModules()
+||20||
+participant controller.ModuleController order 67
+participant model.ModuleDatabase order 68
+controller.ModuleController ->model.ModuleDatabase: 6.saveModules([])
+||20||
+actor User_2 order 69
+participant controller.ModuleController order 70
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 7.getModules()
+||20||
+participant controller.ModuleController order 71
+participant model.ModuleDatabase order 72
+controller.ModuleController ->model.ModuleDatabase: 8.getModules([3
+||20||
+actor User_2 order 73
+participant controller.ModuleController order 74
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+User_2 ->controller.ModuleController: 9.getSubModules()
+||20||
+participant controller.ModuleController order 75
+participant model.ModuleDatabase order 76
+controller.ModuleController ->model.ModuleDatabase: 10.getSubModules([4
+||20||
+actor User_2 order 77
+participant controller.EmployeeController order 78
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 11.loadSupervisors()
+||20||
+participant controller.EmployeeController order 79
+participant model.EmployeeDatabase order 80
+controller.EmployeeController ->model.EmployeeDatabase: 12.loadSupervisors([])
+||20||
+actor User_2 order 81
+participant controller.EmployeeController order 82
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 13.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 83
+participant model.EmployeeDatabase order 84
+controller.EmployeeController ->model.EmployeeDatabase: 14.maxNumEmployee([])
+||20||
+actor User_2 order 85
+participant controller.EmployeeController order 86
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 15.load()
+||20||
+participant controller.EmployeeController order 87
+participant model.EmployeeDatabase order 88
+controller.EmployeeController ->model.EmployeeDatabase: 16.load([])
+||20||
+actor User_2 order 89
+participant controller.EmployeeController order 90
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 17.loadSupervisors()
+||20||
+participant controller.EmployeeController order 91
+participant model.EmployeeDatabase order 92
+controller.EmployeeController ->model.EmployeeDatabase: 18.loadSupervisors([])
+||20||
+actor User_2 order 93
+participant controller.EmployeeController order 94
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 19.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 95
+participant model.EmployeeDatabase order 96
+controller.EmployeeController ->model.EmployeeDatabase: 20.maxNumEmployee([])
+||20||
+actor User_2 order 97
+participant controller.EmployeeController order 98
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 21.validateFullName()
+||20||
+participant controller.EmployeeController order 99
+participant model.EmployeeDatabase order 100
+controller.EmployeeController ->model.EmployeeDatabase: 22.validateFullName([27
+||20||
+actor User_2 order 101
+participant controller.EmployeeController order 102
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 23.save()
+||20||
+participant controller.EmployeeController order 103
+participant model.EmployeeDatabase order 104
+controller.EmployeeController ->model.EmployeeDatabase: 24.save([27
+||20||
+actor User_2 order 105
+participant controller.EmployeeController order 106
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+User_2 ->controller.EmployeeController: 25.load()
+||20||
+participant controller.EmployeeController order 107
+participant model.EmployeeDatabase order 108
+controller.EmployeeController ->model.EmployeeDatabase: 26.load([])
+||20||
+actor User_2 order 109
+participant controller.EmployeeController order 110
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 27.loadSupervisors()
+||20||
+participant controller.EmployeeController order 111
+participant model.EmployeeDatabase order 112
+controller.EmployeeController ->model.EmployeeDatabase: 28.loadSupervisors([])
+||20||
+actor User_2 order 113
+participant controller.EmployeeController order 114
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 29.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 115
+participant model.EmployeeDatabase order 116
+controller.EmployeeController ->model.EmployeeDatabase: 30.maxNumEmployee([])
+||20||
+actor User_2 order 117
+participant controller.EmployeeController order 118
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 31.loadSupervisors()
+||20||
+participant controller.EmployeeController order 119
+participant model.EmployeeDatabase order 120
+controller.EmployeeController ->model.EmployeeDatabase: 32.loadSupervisors([])
+||20||
+actor User_2 order 121
+participant controller.EmployeeController order 122
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+User_2 ->controller.EmployeeController: 33.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 123
+participant model.EmployeeDatabase order 124
+controller.EmployeeController ->model.EmployeeDatabase: 34.maxNumEmployee([])
+||20||
+== Authenticates to the HRMApplication ==
+actor User_3 order 125
+participant controller.UserController order 126
+note left of User_3 #lightskyblue 
+gui.LoginFrame
+end note
+User_3 ->controller.UserController: 1.validateUser()
+||20||
+participant controller.UserController order 127
+participant model.UserDatabase order 128
+controller.UserController ->model.UserDatabase: 2.validateUser([0
+||20||
+actor User_3 order 129
+participant controller.UserController order 130
+note left of User_3 #lightskyblue 
+gui.LoginFrame
+end note
+User_3 ->controller.UserController: 3.getUserLevel()
+||20||
+participant controller.UserController order 131
+participant model.UserDatabase order 132
+controller.UserController ->model.UserDatabase: 4.getUserLevel([0
+||20||
+actor User_3 order 133
+participant controller.ModuleController order 134
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 5.saveModules()
+||20||
+participant controller.ModuleController order 135
+participant model.ModuleDatabase order 136
+controller.ModuleController ->model.ModuleDatabase: 6.saveModules([])
+||20||
+actor User_3 order 137
+participant controller.ModuleController order 138
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 7.getModules()
+||20||
+participant controller.ModuleController order 139
+participant model.ModuleDatabase order 140
+controller.ModuleController ->model.ModuleDatabase: 8.getModules([5
+||20||
+actor User_3 order 141
+participant controller.ModuleController order 142
+note left of User_3 #lightskyblue 
+gui.MainFrame
+end note
+User_3 ->controller.ModuleController: 9.getSubModules()
+||20||
+participant controller.ModuleController order 143
+participant model.ModuleDatabase order 144
+controller.ModuleController ->model.ModuleDatabase: 10.getSubModules([6
+||20||
+actor User_3 order 145
+participant controller.UserController order 146
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 11.loadFullNameEmployees()
+||20||
+participant controller.UserController order 147
+participant model.UserDatabase order 148
+controller.UserController ->model.UserDatabase: 12.loadFullNameEmployees([])
+||20||
+actor User_3 order 149
+participant controller.UserController order 150
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 13.load()
+||20||
+participant controller.UserController order 151
+participant model.UserDatabase order 152
+controller.UserController ->model.UserDatabase: 14.load([])
+||20||
+actor User_3 order 153
+participant controller.UserController order 154
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 15.loadFullNameEmployees()
+||20||
+participant controller.UserController order 155
+participant model.UserDatabase order 156
+controller.UserController ->model.UserDatabase: 16.loadFullNameEmployees([])
+||20||
+actor User_3 order 157
+participant controller.UserController order 158
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 17.validateDeleteUser()
+||20||
+participant controller.UserController order 159
+participant model.UserDatabase order 160
+controller.UserController ->model.UserDatabase: 18.validateDeleteUser([9
+||20||
+actor User_3 order 161
+participant controller.UserController order 162
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 19.delete()
+||20||
+participant controller.UserController order 163
+participant model.UserDatabase order 164
+controller.UserController ->model.UserDatabase: 20.delete([9
+||20||
+actor User_3 order 165
+participant controller.UserController order 166
+note left of User_3 #lightskyblue 
+gui.UserFrame
+end note
+User_3 ->controller.UserController: 21.load()
+||20||
+participant controller.UserController order 167
+participant model.UserDatabase order 168
+controller.UserController ->model.UserDatabase: 22.load([])
+||20||
+actor User_3 order 169
+participant controller.UserController order 170
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 23.loadFullNameEmployees()
+||20||
+participant controller.UserController order 171
+participant model.UserDatabase order 172
+controller.UserController ->model.UserDatabase: 24.loadFullNameEmployees([])
+||20||
+actor User_3 order 173
+participant controller.UserController order 174
+note left of User_3 #lightskyblue 
+gui.UserFormPanel
+end note
+User_3 ->controller.UserController: 25.loadFullNameEmployees()
+||20||
+participant controller.UserController order 175
+participant model.UserDatabase order 176
+controller.UserController ->model.UserDatabase: 26.loadFullNameEmployees([])
+||20||
+@enduml

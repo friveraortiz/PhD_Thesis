@@ -1,0 +1,678 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the OpenHospital ==
+actor User_1 order 1
+participant org.isf.menu.gui.Login order 2
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.Login
+end note
+User_1 ->org.isf.menu.gui.Login: 1.acceptPwd()
+||20||
+actor User_1 order 3
+participant org.isf.menu.manager.UserBrowsingManager order 4
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.MainMenu
+end note
+User_1 ->org.isf.menu.manager.UserBrowsingManager: 2.getMenu()
+||20||
+actor User_1 order 5
+participant org.isf.exa.manager.ExamBrowsingManager order 6
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+User_1 ->org.isf.exa.manager.ExamBrowsingManager: 3.getExams()
+||20||
+actor User_1 order 7
+participant org.isf.lab.manager.LabManager order 8
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+User_1 ->org.isf.lab.manager.LabManager: 4.getLaboratory()
+||20||
+actor User_1 order 9
+participant org.isf.lab.manager.LabManager order 10
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 5.getMaterialList()
+||20||
+actor User_1 order 11
+participant org.isf.exa.manager.ExamBrowsingManager order 12
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.exa.manager.ExamBrowsingManager: 6.getExams()
+||20||
+actor User_1 order 13
+participant org.isf.patient.manager.PatientBrowserManager order 14
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 7.getPatientsByOneOfFieldsLike()
+||20||
+actor User_1 order 15
+participant org.isf.patient.manager.PatientBrowserManager order 16
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 8.getPatientById()
+||20||
+participant org.isf.patient.gui.PatientSummary order 17
+participant org.isf.patient.manager.PatientBrowserManager order 18
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 9.getMaritalTranslated([married])
+||20||
+participant org.isf.patient.gui.PatientSummary order 19
+participant org.isf.patient.manager.PatientBrowserManager order 20
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 10.getProfessionTranslated([foodhospitality])
+||20||
+actor User_1 order 21
+participant org.isf.patient.manager.PatientBrowserManager order 22
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 11.getPatientById()
+||20||
+participant org.isf.patient.gui.PatientSummary order 23
+participant org.isf.patient.manager.PatientBrowserManager order 24
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 12.getMaritalTranslated([single])
+||20||
+participant org.isf.patient.gui.PatientSummary order 25
+participant org.isf.patient.manager.PatientBrowserManager order 26
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 13.getProfessionTranslated([foodhospitality])
+||20||
+actor User_1 order 27
+participant org.isf.admission.manager.AdmissionBrowserManager order 28
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 14.getCurrentAdmission()
+||20||
+actor User_1 order 29
+participant org.isf.lab.manager.LabManager order 30
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 15.getMaterialKey()
+||20||
+actor User_1 order 31
+participant org.isf.lab.manager.LabManager order 32
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 16.getMaterialTranslated()
+||20||
+actor User_1 order 33
+participant org.isf.lab.manager.LabManager order 34
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 17.getMaterialKey()
+||20||
+actor User_1 order 35
+participant org.isf.exa.manager.ExamRowBrowsingManager order 36
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.exa.manager.ExamRowBrowsingManager: 18.getExamRowByExamCode()
+||20||
+actor User_1 order 37
+participant org.isf.lab.manager.LabManager order 38
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 19.getMaterialKey()
+||20||
+actor User_1 order 39
+participant org.isf.lab.manager.LabManager order 40
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabNew
+end note
+User_1 ->org.isf.lab.manager.LabManager: 20.newLaboratory2()
+||20||
+actor User_1 order 41
+participant org.isf.lab.manager.LabManager order 42
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+User_1 ->org.isf.lab.manager.LabManager: 21.getLaboratory()
+||20||
+actor User_1 order 43
+participant org.isf.patient.manager.PatientBrowserManager order 44
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 22.getCurrentUser()
+||20||
+actor User_1 order 45
+participant org.isf.hospital.manager.HospitalBrowsingManager order 46
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.hospital.manager.HospitalBrowsingManager: 23.getHospitalCurrencyCod()
+||20||
+actor User_1 order 47
+participant org.isf.accounting.manager.BillBrowserManager order 48
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 24.getUsers()
+||20||
+actor User_1 order 49
+participant org.isf.accounting.manager.BillBrowserManager order 50
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 25.getBills()
+||20||
+actor User_1 order 51
+participant org.isf.accounting.manager.BillBrowserManager order 52
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 26.getPayments()
+||20||
+actor User_1 order 53
+participant org.isf.accounting.manager.BillBrowserManager order 54
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 27.getBills()
+||20||
+actor User_1 order 55
+participant org.isf.hospital.manager.HospitalBrowsingManager order 56
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.hospital.manager.HospitalBrowsingManager: 28.getCurrentUser()
+||20||
+actor User_1 order 57
+participant org.isf.hospital.manager.HospitalBrowsingManager order 58
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.hospital.manager.HospitalBrowsingManager: 29.getCurrentUser()
+||20||
+actor User_1 order 59
+participant org.isf.hospital.manager.HospitalBrowsingManager order 60
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.hospital.manager.HospitalBrowsingManager: 30.getHospitalCurrencyCod()
+||20||
+actor User_1 order 61
+participant org.isf.priceslist.manager.PriceListManager order 62
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.priceslist.manager.PriceListManager: 31.getPrices()
+||20||
+actor User_1 order 63
+participant org.isf.pricesothers.manager.PricesOthersManager order 64
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.pricesothers.manager.PricesOthersManager: 32.getOthers()
+||20||
+actor User_1 order 65
+participant org.isf.accounting.manager.BillBrowserManager order 66
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 33.getItems()
+||20||
+actor User_1 order 67
+participant org.isf.accounting.manager.BillBrowserManager order 68
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 34.getPayments()
+||20||
+actor User_1 order 69
+participant org.isf.pricesothers.manager.PricesOthersManager order 70
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.pricesothers.manager.PricesOthersManager: 35.getOthers()
+||20||
+actor User_1 order 71
+participant org.isf.accounting.manager.BillBrowserManager order 72
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 36.getBill()
+||20||
+actor User_1 order 73
+participant org.isf.patient.manager.PatientBrowserManager order 74
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 37.getPatientsByOneOfFieldsLike()
+||20||
+actor User_1 order 75
+participant org.isf.patient.manager.PatientBrowserManager order 76
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 38.getPatientById()
+||20||
+participant org.isf.patient.gui.PatientSummary order 77
+participant org.isf.patient.manager.PatientBrowserManager order 78
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 39.getMaritalTranslated([single])
+||20||
+participant org.isf.patient.gui.PatientSummary order 79
+participant org.isf.patient.manager.PatientBrowserManager order 80
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 40.getProfessionTranslated([engineering])
+||20||
+actor User_1 order 81
+participant org.isf.accounting.manager.BillBrowserManager order 82
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 41.getPendingBills()
+||20||
+actor User_1 order 83
+participant org.isf.accounting.manager.BillBrowserManager order 84
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.PatientBillEdit
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 42.newBill()
+||20||
+actor User_1 order 85
+participant org.isf.accounting.manager.BillBrowserManager order 86
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 43.getBills()
+||20||
+actor User_1 order 87
+participant org.isf.accounting.manager.BillBrowserManager order 88
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 44.getPayments()
+||20||
+actor User_1 order 89
+participant org.isf.accounting.manager.BillBrowserManager order 90
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.accounting.manager.BillBrowserManager: 45.getBills()
+||20||
+actor User_1 order 91
+participant org.isf.patient.manager.PatientBrowserManager order 92
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 46.getCurrentUser()
+||20||
+actor User_1 order 93
+participant org.isf.patient.manager.PatientBrowserManager order 94
+note left of User_1 #lightskyblue 
+org.isf.accounting.gui.BillBrowser
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 47.getCurrentUser()
+||20||
+actor User_1 order 95
+participant org.isf.ward.manager.WardBrowserManager order 96
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.VisitView
+end note
+User_1 ->org.isf.ward.manager.WardBrowserManager: 48.getWards()
+||20||
+actor User_1 order 97
+participant org.isf.visits.manager.VisitManager order 98
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.VisitView
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 49.getVisitsWard()
+||20||
+actor User_1 order 99
+participant org.isf.ward.manager.WardBrowserManager order 100
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.InsertVisit
+end note
+User_1 ->org.isf.ward.manager.WardBrowserManager: 50.getWards()
+||20||
+participant org.isf.utils.jobjects.GoodDateTimeVisitChooser order 101
+participant org.isf.hospital.manager.HospitalBrowsingManager order 102
+org.isf.utils.jobjects.GoodDateTimeVisitChooser ->org.isf.hospital.manager.HospitalBrowsingManager: 51.getHospital([])
+||20||
+actor User_1 order 103
+participant org.isf.patient.manager.PatientBrowserManager order 104
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 52.getPatientsByOneOfFieldsLike()
+||20||
+actor User_1 order 105
+participant org.isf.patient.manager.PatientBrowserManager order 106
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.SelectPatient
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 53.getPatientById()
+||20||
+participant org.isf.patient.gui.PatientSummary order 107
+participant org.isf.patient.manager.PatientBrowserManager order 108
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 54.getMaritalTranslated([single])
+||20||
+participant org.isf.patient.gui.PatientSummary order 109
+participant org.isf.patient.manager.PatientBrowserManager order 110
+org.isf.patient.gui.PatientSummary ->org.isf.patient.manager.PatientBrowserManager: 55.getProfessionTranslated([engineering])
+||20||
+actor User_1 order 111
+participant org.isf.visits.manager.VisitManager order 112
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.InsertVisit
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 56.newVisit()
+||20||
+actor User_1 order 113
+participant org.isf.visits.manager.VisitManager order 114
+note left of User_1 #lightskyblue 
+org.isf.visits.gui.VisitView
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 57.getVisitsWard()
+||20||
+actor User_1 order 115
+participant org.isf.admission.manager.AdmissionBrowserManager order 116
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 58.getAdmittedPatients()
+||20||
+actor User_1 order 117
+participant org.isf.ward.manager.WardBrowserManager order 118
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.ward.manager.WardBrowserManager: 59.getWards()
+||20||
+actor User_1 order 119
+participant org.isf.admission.manager.AdmissionBrowserManager order 120
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 60.loadAdmittedPatients()
+||20||
+actor User_1 order 121
+participant org.isf.patient.manager.PatientBrowserManager order 122
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 61.getMaritalList()
+||20||
+actor User_1 order 123
+participant org.isf.patient.manager.PatientBrowserManager order 124
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 62.getMaritalTranslated()
+||20||
+actor User_1 order 125
+participant org.isf.patient.manager.PatientBrowserManager order 126
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 63.getProfessionList()
+||20||
+actor User_1 order 127
+participant org.isf.patient.manager.PatientBrowserManager order 128
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 64.getProfessionTranslated()
+||20||
+actor User_1 order 129
+participant org.isf.patient.manager.PatientBrowserManager order 130
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 65.getMaritalKey()
+||20||
+actor User_1 order 131
+participant org.isf.patient.manager.PatientBrowserManager order 132
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 66.getProfessionKey()
+||20||
+actor User_1 order 133
+participant org.isf.patient.manager.PatientBrowserManager order 134
+note left of User_1 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 67.savePatient()
+||20||
+actor User_1 order 135
+participant org.isf.admission.manager.AdmissionBrowserManager order 136
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 68.getAdmittedPatients()
+||20||
+actor User_1 order 137
+participant org.isf.ward.manager.WardBrowserManager order 138
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.ward.manager.WardBrowserManager: 69.getWards()
+||20||
+actor User_1 order 139
+participant org.isf.admission.manager.AdmissionBrowserManager order 140
+note left of User_1 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+User_1 ->org.isf.admission.manager.AdmissionBrowserManager: 70.loadAdmittedPatients()
+||20||
+actor User_1 order 141
+participant org.isf.medicals.manager.MedicalBrowsingManager order 142
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.medicals.manager.MedicalBrowsingManager: 71.getMedicals()
+||20||
+actor User_1 order 143
+participant org.isf.therapy.manager.TherapyManager order 144
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 72.getTherapyRows()
+||20||
+actor User_1 order 145
+participant org.isf.visits.manager.VisitManager order 146
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 73.getVisits()
+||20||
+actor User_1 order 147
+participant org.isf.medicals.manager.MedicalBrowsingManager order 148
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEntryForm
+end note
+User_1 ->org.isf.medicals.manager.MedicalBrowsingManager: 74.getMedicals()
+||20||
+actor User_1 order 149
+participant org.isf.therapy.manager.TherapyManager order 150
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEntryForm
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 75.getTherapyRow()
+||20||
+actor User_1 order 151
+participant org.isf.therapy.manager.TherapyManager order 152
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 76.createTherapy()
+||20||
+actor User_1 order 153
+participant org.isf.therapy.manager.TherapyManager order 154
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 77.deleteAllTherapies()
+||20||
+actor User_1 order 155
+participant org.isf.therapy.manager.TherapyManager order 156
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 78.newTherapies()
+||20||
+actor User_1 order 157
+participant org.isf.therapy.manager.TherapyManager order 158
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.therapy.manager.TherapyManager: 79.getTherapyRows()
+||20||
+actor User_1 order 159
+participant org.isf.visits.manager.VisitManager order 160
+note left of User_1 #lightskyblue 
+org.isf.therapy.gui.TherapyEdit
+end note
+User_1 ->org.isf.visits.manager.VisitManager: 80.getVisits()
+||20||
+actor User_1 order 161
+participant org.isf.vactype.manager.VaccineTypeBrowserManager order 162
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacBrowser
+end note
+User_1 ->org.isf.vactype.manager.VaccineTypeBrowserManager: 81.getVaccineType()
+||20||
+actor User_1 order 163
+participant org.isf.vaccine.manager.VaccineBrowserManager order 164
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacBrowser
+end note
+User_1 ->org.isf.vaccine.manager.VaccineBrowserManager: 82.getVaccine()
+||20||
+actor User_1 order 165
+participant org.isf.patvac.manager.PatVacManager order 166
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacBrowser
+end note
+User_1 ->org.isf.patvac.manager.PatVacManager: 83.getPatientVaccine()
+||20||
+actor User_1 order 167
+participant org.isf.patvac.manager.PatVacManager order 168
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacEdit
+end note
+User_1 ->org.isf.patvac.manager.PatVacManager: 84.getProgYear()
+||20||
+actor User_1 order 169
+participant org.isf.patient.manager.PatientBrowserManager order 170
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacEdit
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 85.getPatient()
+||20||
+actor User_1 order 171
+participant org.isf.vactype.manager.VaccineTypeBrowserManager order 172
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacEdit
+end note
+User_1 ->org.isf.vactype.manager.VaccineTypeBrowserManager: 86.getVaccineType()
+||20||
+actor User_1 order 173
+participant org.isf.vaccine.manager.VaccineBrowserManager order 174
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacEdit
+end note
+User_1 ->org.isf.vaccine.manager.VaccineBrowserManager: 87.getVaccine()
+||20||
+actor User_1 order 175
+participant org.isf.patvac.manager.PatVacManager order 176
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacEdit
+end note
+User_1 ->org.isf.patvac.manager.PatVacManager: 88.newPatientVaccine()
+||20||
+actor User_1 order 177
+participant org.isf.patvac.manager.PatVacManager order 178
+note left of User_1 #lightskyblue 
+org.isf.patvac.gui.PatVacBrowser
+end note
+User_1 ->org.isf.patvac.manager.PatVacManager: 89.deletePatientVaccine()
+||20||
+actor User_1 order 179
+participant org.isf.exa.manager.ExamBrowsingManager order 180
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+User_1 ->org.isf.exa.manager.ExamBrowsingManager: 90.getExams()
+||20||
+actor User_1 order 181
+participant org.isf.lab.manager.LabManager order 182
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+User_1 ->org.isf.lab.manager.LabManager: 91.getLaboratory()
+||20||
+actor User_1 order 183
+participant org.isf.lab.manager.LabManager order 184
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabEditExtended
+end note
+User_1 ->org.isf.lab.manager.LabManager: 92.getMaterialList()
+||20||
+actor User_1 order 185
+participant org.isf.exa.manager.ExamBrowsingManager order 186
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabEditExtended
+end note
+User_1 ->org.isf.exa.manager.ExamBrowsingManager: 93.getExams()
+||20||
+actor User_1 order 187
+participant org.isf.patient.manager.PatientBrowserManager order 188
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabEditExtended
+end note
+User_1 ->org.isf.patient.manager.PatientBrowserManager: 94.getPatientAll()
+||20||
+actor User_1 order 189
+participant org.isf.exa.manager.ExamRowBrowsingManager order 190
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabEditExtended
+end note
+User_1 ->org.isf.exa.manager.ExamRowBrowsingManager: 95.getExamRowByExamCode()
+||20||
+actor User_1 order 191
+participant org.isf.lab.manager.LabManager order 192
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabEditExtended
+end note
+User_1 ->org.isf.lab.manager.LabManager: 96.getMaterialKey()
+||20||
+actor User_1 order 193
+participant org.isf.lab.manager.LabManager order 194
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabEditExtended
+end note
+User_1 ->org.isf.lab.manager.LabManager: 97.updateLaboratory()
+||20||
+actor User_1 order 195
+participant org.isf.lab.manager.LabManager order 196
+note left of User_1 #lightskyblue 
+org.isf.lab.gui.LabBrowser
+end note
+User_1 ->org.isf.lab.manager.LabManager: 98.getLaboratory()
+||20||
+@enduml

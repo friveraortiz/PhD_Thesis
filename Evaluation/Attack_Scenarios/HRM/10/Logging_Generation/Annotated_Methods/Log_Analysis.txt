@@ -1,0 +1,15 @@
+Methods:
+1.- call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 1 Ocurrence
+2.- call(void controller.TravelRequestController.delete(..))|| => 3 Ocurrences
+3.- call(void model.TravelRequestDatabase.delete(..)); => 2 Ocurrences
+
+Annotations:
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Manager,UserLevel,=,Manager;
+Method,2,controller.TravelRequestController.delete,controller.TravelRequestController,delete,Method = controller.TravelRequestController.delete,Method,=,controller.TravelRequestController.delete;
+Parameter,3,model.TravelRequestDatabase.delete,model.TravelRequestDatabase,delete,model.TravelRequest.travelRequest.status != Pending,status,!=,Pending;
+
+1.- The model.UserDatabase.getUserLevel method is included in the security log 1 times. This time corresponds when during the attack scenario the external attacker misused the credentials of a Manager and connected to the HRM software system.
+
+2.- The controller.TravelRequestController.delete method is included in the security log 3 times. These times corresponds when during the attack scenario a Travel Request was deleted either with status Approved, Rejected or Pending. This is correct because we included this method to be in the log to know the detais of the Travel Request such as number, employee, total funding whenever was removed.
+
+3.- The model.TravelRequestDatabase.delete method is included in the security log 2 times. These times corresponds when during the attack scenario a Travel Request was deleted either with status Approved or Rejected. These are the moments when the Security Incident happened and we recorded the evidence.

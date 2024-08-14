@@ -1,0 +1,69 @@
+Message FRL: Welcome to the Forensic-Ready Logger ...
+Message FRL: The UML Sequence Diagram FILES were CREATED in =>: 7 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUser() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUser([0: ajones null null]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUserLevel() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUserLevel([0: ajones null null]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: saveModules([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getModules([1:   Manager]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getSubModules([2:   Manager]) was CREATED in =>: 1 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([ajones, Manager]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([ajones, Manager]) was CREATED in =>: 1 milliseconds.
+Loading Travel Requests ... 
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([ajones, Manager]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 0 milliseconds.
+Deleting a Travel Request from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: delete() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: delete([30: T000000266 Henry Smith Approved]) was CREATED in =>: 1 milliseconds.
+Deleting a Travel Request with ID: 30
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([ajones, Manager]) was CREATED in =>: 0 milliseconds.
+Loading Travel Requests ... 
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([ajones, Manager]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 1 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([ajones, Manager]) was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([ajones, Manager]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 1 milliseconds.
+Deleting a Travel Request from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: delete() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: delete([235: T000000298 Henry Smith Rejected]) was CREATED in =>: 2 milliseconds.
+Deleting a Travel Request with ID: 235
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: load([ajones, Manager]) was CREATED in =>: 0 milliseconds.
+Loading Travel Requests ... 
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([ajones, Manager]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 0 milliseconds.
+Loading the current Employees from the HRM Database ...
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadFullNameEmployees([ajones, Manager]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: maxNumTravelRequest([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram FILES were FINISHED in =>: 1746 milliseconds
+Message FRL: UML Sequence Diagram Text File created  : /Users/f7/eclipse-workspace/Directories/Output/IncidentSequenceDiagram.txt
+Message FRL: UML Sequence Diagram Image File created : /Users/f7/eclipse-workspace/Directories/Output/IncidentSequenceDiagram.png
+Message FRL: Good Bye to the Forensic-Ready Logger.

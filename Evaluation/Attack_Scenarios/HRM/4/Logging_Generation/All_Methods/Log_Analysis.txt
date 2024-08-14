@@ -1,0 +1,68 @@
+Methods:
+
+1.- call(boolean controller.UserController.validateUser(..))|| => 1 Occurrences
+      call(boolean model.UserDatabase.validateUser(..))|| => 1 Occurrences
+      call(model.UserLevel controller.UserController.getUserLevel(..))|| => 1 Occurrences
+      call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 1 Occurrences
+
+2.- call(void controller.ModuleController.saveModules(..))|| => 9 Occurrences
+    call(void model.ModuleDatabase.saveModules(..))|| => 9 Occurrences
+    call(java.lang.String[] controller.ModuleController.getModules(..))|| => 9 Occurrences
+    call(java.lang.String[] model.ModuleDatabase.getModules(..))|| => 9 Occurrences
+    call(java.lang.String[][] controller.ModuleController.getSubModules(..))|| => 9 Occurrences
+    call(java.lang.String[][] model.ModuleDatabase.getSubModules(..))|| => 9 Occurrences
+
+3.- call(ArrayList<model.Employee> controller.EmployeeController.loadSupervisors(..))|| => 12 Occurrences
+    call(ArrayList<model.Employee> model.EmployeeDatabase.loadSupervisors(..))||  => 12 Occurrences
+    call(int controller.EmployeeController.maxNumEmployee(..))||  => 12 Occurrences
+    call(int model.EmployeeDatabase.maxNumEmployee(..))||  => 12 Occurrences
+
+4.- call(void controller.EmployeeController.load(..))|| => 6 Occurrences
+    call(void model.EmployeeDatabase.load(..))|| => 6 Occurrences
+
+5.-  call(boolean controller.EmployeeController.validateFullName(..))|| => 2 Occurrences
+     call(boolean model.EmployeeDatabase.validateFullName(..))|| => 2 Occurrences
+
+6.- call(void controller.EmployeeController.save(..))|| => 2 Occurrences
+      call(void model.EmployeeDatabase.save(..)); => 2 Occurrences
+
+
+Annotations:
+Method,1,controller.UserController.validateUser,controller.UserController,validateUser,Method = controller.UserController.validateUser,Method,=,controller.UserController.validateUser;
+Method,2,model.UserDatabase.validateUser,model.UserDatabase,validateUser,Method = model.UserDatabase.validateUser,Method,=,model.UserDatabase.validateUser;
+Method,3,controller.UserController.getUserLevel,controller.UserController,getUserLevel,Method = controller.UserController.getUserLevel,Method,=,controller.UserController.getUserLevel;
+Method,4,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,Method = model.UserDatabase.getUserLevel,Method,=,model.UserDatabase.getUserLevel;
+Method,5,controller.ModuleController.saveModules,controller.ModuleController,saveModules,Method = controller.ModuleController.saveModules,Method,=,controller.ModuleController.saveModules;
+Method,6,model.ModuleDatabase.saveModules,model.ModuleDatabase,saveModules,Method = model.ModuleDatabase.saveModules,Method,=,model.ModuleDatabase.saveModules;
+Method,7,controller.ModuleController.getModules,controller.ModuleController,getModules,Method = controller.ModuleController.getModules,Method,=,controller.ModuleController.getModules;
+Method,8,model.ModuleDatabase.getModules,model.ModuleDatabase,getModules,Method = model.ModuleDatabase.getModules,Method,=,model.ModuleDatabase.getModules;
+Method,9,controller.ModuleController.getSubModules,controller.ModuleController,getSubModules,Method = controller.ModuleController.getSubModules,Method,=,controller.ModuleController.getSubModules;
+Method,10,model.ModuleDatabase.getSubModules,model.ModuleDatabase,getSubModules,Method = model.ModuleDatabase.getSubModules,Method,=,model.ModuleDatabase.getSubModules;
+Method,11,controller.EmployeeController.loadSupervisors,controller.EmployeeController,loadSupervisors,Method = controller.EmployeeController.loadSupervisors,Method,=,controller.EmployeeController.loadSupervisors;
+Method,12,model.EmployeeDatabase.loadSupervisors,model.EmployeeDatabase,loadSupervisors,Method = model.EmployeeDatabase.loadSupervisors,Method,=,model.EmployeeDatabase.loadSupervisors;
+Method,13,controller.EmployeeController.maxNumEmployee,controller.EmployeeController,maxNumEmployee,Method = controller.EmployeeController.maxNumEmployee,Method,=,controller.EmployeeController.maxNumEmployee;
+Method,14,model.EmployeeDatabase.maxNumEmployee,model.EmployeeDatabase,maxNumEmployee,Method = model.EmployeeDatabase.maxNumEmployee,Method,=,model.EmployeeDatabase.maxNumEmployee;
+Method,15,controller.EmployeeController.load,controller.EmployeeController,load,Method = controller.EmployeeController.load,Method,=,controller.EmployeeController.load;
+Method,16,model.EmployeeDatabase.load,model.EmployeeDatabase,load,Method = model.EmployeeDatabase.load,Method,=,model.EmployeeDatabase.load;
+Method,17,controller.EmployeeController.validateFullName,controller.EmployeeController,validateFullName,Method = controller.EmployeeController.validateFullName,Method,=,controller.EmployeeController.validateFullName;
+Method,18,model.EmployeeDatabase.validateFullName,model.EmployeeDatabase,validateFullName,Method = model.EmployeeDatabase.validateFullName,Method,=,model.EmployeeDatabase.validateFullName;
+Method,19,controller.EmployeeController.save,controller.EmployeeController,save,Method = controller.EmployeeController.save,Method,=,controller.EmployeeController.save;
+Method,20,model.EmployeeDatabase.save,model.EmployeeDatabase,save,Method = model.EmployeeDatabase.save,Method,=,model.EmployeeDatabase.save;
+
+
+1.- The controller.UserController.validateUser and model.UserDatabase.validateUser methods are included in the security log 1 time. 
+This time corresponds when during the attack scenario the System Administrator connected to the HRM software system. 
+The controller.UserController.getUserLevel and model.UserDatabase.getUserLevel are included in the security log 1 time.
+This time corresponds when during the attack scenario Henry with an the Admin role connected to the HRM software system. 
+
+2.- The controller.ModuleController.saveModules, model.ModuleDatabase.saveModules, controller.ModuleController.getModules, model.ModuleDatabase.getModules, controller.ModuleController.getSubModules, model.ModuleDatabase.getSubModules are included in the security log 9 times. These times corresponds, when the System Administrator accessed to the main screen in the HRM called: “Human Resources Management System Menu”. In this moment, the HRM software system generated the modules and submodules that a User in the HRM could accessed were generated and displayed.
+
+3.- The controller.EmployeeController.loadSupervisors, model.EmployeeDatabase.loadSupervisors, controller.EmployeeController.maxNumEmployee and model.EmployeeDatabase.maxNumEmployee are included in the security log 12 times.
+These times corresponds when the HRM software system consulted the information of the Supervisors to display them in the Employees Main Menu HRM.
+
+4.- The controller.EmployeeController.load and model.EmployeeDatabase.load are included in the security log 6 times. 
+These times corresponds when the HRM software system generated the Employees Main Menu HRM and it was displayed the list of the current Employees in the HRM software system.
+
+5.- The controller.EmployeeController.validateFullName and model.EmployeeDatabase.validateFullName methods are included in the security log 2 times. These times corresponds when during the attack scenario, the System Administrator created a new Employee and these methods validated if this Employee with his full Name were already presented in the HRM software system.
+
+6.- The controller.EmployeeController.save and model.EmployeeDatabase.save  methods are included in the security log 2 times. These times corresponds when during the attack scenario An employee with a job department equal to Computer Science was created or when an employee with a job deparment equal to News and media was created.

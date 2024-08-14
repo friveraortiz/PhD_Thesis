@@ -1,0 +1,56 @@
+Message FRL: Welcome to the Forensic-Ready Logger ...
+Message FRL: The UML Sequence Diagram FILES were CREATED in =>: 10 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUser() was CREATED in =>: 3 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUser([0: hsmith null null]) was CREATED in =>: 1 milliseconds.
+Message FRL: The Security Log for the HEADER: model.UserDatabase.validateUser was CREATED in =>: 11 milliseconds
+Message FRL: The Security Log for the DETAIL: user was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: serialVersionUID was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: -542727119035768593 was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: count was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: 1 was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: id was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: hsmith was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: password was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: "OR 1=1" was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the HEADER: controller.UserController.validateUser was CREATED in =>: 2 milliseconds
+Message FRL: The Security Log for the DETAIL: ev was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: id was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: hsmith was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: password was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: "OR 1=1" was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUser() was CREATED in =>: 5 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: validateUser([0: hsmith null null]) was CREATED in =>: 1 milliseconds.
+Message FRL: The Security Log for the HEADER: model.UserDatabase.validateUser was CREATED in =>: 3 milliseconds
+Message FRL: The Security Log for the DETAIL: user was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: serialVersionUID was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: -542727119035768593 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: count was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: 1 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: id was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: hsmith was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: password was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: "UNION SELECT user_id, username, password FROM users" was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the HEADER: controller.UserController.validateUser was CREATED in =>: 6 milliseconds
+Message FRL: The Security Log for the DETAIL: ev was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: id was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the VALUE: hsmith was CREATED in =>: 0 milliseconds
+Message FRL: The Security Log for the DETAIL: password was CREATED in =>: 1 milliseconds
+Message FRL: The Security Log for the VALUE: "UNION SELECT user_id, username, password FROM users" was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram FILES were FINISHED in =>: 561 milliseconds
+Message FRL: UML Sequence Diagram Text File created  : /Users/f7/eclipse-workspace/Directories/Output/IncidentSequenceDiagram.txt
+Message FRL: UML Sequence Diagram Image File created : /Users/f7/eclipse-workspace/Directories/Output/IncidentSequenceDiagram.png
+Message FRL: Good Bye to the Forensic-Ready Logger.

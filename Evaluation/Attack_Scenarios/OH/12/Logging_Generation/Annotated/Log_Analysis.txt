@@ -1,0 +1,11 @@
+Methods:
+1.- call(void org.isf.menu.gui.Login.acceptPwd(..)); => 2 Occurrences
+
+
+Annotations:
+Method,1,org.isf.menu.gui.Login.acceptPwd,org.isf.menu.gui.Login,acceptPwd,Method = org.isf.menu.gui.Login.acceptPwd,Method,=,org.isf.menu.gui.Login.acceptPwd;
+
+
+
+1.- The org.isf.menu.gui.Login.acceptPwd method is included in the security log 2 times. 
+These times corresponds when during the attack scenario: An external attacker misused the credentials of a System Administrator attempt to connect to the OH software system using SQL queries and tried to connect using a SQL Inject attack and he failed. This is the moment when the security incident happened.

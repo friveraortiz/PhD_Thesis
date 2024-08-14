@@ -1,0 +1,10 @@
+Methods:
+1.- call(boolean controller.UserController.validateUser(..))|| => 2 occurences
+    call(boolean model.UserDatabase.validateUser(..)); => 2 occurences
+
+Annotations:
+Method,1,controller.UserController.validateUser,controller.UserController,validateUser,Method = controller.UserController.validateUser,Method,=,controller.UserController.validateUser;
+Method,2,model.UserDatabase.validateUser,model.UserDatabase,validateUser,Method = model.UserDatabase.validateUser,Method,=,model.UserDatabase.validateUser;
+
+
+1.- The controller.UserController.validateUser and boolean model.UserDatabase.validateUser methods are included in the security log 2 times. These times corresponds when during the attack scenario an external attacker misused the credential of a system administrator and tried to connected to the HRM software system. This is the moment when the security incident happened and two SQL-injection attacks occurred. We recorded the evidence.

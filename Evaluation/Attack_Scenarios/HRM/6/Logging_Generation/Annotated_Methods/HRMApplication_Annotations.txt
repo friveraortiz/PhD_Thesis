@@ -1,0 +1,3 @@
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Admin,UserLevel,=,Admin;
+Method,2,controller.UserController.delete,controller.UserController,delete,Method = controller.UserController.delete,Method,=,controller.UserController.delete;
+Parameter,3,model.UserDatabase.delete,model.UserDatabase,delete,model.User.user.userLevel = Manager,userLevel,=,Manager;

@@ -1,0 +1,326 @@
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1035 - OS Name              : Mac OS X
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1036 - OS Current Time      : 07/05/2024 09:44:55 PM IST
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1038 - OS IP Address        : 189.122.67.106
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1040 - OS Hostname          : f7.local
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1042 - OS UserName          : f7
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1043 - Annotation Type      : ReturnType
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1044 - Method Number        : 1
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1045 - Method Name          : model.UserDatabase.getUserLevel
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1046 - Method Return Type   : model.UserLevel
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1047 - Method Return Value  : Admin
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1079 - Parameter Number     : 1
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1081 - Parameter Name       : user
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1082 - Parameter Type       : model.User
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:998 - The Parameter Name: user has the following Attributes:
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1067 - Attribute Number     : 1
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1081 - Attribute Name       : serialVersionUID
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1082 - Attribute Type       : long
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1122 - Attribute Value      : -542727119035768593
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1067 - Attribute Number     : 2
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1081 - Attribute Name       : count
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1122 - Attribute Value      : 1
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1067 - Attribute Number     : 3
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1081 - Attribute Name       : id
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1122 - Attribute Value      : 0
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1067 - Attribute Number     : 4
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1081 - Attribute Name       : userName
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1122 - Attribute Value      : hsmith
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1067 - Attribute Number     : 5
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1081 - Attribute Name       : password
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:44:55 PM IST INFO  UserDatabase:1122 - Attribute Value      : 12345
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1035 - OS Name              : Mac OS X
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1036 - OS Current Time      : 07/05/2024 09:46:46 PM IST
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1038 - OS IP Address        : 189.122.67.106
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1040 - OS Hostname          : f7.local
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1042 - OS UserName          : f7
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1043 - Annotation Type      : Parameter
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1044 - Method Number        : 2
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1045 - Method Name          : model.UserDatabase.save
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1046 - Method Return Type   : void
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1047 - Method Return Value  : Admin
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1079 - Parameter Number     : 1
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1081 - Parameter Name       : user
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1082 - Parameter Type       : model.User
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1067 - Attribute Number     : 1
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1081 - Attribute Name       : userLevel
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1082 - Attribute Type       : model.UserLevel
+07/05/2024 09:46:46 PM IST INFO  UserDatabase:1122 - Attribute Value      : Employee
+07/05/2024 09:46:46 PM IST INFO  UserController:1035 - OS Name              : Mac OS X
+07/05/2024 09:46:46 PM IST INFO  UserController:1036 - OS Current Time      : 07/05/2024 09:46:46 PM IST
+07/05/2024 09:46:46 PM IST INFO  UserController:1038 - OS IP Address        : 189.122.67.106
+07/05/2024 09:46:46 PM IST INFO  UserController:1040 - OS Hostname          : f7.local
+07/05/2024 09:46:46 PM IST INFO  UserController:1042 - OS UserName          : f7
+07/05/2024 09:46:46 PM IST INFO  UserController:1043 - Annotation Type      : Method
+07/05/2024 09:46:46 PM IST INFO  UserController:1044 - Method Number        : 3
+07/05/2024 09:46:46 PM IST INFO  UserController:1045 - Method Name          : controller.UserController.save
+07/05/2024 09:46:46 PM IST INFO  UserController:1046 - Method Return Type   : void
+07/05/2024 09:46:46 PM IST INFO  UserController:1047 - Method Return Value  : 
+07/05/2024 09:46:46 PM IST INFO  UserController:1079 - Parameter Number     : 1
+07/05/2024 09:46:46 PM IST INFO  UserController:1081 - Parameter Name       : ev
+07/05/2024 09:46:46 PM IST INFO  UserController:1082 - Parameter Type       : gui.UserFormEvent
+07/05/2024 09:46:46 PM IST INFO  UserController:998 - The Parameter Name: ev has the following Attributes:
+07/05/2024 09:46:46 PM IST INFO  UserController:1067 - Attribute Number     : 1
+07/05/2024 09:46:46 PM IST INFO  UserController:1081 - Attribute Name       : id
+07/05/2024 09:46:46 PM IST INFO  UserController:1082 - Attribute Type       : int
+07/05/2024 09:46:46 PM IST INFO  UserController:1122 - Attribute Value      : 13
+07/05/2024 09:46:46 PM IST INFO  UserController:1067 - Attribute Number     : 2
+07/05/2024 09:46:46 PM IST INFO  UserController:1081 - Attribute Name       : userName
+07/05/2024 09:46:46 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:46:46 PM IST INFO  UserController:1122 - Attribute Value      : bmartinez
+07/05/2024 09:46:46 PM IST INFO  UserController:1067 - Attribute Number     : 3
+07/05/2024 09:46:46 PM IST INFO  UserController:1081 - Attribute Name       : password
+07/05/2024 09:46:46 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:46:46 PM IST INFO  UserController:1122 - Attribute Value      : 123
+07/05/2024 09:46:46 PM IST INFO  UserController:1067 - Attribute Number     : 4
+07/05/2024 09:46:46 PM IST INFO  UserController:1081 - Attribute Name       : confirmPassword
+07/05/2024 09:46:46 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:46:46 PM IST INFO  UserController:1122 - Attribute Value      : 123
+07/05/2024 09:46:46 PM IST INFO  UserController:1067 - Attribute Number     : 5
+07/05/2024 09:46:46 PM IST INFO  UserController:1081 - Attribute Name       : employee
+07/05/2024 09:46:46 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:46:46 PM IST INFO  UserController:1122 - Attribute Value      : Bernabe Martinez
+07/05/2024 09:46:46 PM IST INFO  UserController:1067 - Attribute Number     : 6
+07/05/2024 09:46:46 PM IST INFO  UserController:1081 - Attribute Name       : email
+07/05/2024 09:46:46 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:46:46 PM IST INFO  UserController:1122 - Attribute Value      : bmartinez@hotmail.com
+07/05/2024 09:46:46 PM IST INFO  UserController:1067 - Attribute Number     : 7
+07/05/2024 09:46:46 PM IST INFO  UserController:1081 - Attribute Name       : userLevel
+07/05/2024 09:46:46 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:46:46 PM IST INFO  UserController:1122 - Attribute Value      : Employee
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1035 - OS Name              : Mac OS X
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1036 - OS Current Time      : 07/05/2024 09:47:16 PM IST
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1038 - OS IP Address        : 189.122.67.106
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1040 - OS Hostname          : f7.local
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1042 - OS UserName          : f7
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1043 - Annotation Type      : Method
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1044 - Method Number        : 4
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1045 - Method Name          : controller.TravelRequestController.save
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1046 - Method Return Type   : void
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1047 - Method Return Value  : 
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1079 - Parameter Number     : 1
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Parameter Name       : ev
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Parameter Type       : gui.TravelRequestFormEvent
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:998 - The Parameter Name: ev has the following Attributes:
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 1
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : id
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : int
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 127
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 2
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : number
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : T000000317
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 3
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : employee
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Valentin Galicia
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 4
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : transportation
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Airplane
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 5
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : purpose
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Business
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 6
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : travelFrom
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Paris, France
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 7
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : travelTo
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Oslo, Norway
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 8
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : travelDate
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.util.Date
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 06/05/2024
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 9
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : returnDate
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.util.Date
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 07/05/2024
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 10
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : notes
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 11
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : currency
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Euros
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 12
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : totalFunding
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : float
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 1500.0
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 13
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : status
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Rejected
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 14
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1081 - Attribute Name       : statusNotes
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:47:16 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 
+07/05/2024 09:48:22 PM IST INFO  UserController:1035 - OS Name              : Mac OS X
+07/05/2024 09:48:22 PM IST INFO  UserController:1036 - OS Current Time      : 07/05/2024 09:48:22 PM IST
+07/05/2024 09:48:22 PM IST INFO  UserController:1038 - OS IP Address        : 189.122.67.106
+07/05/2024 09:48:22 PM IST INFO  UserController:1040 - OS Hostname          : f7.local
+07/05/2024 09:48:22 PM IST INFO  UserController:1042 - OS UserName          : f7
+07/05/2024 09:48:22 PM IST INFO  UserController:1043 - Annotation Type      : Method
+07/05/2024 09:48:22 PM IST INFO  UserController:1044 - Method Number        : 5
+07/05/2024 09:48:22 PM IST INFO  UserController:1045 - Method Name          : controller.UserController.save
+07/05/2024 09:48:22 PM IST INFO  UserController:1046 - Method Return Type   : void
+07/05/2024 09:48:22 PM IST INFO  UserController:1047 - Method Return Value  : 
+07/05/2024 09:48:22 PM IST INFO  UserController:1079 - Parameter Number     : 1
+07/05/2024 09:48:22 PM IST INFO  UserController:1081 - Parameter Name       : ev
+07/05/2024 09:48:22 PM IST INFO  UserController:1082 - Parameter Type       : gui.UserFormEvent
+07/05/2024 09:48:22 PM IST INFO  UserController:998 - The Parameter Name: ev has the following Attributes:
+07/05/2024 09:48:22 PM IST INFO  UserController:1067 - Attribute Number     : 1
+07/05/2024 09:48:22 PM IST INFO  UserController:1081 - Attribute Name       : id
+07/05/2024 09:48:22 PM IST INFO  UserController:1082 - Attribute Type       : int
+07/05/2024 09:48:22 PM IST INFO  UserController:1122 - Attribute Value      : 2
+07/05/2024 09:48:22 PM IST INFO  UserController:1067 - Attribute Number     : 2
+07/05/2024 09:48:22 PM IST INFO  UserController:1081 - Attribute Name       : userName
+07/05/2024 09:48:22 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:48:22 PM IST INFO  UserController:1122 - Attribute Value      : ajones
+07/05/2024 09:48:22 PM IST INFO  UserController:1067 - Attribute Number     : 3
+07/05/2024 09:48:22 PM IST INFO  UserController:1081 - Attribute Name       : password
+07/05/2024 09:48:22 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:48:22 PM IST INFO  UserController:1122 - Attribute Value      : 123
+07/05/2024 09:48:22 PM IST INFO  UserController:1067 - Attribute Number     : 4
+07/05/2024 09:48:22 PM IST INFO  UserController:1081 - Attribute Name       : confirmPassword
+07/05/2024 09:48:22 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:48:22 PM IST INFO  UserController:1122 - Attribute Value      : 123
+07/05/2024 09:48:22 PM IST INFO  UserController:1067 - Attribute Number     : 5
+07/05/2024 09:48:22 PM IST INFO  UserController:1081 - Attribute Name       : employee
+07/05/2024 09:48:22 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:48:22 PM IST INFO  UserController:1122 - Attribute Value      : Arthur Jones
+07/05/2024 09:48:22 PM IST INFO  UserController:1067 - Attribute Number     : 6
+07/05/2024 09:48:22 PM IST INFO  UserController:1081 - Attribute Name       : email
+07/05/2024 09:48:22 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:48:22 PM IST INFO  UserController:1122 - Attribute Value      : ajones@gmail.com
+07/05/2024 09:48:22 PM IST INFO  UserController:1067 - Attribute Number     : 7
+07/05/2024 09:48:22 PM IST INFO  UserController:1081 - Attribute Name       : userLevel
+07/05/2024 09:48:22 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:48:22 PM IST INFO  UserController:1122 - Attribute Value      : Manager
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1035 - OS Name              : Mac OS X
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1036 - OS Current Time      : 07/05/2024 09:48:48 PM IST
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1038 - OS IP Address        : 189.122.67.106
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1040 - OS Hostname          : f7.local
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1042 - OS UserName          : f7
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1043 - Annotation Type      : ReturnType
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1044 - Method Number        : 6
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1045 - Method Name          : model.UserDatabase.getUserLevel
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1046 - Method Return Type   : model.UserLevel
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1047 - Method Return Value  : Employee
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1079 - Parameter Number     : 1
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1081 - Parameter Name       : user
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1082 - Parameter Type       : model.User
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:998 - The Parameter Name: user has the following Attributes:
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1067 - Attribute Number     : 1
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1081 - Attribute Name       : serialVersionUID
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1082 - Attribute Type       : long
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1122 - Attribute Value      : -542727119035768593
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1067 - Attribute Number     : 2
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1081 - Attribute Name       : count
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1122 - Attribute Value      : 39
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1067 - Attribute Number     : 3
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1081 - Attribute Name       : id
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1122 - Attribute Value      : 0
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1067 - Attribute Number     : 4
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1081 - Attribute Name       : userName
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1122 - Attribute Value      : bmartinez
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1067 - Attribute Number     : 5
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1081 - Attribute Name       : password
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:48:48 PM IST INFO  UserDatabase:1122 - Attribute Value      : 123
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1035 - OS Name              : Mac OS X
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1036 - OS Current Time      : 07/05/2024 09:49:38 PM IST
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1038 - OS IP Address        : 189.122.67.106
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1040 - OS Hostname          : f7.local
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1042 - OS UserName          : f7
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1043 - Annotation Type      : Parameter
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1044 - Method Number        : 7
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1045 - Method Name          : model.TravelRequestDatabase.save
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1046 - Method Return Type   : void
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1047 - Method Return Value  : Employee
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1079 - Parameter Number     : 1
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1081 - Parameter Name       : travelRequest
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1082 - Parameter Type       : model.TravelRequest
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1067 - Attribute Number     : 1
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1081 - Attribute Name       : status
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1082 - Attribute Type       : model.Status
+07/05/2024 09:49:38 PM IST INFO  TravelRequestDatabase:1122 - Attribute Value      : Pending
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1035 - OS Name              : Mac OS X
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1036 - OS Current Time      : 07/05/2024 09:49:38 PM IST
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1038 - OS IP Address        : 189.122.67.106
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1040 - OS Hostname          : f7.local
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1042 - OS UserName          : f7
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1043 - Annotation Type      : Method
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1044 - Method Number        : 8
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1045 - Method Name          : controller.TravelRequestController.save
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1046 - Method Return Type   : void
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1047 - Method Return Value  : 
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1079 - Parameter Number     : 1
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Parameter Name       : ev
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Parameter Type       : gui.TravelRequestFormEvent
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:998 - The Parameter Name: ev has the following Attributes:
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 1
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : id
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : int
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 0
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 2
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : number
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : T000000318
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 3
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : employee
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Bernabe Martinez
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 4
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : transportation
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Airplane
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 5
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : purpose
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Business
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 6
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : travelFrom
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Dublin, Ireland
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 7
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : travelTo
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Tokyo, Japan
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 8
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : travelDate
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.util.Date
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 08/05/2024
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 9
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : returnDate
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.util.Date
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 09/05/2024
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 10
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : notes
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 11
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : currency
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Euros
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 12
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : totalFunding
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : float
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 1500.0
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 13
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : status
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : Pending
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1067 - Attribute Number     : 14
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1081 - Attribute Name       : statusNotes
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1082 - Attribute Type       : java.lang.String
+07/05/2024 09:49:38 PM IST INFO  TravelRequestController:1122 - Attribute Value      : 

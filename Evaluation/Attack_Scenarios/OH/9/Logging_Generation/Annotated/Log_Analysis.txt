@@ -1,0 +1,30 @@
+Methods:
+1.- call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 3 Ocurrences
+2.- call(boolean org.isf.menu.manager.UserBrowsingManager.newUser(..))|| => 1 Ocurrence 
+3.- call(boolean org.isf.exa.manager.ExamBrowsingManager.updateExam(..))|| => 1 Ocurrence
+4.- call(boolean org.isf.lab.manager.LabManager.newLaboratory2(..))|| => 1 Ocurrence
+5.- call(boolean org.isf.menu.manager.UserBrowsingManager.deleteUser(..)); => 1 Ocurrences
+
+Annotations:
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+Parameter,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = physician,code,=,physician;
+ReturnType,3,org.isf.menu.manager.UserBrowsingManager.newUser,org.isf.menu.manager.UserBrowsingManager,newUser,boolean = true,boolean,=,true;
+Method,4,org.isf.exa.manager.ExamBrowsingManager.updateExam,org.isf.exa.manager.ExamBrowsingManager,updateExam,Method = org.isf.exa.manager.ExamBrowsingManager.updateExam,Method,=,org.isf.exa.manager.ExamBrowsingManager.updateExam;
+ReturnType,5,org.isf.lab.manager.LabManager.newLaboratory2,org.isf.lab.manager.LabManager,newLaboratory2,boolean = true,boolean,=,true;
+ReturnType,6,org.isf.menu.manager.UserBrowsingManager.deleteUser,org.isf.menu.manager.UserBrowsingManager,deleteUser,boolean = true,boolean,=,true;
+
+
+1.- The org.isf.menu.manager.UserBrowsingManager.getMenu method is included in the security log 3 times. 
+These times corresponds when during the attack scenario: A Fake Physician or a System Administrator connected to the OH software system.
+
+2.- The org.isf.menu.manager.UserBrowsingManager.newUser method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Fake System Administrator created a new user in the in the OH software system. This is the moment the security incident happens and we recorded the evidence.
+
+3.- The org.isf.exa.manager.ExamBrowsingManager.updateExam method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Fake System Administrator modified the results of an Exam in the Settings > Exam Screen. This is the moment the security incident happens and we recorded the evidence.
+
+4.- The org.isf.lab.manager.LabManager.newLaboratory2 method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Fake Physician created a new Laboratory Exam using the modified results of an Exam in the Laboratory Screen in the OH software system. 
+
+5.- The org.isf.menu.manager.UserBrowsingManager.deleteUser method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Fake System Administrator deleted an existing user in the in the OH software system. This is the moment the security incident happens and we recorded the evidence.

@@ -1,0 +1,30 @@
+24/05/2024 11:32:43 AM BST INFO  Login:1035 - OS Name              : Windows Server 2016
+24/05/2024 11:32:43 AM BST INFO  Login:1036 - OS Current Time      : 24/05/2024 11:32:43 AM BST
+24/05/2024 11:32:43 AM BST INFO  Login:1038 - OS IP Address        : 189.122.67.106
+24/05/2024 11:32:43 AM BST INFO  Login:1040 - OS Hostname          : f7.local
+24/05/2024 11:32:43 AM BST INFO  Login:1042 - OS UserName          : f7
+24/05/2024 11:32:43 AM BST INFO  Login:1043 - Annotation Type      : Method
+24/05/2024 11:32:43 AM BST INFO  Login:1044 - Method Number        : 1
+24/05/2024 11:32:43 AM BST INFO  Login:1045 - Method Name          : org.isf.menu.gui.Login.acceptPwd
+24/05/2024 11:32:43 AM BST INFO  Login:1046 - Method Return Type   : void
+24/05/2024 11:32:43 AM BST INFO  Login:1047 - Method Return Value  : 
+24/05/2024 11:32:43 AM BST INFO  Login:1261 - The Method: acceptPwd DOES NOT have any Parameters
+24/05/2024 11:32:58 AM BST WARN  Login:170 - Login failed: The password is incorrect; please retry.
+24/05/2024 11:32:59 AM BST INFO  Login:1035 - OS Name              : Windows Server 2016
+24/05/2024 11:32:59 AM BST INFO  Login:1036 - OS Current Time      : 24/05/2024 11:32:59 AM BST
+24/05/2024 11:32:59 AM BST INFO  Login:1038 - OS IP Address        : 189.122.67.106
+24/05/2024 11:32:59 AM BST INFO  Login:1040 - OS Hostname          : f7.local
+24/05/2024 11:32:59 AM BST INFO  Login:1042 - OS UserName          : f7
+24/05/2024 11:32:59 AM BST INFO  Login:1043 - Annotation Type      : Method
+24/05/2024 11:32:59 AM BST INFO  Login:1044 - Method Number        : 2
+24/05/2024 11:32:59 AM BST INFO  Login:1045 - Method Name          : org.isf.menu.gui.Login.acceptPwd
+24/05/2024 11:32:59 AM BST INFO  Login:1046 - Method Return Type   : void
+24/05/2024 11:32:59 AM BST INFO  Login:1047 - Method Return Value  : 
+24/05/2024 11:32:59 AM BST INFO  Login:1261 - The Method: acceptPwd DOES NOT have any Parameters
+24/05/2024 11:33:00 AM BST INFO  MainMenu:312 - Login failed.
+24/05/2024 11:33:00 AM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+

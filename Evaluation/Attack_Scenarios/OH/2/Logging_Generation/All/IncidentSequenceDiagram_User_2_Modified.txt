@@ -1,0 +1,139 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the OpenHospital ==
+actor User_2 order 1
+participant org.isf.menu.gui.Login order 2
+note left of User_2 #lightskyblue 
+org.isf.menu.gui.Login
+end note
+note left of User_2 #lightpink
+Method = org.isf.menu.gui.Login.acceptPwd
+end note
+User_2 -[#purple]>org.isf.menu.gui.Login: 1.acceptPwd()
+||20||
+actor User_2 order 3
+participant org.isf.menu.manager.UserBrowsingManager order 4
+note left of User_2 #lightskyblue 
+org.isf.menu.gui.MainMenu
+end note
+note left of User_2 #lightpink
+Method = org.isf.menu.manager.UserBrowsingManager.getMenu
+end note
+User_2 -[#purple]>org.isf.menu.manager.UserBrowsingManager: 2.getMenu()
+||20||
+actor User_2 order 5
+participant org.isf.admission.manager.AdmissionBrowserManager order 6
+note left of User_2 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+note left of User_2 #lightpink
+Method = org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients
+end note
+User_2 -[#purple]>org.isf.admission.manager.AdmissionBrowserManager: 3.getAdmittedPatients()
+||20||
+actor User_2 order 7
+participant org.isf.ward.manager.WardBrowserManager order 8
+note left of User_2 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+note left of User_2 #lightpink
+Method = org.isf.ward.manager.WardBrowserManager.getWards
+end note
+User_2 -[#purple]>org.isf.ward.manager.WardBrowserManager: 4.getWards()
+||20||
+actor User_2 order 9
+participant org.isf.admission.manager.AdmissionBrowserManager order 10
+note left of User_2 #lightskyblue 
+org.isf.admission.gui.AdmittedPatientBrowser
+end note
+note left of User_2 #lightpink
+Method = org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients
+end note
+User_2 -[#purple]>org.isf.admission.manager.AdmissionBrowserManager: 5.loadAdmittedPatients()
+||20||
+actor User_2 order 11
+participant org.isf.patient.manager.PatientBrowserManager order 12
+note left of User_2 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.getMaritalList
+end note
+User_2 -[#purple]>org.isf.patient.manager.PatientBrowserManager: 6.getMaritalList()
+||20||
+actor User_2 order 13
+participant org.isf.patient.manager.PatientBrowserManager order 14
+note left of User_2 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.getMaritalTranslated
+end note
+User_2 -[#purple]>org.isf.patient.manager.PatientBrowserManager: 7.getMaritalTranslated()
+||20||
+actor User_2 order 15
+participant org.isf.patient.manager.PatientBrowserManager order 16
+note left of User_2 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.getProfessionList
+end note
+User_2 -[#purple]>org.isf.patient.manager.PatientBrowserManager: 8.getProfessionList()
+||20||
+actor User_2 order 17
+participant org.isf.patient.manager.PatientBrowserManager order 18
+note left of User_2 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.getProfessionTranslated
+end note
+User_2 -[#purple]>org.isf.patient.manager.PatientBrowserManager: 9.getProfessionTranslated()
+||20||
+actor User_2 order 19
+participant org.isf.patient.manager.PatientBrowserManager order 20
+note left of User_2 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.getMaritalKey
+end note
+User_2 -[#purple]>org.isf.patient.manager.PatientBrowserManager: 10.getMaritalKey()
+||20||
+actor User_2 order 21
+participant org.isf.patient.manager.PatientBrowserManager order 22
+note left of User_2 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.getProfessionKey
+end note
+User_2 -[#purple]>org.isf.patient.manager.PatientBrowserManager: 11.getProfessionKey()
+||20||
+actor User_2 order 23
+participant org.isf.patient.manager.PatientBrowserManager order 24
+note left of User_2 #lightskyblue 
+org.isf.patient.gui.PatientInsertExtended
+end note
+note left of User_2 #lightpink
+Method = org.isf.patient.manager.PatientBrowserManager.savePatient
+end note
+User_2 -[#purple]>org.isf.patient.manager.PatientBrowserManager: 12.savePatient()
+||20||
+@enduml

@@ -1,0 +1,50 @@
+[24/May/2024 12:28:01] [:] INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+[24/May/2024 12:28:01] [:] INFO - HHH000412: Hibernate ORM core version 5.6.11.Final
+[24/May/2024 12:28:02] [:] INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[24/May/2024 12:28:02] [:] INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[24/May/2024 12:28:05] [:] INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+Message FRL: Welcome to the Forensic-Ready Logger ...
+Message FRL: The UML Sequence Diagram FILES were CREATED in =>: 2 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: acceptPwd() was CREATED in =>: 1 milliseconds.
+[24/May/2024 12:28:23] [:] INFO - OS Name              : Windows Server 2016
+[24/May/2024 12:28:23] [:] INFO - OS Current Time      : 24/05/2024 12:28:23 PM BST
+[24/May/2024 12:28:23] [:] INFO - OS IP Address        : 189.122.67.106
+[24/May/2024 12:28:23] [:] INFO - OS Hostname          : f7.local
+[24/May/2024 12:28:23] [:] INFO - OS UserName          : f7
+[24/May/2024 12:28:23] [:] INFO - Annotation Type      : Method
+[24/May/2024 12:28:23] [:] INFO - Method Number        : 1
+[24/May/2024 12:28:23] [:] INFO - Method Name          : org.isf.menu.gui.Login.acceptPwd
+[24/May/2024 12:28:23] [:] INFO - Method Return Type   : void
+[24/May/2024 12:28:23] [:] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.menu.gui.Login.acceptPwd was CREATED in =>: 17 milliseconds
+[24/May/2024 12:28:23] [:] INFO - The Method: acceptPwd DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: acceptPwd() was CREATED in =>: 1 milliseconds.
+[24/May/2024 12:28:33] [:] WARN - Login failed: The password is incorrect; please retry.
+[24/May/2024 12:28:34] [:] INFO - OS Name              : Windows Server 2016
+[24/May/2024 12:28:34] [:] INFO - OS Current Time      : 24/05/2024 12:28:34 PM BST
+[24/May/2024 12:28:34] [:] INFO - OS IP Address        : 189.122.67.106
+[24/May/2024 12:28:34] [:] INFO - OS Hostname          : f7.local
+[24/May/2024 12:28:34] [:] INFO - OS UserName          : f7
+[24/May/2024 12:28:34] [:] INFO - Annotation Type      : Method
+[24/May/2024 12:28:34] [:] INFO - Method Number        : 2
+[24/May/2024 12:28:34] [:] INFO - Method Name          : org.isf.menu.gui.Login.acceptPwd
+[24/May/2024 12:28:34] [:] INFO - Method Return Type   : void
+[24/May/2024 12:28:34] [:] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.menu.gui.Login.acceptPwd was CREATED in =>: 5 milliseconds
+[24/May/2024 12:28:34] [:] INFO - The Method: acceptPwd DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+[24/May/2024 12:28:36] [:] INFO - Login failed.
+[24/May/2024 12:28:36] [:] INFO - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+Message FRL: The UML Sequence Diagram FILES were FINISHED in =>: 1451 milliseconds
+Message FRL: UML Sequence Diagram Text File created  : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.txt
+Message FRL: UML Sequence Diagram Image File created : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.png
+Message FRL: Good Bye to the Forensic-Ready Logger.

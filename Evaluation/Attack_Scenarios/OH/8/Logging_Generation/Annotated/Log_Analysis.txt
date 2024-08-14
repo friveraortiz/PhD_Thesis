@@ -1,0 +1,27 @@
+Methods:
+1.- call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 2 Occurrences
+2.- call(boolean org.isf.patvac.manager.PatVacManager.newPatientVaccine(..))|| => 1 Occurrences
+3.- call(boolean org.isf.patvac.manager.PatVacManager.updatePatientVaccine(..))|| => 1 Occurrences
+4.- call(boolean org.isf.patvac.manager.PatVacManager.deletePatientVaccine(..)); => 1 Occurrences
+
+
+Annotations:
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = physician,code,=,physician;
+Parameter,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+ReturnType,3,org.isf.patvac.manager.PatVacManager.newPatientVaccine,org.isf.patvac.manager.PatVacManager,newPatientVaccine,boolean = true,boolean,=,true;
+ReturnType,4,org.isf.patvac.manager.PatVacManager.updatePatientVaccine,org.isf.patvac.manager.PatVacManager,updatePatientVaccine,boolean = true,boolean,=,true;
+ReturnType,5,org.isf.patvac.manager.PatVacManager.deletePatientVaccine,org.isf.patvac.manager.PatVacManager,deletePatientVaccine,boolean = true,boolean,=,true;
+
+
+
+1.- The org.isf.menu.manager.UserBrowsingManager.getMenu method is included in the security log 2 times. 
+These times corresponds when during the attack scenario: A Physician or a System Administrator connected to the OH software system.
+
+2.- The org.isf.patvac.manager.PatVacManager.newPatientVaccine method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, a Physician created a new vaccine for a Patient in the Patient Vaccine Screen in the OH software system. This is the moment the security incident happens and we recorded the evidence.
+
+3.- The org.isf.patvac.manager.PatVacManager.updatePatientVaccine method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, an external attacker who misused the credentials of a System Administrator and modified an existing vaccine for a Patient in the Patient Vaccine Screen in the OH software system. This is the moment the security incident happens and we recorded the evidence.
+
+4.- The org.isf.patvac.manager.PatVacManager.deletePatientVaccine method is included in the security log 1 times. 
+This time corresponds when during the attack scenario, an external attacker who misused the credentials of a System Administrator and deleted an existing vaccine for a Patient in the Patient Vaccine Screen in the OH software system. This is the moment the security incident happens and we recorded the evidence.

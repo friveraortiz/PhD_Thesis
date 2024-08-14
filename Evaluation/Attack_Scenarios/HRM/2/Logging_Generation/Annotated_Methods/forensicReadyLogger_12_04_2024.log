@@ -1,0 +1,261 @@
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1035 - OS Name              : Mac OS X
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1036 - OS Current Time      : 12/04/2024 03:09:31 PM IST
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1038 - OS IP Address        : 189.122.67.106
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1040 - OS Hostname          : f7.local
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1042 - OS UserName          : f7
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1043 - Annotation Type      : ReturnType
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1044 - Method Number        : 1
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1045 - Method Name          : model.UserDatabase.getUserLevel
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1046 - Method Return Type   : model.UserLevel
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1047 - Method Return Value  : Admin
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1079 - Parameter Number     : 1
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1081 - Parameter Name       : user
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1082 - Parameter Type       : model.User
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:998 - The Parameter Name: user has the following Attributes:
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1067 - Attribute Number     : 1
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1081 - Attribute Name       : serialVersionUID
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1082 - Attribute Type       : long
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1122 - Attribute Value      : -542727119035768593
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1067 - Attribute Number     : 2
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1081 - Attribute Name       : count
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1122 - Attribute Value      : 1
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1067 - Attribute Number     : 3
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1081 - Attribute Name       : id
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1122 - Attribute Value      : 0
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1067 - Attribute Number     : 4
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1081 - Attribute Name       : userName
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1122 - Attribute Value      : hsmith
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1067 - Attribute Number     : 5
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1081 - Attribute Name       : password
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:09:31 PM IST INFO  UserDatabase:1122 - Attribute Value      : 12345
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1035 - OS Name              : Mac OS X
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1036 - OS Current Time      : 12/04/2024 03:12:06 PM IST
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1038 - OS IP Address        : 189.122.67.106
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1040 - OS Hostname          : f7.local
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1042 - OS UserName          : f7
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1043 - Annotation Type      : Parameter
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1044 - Method Number        : 2
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1045 - Method Name          : model.EmployeeDatabase.save
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1046 - Method Return Type   : void
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1047 - Method Return Value  : Admin
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1079 - Parameter Number     : 1
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1081 - Parameter Name       : employee
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1082 - Parameter Type       : model.Employee
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1067 - Attribute Number     : 1
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1081 - Attribute Name       : supervisor
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeDatabase:1122 - Attribute Value      : Arthur Jones
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1035 - OS Name              : Mac OS X
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1036 - OS Current Time      : 12/04/2024 03:12:06 PM IST
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1038 - OS IP Address        : 189.122.67.106
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1040 - OS Hostname          : f7.local
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1042 - OS UserName          : f7
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1043 - Annotation Type      : Method
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1044 - Method Number        : 3
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1045 - Method Name          : controller.EmployeeController.save
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1046 - Method Return Type   : void
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1047 - Method Return Value  : 
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1079 - Parameter Number     : 1
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Parameter Name       : ev
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Parameter Type       : gui.EmployeeFormEvent
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:998 - The Parameter Name: ev has the following Attributes:
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 1
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : id
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : int
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : 9
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 2
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : number
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : E000000005
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 3
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : firstName
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : Benito
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 4
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : middleName
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : 
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 5
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : lastName
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : Perez
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 6
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : dob
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.util.Date
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : 17/10/1972
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 7
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : gender
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : Male
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 8
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : maritalStatus
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : Divorced
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 9
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : mobilePhone
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : 123
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 10
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : joinedDate
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.util.Date
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : 23/02/2024
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 11
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : terminatedDate
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.util.Date
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : 20/05/3002
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 12
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : jobTitle
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : Chemist
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 13
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : department
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : Chemistry
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1067 - Attribute Number     : 14
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1081 - Attribute Name       : supervisor
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:06 PM IST INFO  EmployeeController:1122 - Attribute Value      : Arthur Jones
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1035 - OS Name              : Mac OS X
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1036 - OS Current Time      : 12/04/2024 03:12:54 PM IST
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1038 - OS IP Address        : 189.122.67.106
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1040 - OS Hostname          : f7.local
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1042 - OS UserName          : f7
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1043 - Annotation Type      : Method
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1044 - Method Number        : 4
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1045 - Method Name          : controller.EmployeeController.save
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1046 - Method Return Type   : void
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1047 - Method Return Value  : 
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1079 - Parameter Number     : 1
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Parameter Name       : ev
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Parameter Type       : gui.EmployeeFormEvent
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:998 - The Parameter Name: ev has the following Attributes:
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 1
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : id
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : int
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : 16
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 2
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : number
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : E000000045
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 3
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : firstName
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : Felipe
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 4
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : middleName
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : 
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 5
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : lastName
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : Calderon Hinojosa
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 6
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : dob
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.util.Date
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : 15/03/1958
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 7
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : gender
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : Male
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 8
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : maritalStatus
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : Married
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 9
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : mobilePhone
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : 124456
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 10
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : joinedDate
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.util.Date
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : 24/02/2024
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 11
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : terminatedDate
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.util.Date
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : 24/02/3004
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 12
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : jobTitle
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : Politician
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 13
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : department
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : Politics
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1067 - Attribute Number     : 14
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1081 - Attribute Name       : supervisor
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:12:54 PM IST INFO  EmployeeController:1122 - Attribute Value      : Ana Maria Perez
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1035 - OS Name              : Mac OS X
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1036 - OS Current Time      : 12/04/2024 03:13:49 PM IST
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1038 - OS IP Address        : 189.122.67.106
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1040 - OS Hostname          : f7.local
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1042 - OS UserName          : f7
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1043 - Annotation Type      : Method
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1044 - Method Number        : 5
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1045 - Method Name          : controller.EmployeeController.save
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1046 - Method Return Type   : void
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1047 - Method Return Value  : 
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1079 - Parameter Number     : 1
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Parameter Name       : ev
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Parameter Type       : gui.EmployeeFormEvent
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:998 - The Parameter Name: ev has the following Attributes:
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 1
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : id
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : int
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : 0
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 2
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : number
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : E000000054
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 3
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : firstName
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : James
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 4
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : middleName
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : 
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 5
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : lastName
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : Brown
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 6
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : dob
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.util.Date
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : 10/03/1973
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 7
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : gender
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : Male
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 8
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : maritalStatus
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : Divorced
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 9
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : mobilePhone
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : 1
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 10
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : joinedDate
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.util.Date
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : 12/04/2024
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 11
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : terminatedDate
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.util.Date
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : 12/04/3004
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 12
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : jobTitle
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : Writter
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 13
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : department
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : Science
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1067 - Attribute Number     : 14
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1081 - Attribute Name       : supervisor
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1082 - Attribute Type       : java.lang.String
+12/04/2024 03:13:49 PM IST INFO  EmployeeController:1122 - Attribute Value      : Ana Maria Perez

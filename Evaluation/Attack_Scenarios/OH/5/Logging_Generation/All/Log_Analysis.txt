@@ -1,0 +1,65 @@
+Methods:
+1.- call(void org.isf.menu.gui.Login.acceptPwd(..))|| => 2 Occurrences
+    call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 2 Occurrences
+
+2.- call(List<org.isf.admission.model.AdmittedPatient> org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients(..))|| => 6 Occurrences
+
+3.- call(List<org.isf.ward.model.Ward> org.isf.ward.manager.WardBrowserManager.getWards(..))|| => 12 Occurrences
+
+4.- call(org.isf.admission.model.AdmittedPatient org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients(..))|| => 4 Occurrences
+
+
+5.- call(List<org.isf.medicals.model.Medical> org.isf.medicals.manager.MedicalBrowsingManager.getMedicals(..))|| => 7 Occurrences
+
+6.- call(List<org.isf.therapy.model.TherapyRow> org.isf.therapy.manager.TherapyManager.getTherapyRows(..))|| => 4 Occurrences
+
+7.- call(List<org.isf.visits.model.Visit> org.isf.visits.manager.VisitManager.getVisits(..))|| => 4 Occurrences
+
+8.- call(org.isf.therapy.model.TherapyRow org.isf.therapy.manager.TherapyManager.getTherapyRow(..))|| => 1 Occurrence
+
+9.- call(org.isf.therapy.model.Therapy org.isf.therapy.manager.TherapyManager.createTherapy(..))|| => 1 Occurrence
+    call(boolean org.isf.therapy.manager.TherapyManager.newTherapies(..)); => 1 Occurrence
+
+10.- call(boolean org.isf.therapy.manager.TherapyManager.deleteAllTherapies(..))|| => 2 Occurrences
+
+
+Annotations:
+Method,1,org.isf.menu.gui.Login.acceptPwd,org.isf.menu.gui.Login,acceptPwd,Method = org.isf.menu.gui.Login.acceptPwd,Method,=,org.isf.menu.gui.Login.acceptPwd;
+Method,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,Method = org.isf.menu.manager.UserBrowsingManager.getMenu,Method,=,org.isf.menu.manager.UserBrowsingManager.getMenu;
+Method,3,org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients,org.isf.admission.manager.AdmissionBrowserManager,getAdmittedPatients,Method = org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients,Method,=,org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients;
+Method,4,org.isf.ward.manager.WardBrowserManager.getWards,org.isf.ward.manager.WardBrowserManager,getWards,Method = org.isf.ward.manager.WardBrowserManager.getWards,Method,=,org.isf.ward.manager.WardBrowserManager.getWards;
+Method,5,org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients,org.isf.admission.manager.AdmissionBrowserManager,loadAdmittedPatients,Method = org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients,Method,=,org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients;
+Method,6,org.isf.medicals.manager.MedicalBrowsingManager.getMedicals,org.isf.medicals.manager.MedicalBrowsingManager,getMedicals,Method = org.isf.medicals.manager.MedicalBrowsingManager.getMedicals,Method,=,org.isf.medicals.manager.MedicalBrowsingManager.getMedicals;
+Method,7,org.isf.therapy.manager.TherapyManager.getTherapyRows,org.isf.therapy.manager.TherapyManager,getTherapyRows,Method = org.isf.therapy.manager.TherapyManager.getTherapyRows,Method,=,org.isf.therapy.manager.TherapyManager.getTherapyRows;
+Method,8,org.isf.visits.manager.VisitManager.getVisits,org.isf.visits.manager.VisitManager,getVisits,Method = org.isf.visits.manager.VisitManager.getVisits,Method,=,org.isf.visits.manager.VisitManager.getVisits;
+Method,9,org.isf.therapy.manager.TherapyManager.getTherapyRow,org.isf.therapy.manager.TherapyManager,getTherapyRow,Method = org.isf.therapy.manager.TherapyManager.getTherapyRow,Method,=,org.isf.therapy.manager.TherapyManager.getTherapyRow;
+Method,10,org.isf.therapy.manager.TherapyManager.createTherapy,org.isf.therapy.manager.TherapyManager,createTherapy,Method = org.isf.therapy.manager.TherapyManager.createTherapy,Method,=,org.isf.therapy.manager.TherapyManager.createTherapy;
+Method,11,org.isf.therapy.manager.TherapyManager.deleteAllTherapies,org.isf.therapy.manager.TherapyManager,deleteAllTherapies,Method = org.isf.therapy.manager.TherapyManager.deleteAllTherapies,Method,=,org.isf.therapy.manager.TherapyManager.deleteAllTherapies;
+Method,12,org.isf.therapy.manager.TherapyManager.newTherapies,org.isf.therapy.manager.TherapyManager,newTherapies,Method = org.isf.therapy.manager.TherapyManager.newTherapies,Method,=,org.isf.therapy.manager.TherapyManager.newTherapies;
+
+
+1.- The org.isf.menu.gui.Login.acceptPwd, org.isf.menu.manager.UserBrowsingManager.getMenu methods are included in the security log 2 times. 
+These times corresponds when during the attack scenario: A Physician or a System Administrator connected to the OH software system. 
+
+2.- The org.isf.admission.manager.AdmissionBrowserManager.getAdmittedPatients methods is included in the security log 6 times. These times corresponds when during the attack scenario the OH software system consulted the List of the admitted patients to present them in the diverse screesn in the OH software system.
+
+
+3.- The org.isf.ward.manager.WardBrowserManager.getWards is included in the security log 12 times. 
+These times corresponds when during the attack scenario the OH software system consulted the list of existing wards such as internal medicine, maternity to present them in diverse screens in the OH software system.
+
+
+4.- The org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients method is included 4 times in the security log. These times corresponds when during the attack scenario a patient was modified in the Patient Browser screen in the OH software system. This method presents the Patient Id that was modified. 
+
+5.- The org.isf.medicals.manager.MedicalBrowsingManager.getMedicals method is included in the security log 7 times. These times corresponds when the OH software system consulted the list of the medicines such as 4 Dimethyl Aminobenzaldelyde, Acetazolamide 250mg Tab to present them in diverse screens in the OH software system.
+
+6.- The org.isf.therapy.manager.TherapyManager.getTherapyRow method is included in the security log 4 times. These times corresponds when during the attack scenario, a new theraphy was created or an existing theraphy was deleted in the Patient Browser screen. This method shows when a Patient do not have any existing therapies with a null or empty value of an ArrayList = [].
+
+7.- The org.isf.visits.manager.VisitManager.getVisits method is included in the security log 4 times. These times corresponds when during the attack scenario, the OH software system consulted the list of a Visits for a Patient to present them in diverse screens in the OH software system.
+
+8.- The org.isf.therapy.manager.TherapyManager.getTherapyRow method is included in the security log 1 time. This time corresponds when during the attack scenario, the OH software system consulted the theraphy details for a patient to present them in the Patient Browser Screen in the OH software system.
+
+9.- The org.isf.therapy.manager.TherapyManager.createTherapy, org.isf.therapy.manager.TherapyManager.newTherapies methods are included in the security log 1 time. This time corresponds when during the attack scenario, a new theraphy for a Patient was created in the Patient Browser screen in the OH software system. This is the moment when the security incident happened and we recorded the evidence. 
+
+
+10.- The org.isf.therapy.manager.TherapyManager.deleteAllTherapies method is included in the security log 2 times.
+These times corresponds when during the attack scenario, all the therapies assigned to a patient were deleted in the Patient Browser screen in the OH software system. This method is called after creating a new theraphy for a patient, after modifying an existing theraphy and also when all the therapies for a patient were deleted. This is the moment when the security incident happened and we recorded the evidence. 

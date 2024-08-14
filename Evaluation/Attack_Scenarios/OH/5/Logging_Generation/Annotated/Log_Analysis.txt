@@ -1,0 +1,25 @@
+Methods:
+1.- call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 2 Occurrences
+2.- call(org.isf.therapy.model.Therapy org.isf.therapy.manager.TherapyManager.createTherapy(..))|| => 1 Occurrences
+3.- call(boolean org.isf.therapy.manager.TherapyManager.deleteAllTherapies(..))|| => 2 Occurrences
+4.- call(List<org.isf.therapy.model.TherapyRow> org.isf.therapy.manager.TherapyManager.getTherapyRows(..)); => 4 Occurrences
+
+
+Annotations:
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = physician,code,=,physician;
+Parameter,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+Method,3,org.isf.therapy.manager.TherapyManager.getTherapyRows,org.isf.therapy.manager.TherapyManager,getTherapyRows,Method = org.isf.therapy.manager.TherapyManager.getTherapyRows,Method,=,org.isf.therapy.manager.TherapyManager.getTherapyRows;
+Method,4,org.isf.therapy.manager.TherapyManager.createTherapy,org.isf.therapy.manager.TherapyManager,createTherapy,Method = org.isf.therapy.manager.TherapyManager.createTherapy,Method,=,org.isf.therapy.manager.TherapyManager.createTherapy;
+ReturnType,5,org.isf.therapy.manager.TherapyManager.deleteAllTherapies,org.isf.therapy.manager.TherapyManager,deleteAllTherapies,boolean = true,boolean,=,true;
+
+
+1.- The org.isf.menu.gui.Login.acceptPwd, org.isf.menu.manager.UserBrowsingManager.getMenu methods are included in the security log 2 times. 
+These times corresponds when during the attack scenario: A Physician or a System Administrator connected to the OH software system. 
+
+2.- The org.isf.therapy.manager.TherapyManager.createTherapy method is included in the security log 1 time.
+This time corresponds when during the attack scenario, a new theraphy for a Patient was created in the Patient Browser screen in the OH software system. This is the moment when the security incident happened and we recorded the evidence. 
+
+3.- The org.isf.therapy.manager.TherapyManager.deleteAllTherapies method is included in the security log 2 times.
+These times corresponds when during the attack scenario, all the therapies assigned to a patient were deleted in the Patient Browser screen in the OH software system. This method is called after creating a new theraphy for a patient, after modifying an existing theraphy and also when all the therapies for a patient were deleted. This is the moment when the security incident happened and we recorded the evidence. 
+
+4.- The org.isf.therapy.manager.TherapyManager.getTherapyRow method is included in the security log 4 times. These times corresponds when during the attack scenario,  new theraphy was created or an existing theraphy was deleted in the Patient Browser screen. This method shows when a Patient do not have any existing therapies with a null or empty value of an ArrayList = [].

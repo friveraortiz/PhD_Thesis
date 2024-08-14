@@ -1,0 +1,431 @@
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 11/05/2024 08:26:05 PM BST
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : 
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+11/05/2024 08:26:05 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : physician
+11/05/2024 08:27:56 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+11/05/2024 08:27:56 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+11/05/2024 08:27:56 PM BST WARN  Webcam:964 - No webcam has been detected!
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 11/05/2024 08:28:57 PM BST
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 2
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.savePatient
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : org.isf.patient.model.Patient
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Enrique Velazquez
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : patient
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : org.isf.patient.model.Patient
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:999 - The Parameter Name: patient has the following Attributes:
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 1
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : code
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.Integer
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 161
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 2
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : firstName
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Enrique
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 3
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : secondName
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Velazquez
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 4
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : name
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Enrique Velazquez
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 5
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : birthDate
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.time.LocalDate
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 1985-05-11
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 6
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : age
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : int
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 39
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 7
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : agetype
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 8
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : sex
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : M
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 9
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : address
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Roses Road 15
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 10
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : city
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Dublin, Ireland
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 11
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : nextKin
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 1
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 12
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : telephone
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : +39
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 13
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : note
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 14
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : motherName
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 15
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : mother
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : D
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 16
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : fatherName
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 17
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : father
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : D
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 18
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : bloodType
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 0-
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 19
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : hasInsurance
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Y
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 20
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : parentTogether
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : N
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 21
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : taxCode
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 123
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 22
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : maritalStatus
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : married
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 23
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : profession
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : business
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 24
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : deleted
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : N
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 25
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : lock
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : int
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 0
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 26
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : hashCode
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : int
+11/05/2024 08:28:57 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 0
+11/05/2024 08:29:32 PM BST INFO  ConfigurationProperties:91 - File txtPrinter.properties loaded.
+11/05/2024 08:29:32 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_HEIGHT property not found: default is 10
+11/05/2024 08:29:32 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_WIDTH property not found: default is 10
+11/05/2024 08:30:40 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1036 - OS Current Time      : 11/05/2024 08:32:58 PM BST
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1042 - OS UserName          : f7
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1044 - Method Number        : 1
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1047 - Method Return Value  : 
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+11/05/2024 08:32:58 PM BST INFO  UserBrowsingManager:1122 - SubAttribute Value      : admin
+11/05/2024 08:34:33 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+11/05/2024 08:34:33 PM BST INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+11/05/2024 08:34:34 PM BST WARN  Webcam:964 - No webcam has been detected!
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 11/05/2024 08:34:41 PM BST
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 2
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.savePatient
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : org.isf.patient.model.Patient
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Enrique Velazquez
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : patient
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : org.isf.patient.model.Patient
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:999 - The Parameter Name: patient has the following Attributes:
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 1
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : code
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.Integer
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 161
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 2
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : firstName
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Enrique
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 3
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : secondName
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Velazquez
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 4
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : name
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Enrique Velazquez
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 5
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : birthDate
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.time.LocalDate
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 1985-05-11
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 6
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : age
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : int
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 39
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 7
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : agetype
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 8
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : sex
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : M
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 9
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : address
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Roses Road 15
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 10
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : city
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Dublin, Ireland
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 11
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : nextKin
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 1
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 12
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : telephone
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : +39
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 13
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : note
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 14
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : motherName
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 15
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : mother
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : D
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 16
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : fatherName
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 17
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : father
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : D
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 18
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : bloodType
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : B+
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 19
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : hasInsurance
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Y
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 20
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : parentTogether
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : N
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 21
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : taxCode
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 123
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 22
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : maritalStatus
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : married
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 23
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : profession
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : business
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 24
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : deleted
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : N
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 25
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : lock
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : int
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 0
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 26
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : hashCode
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : int
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 0
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 11/05/2024 08:34:41 PM BST
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Parameter
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 3
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.savePatient
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : org.isf.patient.model.Patient
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Enrique Velazquez
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : patient
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : org.isf.patient.model.Patient
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 1
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : bloodType
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:34:41 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : B+
+11/05/2024 08:35:21 PM BST INFO  ConfigurationProperties:91 - File txtPrinter.properties loaded.
+11/05/2024 08:35:21 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_HEIGHT property not found: default is 10
+11/05/2024 08:35:21 PM BST WARN  ConfigurationProperties:122 - TXT_CHAR_WIDTH property not found: default is 10
+11/05/2024 08:35:35 PM BST INFO  ConfigurationProperties:91 - File sms.properties loaded.
+11/05/2024 08:35:35 PM BST WARN  Webcam:964 - No webcam has been detected!
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1035 - OS Name              : Windows Server 2016
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1036 - OS Current Time      : 11/05/2024 08:35:50 PM BST
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1038 - OS IP Address        : 189.122.67.106
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1040 - OS Hostname          : f7.local
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1042 - OS UserName          : f7
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1043 - Annotation Type      : Method
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1044 - Method Number        : 4
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1045 - Method Name          : org.isf.patient.manager.PatientBrowserManager.savePatient
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1046 - Method Return Type   : org.isf.patient.model.Patient
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1047 - Method Return Value  : Mary Brown
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1079 - Parameter Number     : 1
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Parameter Name       : patient
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Parameter Type       : org.isf.patient.model.Patient
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:999 - The Parameter Name: patient has the following Attributes:
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 1
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : code
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.Integer
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 160
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 2
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : firstName
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Mary
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 3
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : secondName
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Brown
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 4
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : name
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Mary Brown
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 5
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : birthDate
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.time.LocalDate
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 2004-05-11
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 6
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : age
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : int
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 20
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 7
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : agetype
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 8
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : sex
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : F
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 9
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : address
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Roses Road 312
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 10
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : city
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : Berlin, Germany
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 11
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : nextKin
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 1
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 12
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : telephone
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : +39123
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 13
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : note
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 14
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : motherName
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 15
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : mother
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : D
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 16
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : fatherName
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 17
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : father
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : D
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 18
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : bloodType
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 0+
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 19
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : hasInsurance
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : N
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 20
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : parentTogether
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : char
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : N
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 21
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : taxCode
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 123
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 22
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : maritalStatus
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : single
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 23
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : profession
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : foodhospitality
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 24
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : deleted
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : java.lang.String
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : N
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 25
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : lock
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : int
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 2
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1067 - Attribute Number     : 26
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1081 - Attribute Name       : hashCode
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1082 - Attribute Type       : int
+11/05/2024 08:35:50 PM BST INFO  PatientBrowserManager:1122 - Attribute Value      : 0
+11/05/2024 08:36:57 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+

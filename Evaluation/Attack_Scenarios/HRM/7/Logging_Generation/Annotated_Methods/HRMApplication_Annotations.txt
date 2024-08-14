@@ -1,0 +1,6 @@
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Admin,UserLevel,=,Admin;
+Method,2,controller.UserController.save,controller.UserController,save,Method = controller.UserController.save,Method,=,controller.UserController.save;
+Parameter,3,model.UserDatabase.save,model.UserDatabase,save,model.User.user.userLevel = Admin,userLevel,=,Admin;
+Method,4,model.EmployeeDatabase.save,model.EmployeeDatabase,save,Method = model.EmployeeDatabase.save,Method,=,model.EmployeeDatabase.save;
+Method,5,controller.UserController.delete,controller.UserController,delete,Method = controller.UserController.delete,Method,=,controller.UserController.delete;
+Parameter,6,model.UserDatabase.delete,model.UserDatabase,delete,model.User.user.userLevel = Admin,userLevel,=,Admin;

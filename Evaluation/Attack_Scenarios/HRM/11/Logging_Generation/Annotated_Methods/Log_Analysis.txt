@@ -1,0 +1,10 @@
+Methods:
+1.- call(boolean controller.UserController.validateUser(..)); => 3 Occurrences
+
+Annotations:
+ReturnType,1,controller.UserController.validateUser,controller.UserController,validateUser,boolean = false,boolean,=,false;
+
+
+1.- The controller.UserController.validateUser method is included in the security log 3 times. 
+These times corresponds when during the attack scenario an external attacker misused the credentials of a System Administrator and tried to connect to the HRM software System.
+This is the moment when a brute force security incident happened and we recorded the evidence.

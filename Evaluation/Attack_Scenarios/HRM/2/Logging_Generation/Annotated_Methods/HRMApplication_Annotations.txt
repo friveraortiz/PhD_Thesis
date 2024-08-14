@@ -1,0 +1,3 @@
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Admin,UserLevel,=,Admin;
+Method,2,controller.EmployeeController.save,controller.EmployeeController,save,Method = controller.EmployeeController.save,Method,=,controller.EmployeeController.save;
+Parameter,3,model.EmployeeDatabase.save,model.EmployeeDatabase,save,employee.supervisor = Arthur Jones,supervisor,=,Arthur Jones;

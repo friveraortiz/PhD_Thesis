@@ -1,0 +1,61 @@
+Methods:
+
+1.- call(boolean controller.UserController.validateUser(..))|| => 1 Occurrence
+    call(boolean model.UserDatabase.validateUser(..))|| => 1 Occurrence
+    call(model.UserLevel controller.UserController.getUserLevel(..))|| => 1 Occurrence
+    call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 1 Occurrence
+
+2.- call(void controller.ModuleController.saveModules(..))|| => 1 Occurrence
+    call(void model.ModuleDatabase.saveModules(..))|| => 1 Occurrence
+    call(java.lang.String[] controller.ModuleController.getModules(..))|| => 1 Occurrence
+    call(java.lang.String[] model.ModuleDatabase.getModules(..))|| => 1 Occurrence
+    call(java.lang.String[][] controller.ModuleController.getSubModules(..))|| => 1 Occurrence
+    call(java.lang.String[][] model.ModuleDatabase.getSubModules(..))|| => 1 Occurrence
+
+3.- call(ArrayList<model.Employee> controller.TravelRequestController.loadFullNameEmployees(..))|| => 18 Occurrences
+    call(ArrayList<model.Employee> model.TravelRequestDatabase.loadFullNameEmployees(..))|| => 18 Occurrences
+
+4.- call(int controller.TravelRequestController.maxNumTravelRequest(..))|| => 18 Occurrences
+    call(int model.TravelRequestDatabase.maxNumTravelRequest(..))|| => 18 Occurrences
+
+5.- call(void controller.TravelRequestController.load(..))|| => 6 Occurrences
+    call(void model.TravelRequestDatabase.load(..))|| => 6 Occurrences
+
+6.- call(void controller.TravelRequestController.save(..))|| => 2 Occurrences
+    call(void model.TravelRequestDatabase.save(..)); => 2 Occurrences
+
+
+Annotations:
+
+Method,1,controller.UserController.validateUser,controller.UserController,validateUser,Method = controller.UserController.validateUser,Method,=,controller.UserController.validateUser;
+Method,2,model.UserDatabase.validateUser,model.UserDatabase,validateUser,Method = model.UserDatabase.validateUser,Method,=,model.UserDatabase.validateUser;
+Method,3,controller.UserController.getUserLevel,controller.UserController,getUserLevel,Method = controller.UserController.getUserLevel,Method,=,controller.UserController.getUserLevel;
+Method,4,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,Method = model.UserDatabase.getUserLevel,Method,=,model.UserDatabase.getUserLevel;
+Method,5,controller.ModuleController.saveModules,controller.ModuleController,saveModules,Method = controller.ModuleController.saveModules,Method,=,controller.ModuleController.saveModules;
+Method,6,model.ModuleDatabase.saveModules,model.ModuleDatabase,saveModules,Method = model.ModuleDatabase.saveModules,Method,=,model.ModuleDatabase.saveModules;
+Method,7,controller.ModuleController.getModules,controller.ModuleController,getModules,Method = controller.ModuleController.getModules,Method,=,controller.ModuleController.getModules;
+Method,8,model.ModuleDatabase.getModules,model.ModuleDatabase,getModules,Method = model.ModuleDatabase.getModules,Method,=,model.ModuleDatabase.getModules;
+Method,9,controller.ModuleController.getSubModules,controller.ModuleController,getSubModules,Method = controller.ModuleController.getSubModules,Method,=,controller.ModuleController.getSubModules;
+Method,10,model.ModuleDatabase.getSubModules,model.ModuleDatabase,getSubModules,Method = model.ModuleDatabase.getSubModules,Method,=,model.ModuleDatabase.getSubModules;
+Method,11,controller.TravelRequestController.loadFullNameEmployees,controller.TravelRequestController,loadFullNameEmployees,Method = controller.TravelRequestController.loadFullNameEmployees,Method,=,controller.TravelRequestController.loadFullNameEmployees;
+Method,12,model.TravelRequestDatabase.loadFullNameEmployees,model.TravelRequestDatabase,loadFullNameEmployees,Method = model.TravelRequestDatabase.loadFullNameEmployees,Method,=,model.TravelRequestDatabase.loadFullNameEmployees;
+Method,13,controller.TravelRequestController.maxNumTravelRequest,controller.TravelRequestController,maxNumTravelRequest,Method = controller.TravelRequestController.maxNumTravelRequest,Method,=,controller.TravelRequestController.maxNumTravelRequest;
+Method,14,model.TravelRequestDatabase.maxNumTravelRequest,model.TravelRequestDatabase,maxNumTravelRequest,Method = model.TravelRequestDatabase.maxNumTravelRequest,Method,=,model.TravelRequestDatabase.maxNumTravelRequest;
+Method,15,controller.TravelRequestController.load,controller.TravelRequestController,load,Method = controller.TravelRequestController.load,Method,=,controller.TravelRequestController.load;
+Method,16,model.TravelRequestDatabase.load,model.TravelRequestDatabase,load,Method = model.TravelRequestDatabase.load,Method,=,model.TravelRequestDatabase.load;
+Method,17,controller.TravelRequestController.save,controller.TravelRequestController,save,Method = controller.TravelRequestController.save,Method,=,controller.TravelRequestController.save;
+Method,18,model.TravelRequestDatabase.save,model.TravelRequestDatabase,save,Method = model.TravelRequestDatabase.save,Method,=,model.TravelRequestDatabase.save;
+
+
+
+1.- The controller.UserController.validateUser, model.UserDatabase.validateUser, controller.UserController.getUserLevel and model.UserDatabase.getUserLevel methods are included in the security log 1 time. This time corresponds when during the attack scenario an External Attacker misused the credentials of an Employee and connected to the HRM Software System.
+
+2.- The controller.ModuleController.saveModules, model.ModuleDatabase.saveModules, controller.ModuleController.getModules, model.ModuleDatabase.getModules, controller.ModuleController.getSubModules, model.ModuleDatabase.getSubModules methods are included in the security log 1 time. This time corresponds, when the Fake Employee Bernabe accessed to the main screen in the HRM called: “Human Resources Management System Menu”. In this moment, the HRM software system generated the modules and submodules that a User could accessed in the HRM software system.
+
+3.- The controller.TravelRequestController.loadFullNameEmployees, model.TravelRequestDatabase.loadFullNameEmployees methods are included in the security log 18 times. These times corresponds when during the attack scenario, the HRM software system consulted the full Name of the existing Employees and displayed them in the Travel Request Main Menu Screen.
+
+4.- The controller.TravelRequestController.maxNumTravelRequest, model.TravelRequestDatabase.maxNumTravelRequest methods are included in the security log 18 times. These times corresponds when during the attack scenario, the HRM software system consulted the highest number of travel request and displayed the next number in the Travel Request Main Menu Screen.
+
+5.- The controller.TravelRequestController.load, model.TravelRequestDatabase.load methods are included in the security log 6 times. These times corresponds when during the attack scenario, either the Fake Employee: Bernabe consulted the existing information of a Travel Request.
+
+6.- The controller.TravelRequestController.save and model.TravelRequestDatabase.save methods are included 2 times in the security log. These times corresponds when during the attack scenario: A Travel Request was created or modified.

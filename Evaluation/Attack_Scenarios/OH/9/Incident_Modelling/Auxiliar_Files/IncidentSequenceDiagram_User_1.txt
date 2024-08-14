@@ -1,0 +1,89 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the OpenHospital ==
+actor User_1 order 1
+participant org.isf.menu.gui.Login order 2
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.Login
+end note
+User_1 ->org.isf.menu.gui.Login: 1.acceptPwd()
+||20||
+actor User_1 order 3
+participant org.isf.menu.manager.UserBrowsingManager order 4
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.MainMenu
+end note
+User_1 ->org.isf.menu.manager.UserBrowsingManager: 2.getMenu()
+||20||
+actor User_1 order 5
+participant org.isf.menu.manager.UserBrowsingManager order 6
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.UserBrowsing
+end note
+User_1 ->org.isf.menu.manager.UserBrowsingManager: 3.getUser()
+||20||
+actor User_1 order 7
+participant org.isf.menu.manager.UserBrowsingManager order 8
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.UserBrowsing
+end note
+User_1 ->org.isf.menu.manager.UserBrowsingManager: 4.getUserGroup()
+||20||
+actor User_1 order 9
+participant org.isf.menu.manager.UserBrowsingManager order 10
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.UserEdit
+end note
+User_1 ->org.isf.menu.manager.UserBrowsingManager: 5.getUserGroup()
+||20||
+actor User_1 order 11
+participant org.isf.menu.manager.UserBrowsingManager order 12
+note left of User_1 #lightskyblue 
+org.isf.menu.gui.UserEdit
+end note
+User_1 ->org.isf.menu.manager.UserBrowsingManager: 6.newUser()
+||20||
+actor User_1 order 13
+participant org.isf.exa.manager.ExamBrowsingManager order 14
+note left of User_1 #lightskyblue 
+org.isf.exa.gui.ExamBrowser
+end note
+User_1 ->org.isf.exa.manager.ExamBrowsingManager: 7.getExamType()
+||20||
+actor User_1 order 15
+participant org.isf.exa.manager.ExamBrowsingManager order 16
+note left of User_1 #lightskyblue 
+org.isf.exa.gui.ExamBrowser
+end note
+User_1 ->org.isf.exa.manager.ExamBrowsingManager: 8.getExams()
+||20||
+actor User_1 order 17
+participant org.isf.exa.manager.ExamBrowsingManager order 18
+note left of User_1 #lightskyblue 
+org.isf.exa.gui.ExamEdit
+end note
+User_1 ->org.isf.exa.manager.ExamBrowsingManager: 9.updateExam()
+||20||
+actor User_1 order 19
+participant org.isf.exa.manager.ExamBrowsingManager order 20
+note left of User_1 #lightskyblue 
+org.isf.exa.gui.ExamBrowser
+end note
+User_1 ->org.isf.exa.manager.ExamBrowsingManager: 10.getExams()
+||20||
+@enduml

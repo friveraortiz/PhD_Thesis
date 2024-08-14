@@ -1,0 +1,27 @@
+Methods:
+1.- call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))|| => 2 Ocurrences
+2.- call(boolean org.isf.lab.manager.LabManager.newLaboratory2(..))|| => 1 Ocurrence
+3.- call(boolean org.isf.lab.manager.LabManager.updateLaboratory(..))|| => 1 Ocurrence
+4.- call(boolean org.isf.lab.manager.LabManager.deleteLaboratory(..)); => 1 Ocurrence
+
+
+Annotations:
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = physician,code,=,physician;
+Parameter,2,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+ReturnType,3,org.isf.lab.manager.LabManager.newLaboratory2,org.isf.lab.manager.LabManager,newLaboratory2,boolean = true,boolean,=,true;
+ReturnType,4,org.isf.lab.manager.LabManager.updateLaboratory,org.isf.lab.manager.LabManager,updateLaboratory,boolean = true,boolean,=,true;
+ReturnType,5,org.isf.lab.manager.LabManager.deleteLaboratory,org.isf.lab.manager.LabManager,deleteLaboratory,boolean = true,boolean,=,true;
+
+
+1.- The org.isf.menu.manager.UserBrowsingManager.getMenu method is included in the security log 2 times. 
+These times corresponds when during the attack scenario: A Physician or a System Administrator connected to the OH software system. 
+
+2.- The org.isf.lab.manager.LabManager.newLaboratory2 method is included in the security log 1 times. This time corresponds when during the attack scenario, a new laboratory exam for a patient was created by a Physician. This is the moment the security incident happened we recorded the evidence.
+
+
+3.- The org.isf.lab.manager.LabManager.updateLaboratory method is included in the security log 1 time. 
+This time corresponds when during the attack scenario, an existing laboratory exam for a patient was modified by a fake system administrator. This is the moment the security incident happened and we recorded the evidence.
+
+
+4.- The org.isf.lab.manager.LabManager.deleteLaboratory method is included in the security log 1 time. 
+This time corresponds when during the attack scenario, an existing laboratory exam for a patient was deleted by a fake system administrator. This is the moment the security incident happened and we recorded the evidence.

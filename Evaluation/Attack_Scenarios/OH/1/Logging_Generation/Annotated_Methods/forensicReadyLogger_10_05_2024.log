@@ -1,0 +1,704 @@
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1036 - OS Current Time      : 10/05/2024 05:31:01 PM MDT
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1042 - OS UserName          : f7
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1044 - Method Number        : 1
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1047 - Method Return Value  : 
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:31:01 PM MDT INFO  UserBrowsingManager:1122 - SubAttribute Value      : physician
+10/05/2024 05:31:40 PM MDT INFO  ConfigurationProperties:91 - File sms.properties loaded.
+10/05/2024 05:31:41 PM MDT INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+10/05/2024 05:31:41 PM MDT WARN  Webcam:964 - No webcam has been detected!
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1036 - OS Current Time      : 10/05/2024 05:32:51 PM MDT
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1043 - Annotation Type      : ReturnType
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1044 - Method Number        : 2
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.newAdmissionReturnKey
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1046 - Method Return Type   : java.lang.Integer
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1047 - Method Return Value  : 125
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1079 - Parameter Number     : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Parameter Name       : admission
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Parameter Type       : org.isf.admission.model.Admission
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:999 - The Parameter Name: admission has the following Attributes:
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : id
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 125
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 2
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : admitted
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 3
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : type
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : N
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 4
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : ward
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : org.isf.ward.model.Ward
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: ward has the followings Sub-Attributes:
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : I
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : INTERNAL MEDICINE
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : telephone
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 234/52544
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 4
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : fax
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 54324/5424
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 5
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : email
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : internal.medicine@stluke.org
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 6
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : beds
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 20
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 7
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : nurs
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 3
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 8
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : docs
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 2
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 9
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : isPharmacy
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 10
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : isMale
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 11
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : isFemale
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 12
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : visitDuration
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 30
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 13
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : lock
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 14
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 5
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : yProg
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 6
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : patient
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 125
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : firstName
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Valentina
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : secondName
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Guzman Perez
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 4
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : name
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Valentina Guzman Perez
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 5
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : birthDate
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.time.LocalDate
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 1973-04-25
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 6
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : age
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 51
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 7
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : agetype
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 8
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : sex
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : char
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : F
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 9
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : address
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 9 Grafton Street
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 10
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : city
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Dublin, Ireland
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 11
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : nextKin
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 12
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : telephone
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : +39123456789
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 13
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : note
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 14
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : motherName
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Maria
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 15
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : mother
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : char
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : A
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 16
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : fatherName
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Juan
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 17
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : father
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : char
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : A
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 18
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : bloodType
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0+
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 19
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hasInsurance
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : char
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Y
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 20
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : parentTogether
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : char
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Y
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 21
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : taxCode
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 22
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : maritalStatus
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : married
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 23
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : profession
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : medicine
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 24
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : deleted
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : N
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 25
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : lock
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 26
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 7
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : admDate
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.time.LocalDateTime
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 2024-05-10T17:32
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 8
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : admissionType
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : org.isf.admtype.model.AdmissionType
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: admissionType has the followings Sub-Attributes:
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : A
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : AMBULANCE
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 9
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : fHU
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : One
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 10
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : diseaseIn
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : org.isf.disease.model.Disease
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: diseaseIn has the followings Sub-Attributes:
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : J20
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Acute bronchitis
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : diseaseType
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : org.isf.distype.model.DiseaseType
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: diseaseType has the followings Sub-Attributes:
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : J
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : J00-J99 Respiratory system
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 4
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : lock
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 5
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : opdInclude
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 6
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : ipdInInclude
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 7
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : ipdOutInclude
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 8
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 11
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : userID
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : ptaylor
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 12
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : lock
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 13
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : deleted
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : N
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 14
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : hashCode
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+10/05/2024 05:32:51 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 3184
+10/05/2024 05:33:44 PM MDT INFO  ConfigurationProperties:91 - File sms.properties loaded.
+10/05/2024 05:33:44 PM MDT WARN  Webcam:964 - No webcam has been detected!
+10/05/2024 05:34:31 PM MDT INFO  ConfigurationProperties:91 - File txtPrinter.properties loaded.
+10/05/2024 05:34:31 PM MDT WARN  ConfigurationProperties:122 - TXT_CHAR_HEIGHT property not found: default is 10
+10/05/2024 05:34:31 PM MDT WARN  ConfigurationProperties:122 - TXT_CHAR_WIDTH property not found: default is 10
+10/05/2024 05:34:40 PM MDT INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1035 - OS Name              : Windows Server 2016
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1036 - OS Current Time      : 10/05/2024 05:37:20 PM MDT
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1038 - OS IP Address        : 189.122.67.106
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1040 - OS Hostname          : f7.local
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1042 - OS UserName          : f7
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1043 - Annotation Type      : Parameter
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1044 - Method Number        : 1
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1045 - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1046 - Method Return Type   : java.util.ArrayList
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1047 - Method Return Value  : 
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1079 - Parameter Number     : 1
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1081 - Parameter Name       : userGroupName
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1082 - Parameter Type       : org.isf.menu.model.UserGroup
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1081 - SubAttribute Name       : code
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:37:20 PM MDT INFO  UserBrowsingManager:1122 - SubAttribute Value      : admin
+10/05/2024 05:38:15 PM MDT INFO  ConfigurationProperties:91 - File sms.properties loaded.
+10/05/2024 05:38:15 PM MDT INFO  Webcam:1048 - WebcamDefaultDriver capture driver will be used
+10/05/2024 05:38:16 PM MDT WARN  Webcam:964 - No webcam has been detected!
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1035 - OS Name              : Windows Server 2016
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1036 - OS Current Time      : 10/05/2024 05:40:15 PM MDT
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1038 - OS IP Address        : 189.122.67.106
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1040 - OS Hostname          : f7.local
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1042 - OS UserName          : f7
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1043 - Annotation Type      : ReturnType
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1044 - Method Number        : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1045 - Method Name          : org.isf.admission.manager.AdmissionBrowserManager.updateAdmission
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1046 - Method Return Type   : java.lang.Boolean
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1047 - Method Return Value  : true
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1079 - Parameter Number     : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Parameter Name       : admission
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Parameter Type       : org.isf.admission.model.Admission
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:999 - The Parameter Name: admission has the following Attributes:
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : id
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 125
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : admitted
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 3
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : type
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : N
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 4
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : ward
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : org.isf.ward.model.Ward
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: ward has the followings Sub-Attributes:
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : I
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : INTERNAL MEDICINE
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : telephone
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 234/52544
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 4
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : fax
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 54324/5424
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 5
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : email
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : internal.medicine@stluke.org
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 6
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : beds
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 20
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 7
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : nurs
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 3
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 8
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : docs
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 9
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : isPharmacy
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 10
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : isMale
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 11
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : isFemale
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 12
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : visitDuration
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 30
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 13
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : lock
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 14
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 5
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : yProg
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 6
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : patient
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : org.isf.patient.model.Patient
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: patient has the followings Sub-Attributes:
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 125
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : firstName
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Valentina
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : secondName
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Guzman Perez
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 4
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : name
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Valentina Guzman Perez
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 5
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : birthDate
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.time.LocalDate
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 1973-04-25
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 6
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : age
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 51
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 7
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : agetype
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 8
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : sex
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : char
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : F
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 9
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : address
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 9 Grafton Street
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 10
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : city
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Dublin, Ireland
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 11
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : nextKin
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 12
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : telephone
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : +39123456789
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 13
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : note
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 14
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : motherName
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Maria
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 15
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : mother
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : char
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : A
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 16
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : fatherName
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Juan
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 17
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : father
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : char
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : A
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 18
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : bloodType
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0+
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 19
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hasInsurance
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : char
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Y
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 20
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : parentTogether
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : char
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Y
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 21
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : taxCode
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 22
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : maritalStatus
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : married
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 23
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : profession
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : medicine
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 24
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : deleted
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : N
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 25
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : lock
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 26
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 7
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : admDate
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.time.LocalDateTime
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 2024-05-10T17:32
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 8
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : admissionType
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : org.isf.admtype.model.AdmissionType
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: admissionType has the followings Sub-Attributes:
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : A
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : AMBULANCE
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 9
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : fHU
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : One
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 10
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : diseaseIn
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : org.isf.disease.model.Disease
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: diseaseIn has the followings Sub-Attributes:
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : J20
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Acute bronchitis
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : diseaseType
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : org.isf.distype.model.DiseaseType
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: diseaseType has the followings Sub-Attributes:
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : J
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : J00-J99 Respiratory system
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 4
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : lock
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 5
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : opdInclude
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 6
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : ipdInInclude
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 7
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : ipdOutInclude
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 8
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 11
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : diseaseOut1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : org.isf.disease.model.Disease
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: diseaseOut1 has the followings Sub-Attributes:
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : T78
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : Adverse effects, not elsewhere classified
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : diseaseType
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : org.isf.distype.model.DiseaseType
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: diseaseType has the followings Sub-Attributes:
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : ST
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : S00-T98 Injury, poisoning and certain other consequences of external causes
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 4
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : lock
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.Integer
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 5
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : opdInclude
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 6
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : ipdInInclude
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 7
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : ipdOutInclude
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : boolean
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : true
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 8
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 12
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : disDate
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.time.LocalDateTime
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 2024-05-10T17:39
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 13
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : disType
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : org.isf.disctype.model.DischargeType
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:644 - The Attribute Name: disType has the followings Sub-Attributes:
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 1
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : code
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : EQ
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 2
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : description
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : NORMAL DISCHARGE
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1074 - SubAttribute Number     : 3
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - SubAttribute Name       : hashCode
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - SubAttribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - SubAttribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 14
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : userID
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : mlewis
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 15
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : lock
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 0
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 16
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : deleted
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : java.lang.String
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : N
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1067 - Attribute Number     : 17
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1081 - Attribute Name       : hashCode
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1082 - Attribute Type       : int
+10/05/2024 05:40:15 PM MDT INFO  AdmissionBrowserManager:1122 - Attribute Value      : 3184
+10/05/2024 05:41:17 PM MDT INFO  ConfigurationProperties:91 - File txtPrinter.properties loaded.
+10/05/2024 05:41:17 PM MDT WARN  ConfigurationProperties:122 - TXT_CHAR_HEIGHT property not found: default is 10
+10/05/2024 05:41:17 PM MDT WARN  ConfigurationProperties:122 - TXT_CHAR_WIDTH property not found: default is 10
+10/05/2024 05:42:02 PM MDT INFO  ConfigurationProperties:91 - File sms.properties loaded.
+10/05/2024 05:42:02 PM MDT WARN  Webcam:964 - No webcam has been detected!
+10/05/2024 05:43:06 PM MDT INFO  ConfigurationProperties:91 - File sms.properties loaded.
+10/05/2024 05:43:06 PM MDT WARN  Webcam:964 - No webcam has been detected!
+10/05/2024 05:43:17 PM MDT INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+

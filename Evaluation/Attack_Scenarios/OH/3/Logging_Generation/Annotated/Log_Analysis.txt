@@ -1,0 +1,27 @@
+Methods:
+1.- call(List<org.isf.menu.model.UserMenuItem> org.isf.menu.manager.UserBrowsingManager.getMenu(..))||. => 1 Occurrence
+2.- call(org.isf.admission.model.AdmittedPatient org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients(..))|| => 2 Occurrences
+3.- call(org.isf.patient.model.Patient org.isf.patient.manager.PatientBrowserManager.savePatient(..))|| => 2 Occurrences
+4.- call(boolean org.isf.patient.manager.PatientBrowserManager.deletePatient(..)); => 1 Occurrence
+
+
+Annotations:
+Parameter,1,org.isf.menu.manager.UserBrowsingManager.getMenu,org.isf.menu.manager.UserBrowsingManager,getMenu,aUser.userGroupName.code = admin,code,=,admin;
+Method,2,org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients,org.isf.admission.manager.AdmissionBrowserManager,loadAdmittedPatients,Method = org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients,Method,=,org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients;
+Parameter,3,org.isf.patient.manager.PatientBrowserManager.savePatient,org.isf.patient.manager.PatientBrowserManager,savePatient,patient.hasInsurance != Y,hasInsurance,!=,Y;
+ReturnType,4,org.isf.patient.manager.PatientBrowserManager.deletePatient,org.isf.patient.manager.PatientBrowserManager,deletePatient,boolean = true,boolean,=,true;
+
+
+1.- The org.isf.menu.manager.UserBrowsingManager.getMenu methods is included in the security log 1 times. 
+This time corresponds when during the attack scenario: A System Administrator connected to the OH software system. 
+
+2.- The org.isf.admission.manager.AdmissionBrowserManager.loadAdmittedPatients is included in the security log 2 times. 
+These times corresponds when during the attack scenario a Patient was modified in some field and this method shows the patientId that was modified and presented it in the Patient Browser screen in the OH software system.
+
+3.- The org.isf.patient.manager.PatientBrowserManager.savePatient is included in the security log 2 times. 
+These times corresponds when during the attack scenario a Patient was modified in the hasInsurance field either to "N" or "U" inside the Patient Browser screen in the OH software system. This is the moment when the security incident happened and we recorded the evidence.
+
+4.- The org.isf.patient.manager.PatientBrowserManager.deletePatient is included in the security log 1 time. 
+This time corresponds when during the attack scenario a Patient was deleted inside the Patient Browser screen in the OH software system. This is the moment when the security incident happened and we recorded the evidence.
+
+

@@ -1,0 +1,28 @@
+Methods:
+1.- call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 3 Ocurrences
+2.- call(void controller.UserController.save(..))|| => 5 Ocurrences
+3.- call(void model.UserDatabase.save(..))|| => 1 Ocurrences
+4.- call(void model.EmployeeDatabase.save(..))|| => 4 Ocurrences
+5.- call(void controller.UserController.delete(..))|| => 3 Ocurrences
+6.- call(void model.UserDatabase.delete(..)); => 1 Ocurrence
+
+Annotations:
+ReturnType,1,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,model.UserLevel = Admin,UserLevel,=,Admin;
+Method,2,controller.UserController.save,controller.UserController,save,Method = controller.UserController.save,Method,=,controller.UserController.save;
+Parameter,3,model.UserDatabase.save,model.UserDatabase,save,model.User.user.userLevel = Admin,userLevel,=,Admin;
+Method,4,model.EmployeeDatabase.save,model.EmployeeDatabase,save,Method = model.EmployeeDatabase.save,Method,=,model.EmployeeDatabase.save;
+Method,5,controller.UserController.delete,controller.UserController,delete,Method = controller.UserController.delete,Method,=,controller.UserController.delete;
+Parameter,6,model.UserDatabase.delete,model.UserDatabase,delete,model.User.user.userLevel = Admin,userLevel,=,Admin;
+
+
+1.- The model.UserLevel model.UserDatabase.getUserLevel is included in the security log 3 times. This times corresponds when during the attack scenario a System Administrator connects to the HRM software system. 
+
+2.- The controller.UserController.save method is included 6 times in the security log. These times corresponds when during the attack scenario a User with a User Level either Admin or Employee were created or modified.
+
+3.- The model.UserDatabase.save is included 1 time in the security log. This time corresponds when during the attack scenario, the security incident really happened and a User Level equal to Admin was created and we recorded the evidence.
+
+4.- The model.EmployeeDatabase.save is included 4 times in the security log. These times corresponds when during the attack scenario an Employee was modified.
+
+5.- The controller.UserController.delete method is included 3 times in the security log. These times corresponds when during the attack scenario a User with a User Level equal to Admin or Employee were deleted. This is correct because we indicated to include in the log this method to see the details such as User Id and User Name of the user that has been deleted.
+
+6.- The model.UserDatabase.delete method is included 1 time in the security log. This time corresponds when during the attack scenario the security incident really happened, a User Level equal to Admin has been deleted and we recorded the evidence. 

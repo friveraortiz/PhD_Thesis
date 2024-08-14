@@ -1,0 +1,59 @@
+Methods:
+
+1.- call(boolean controller.UserController.validateUser(..))|| => 1 Occurrence
+    call(boolean model.UserDatabase.validateUser(..))|| => 1 Occurrence
+    call(model.UserLevel controller.UserController.getUserLevel(..))|| => 1 Occurrence
+    call(model.UserLevel model.UserDatabase.getUserLevel(..))|| => 1 Occurrence
+	      
+2.- call(void controller.ModuleController.saveModules(..))|| => 16 Occurrences
+    call(void model.ModuleDatabase.saveModules(..))|| => 1 Occurrences
+    call(java.lang.String[] controller.ModuleController.getModules(..))|| => 1 Occurrences
+    call(java.lang.String[] model.ModuleDatabase.getModules(..))|| => 1 Occurrences
+    call(java.lang.String[][] controller.ModuleController.getSubModules(..))|| => 1 Occurrences
+    call(java.lang.String[][] model.ModuleDatabase.getSubModules(..))|| => 1 Occurrences
+	      
+3.- call(ArrayList<model.Employee> controller.UserController.loadFullNameEmployees(..))|| => 27 Occurrences
+    call(ArrayList<model.Employee> model.UserDatabase.loadFullNameEmployees(..))|| => 27 Occurrences
+	      
+4.- call(void controller.UserController.load(..))|| => 13 Occurrences
+    call(void model.UserDatabase.load(..))|| => 13 Occurrences
+	      
+5.- call(boolean controller.UserController.validateDeleteUser(..))|| => 2 Occurrences
+    call(boolean model.UserDatabase.validateDeleteUser(..))|| => 2 Occurrences
+	      
+6.- call(void controller.UserController.delete(..))|| => 2 Occurrences
+    call(void model.UserDatabase.delete(..)); => 2 Occurrences
+
+Annotations:
+
+Method,1,controller.UserController.validateUser,controller.UserController,validateUser,Method = controller.UserController.validateUser,Method,=,controller.UserController.validateUser;
+Method,2,model.UserDatabase.validateUser,model.UserDatabase,validateUser,Method = model.UserDatabase.validateUser,Method,=,model.UserDatabase.validateUser;
+Method,3,controller.UserController.getUserLevel,controller.UserController,getUserLevel,Method = controller.UserController.getUserLevel,Method,=,controller.UserController.getUserLevel;
+Method,4,model.UserDatabase.getUserLevel,model.UserDatabase,getUserLevel,Method = model.UserDatabase.getUserLevel,Method,=,model.UserDatabase.getUserLevel;
+Method,5,controller.ModuleController.saveModules,controller.ModuleController,saveModules,Method = controller.ModuleController.saveModules,Method,=,controller.ModuleController.saveModules;
+Method,6,model.ModuleDatabase.saveModules,model.ModuleDatabase,saveModules,Method = model.ModuleDatabase.saveModules,Method,=,model.ModuleDatabase.saveModules;
+Method,7,controller.ModuleController.getModules,controller.ModuleController,getModules,Method = controller.ModuleController.getModules,Method,=,controller.ModuleController.getModules;
+Method,8,model.ModuleDatabase.getModules,model.ModuleDatabase,getModules,Method = model.ModuleDatabase.getModules,Method,=,model.ModuleDatabase.getModules;
+Method,9,controller.ModuleController.getSubModules,controller.ModuleController,getSubModules,Method = controller.ModuleController.getSubModules,Method,=,controller.ModuleController.getSubModules;
+Method,10,model.ModuleDatabase.getSubModules,model.ModuleDatabase,getSubModules,Method = model.ModuleDatabase.getSubModules,Method,=,model.ModuleDatabase.getSubModules;
+Method,11,controller.UserController.loadFullNameEmployees,controller.UserController,loadFullNameEmployees,Method = controller.UserController.loadFullNameEmployees,Method,=,controller.UserController.loadFullNameEmployees;
+Method,12,model.UserDatabase.loadFullNameEmployees,model.UserDatabase,loadFullNameEmployees,Method = model.UserDatabase.loadFullNameEmployees,Method,=,model.UserDatabase.loadFullNameEmployees;
+Method,13,controller.UserController.load,controller.UserController,load,Method = controller.UserController.load,Method,=,controller.UserController.load;
+Method,14,model.UserDatabase.load,model.UserDatabase,load,Method = model.UserDatabase.load,Method,=,model.UserDatabase.load;
+Method,15,controller.UserController.validateDeleteUser,controller.UserController,validateDeleteUser,Method = controller.UserController.validateDeleteUser,Method,=,controller.UserController.validateDeleteUser;
+Method,16,model.UserDatabase.validateDeleteUser,model.UserDatabase,validateDeleteUser,Method = model.UserDatabase.validateDeleteUser,Method,=,model.UserDatabase.validateDeleteUser;
+Method,17,controller.UserController.delete,controller.UserController,delete,Method = controller.UserController.delete,Method,=,controller.UserController.delete;
+Method,18,model.UserDatabase.delete,model.UserDatabase,delete,Method = model.UserDatabase.delete,Method,=,model.UserDatabase.delete;
+
+
+1.- The controller.UserController.validateUser, model.UserDatabase.validateUser, controller.UserController.getUserLevel and model.UserDatabase.getUserLevel methods are included in the security log 1 time. This time corresponds when during the attack scenario the System Administrator connected to the HRM software system.
+
+2.- The controller.ModuleController.saveModules, model.ModuleDatabase.saveModules, controller.ModuleController.getModules, model.ModuleDatabase.getModules, controller.ModuleController.getSubModules, model.ModuleDatabase.getSubModules methods are included in the security log 16 times. These times corresponds, when the System Administrator accessed to the main screen in the HRM called: “Human Resources Management System Menu”. In this moment, the HRM software system generated the modules and submodules that a User in the HRM could accessed and displayed them.
+
+3.- The controller.UserController.loadFullNameEmployees, model.UserDatabase.loadFullNameEmployees methods are included in the security log 27 times. These times corresponds when during the attack scenario, the HRM software system consulted the full Name of the existing Employees and displayed them in the Users Main Menu Screen.
+
+4.- The controller.UserController.load, model.UserDatabase.load methods are included in the security log 13 times. These times corresponds when during the attack scenario, the HRM software system consulted the information of the existing Users and displayed them in the Users Main Menu Screen.
+
+5.- The controller.UserController.validateDeleteUser and model.UserDatabase.validateDeleteUser methods are included 2 times in the security log. These times corresponds when during the attack scenario a User either a Manager or Employee were about to be deleted and these methods validated if such User could be deleted. 
+
+6.- The controller.UserController.delete and the model.UserDatabase.delete methods are included 2 times in the security log. These times corresponds when during the attack scenario a User either a Manager or an Employee were deleted. This is the moment when the security incident happened and we recorded the evidence. 

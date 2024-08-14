@@ -1,0 +1,42 @@
+23/05/2024 06:40:30 PM BST INFO  Login:1035 - OS Name              : Windows Server 2016
+23/05/2024 06:40:30 PM BST INFO  Login:1036 - OS Current Time      : 23/05/2024 06:40:30 PM BST
+23/05/2024 06:40:30 PM BST INFO  Login:1038 - OS IP Address        : 189.122.67.106
+23/05/2024 06:40:30 PM BST INFO  Login:1040 - OS Hostname          : f7.local
+23/05/2024 06:40:30 PM BST INFO  Login:1042 - OS UserName          : f7
+23/05/2024 06:40:30 PM BST INFO  Login:1043 - Annotation Type      : Method
+23/05/2024 06:40:30 PM BST INFO  Login:1044 - Method Number        : 1
+23/05/2024 06:40:30 PM BST INFO  Login:1045 - Method Name          : org.isf.menu.gui.Login.acceptPwd
+23/05/2024 06:40:30 PM BST INFO  Login:1046 - Method Return Type   : void
+23/05/2024 06:40:30 PM BST INFO  Login:1047 - Method Return Value  : 
+23/05/2024 06:40:30 PM BST INFO  Login:1261 - The Method: acceptPwd DOES NOT have any Parameters
+23/05/2024 06:40:32 PM BST WARN  Login:170 - Login failed: The password is incorrect; please retry.
+23/05/2024 06:40:33 PM BST INFO  Login:1035 - OS Name              : Windows Server 2016
+23/05/2024 06:40:33 PM BST INFO  Login:1036 - OS Current Time      : 23/05/2024 06:40:33 PM BST
+23/05/2024 06:40:33 PM BST INFO  Login:1038 - OS IP Address        : 189.122.67.106
+23/05/2024 06:40:33 PM BST INFO  Login:1040 - OS Hostname          : f7.local
+23/05/2024 06:40:33 PM BST INFO  Login:1042 - OS UserName          : f7
+23/05/2024 06:40:33 PM BST INFO  Login:1043 - Annotation Type      : Method
+23/05/2024 06:40:33 PM BST INFO  Login:1044 - Method Number        : 2
+23/05/2024 06:40:33 PM BST INFO  Login:1045 - Method Name          : org.isf.menu.gui.Login.acceptPwd
+23/05/2024 06:40:33 PM BST INFO  Login:1046 - Method Return Type   : void
+23/05/2024 06:40:33 PM BST INFO  Login:1047 - Method Return Value  : 
+23/05/2024 06:40:33 PM BST INFO  Login:1261 - The Method: acceptPwd DOES NOT have any Parameters
+23/05/2024 06:40:36 PM BST WARN  Login:170 - Login failed: The password is incorrect; please retry.
+23/05/2024 06:40:37 PM BST INFO  Login:1035 - OS Name              : Windows Server 2016
+23/05/2024 06:40:37 PM BST INFO  Login:1036 - OS Current Time      : 23/05/2024 06:40:37 PM BST
+23/05/2024 06:40:37 PM BST INFO  Login:1038 - OS IP Address        : 189.122.67.106
+23/05/2024 06:40:37 PM BST INFO  Login:1040 - OS Hostname          : f7.local
+23/05/2024 06:40:37 PM BST INFO  Login:1042 - OS UserName          : f7
+23/05/2024 06:40:37 PM BST INFO  Login:1043 - Annotation Type      : Method
+23/05/2024 06:40:37 PM BST INFO  Login:1044 - Method Number        : 3
+23/05/2024 06:40:37 PM BST INFO  Login:1045 - Method Name          : org.isf.menu.gui.Login.acceptPwd
+23/05/2024 06:40:37 PM BST INFO  Login:1046 - Method Return Type   : void
+23/05/2024 06:40:37 PM BST INFO  Login:1047 - Method Return Value  : 
+23/05/2024 06:40:37 PM BST INFO  Login:1261 - The Method: acceptPwd DOES NOT have any Parameters
+23/05/2024 06:40:59 PM BST INFO  MainMenu:312 - Login failed.
+23/05/2024 06:40:59 PM BST INFO  MainMenu:315 - 
+
+=====================
+ Open Hospital closed 
+=====================
+

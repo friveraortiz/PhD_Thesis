@@ -1,0 +1,180 @@
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1035 - OS Name              : Mac OS X
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1036 - OS Current Time      : 19/04/2024 08:08:24 PM IST
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1038 - OS IP Address        : 189.122.67.106
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1040 - OS Hostname          : f7.local
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1042 - OS UserName          : f7
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1043 - Annotation Type      : Method
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1044 - Method Number        : 1
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1045 - Method Name          : model.UserDatabase.validateUser
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1046 - Method Return Type   : java.lang.Boolean
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1047 - Method Return Value  : false
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1079 - Parameter Number     : 1
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1081 - Parameter Name       : user
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1082 - Parameter Type       : model.User
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:998 - The Parameter Name: user has the following Attributes:
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1067 - Attribute Number     : 1
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1081 - Attribute Name       : serialVersionUID
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1082 - Attribute Type       : long
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1122 - Attribute Value      : -542727119035768593
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1067 - Attribute Number     : 2
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1081 - Attribute Name       : count
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1122 - Attribute Value      : 1
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1067 - Attribute Number     : 3
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1081 - Attribute Name       : id
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1122 - Attribute Value      : 0
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1067 - Attribute Number     : 4
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1081 - Attribute Name       : userName
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1122 - Attribute Value      : hsmith
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1067 - Attribute Number     : 5
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1081 - Attribute Name       : password
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:24 PM IST INFO  UserDatabase:1122 - Attribute Value      : 1
+19/04/2024 08:08:24 PM IST INFO  UserController:1035 - OS Name              : Mac OS X
+19/04/2024 08:08:24 PM IST INFO  UserController:1036 - OS Current Time      : 19/04/2024 08:08:24 PM IST
+19/04/2024 08:08:24 PM IST INFO  UserController:1038 - OS IP Address        : 189.122.67.106
+19/04/2024 08:08:24 PM IST INFO  UserController:1040 - OS Hostname          : f7.local
+19/04/2024 08:08:24 PM IST INFO  UserController:1042 - OS UserName          : f7
+19/04/2024 08:08:24 PM IST INFO  UserController:1043 - Annotation Type      : Method
+19/04/2024 08:08:24 PM IST INFO  UserController:1044 - Method Number        : 2
+19/04/2024 08:08:24 PM IST INFO  UserController:1045 - Method Name          : controller.UserController.validateUser
+19/04/2024 08:08:24 PM IST INFO  UserController:1046 - Method Return Type   : java.lang.Boolean
+19/04/2024 08:08:24 PM IST INFO  UserController:1047 - Method Return Value  : false
+19/04/2024 08:08:24 PM IST INFO  UserController:1079 - Parameter Number     : 1
+19/04/2024 08:08:24 PM IST INFO  UserController:1081 - Parameter Name       : ev
+19/04/2024 08:08:24 PM IST INFO  UserController:1082 - Parameter Type       : gui.UserFormEvent
+19/04/2024 08:08:24 PM IST INFO  UserController:998 - The Parameter Name: ev has the following Attributes:
+19/04/2024 08:08:24 PM IST INFO  UserController:1067 - Attribute Number     : 1
+19/04/2024 08:08:24 PM IST INFO  UserController:1081 - Attribute Name       : id
+19/04/2024 08:08:24 PM IST INFO  UserController:1082 - Attribute Type       : int
+19/04/2024 08:08:24 PM IST INFO  UserController:1122 - Attribute Value      : 0
+19/04/2024 08:08:24 PM IST INFO  UserController:1067 - Attribute Number     : 2
+19/04/2024 08:08:24 PM IST INFO  UserController:1081 - Attribute Name       : userName
+19/04/2024 08:08:24 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:24 PM IST INFO  UserController:1122 - Attribute Value      : hsmith
+19/04/2024 08:08:24 PM IST INFO  UserController:1067 - Attribute Number     : 3
+19/04/2024 08:08:24 PM IST INFO  UserController:1081 - Attribute Name       : password
+19/04/2024 08:08:24 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:24 PM IST INFO  UserController:1122 - Attribute Value      : 1
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1035 - OS Name              : Mac OS X
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1036 - OS Current Time      : 19/04/2024 08:08:26 PM IST
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1038 - OS IP Address        : 189.122.67.106
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1040 - OS Hostname          : f7.local
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1042 - OS UserName          : f7
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1043 - Annotation Type      : Method
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1044 - Method Number        : 3
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1045 - Method Name          : model.UserDatabase.validateUser
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1046 - Method Return Type   : java.lang.Boolean
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1047 - Method Return Value  : false
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1079 - Parameter Number     : 1
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1081 - Parameter Name       : user
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1082 - Parameter Type       : model.User
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:998 - The Parameter Name: user has the following Attributes:
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1067 - Attribute Number     : 1
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1081 - Attribute Name       : serialVersionUID
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1082 - Attribute Type       : long
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1122 - Attribute Value      : -542727119035768593
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1067 - Attribute Number     : 2
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1081 - Attribute Name       : count
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1122 - Attribute Value      : 1
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1067 - Attribute Number     : 3
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1081 - Attribute Name       : id
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1122 - Attribute Value      : 0
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1067 - Attribute Number     : 4
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1081 - Attribute Name       : userName
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1122 - Attribute Value      : hsmith
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1067 - Attribute Number     : 5
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1081 - Attribute Name       : password
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:26 PM IST INFO  UserDatabase:1122 - Attribute Value      : 1
+19/04/2024 08:08:26 PM IST INFO  UserController:1035 - OS Name              : Mac OS X
+19/04/2024 08:08:26 PM IST INFO  UserController:1036 - OS Current Time      : 19/04/2024 08:08:26 PM IST
+19/04/2024 08:08:26 PM IST INFO  UserController:1038 - OS IP Address        : 189.122.67.106
+19/04/2024 08:08:26 PM IST INFO  UserController:1040 - OS Hostname          : f7.local
+19/04/2024 08:08:26 PM IST INFO  UserController:1042 - OS UserName          : f7
+19/04/2024 08:08:26 PM IST INFO  UserController:1043 - Annotation Type      : Method
+19/04/2024 08:08:26 PM IST INFO  UserController:1044 - Method Number        : 4
+19/04/2024 08:08:26 PM IST INFO  UserController:1045 - Method Name          : controller.UserController.validateUser
+19/04/2024 08:08:26 PM IST INFO  UserController:1046 - Method Return Type   : java.lang.Boolean
+19/04/2024 08:08:26 PM IST INFO  UserController:1047 - Method Return Value  : false
+19/04/2024 08:08:26 PM IST INFO  UserController:1079 - Parameter Number     : 1
+19/04/2024 08:08:26 PM IST INFO  UserController:1081 - Parameter Name       : ev
+19/04/2024 08:08:26 PM IST INFO  UserController:1082 - Parameter Type       : gui.UserFormEvent
+19/04/2024 08:08:26 PM IST INFO  UserController:998 - The Parameter Name: ev has the following Attributes:
+19/04/2024 08:08:26 PM IST INFO  UserController:1067 - Attribute Number     : 1
+19/04/2024 08:08:26 PM IST INFO  UserController:1081 - Attribute Name       : id
+19/04/2024 08:08:26 PM IST INFO  UserController:1082 - Attribute Type       : int
+19/04/2024 08:08:26 PM IST INFO  UserController:1122 - Attribute Value      : 0
+19/04/2024 08:08:26 PM IST INFO  UserController:1067 - Attribute Number     : 2
+19/04/2024 08:08:26 PM IST INFO  UserController:1081 - Attribute Name       : userName
+19/04/2024 08:08:26 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:26 PM IST INFO  UserController:1122 - Attribute Value      : hsmith
+19/04/2024 08:08:26 PM IST INFO  UserController:1067 - Attribute Number     : 3
+19/04/2024 08:08:26 PM IST INFO  UserController:1081 - Attribute Name       : password
+19/04/2024 08:08:26 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:26 PM IST INFO  UserController:1122 - Attribute Value      : 1
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1035 - OS Name              : Mac OS X
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1036 - OS Current Time      : 19/04/2024 08:08:28 PM IST
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1038 - OS IP Address        : 189.122.67.106
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1040 - OS Hostname          : f7.local
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1042 - OS UserName          : f7
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1043 - Annotation Type      : Method
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1044 - Method Number        : 5
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1045 - Method Name          : model.UserDatabase.validateUser
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1046 - Method Return Type   : java.lang.Boolean
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1047 - Method Return Value  : false
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1079 - Parameter Number     : 1
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1081 - Parameter Name       : user
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1082 - Parameter Type       : model.User
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:998 - The Parameter Name: user has the following Attributes:
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1067 - Attribute Number     : 1
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1081 - Attribute Name       : serialVersionUID
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1082 - Attribute Type       : long
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1122 - Attribute Value      : -542727119035768593
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1067 - Attribute Number     : 2
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1081 - Attribute Name       : count
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1122 - Attribute Value      : 1
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1067 - Attribute Number     : 3
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1081 - Attribute Name       : id
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1082 - Attribute Type       : int
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1122 - Attribute Value      : 0
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1067 - Attribute Number     : 4
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1081 - Attribute Name       : userName
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1122 - Attribute Value      : hsmith
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1067 - Attribute Number     : 5
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1081 - Attribute Name       : password
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:28 PM IST INFO  UserDatabase:1122 - Attribute Value      : 1
+19/04/2024 08:08:28 PM IST INFO  UserController:1035 - OS Name              : Mac OS X
+19/04/2024 08:08:28 PM IST INFO  UserController:1036 - OS Current Time      : 19/04/2024 08:08:28 PM IST
+19/04/2024 08:08:28 PM IST INFO  UserController:1038 - OS IP Address        : 189.122.67.106
+19/04/2024 08:08:28 PM IST INFO  UserController:1040 - OS Hostname          : f7.local
+19/04/2024 08:08:28 PM IST INFO  UserController:1042 - OS UserName          : f7
+19/04/2024 08:08:28 PM IST INFO  UserController:1043 - Annotation Type      : Method
+19/04/2024 08:08:28 PM IST INFO  UserController:1044 - Method Number        : 6
+19/04/2024 08:08:28 PM IST INFO  UserController:1045 - Method Name          : controller.UserController.validateUser
+19/04/2024 08:08:28 PM IST INFO  UserController:1046 - Method Return Type   : java.lang.Boolean
+19/04/2024 08:08:28 PM IST INFO  UserController:1047 - Method Return Value  : false
+19/04/2024 08:08:28 PM IST INFO  UserController:1079 - Parameter Number     : 1
+19/04/2024 08:08:28 PM IST INFO  UserController:1081 - Parameter Name       : ev
+19/04/2024 08:08:28 PM IST INFO  UserController:1082 - Parameter Type       : gui.UserFormEvent
+19/04/2024 08:08:28 PM IST INFO  UserController:998 - The Parameter Name: ev has the following Attributes:
+19/04/2024 08:08:28 PM IST INFO  UserController:1067 - Attribute Number     : 1
+19/04/2024 08:08:28 PM IST INFO  UserController:1081 - Attribute Name       : id
+19/04/2024 08:08:28 PM IST INFO  UserController:1082 - Attribute Type       : int
+19/04/2024 08:08:28 PM IST INFO  UserController:1122 - Attribute Value      : 0
+19/04/2024 08:08:28 PM IST INFO  UserController:1067 - Attribute Number     : 2
+19/04/2024 08:08:28 PM IST INFO  UserController:1081 - Attribute Name       : userName
+19/04/2024 08:08:28 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:28 PM IST INFO  UserController:1122 - Attribute Value      : hsmith
+19/04/2024 08:08:28 PM IST INFO  UserController:1067 - Attribute Number     : 3
+19/04/2024 08:08:28 PM IST INFO  UserController:1081 - Attribute Name       : password
+19/04/2024 08:08:28 PM IST INFO  UserController:1082 - Attribute Type       : java.lang.String
+19/04/2024 08:08:28 PM IST INFO  UserController:1122 - Attribute Value      : 1

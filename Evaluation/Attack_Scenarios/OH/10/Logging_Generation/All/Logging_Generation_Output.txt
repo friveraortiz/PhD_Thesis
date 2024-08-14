@@ -1,0 +1,934 @@
+[29/May/2024 20:12:46] [:] INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+[29/May/2024 20:12:46] [:] INFO - HHH000412: Hibernate ORM core version 5.6.11.Final
+[29/May/2024 20:12:47] [:] INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[29/May/2024 20:12:48] [:] INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[29/May/2024 20:12:51] [:] INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+Message FRL: Welcome to the Forensic-Ready Logger ...
+Message FRL: The UML Sequence Diagram FILES were CREATED in =>: 1 milliseconds
+[29/May/2024 20:13:00] [:] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:13:00] [:] INFO - OS Current Time      : 29/05/2024 08:13:00 PM BST
+[29/May/2024 20:13:00] [:] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:13:00] [:] INFO - OS Hostname          : f7.local
+[29/May/2024 20:13:00] [:] INFO - OS UserName          : f7
+[29/May/2024 20:13:00] [:] INFO - Annotation Type      : Method
+[29/May/2024 20:13:00] [:] INFO - Method Number        : 1
+[29/May/2024 20:13:00] [:] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+[29/May/2024 20:13:00] [:] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:13:00] [:] INFO - Method Return Value  : [admin, doctor, guest, mlewis, ptaylor, sysadmin]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getUser was CREATED in =>: 16 milliseconds
+[29/May/2024 20:13:01] [:] INFO - The Method: getUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: acceptPwd() was CREATED in =>: 3 milliseconds.
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Logging: "mlewis" user has logged into the system.
+[29/May/2024 20:13:08] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:13:08] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:13:08 PM BST
+[29/May/2024 20:13:08] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:13:08] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:13:08] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Method Number        : 2
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Method Name          : org.isf.menu.gui.Login.acceptPwd
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Method Return Type   : void
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.menu.gui.Login.acceptPwd was CREATED in =>: 4 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - The Method: acceptPwd DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMenu() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:13:08] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:13:08] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:13:08 PM BST
+[29/May/2024 20:13:08] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:13:08] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:13:08] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Method Number        : 3
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Method Return Value  : [Users, New, New Bill, Edit Patient, Cashier's Filter, Types, Admission Type, New, New, Pharmaceuticals, New, New Patient, Charge, New Bill, Bill Manager, OPD Chart, Edit, Rectify, Examination, Edit Patient, Exams List, Discharge Type, Hospital, Edit, Examination, Pharmaceutical Stock, Edit, Edit, OPD, Examination, Groups, Edit, Examination, Delete, Disease List, Pharmaceutical Stock Ward, Delivery Type, Delete, Delete, Delete, Operation, Merge, Report, Delete patient, Operation, Ward, Discharge, Delete, Edit Bill, Admission Chart, Admission/Patient, Malnutrition control, Operation List, Edit Closed Bills, Excel, Launch Report , Disease, Delivery Result Type, Data, Laboratory, Pharmacy, Disease Type, Admission, DICOM Patient, Exams, Delete Bill, Bill, Operation, Report, Exam Type, OPD, Vaccines, Vaccine, Therapy, Clinical sheet, Accounting, Receipt, Medicals Stock Mov Type, Medicals Type, Worksheet, Price Lists, Supplier, Operation Type, Statistics, SMS Manager, Pregnant Treatment, Reports, Communication, Users & Groups, Other Prices, Settings, Age Type, Vaccine Type, Help, DICOM Type]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getMenu was CREATED in =>: 5 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Parameter Number     : 1
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Parameter Name       : aUser
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Parameter Type       : org.isf.menu.model.User
+Message FRL: The Security Log for the DETAIL: aUser was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - The Parameter Name: aUser has the following Attributes:
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Number     : 1
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Name       : userName
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 2 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Value      : mlewis
+Message FRL: The Security Log for the VALUE: mlewis was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Number     : 2
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Name       : userGroupName
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Type       : org.isf.menu.model.UserGroup
+Message FRL: The Security Log for the DETAIL: userGroupName was CREATED in =>: 1 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - The Attribute Name: userGroupName has the followings Sub-Attributes:
+Message FRL: The Security Log for the ATTRIBUTE-SUBATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Number     : 1
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Name       : code
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Value      : admin
+Message FRL: The Security Log for the VALUE: admin was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Number     : 2
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Name       : desc
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Value      : User with all the privileges
+Message FRL: The Security Log for the VALUE: User with all the privileges was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Number     : 3
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Name       : hashCode
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - SubAttribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Number     : 3
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Name       : passwd
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: passwd was CREATED in =>: 1 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Value      : $2a$10$yOIDGjprsYERru/i/6EcNOX31euH/uCMLbJfDvaSYPjMvpslz1pWG
+Message FRL: The Security Log for the VALUE: $2a$10$yOIDGjprsYERru/i/6EcNOX31euH/uCMLbJfDvaSYPjMvpslz1pWG was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Number     : 4
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Name       : desc
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Value      : System Administrator
+Message FRL: The Security Log for the VALUE: System Administrator was CREATED in =>: 1 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Number     : 5
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Name       : hashCode
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 0 milliseconds
+[29/May/2024 20:13:08] [admin:mlewis] INFO - Attribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmittedPatients() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadAdmittedPatients() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseIpdOut() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentAdmission() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getResultDescriptionList() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOperationAdm([]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOperationRowByAdmission([org.isf.admission.model.Admission@c84]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseIpdIn() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentAdmission() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated([single]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated([foodhospitality]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards([]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmissionType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDischargeType() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updateAdmission() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccine() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updateVaccine() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicals() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicalType() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicalType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newMedical() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteMedical() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospitalCurrencyCod() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospitalCurrencyCod() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPrices() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOthers() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getItems() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOthers() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientsByOneOfFieldsLike() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientById() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated([married]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated([foodhospitality]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPendingBills() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBill() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newBill() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPrices() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOthers() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUser() was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:15:48] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:15:48] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:15:48 PM BST
+[29/May/2024 20:15:48] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:15:48] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:15:48] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:15:48] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:15:48] [admin:mlewis] INFO - Method Number        : 4
+[29/May/2024 20:15:48] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+[29/May/2024 20:15:48] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:15:48] [admin:mlewis] INFO - Method Return Value  : [admin, doctor, guest, mlewis, ptaylor, sysadmin]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getUser was CREATED in =>: 3 milliseconds
+[29/May/2024 20:15:48] [admin:mlewis] INFO - The Method: getUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUserGroup() was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:15:48] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:15:48] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:15:48 PM BST
+[29/May/2024 20:15:48] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:15:48] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:15:48] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:15:48] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:15:48] [admin:mlewis] INFO - Method Number        : 5
+[29/May/2024 20:15:48] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUserGroup
+[29/May/2024 20:15:48] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:15:48] [admin:mlewis] INFO - Method Return Value  : [admin, guest, physician]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getUserGroup was CREATED in =>: 3 milliseconds
+[29/May/2024 20:15:48] [admin:mlewis] INFO - The Method: getUserGroup DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUserGroup() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:15:50] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:15:50] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:15:50 PM BST
+[29/May/2024 20:15:50] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:15:50] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:15:50] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:15:50] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:15:50] [admin:mlewis] INFO - Method Number        : 6
+[29/May/2024 20:15:50] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUserGroup
+[29/May/2024 20:15:50] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:15:50] [admin:mlewis] INFO - Method Return Value  : [admin, guest, physician]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getUserGroup was CREATED in =>: 4 milliseconds
+[29/May/2024 20:15:50] [admin:mlewis] INFO - The Method: getUserGroup DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newUser() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:16:16] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:16:16] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:16:16 PM BST
+[29/May/2024 20:16:16] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:16:16] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:16:16] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Method Number        : 7
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.newUser
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Method Return Type   : java.lang.Boolean
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Method Return Value  : true
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.newUser was CREATED in =>: 2 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Parameter Number     : 1
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Parameter Name       : user
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Parameter Type       : org.isf.menu.model.User
+Message FRL: The Security Log for the DETAIL: user was CREATED in =>: 1 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - The Parameter Name: user has the following Attributes:
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Number     : 1
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Name       : userName
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 1 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Value      : rthompson
+Message FRL: The Security Log for the VALUE: rthompson was CREATED in =>: 0 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Number     : 2
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Name       : userGroupName
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Type       : org.isf.menu.model.UserGroup
+Message FRL: The Security Log for the DETAIL: userGroupName was CREATED in =>: 1 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - The Attribute Name: userGroupName has the followings Sub-Attributes:
+Message FRL: The Security Log for the ATTRIBUTE-SUBATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Number     : 1
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Name       : code
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 1 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Value      : admin
+Message FRL: The Security Log for the VALUE: admin was CREATED in =>: 0 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Number     : 2
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Name       : desc
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 1 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Value      : User with all the privileges
+Message FRL: The Security Log for the VALUE: User with all the privileges was CREATED in =>: 0 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Number     : 3
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Name       : hashCode
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 0 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - SubAttribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 1 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Number     : 3
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Name       : passwd
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: passwd was CREATED in =>: 0 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Value      : $2a$10$6glCkAlholNeynxKeQ7uQOTWjRbVMawS5YCI8plH68QW164pDoYza
+Message FRL: The Security Log for the VALUE: $2a$10$6glCkAlholNeynxKeQ7uQOTWjRbVMawS5YCI8plH68QW164pDoYza was CREATED in =>: 0 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Number     : 4
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Name       : desc
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 1 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Value      : System Administrator
+Message FRL: The Security Log for the VALUE: System Administrator was CREATED in =>: 0 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Number     : 5
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Name       : hashCode
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 1 milliseconds
+[29/May/2024 20:16:16] [admin:mlewis] INFO - Attribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmittedPatients() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadAdmittedPatients() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicals() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getTherapyRows() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisits() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicals() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getTherapyRow() was CREATED in =>: 15 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: createTherapy() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteAllTherapies() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newTherapies() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getTherapyRows() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisits() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisitsWard() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospital([]) was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:17:34] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:17:34] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:17:34 PM BST
+[29/May/2024 20:17:34] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:17:34] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:17:34] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:17:34] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:17:34] [admin:mlewis] INFO - Method Number        : 8
+[29/May/2024 20:17:34] [admin:mlewis] INFO - Method Name          : org.isf.hospital.manager.HospitalBrowsingManager.getHospital
+[29/May/2024 20:17:34] [admin:mlewis] INFO - Method Return Type   : org.isf.hospital.model.Hospital
+[29/May/2024 20:17:34] [admin:mlewis] INFO - Method Return Value  : St. Luke HOSPITAL - Angal
+Message FRL: The Security Log for the HEADER: org.isf.hospital.manager.HospitalBrowsingManager.getHospital was CREATED in =>: 2 milliseconds
+[29/May/2024 20:17:34] [admin:mlewis] INFO - The Method: getHospital DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientsByOneOfFieldsLike() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientById() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated([married]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated([foodhospitality]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newVisit() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisitsWard() was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:17:47] [admin:mlewis] INFO - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+Message FRL: The UML Sequence Diagram FILES were FINISHED in =>: 3404 milliseconds
+Message FRL: UML Sequence Diagram Text File created  : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.txt
+Message FRL: UML Sequence Diagram Image File created : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.png
+Message FRL: Good Bye to the Forensic-Ready Logger.
+
+[29/May/2024 20:19:40] [:] INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+[29/May/2024 20:19:40] [:] INFO - HHH000412: Hibernate ORM core version 5.6.11.Final
+[29/May/2024 20:19:40] [:] INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[29/May/2024 20:19:41] [:] INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[29/May/2024 20:19:43] [:] INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+Message FRL: Welcome to the Forensic-Ready Logger ...
+Message FRL: The UML Sequence Diagram FILES were CREATED in =>: 1 milliseconds
+[29/May/2024 20:19:52] [:] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:19:52] [:] INFO - OS Current Time      : 29/05/2024 08:19:52 PM BST
+[29/May/2024 20:19:52] [:] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:19:52] [:] INFO - OS Hostname          : f7.local
+[29/May/2024 20:19:52] [:] INFO - OS UserName          : f7
+[29/May/2024 20:19:52] [:] INFO - Annotation Type      : Method
+[29/May/2024 20:19:52] [:] INFO - Method Number        : 1
+[29/May/2024 20:19:52] [:] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+[29/May/2024 20:19:52] [:] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:19:52] [:] INFO - Method Return Value  : [admin, doctor, guest, mlewis, ptaylor, rthompson, sysadmin]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getUser was CREATED in =>: 15 milliseconds
+[29/May/2024 20:19:52] [:] INFO - The Method: getUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 3 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: acceptPwd() was CREATED in =>: 2 milliseconds.
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Logging: "rthompson" user has logged into the system.
+[29/May/2024 20:20:08] [admin:rthompson] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:20:08] [admin:rthompson] INFO - OS Current Time      : 29/05/2024 08:20:08 PM BST
+[29/May/2024 20:20:08] [admin:rthompson] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:20:08] [admin:rthompson] INFO - OS Hostname          : f7.local
+[29/May/2024 20:20:08] [admin:rthompson] INFO - OS UserName          : f7
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Annotation Type      : Method
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Method Number        : 2
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Method Name          : org.isf.menu.gui.Login.acceptPwd
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Method Return Type   : void
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.menu.gui.Login.acceptPwd was CREATED in =>: 2 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - The Method: acceptPwd DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMenu() was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:20:08] [admin:rthompson] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:20:08] [admin:rthompson] INFO - OS Current Time      : 29/05/2024 08:20:08 PM BST
+[29/May/2024 20:20:08] [admin:rthompson] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:20:08] [admin:rthompson] INFO - OS Hostname          : f7.local
+[29/May/2024 20:20:08] [admin:rthompson] INFO - OS UserName          : f7
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Annotation Type      : Method
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Method Number        : 3
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Method Return Value  : [Users, New, New Bill, Edit Patient, Cashier's Filter, Types, Admission Type, New, New, Pharmaceuticals, New, New Patient, Charge, New Bill, Bill Manager, OPD Chart, Edit, Rectify, Examination, Edit Patient, Exams List, Discharge Type, Hospital, Edit, Examination, Pharmaceutical Stock, Edit, Edit, OPD, Examination, Groups, Edit, Examination, Delete, Disease List, Pharmaceutical Stock Ward, Delivery Type, Delete, Delete, Delete, Operation, Merge, Report, Delete patient, Operation, Ward, Discharge, Delete, Edit Bill, Admission Chart, Admission/Patient, Malnutrition control, Operation List, Edit Closed Bills, Excel, Launch Report , Disease, Delivery Result Type, Data, Laboratory, Pharmacy, Disease Type, Admission, DICOM Patient, Exams, Delete Bill, Bill, Operation, Report, Exam Type, OPD, Vaccines, Vaccine, Therapy, Clinical sheet, Accounting, Receipt, Medicals Stock Mov Type, Medicals Type, Worksheet, Price Lists, Supplier, Operation Type, Statistics, SMS Manager, Pregnant Treatment, Reports, Communication, Users & Groups, Other Prices, Settings, Age Type, Vaccine Type, Help, DICOM Type]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getMenu was CREATED in =>: 1 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Parameter Number     : 1
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Parameter Name       : aUser
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Parameter Type       : org.isf.menu.model.User
+Message FRL: The Security Log for the DETAIL: aUser was CREATED in =>: 1 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - The Parameter Name: aUser has the following Attributes:
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Number     : 1
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Name       : userName
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 1 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Value      : rthompson
+Message FRL: The Security Log for the VALUE: rthompson was CREATED in =>: 0 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Number     : 2
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Name       : userGroupName
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Type       : org.isf.menu.model.UserGroup
+Message FRL: The Security Log for the DETAIL: userGroupName was CREATED in =>: 0 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - The Attribute Name: userGroupName has the followings Sub-Attributes:
+Message FRL: The Security Log for the ATTRIBUTE-SUBATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Number     : 1
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Name       : code
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 1 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Value      : admin
+Message FRL: The Security Log for the VALUE: admin was CREATED in =>: 0 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Number     : 2
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Name       : desc
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 1 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Value      : User with all the privileges
+Message FRL: The Security Log for the VALUE: User with all the privileges was CREATED in =>: 0 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Number     : 3
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Name       : hashCode
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 1 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - SubAttribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Number     : 3
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Name       : passwd
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: passwd was CREATED in =>: 0 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Value      : $2a$10$6glCkAlholNeynxKeQ7uQOTWjRbVMawS5YCI8plH68QW164pDoYza
+Message FRL: The Security Log for the VALUE: $2a$10$6glCkAlholNeynxKeQ7uQOTWjRbVMawS5YCI8plH68QW164pDoYza was CREATED in =>: 1 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Number     : 4
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Name       : desc
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 0 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Value      : System Administrator
+Message FRL: The Security Log for the VALUE: System Administrator was CREATED in =>: 0 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Number     : 5
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Name       : hashCode
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 1 milliseconds
+[29/May/2024 20:20:08] [admin:rthompson] INFO - Attribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseAll() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newDisease() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newDisease() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newDisease() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospitalCurrencyCod() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUsers() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospitalCurrencyCod() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPrices() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOthers() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getItems() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOthers() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientById() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBill() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updateBill() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProgYear() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatient() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccine() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newPatientVaccine() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospital() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:21:41] [admin:rthompson] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:21:41] [admin:rthompson] INFO - OS Current Time      : 29/05/2024 08:21:41 PM BST
+[29/May/2024 20:21:41] [admin:rthompson] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:21:41] [admin:rthompson] INFO - OS Hostname          : f7.local
+[29/May/2024 20:21:41] [admin:rthompson] INFO - OS UserName          : f7
+[29/May/2024 20:21:41] [admin:rthompson] INFO - Annotation Type      : Method
+[29/May/2024 20:21:41] [admin:rthompson] INFO - Method Number        : 4
+[29/May/2024 20:21:41] [admin:rthompson] INFO - Method Name          : org.isf.hospital.manager.HospitalBrowsingManager.getHospital
+[29/May/2024 20:21:41] [admin:rthompson] INFO - Method Return Type   : org.isf.hospital.model.Hospital
+[29/May/2024 20:21:41] [admin:rthompson] INFO - Method Return Value  : St. Luke HOSPITAL - Angal
+Message FRL: The Security Log for the HEADER: org.isf.hospital.manager.HospitalBrowsingManager.getHospital was CREATED in =>: 3 milliseconds
+[29/May/2024 20:21:41] [admin:rthompson] INFO - The Method: getHospital DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updateHospital() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:21:56] [admin:rthompson] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:21:56] [admin:rthompson] INFO - OS Current Time      : 29/05/2024 08:21:56 PM BST
+[29/May/2024 20:21:56] [admin:rthompson] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:21:56] [admin:rthompson] INFO - OS Hostname          : f7.local
+[29/May/2024 20:21:56] [admin:rthompson] INFO - OS UserName          : f7
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Annotation Type      : Method
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Method Number        : 5
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Method Name          : org.isf.hospital.manager.HospitalBrowsingManager.updateHospital
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Method Return Type   : org.isf.hospital.model.Hospital
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Method Return Value  : St. Luke HOSPITAL - Angal
+Message FRL: The Security Log for the HEADER: org.isf.hospital.manager.HospitalBrowsingManager.updateHospital was CREATED in =>: 3 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Parameter Number     : 1
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Parameter Name       : hospital
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Parameter Type       : org.isf.hospital.model.Hospital
+Message FRL: The Security Log for the DETAIL: hospital was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - The Parameter Name: hospital has the following Attributes:
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 1
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : VISIT_START_TIME
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: VISIT_START_TIME was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : 06:30:00
+Message FRL: The Security Log for the VALUE: 06:30:00 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 2
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : VISIT_END_TIME
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: VISIT_END_TIME was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : 20:00:00
+Message FRL: The Security Log for the VALUE: 20:00:00 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 3
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : VISIT_INCREMENT
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: VISIT_INCREMENT was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : 15
+Message FRL: The Security Log for the VALUE: 15 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 4
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : VISIT_DURATION
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: VISIT_DURATION was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : 30
+Message FRL: The Security Log for the VALUE: 30 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 5
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : code
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : STLUKE
+Message FRL: The Security Log for the VALUE: STLUKE was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 6
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : description
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: description was CREATED in =>: 2 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : St. Luke HOSPITAL - Angal
+Message FRL: The Security Log for the VALUE: St. Luke HOSPITAL - Angal was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 7
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : address
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: address was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : P.O. BOX 85 - NEBBI
+Message FRL: The Security Log for the VALUE: P.O. BOX 85 - NEBBI was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 8
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : city
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: city was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : ANGAL
+Message FRL: The Security Log for the VALUE: ANGAL was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 9
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : telephone
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: telephone was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : +256 0472621076
+Message FRL: The Security Log for the VALUE: +256 0472621076 was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 10
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : fax
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: fax was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : +256 0
+Message FRL: The Security Log for the VALUE: +256 0 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 11
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : email
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: email was CREATED in =>: 2 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : angal@ucmb.ug.co.
+Message FRL: The Security Log for the VALUE: angal@ucmb.ug.co. was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 12
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : visitStartTime
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.sql.Time
+Message FRL: The Security Log for the DETAIL: visitStartTime was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : 06:30:00
+Message FRL: The Security Log for the VALUE: 06:30:00 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 13
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : visitEndTime
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.sql.Time
+Message FRL: The Security Log for the DETAIL: visitEndTime was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : 20:00:00
+Message FRL: The Security Log for the VALUE: 20:00:00 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 14
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : visitIncrement
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: visitIncrement was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : 15
+Message FRL: The Security Log for the VALUE: 15 was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 15
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : visitDuration
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: visitDuration was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : 20
+Message FRL: The Security Log for the VALUE: 20 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 16
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : lock
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : java.lang.Integer
+Message FRL: The Security Log for the DETAIL: lock was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : 8
+Message FRL: The Security Log for the VALUE: 8 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Number     : 17
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Name       : hashCode
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 1 milliseconds
+[29/May/2024 20:21:56] [admin:rthompson] INFO - Attribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmittedPatients() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadAdmittedPatients() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:22:09] [admin:rthompson] INFO - File sms.properties loaded.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalList() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionList() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:22:09] [admin:rthompson] INFO - WebcamDefaultDriver capture driver will be used
+[29/May/2024 20:22:09] [admin:rthompson] WARN - No webcam has been detected!
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: savePatient() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisitsWard() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospital([]) was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:22:33] [admin:rthompson] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:22:33] [admin:rthompson] INFO - OS Current Time      : 29/05/2024 08:22:33 PM BST
+[29/May/2024 20:22:33] [admin:rthompson] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:22:33] [admin:rthompson] INFO - OS Hostname          : f7.local
+[29/May/2024 20:22:33] [admin:rthompson] INFO - OS UserName          : f7
+[29/May/2024 20:22:33] [admin:rthompson] INFO - Annotation Type      : Method
+[29/May/2024 20:22:33] [admin:rthompson] INFO - Method Number        : 6
+[29/May/2024 20:22:33] [admin:rthompson] INFO - Method Name          : org.isf.hospital.manager.HospitalBrowsingManager.getHospital
+[29/May/2024 20:22:33] [admin:rthompson] INFO - Method Return Type   : org.isf.hospital.model.Hospital
+[29/May/2024 20:22:33] [admin:rthompson] INFO - Method Return Value  : St. Luke HOSPITAL - Angal
+Message FRL: The Security Log for the HEADER: org.isf.hospital.manager.HospitalBrowsingManager.getHospital was CREATED in =>: 2 milliseconds
+[29/May/2024 20:22:33] [admin:rthompson] INFO - The Method: getHospital DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientsByOneOfFieldsLike() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientById() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated([single]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated([engineering]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newVisit() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisitsWard() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOperation() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getOperationType() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updateOperation() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmittedPatients() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadAdmittedPatients() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMedicals() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getTherapyRows() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisits() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteAllTherapies() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getTherapyRows() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisits() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:23:24] [admin:rthompson] INFO - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+Message FRL: The UML Sequence Diagram FILES were FINISHED in =>: 2866 milliseconds
+Message FRL: UML Sequence Diagram Text File created  : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.txt
+Message FRL: UML Sequence Diagram Image File created : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.png
+Message FRL: Good Bye to the Forensic-Ready Logger.
+
+[29/May/2024 20:25:40] [:] INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+[29/May/2024 20:25:40] [:] INFO - HHH000412: Hibernate ORM core version 5.6.11.Final
+[29/May/2024 20:25:41] [:] INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[29/May/2024 20:25:42] [:] INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[29/May/2024 20:25:44] [:] INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+Message FRL: Welcome to the Forensic-Ready Logger ...
+Message FRL: The UML Sequence Diagram FILES were CREATED in =>: 1 milliseconds
+[29/May/2024 20:25:53] [:] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:25:53] [:] INFO - OS Current Time      : 29/05/2024 08:25:53 PM BST
+[29/May/2024 20:25:53] [:] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:25:53] [:] INFO - OS Hostname          : f7.local
+[29/May/2024 20:25:53] [:] INFO - OS UserName          : f7
+[29/May/2024 20:25:53] [:] INFO - Annotation Type      : Method
+[29/May/2024 20:25:53] [:] INFO - Method Number        : 1
+[29/May/2024 20:25:53] [:] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+[29/May/2024 20:25:53] [:] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:25:53] [:] INFO - Method Return Value  : [admin, doctor, guest, mlewis, ptaylor, rthompson, sysadmin]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getUser was CREATED in =>: 22 milliseconds
+[29/May/2024 20:25:53] [:] INFO - The Method: getUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: acceptPwd() was CREATED in =>: 2 milliseconds.
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Logging: "mlewis" user has logged into the system.
+[29/May/2024 20:26:00] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:26:00] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:26:00 PM BST
+[29/May/2024 20:26:00] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:26:00] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:26:00] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Method Number        : 2
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Method Name          : org.isf.menu.gui.Login.acceptPwd
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Method Return Type   : void
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Method Return Value  : 
+Message FRL: The Security Log for the HEADER: org.isf.menu.gui.Login.acceptPwd was CREATED in =>: 2 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - The Method: acceptPwd DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMenu() was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:26:00] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:26:00] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:26:00 PM BST
+[29/May/2024 20:26:00] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:26:00] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:26:00] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Method Number        : 3
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getMenu
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Method Return Value  : [Users, New, New Bill, Edit Patient, Cashier's Filter, Types, Admission Type, New, New, Pharmaceuticals, New, New Patient, Charge, New Bill, Bill Manager, OPD Chart, Edit, Rectify, Examination, Edit Patient, Exams List, Discharge Type, Hospital, Edit, Examination, Pharmaceutical Stock, Edit, Edit, OPD, Examination, Groups, Edit, Examination, Delete, Disease List, Pharmaceutical Stock Ward, Delivery Type, Delete, Delete, Delete, Operation, Merge, Report, Delete patient, Operation, Ward, Discharge, Delete, Edit Bill, Admission Chart, Admission/Patient, Malnutrition control, Operation List, Edit Closed Bills, Excel, Launch Report , Disease, Delivery Result Type, Data, Laboratory, Pharmacy, Disease Type, Admission, DICOM Patient, Exams, Delete Bill, Bill, Operation, Report, Exam Type, OPD, Vaccines, Vaccine, Therapy, Clinical sheet, Accounting, Receipt, Medicals Stock Mov Type, Medicals Type, Worksheet, Price Lists, Supplier, Operation Type, Statistics, SMS Manager, Pregnant Treatment, Reports, Communication, Users & Groups, Other Prices, Settings, Age Type, Vaccine Type, Help, DICOM Type]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getMenu was CREATED in =>: 2 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Parameter Number     : 1
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Parameter Name       : aUser
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Parameter Type       : org.isf.menu.model.User
+Message FRL: The Security Log for the DETAIL: aUser was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - The Parameter Name: aUser has the following Attributes:
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 1 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Number     : 1
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Name       : userName
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Value      : mlewis
+Message FRL: The Security Log for the VALUE: mlewis was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Number     : 2
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Name       : userGroupName
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Type       : org.isf.menu.model.UserGroup
+Message FRL: The Security Log for the DETAIL: userGroupName was CREATED in =>: 1 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - The Attribute Name: userGroupName has the followings Sub-Attributes:
+Message FRL: The Security Log for the ATTRIBUTE-SUBATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Number     : 1
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Name       : code
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 1 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Value      : admin
+Message FRL: The Security Log for the VALUE: admin was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Number     : 2
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Name       : desc
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Value      : User with all the privileges
+Message FRL: The Security Log for the VALUE: User with all the privileges was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Number     : 3
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Name       : hashCode
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - SubAttribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 1 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Number     : 3
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Name       : passwd
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: passwd was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Value      : $2a$10$yOIDGjprsYERru/i/6EcNOX31euH/uCMLbJfDvaSYPjMvpslz1pWG
+Message FRL: The Security Log for the VALUE: $2a$10$yOIDGjprsYERru/i/6EcNOX31euH/uCMLbJfDvaSYPjMvpslz1pWG was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Number     : 4
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Name       : desc
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 1 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Value      : System Administrator
+Message FRL: The Security Log for the VALUE: System Administrator was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Number     : 5
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Name       : hashCode
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 0 milliseconds
+[29/May/2024 20:26:00] [admin:mlewis] INFO - Attribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 1 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getExams() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getLaboratory() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialList() was CREATED in =>: 3 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getExams() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientsByOneOfFieldsLike() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientById() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated([single]) was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated([engineering]) was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentAdmission() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialKey() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialTranslated() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getExamRowByExamCode() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaterialKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newLaboratory2() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getLaboratory() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatientVaccine() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProgYear() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPatient() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccineType() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: newPatientVaccine() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmittedPatients() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: loadAdmittedPatients() was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:27:26] [admin:mlewis] INFO - File sms.properties loaded.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalList() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalTranslated() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionList() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionTranslated() was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:27:26] [admin:mlewis] INFO - WebcamDefaultDriver capture driver will be used
+[29/May/2024 20:27:27] [admin:mlewis] WARN - No webcam has been detected!
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionKey() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: savePatient() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisitsWard() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteVisit() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getVisitsWard() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUser() was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:27:56] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:27:56] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:27:56 PM BST
+[29/May/2024 20:27:56] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:27:56] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:27:56] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:27:56] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:27:56] [admin:mlewis] INFO - Method Number        : 4
+[29/May/2024 20:27:56] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+[29/May/2024 20:27:56] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:27:56] [admin:mlewis] INFO - Method Return Value  : [admin, doctor, guest, mlewis, ptaylor, rthompson, sysadmin]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getUser was CREATED in =>: 3 milliseconds
+[29/May/2024 20:27:56] [admin:mlewis] INFO - The Method: getUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUserGroup() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:27:56] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:27:56] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:27:56 PM BST
+[29/May/2024 20:27:56] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:27:56] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:27:56] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:27:56] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:27:56] [admin:mlewis] INFO - Method Number        : 5
+[29/May/2024 20:27:56] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUserGroup
+[29/May/2024 20:27:56] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:27:56] [admin:mlewis] INFO - Method Return Value  : [admin, guest, physician]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getUserGroup was CREATED in =>: 3 milliseconds
+[29/May/2024 20:27:56] [admin:mlewis] INFO - The Method: getUserGroup DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteUser() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:28:02] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:28:02] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:28:02 PM BST
+[29/May/2024 20:28:02] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:28:02] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:28:02] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Method Number        : 6
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.deleteUser
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Method Return Type   : java.lang.Boolean
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Method Return Value  : true
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.deleteUser was CREATED in =>: 1 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Parameter Number     : 1
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Parameter Name       : user
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Parameter Type       : org.isf.menu.model.User
+Message FRL: The Security Log for the DETAIL: user was CREATED in =>: 1 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - The Parameter Name: user has the following Attributes:
+Message FRL: The Security Log for the PARAMETER-ATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Number     : 1
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Name       : userName
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: userName was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Value      : rthompson
+Message FRL: The Security Log for the VALUE: rthompson was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Number     : 2
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Name       : userGroupName
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Type       : org.isf.menu.model.UserGroup
+Message FRL: The Security Log for the DETAIL: userGroupName was CREATED in =>: 1 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - The Attribute Name: userGroupName has the followings Sub-Attributes:
+Message FRL: The Security Log for the ATTRIBUTE-SUBATTRIBUTES INFORMATION was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Number     : 1
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Name       : code
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: code was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Value      : admin
+Message FRL: The Security Log for the VALUE: admin was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Number     : 2
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Name       : desc
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Value      : User with all the privileges
+Message FRL: The Security Log for the VALUE: User with all the privileges was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Number     : 3
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Name       : hashCode
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 1 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - SubAttribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Number     : 3
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Name       : passwd
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: passwd was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Value      : $2a$10$6glCkAlholNeynxKeQ7uQOTWjRbVMawS5YCI8plH68QW164pDoYza
+Message FRL: The Security Log for the VALUE: $2a$10$6glCkAlholNeynxKeQ7uQOTWjRbVMawS5YCI8plH68QW164pDoYza was CREATED in =>: 1 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Number     : 4
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Name       : desc
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Type       : java.lang.String
+Message FRL: The Security Log for the DETAIL: desc was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Value      : System Administrator
+Message FRL: The Security Log for the VALUE: System Administrator was CREATED in =>: 0 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Number     : 5
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Name       : hashCode
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Type       : int
+Message FRL: The Security Log for the DETAIL: hashCode was CREATED in =>: 1 milliseconds
+[29/May/2024 20:28:02] [admin:mlewis] INFO - Attribute Value      : 0
+Message FRL: The Security Log for the VALUE: 0 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getDiseaseType() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUser() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:29:10] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:29:10] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:29:10 PM BST
+[29/May/2024 20:29:10] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:29:10] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:29:10] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:29:10] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:29:10] [admin:mlewis] INFO - Method Number        : 7
+[29/May/2024 20:29:10] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUser
+[29/May/2024 20:29:10] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:29:10] [admin:mlewis] INFO - Method Return Value  : [admin, doctor, guest, mlewis, ptaylor, sysadmin]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getUser was CREATED in =>: 3 milliseconds
+[29/May/2024 20:29:10] [admin:mlewis] INFO - The Method: getUser DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUserGroup() was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:29:10] [admin:mlewis] INFO - OS Name              : Windows Server 2016
+[29/May/2024 20:29:10] [admin:mlewis] INFO - OS Current Time      : 29/05/2024 08:29:10 PM BST
+[29/May/2024 20:29:10] [admin:mlewis] INFO - OS IP Address        : 189.122.67.106
+[29/May/2024 20:29:10] [admin:mlewis] INFO - OS Hostname          : f7.local
+[29/May/2024 20:29:10] [admin:mlewis] INFO - OS UserName          : f7
+[29/May/2024 20:29:10] [admin:mlewis] INFO - Annotation Type      : Method
+[29/May/2024 20:29:10] [admin:mlewis] INFO - Method Number        : 8
+[29/May/2024 20:29:10] [admin:mlewis] INFO - Method Name          : org.isf.menu.manager.UserBrowsingManager.getUserGroup
+[29/May/2024 20:29:10] [admin:mlewis] INFO - Method Return Type   : java.util.ArrayList
+[29/May/2024 20:29:10] [admin:mlewis] INFO - Method Return Value  : [admin, guest, physician]
+Message FRL: The Security Log for the HEADER: org.isf.menu.manager.UserBrowsingManager.getUserGroup was CREATED in =>: 3 milliseconds
+[29/May/2024 20:29:10] [admin:mlewis] INFO - The Method: getUserGroup DOES NOT have any Parameters
+Message FRL: The Security Log for the METHOD-PARAMETERS INFORMATION #1 was CREATED in =>: 0 milliseconds
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: updateUser() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getAdmittedPatients() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getWards() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:30:22] [admin:mlewis] INFO - File sms.properties loaded.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalList() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionList() was CREATED in =>: 1 milliseconds.
+[29/May/2024 20:30:22] [admin:mlewis] WARN - No webcam has been detected!
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: isNamePresent() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getMaritalKey() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getProfessionKey() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: savePatient() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getHospitalCurrencyCod() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getUsers() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 2 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: deleteBill() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 5 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getPayments() was CREATED in =>: 1 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getBills() was CREATED in =>: 0 milliseconds.
+Message FRL: The UML Sequence Diagram METHOD EXCHANGE: getCurrentUser() was CREATED in =>: 0 milliseconds.
+[29/May/2024 20:31:02] [admin:mlewis] INFO - 
+
+=====================
+ Open Hospital closed 
+=====================
+
+Message FRL: The UML Sequence Diagram FILES were FINISHED in =>: 3089 milliseconds
+Message FRL: UML Sequence Diagram Text File created  : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.txt
+Message FRL: UML Sequence Diagram Image File created : C:\Users\f7\eclipse-workspace\Directories\Output\IncidentSequenceDiagram.png
+Message FRL: Good Bye to the Forensic-Ready Logger.

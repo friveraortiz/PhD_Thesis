@@ -1,0 +1,257 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the HRMApplication ==
+actor User_1 order 1
+participant controller.UserController order 2
+note left of User_1 #lightskyblue 
+gui.LoginFrame
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.validateUser
+end note
+User_1 -[#purple]>controller.UserController: 1.validateUser()
+||20||
+participant controller.UserController order 3
+participant model.UserDatabase order 4
+note left of User_1 #lightpink
+Method = model.UserDatabase.validateUser
+end note
+controller.UserController -[#purple]>model.UserDatabase: 2.validateUser([0
+||20||
+actor User_1 order 5
+participant controller.UserController order 6
+note left of User_1 #lightskyblue 
+gui.LoginFrame
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.getUserLevel
+end note
+User_1 -[#purple]>controller.UserController: 3.getUserLevel()
+||20||
+participant controller.UserController order 7
+participant model.UserDatabase order 8
+note left of User_1 #lightpink
+Method = model.UserDatabase.getUserLevel
+end note
+controller.UserController -[#purple]>model.UserDatabase: 4.getUserLevel([0
+||20||
+actor User_1 order 9
+participant controller.ModuleController order 10
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_1 #lightpink
+Method = controller.ModuleController.saveModules
+end note
+User_1 -[#purple]>controller.ModuleController: 5.saveModules()
+||20||
+participant controller.ModuleController order 11
+participant model.ModuleDatabase order 12
+note left of User_1 #lightpink
+Method = model.ModuleDatabase.saveModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 6.saveModules([])
+||20||
+actor User_1 order 13
+participant controller.ModuleController order 14
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_1 #lightpink
+Method = controller.ModuleController.getModules
+end note
+User_1 -[#purple]>controller.ModuleController: 7.getModules()
+||20||
+participant controller.ModuleController order 15
+participant model.ModuleDatabase order 16
+note left of User_1 #lightpink
+Method = model.ModuleDatabase.getModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 8.getModules([1
+||20||
+actor User_1 order 17
+participant controller.ModuleController order 18
+note left of User_1 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_1 #lightpink
+Method = controller.ModuleController.getSubModules
+end note
+User_1 -[#purple]>controller.ModuleController: 9.getSubModules()
+||20||
+participant controller.ModuleController order 19
+participant model.ModuleDatabase order 20
+note left of User_1 #lightpink
+Method = model.ModuleDatabase.getSubModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 10.getSubModules([2
+||20||
+actor User_1 order 21
+participant controller.UserController order 22
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.loadFullNameEmployees
+end note
+User_1 -[#purple]>controller.UserController: 11.loadFullNameEmployees()
+||20||
+participant controller.UserController order 23
+participant model.UserDatabase order 24
+note left of User_1 #lightpink
+Method = model.UserDatabase.loadFullNameEmployees
+end note
+controller.UserController -[#purple]>model.UserDatabase: 12.loadFullNameEmployees([])
+||20||
+actor User_1 order 25
+participant controller.UserController order 26
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.load
+end note
+User_1 -[#purple]>controller.UserController: 13.load()
+||20||
+participant controller.UserController order 27
+participant model.UserDatabase order 28
+note left of User_1 #lightpink
+Method = model.UserDatabase.load
+end note
+controller.UserController -[#purple]>model.UserDatabase: 14.load([])
+||20||
+actor User_1 order 33
+participant controller.UserController order 34
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.validateEmployee
+end note
+User_1 -[#purple]>controller.UserController: 17.validateEmployee()
+||20||
+participant controller.UserController order 35
+participant model.UserDatabase order 36
+note left of User_1 #lightpink
+Method = model.UserDatabase.validateEmployee
+end note
+controller.UserController -[#purple]>model.UserDatabase: 18.validateEmployee([10
+||20||
+actor User_1 order 37
+participant controller.UserController order 38
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.validateUserName
+end note
+User_1 -[#purple]>controller.UserController: 19.validateUserName()
+||20||
+participant controller.UserController order 39
+participant model.UserDatabase order 40
+note left of User_1 #lightpink
+Method = model.UserDatabase.validateUserName
+end note
+controller.UserController -[#purple]>model.UserDatabase: 20.validateUserName([10
+||20||
+actor User_1 order 41
+participant controller.UserController order 42
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.validateEmail
+end note
+User_1 -[#purple]>controller.UserController: 21.validateEmail()
+||20||
+participant controller.UserController order 43
+participant model.UserDatabase order 44
+note left of User_1 #lightpink
+Method = model.UserDatabase.validateEmail
+end note
+controller.UserController -[#purple]>model.UserDatabase: 22.validateEmail([10
+||20||
+actor User_1 order 45
+participant controller.UserController order 46
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.save
+end note
+User_1 -[#purple]>controller.UserController: 23.save()
+||20||
+participant controller.UserController order 47
+participant model.UserDatabase order 48
+note left of User_1 #lightpink
+Method = model.UserDatabase.save
+end note
+controller.UserController -[#purple]>model.UserDatabase: 24.save([10
+||20||
+actor User_1 order 29
+participant controller.UserController order 30
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.loadFullNameEmployees
+end note
+User_1 -[#purple]>controller.UserController: 15.loadFullNameEmployees()
+||20||
+participant controller.UserController order 31
+participant model.UserDatabase order 32
+note left of User_1 #lightpink
+Method = model.UserDatabase.loadFullNameEmployees
+end note
+controller.UserController -[#purple]>model.UserDatabase: 16.loadFullNameEmployees([])
+||20||
+actor User_1 order 49
+participant controller.UserController order 50
+note left of User_1 #lightskyblue 
+gui.UserFrame
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.load
+end note
+User_1 -[#purple]>controller.UserController: 25.load()
+||20||
+participant controller.UserController order 51
+participant model.UserDatabase order 52
+note left of User_1 #lightpink
+Method = model.UserDatabase.load
+end note
+controller.UserController -[#purple]>model.UserDatabase: 26.load([])
+||20||
+actor User_1 order 53
+participant controller.UserController order 54
+note left of User_1 #lightskyblue 
+gui.UserFormPanel
+end note
+note left of User_1 #lightpink
+Method = controller.UserController.loadFullNameEmployees
+end note
+User_1 -[#purple]>controller.UserController: 27.loadFullNameEmployees()
+||20||
+participant controller.UserController order 55
+participant model.UserDatabase order 56
+note left of User_1 #lightpink
+Method = model.UserDatabase.loadFullNameEmployees
+end note
+controller.UserController -[#purple]>model.UserDatabase: 28.loadFullNameEmployees([])
+||20||
+@enduml

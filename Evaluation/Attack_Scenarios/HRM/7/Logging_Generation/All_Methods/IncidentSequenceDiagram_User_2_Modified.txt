@@ -1,0 +1,308 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DarkBlue
+ActorBorderColor DarkBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor DarkBlue
+ParticipantBorderColor DarkBlue
+ParticipantBackgroundColor DarkBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+ActorBackgroundColor DarkBlue
+ActorFontColor DarkBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+== Authenticates to the HRMApplication ==
+actor User_2 order 57
+participant controller.UserController order 58
+note left of User_2 #lightskyblue 
+gui.LoginFrame
+end note
+note left of User_2 #lightpink
+Method = controller.UserController.validateUser
+end note
+User_2 -[#purple]>controller.UserController: 1.validateUser()
+||20||
+participant controller.UserController order 59
+participant model.UserDatabase order 60
+note left of User_2 #lightpink
+Method = model.UserDatabase.validateUser
+end note
+controller.UserController -[#purple]>model.UserDatabase: 2.validateUser([0
+||20||
+actor User_2 order 61
+participant controller.UserController order 62
+note left of User_2 #lightskyblue 
+gui.LoginFrame
+end note
+note left of User_2 #lightpink
+Method = controller.UserController.getUserLevel
+end note
+User_2 -[#purple]>controller.UserController: 3.getUserLevel()
+||20||
+participant controller.UserController order 63
+participant model.UserDatabase order 64
+note left of User_2 #lightpink
+Method = model.UserDatabase.getUserLevel
+end note
+controller.UserController -[#purple]>model.UserDatabase: 4.getUserLevel([0
+||20||
+actor User_2 order 65
+participant controller.ModuleController order 66
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_2 #lightpink
+Method = controller.ModuleController.saveModules
+end note
+User_2 -[#purple]>controller.ModuleController: 5.saveModules()
+||20||
+participant controller.ModuleController order 67
+participant model.ModuleDatabase order 68
+note left of User_2 #lightpink
+Method = model.ModuleDatabase.saveModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 6.saveModules([])
+||20||
+actor User_2 order 69
+participant controller.ModuleController order 70
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_2 #lightpink
+Method = controller.ModuleController.getModules
+end note
+User_2 -[#purple]>controller.ModuleController: 7.getModules()
+||20||
+participant controller.ModuleController order 71
+participant model.ModuleDatabase order 72
+note left of User_2 #lightpink
+Method = model.ModuleDatabase.getModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 8.getModules([3
+||20||
+actor User_2 order 73
+participant controller.ModuleController order 74
+note left of User_2 #lightskyblue 
+gui.MainFrame
+end note
+note left of User_2 #lightpink
+Method = controller.ModuleController.getSubModules
+end note
+User_2 -[#purple]>controller.ModuleController: 9.getSubModules()
+||20||
+participant controller.ModuleController order 75
+participant model.ModuleDatabase order 76
+note left of User_2 #lightpink
+Method = model.ModuleDatabase.getSubModules
+end note
+controller.ModuleController -[#purple]>model.ModuleDatabase: 10.getSubModules([4
+||20||
+actor User_2 order 77
+participant controller.EmployeeController order 78
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.loadSupervisors
+end note
+User_2 -[#purple]>controller.EmployeeController: 11.loadSupervisors()
+||20||
+participant controller.EmployeeController order 79
+participant model.EmployeeDatabase order 80
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.loadSupervisors
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 12.loadSupervisors([])
+||20||
+actor User_2 order 81
+participant controller.EmployeeController order 82
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.maxNumEmployee
+end note
+User_2 -[#purple]>controller.EmployeeController: 13.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 83
+participant model.EmployeeDatabase order 84
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.maxNumEmployee
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 14.maxNumEmployee([])
+||20||
+actor User_2 order 85
+participant controller.EmployeeController order 86
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.load
+end note
+User_2 -[#purple]>controller.EmployeeController: 15.load()
+||20||
+participant controller.EmployeeController order 87
+participant model.EmployeeDatabase order 88
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.load
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 16.load([])
+||20||
+actor User_2 order 97
+participant controller.EmployeeController order 98
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.validateFullName
+end note
+User_2 -[#purple]>controller.EmployeeController: 21.validateFullName()
+||20||
+participant controller.EmployeeController order 99
+participant model.EmployeeDatabase order 100
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.validateFullName
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 22.validateFullName([27
+||20||
+actor User_2 order 101
+participant controller.EmployeeController order 102
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.save
+end note
+User_2 -[#purple]>controller.EmployeeController: 23.save()
+||20||
+participant controller.EmployeeController order 103
+participant model.EmployeeDatabase order 104
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.save
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 24.save([27
+||20||
+actor User_2 order 89
+participant controller.EmployeeController order 90
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.loadSupervisors
+end note
+User_2 -[#purple]>controller.EmployeeController: 17.loadSupervisors()
+||20||
+participant controller.EmployeeController order 91
+participant model.EmployeeDatabase order 92
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.loadSupervisors
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 18.loadSupervisors([])
+||20||
+actor User_2 order 93
+participant controller.EmployeeController order 94
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.maxNumEmployee
+end note
+User_2 -[#purple]>controller.EmployeeController: 19.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 95
+participant model.EmployeeDatabase order 96
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.maxNumEmployee
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 20.maxNumEmployee([])
+||20||
+actor User_2 order 105
+participant controller.EmployeeController order 106
+note left of User_2 #lightskyblue 
+gui.EmployeeFrame
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.load
+end note
+User_2 -[#purple]>controller.EmployeeController: 25.load()
+||20||
+participant controller.EmployeeController order 107
+participant model.EmployeeDatabase order 108
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.load
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 26.load([])
+||20||
+actor User_2 order 109
+participant controller.EmployeeController order 110
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.loadSupervisors
+end note
+User_2 -[#purple]>controller.EmployeeController: 27.loadSupervisors()
+||20||
+participant controller.EmployeeController order 111
+participant model.EmployeeDatabase order 112
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.loadSupervisors
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 28.loadSupervisors([])
+||20||
+actor User_2 order 113
+participant controller.EmployeeController order 114
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.maxNumEmployee
+end note
+User_2 -[#purple]>controller.EmployeeController: 29.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 115
+participant model.EmployeeDatabase order 116
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.maxNumEmployee
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 30.maxNumEmployee([])
+||20||
+actor User_2 order 117
+participant controller.EmployeeController order 118
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.loadSupervisors
+end note
+User_2 -[#purple]>controller.EmployeeController: 31.loadSupervisors()
+||20||
+participant controller.EmployeeController order 119
+participant model.EmployeeDatabase order 120
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.loadSupervisors
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 32.loadSupervisors([])
+||20||
+actor User_2 order 121
+participant controller.EmployeeController order 122
+note left of User_2 #lightskyblue 
+gui.EmployeeFormPanel
+end note
+note left of User_2 #lightpink
+Method = controller.EmployeeController.maxNumEmployee
+end note
+User_2 -[#purple]>controller.EmployeeController: 33.maxNumEmployee()
+||20||
+participant controller.EmployeeController order 123
+participant model.EmployeeDatabase order 124
+note left of User_2 #lightpink
+Method = model.EmployeeDatabase.maxNumEmployee
+end note
+controller.EmployeeController -[#purple]>model.EmployeeDatabase: 34.maxNumEmployee([])
+||20||
+@enduml
