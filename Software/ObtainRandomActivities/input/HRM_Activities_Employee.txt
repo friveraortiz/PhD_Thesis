@@ -1,0 +1,4 @@
+1,Employee,Travel Requests>Add New>,Creates a New Travel Request;
+2,Employee,Travel Requests>View>,Views an Existing Travel Request;
+3,Employee,Travel Requests>Modify>,Modifies an Existing Travel Request;
+4,Employee,Travel Requests>Delete>,Deletes an Existing Travel Request;
