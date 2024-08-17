@@ -1,4 +1,4 @@
-hD Thesis Repository named: "Engineering Forensic-Ready Software Systems with Automated Logging"
+#PhD Thesis Repository named: "Engineering Forensic-Ready Software Systems with Automated Logging"
 
 This repository contains the resources used in my PhD thesis to evaluate my Forensic-Ready Logger (FRL) tool by conducting two computational in the Human Resources Management Software System (HRM) and the Open Hospital Software System (OH).
 
