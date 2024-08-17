@@ -21,5 +21,6 @@ It includes three folders:
 2.1 Databases: Contains the files to create the databases for the HRM and the FRL software systems. 
 2.2 Systems:   Contains the files with the JAVA source code for the HRM, the FRL and
                the ObtainRandomActivities software systems. 
-2.2 Manuals:   Contains the documents with the instructions to install the HRM and the FRL software systems.
+2.2 Manuals:   Contains the documents with the instructions to install in your computer the HRM,
+               FRL and the ObtainRandomActivities software systems.
 ```
