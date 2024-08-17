@@ -10,10 +10,13 @@ It includes the following folders:
 
 It includes two folders:
 ```
-1.1 Attack Scenarios: Each computational study, contains 12 folders, which include the input and output files
+1.1 Attack Scenarios: It includes two folders that contain each computational study for each software system:
+                      HRM and OH.
+                      Each computational study contains 12 folders. Each folder includes the input and output files
                       from the incident modelling and logging generation stages.
+
 1.2 Documents:        Contains the description and the results of each attack scenario.
-                      It also includes a description of the main functionalities in each software system.
+                      It also includes a description of the main functionalities of each software system.
 ```
 
 2.- Software: Contains the files with the source code used in the two computational studies 
@@ -21,9 +24,11 @@ It includes two folders:
 
 It includes three folders:
 ```
-2.1 Databases: Contains the files to create the databases for the HRM and the FRL software systems. 
+2.1 Databases: Contains the files to create the databases for the HRM and the FRL software systems.
+
 2.2 Systems:   Contains the files with the JAVA source code for the HRM, the FRL and
-               the ObtainRandomActivities software systems. 
-2.2 Manuals:   Contains the documents with the instructions to install in your computer the HRM,
+               the ObtainRandomActivities software systems.
+
+2.2 Manuals:   Contains the documents with the instructions to install on your computer the HRM,
                FRL and the ObtainRandomActivities software systems.
 ```
