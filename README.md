@@ -13,8 +13,9 @@ It includes two folders:
 ```
 1.1 Attack Scenarios: It includes two folders that contain the resources used in each computational study for each software system:
                       HRM and OH.
-                      Each computational study contains 12 folders. Each folder includes the input and output files
-                      used during the execution of the incident modelling, and logging generation stages.
+                      Each computational study contains 12 folders.
+                      Each folder includes the input and output files that used
+                      during the execution of the incident modelling, and logging generation stages.
 
 1.2 Documents:        a) Contains the description of the steps of each attack scenario.
                          This information can be found in the Attack_Scenarios_HRM.xlsx and Attack_Scenarios_OH.xlsx files in the
