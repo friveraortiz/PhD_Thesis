@@ -3,7 +3,7 @@
 This repository contains the resources used in my PhD thesis to evaluate my Forensic-Ready Logger (FRL) tool by 
 conducting two computational in the Human Resources Management Software System (HRM) and the Open Hospital Software System (OH).
 
-It includes the following folders:
+It includes the Evaluation and the Software folders.
 
 1.- Evaluation: Contains the files with the results of the two computational studies 
                 in the HRM and OH software systems.
@@ -22,15 +22,15 @@ It includes two folders:
 2.- Software: Contains the files with the source code used in the two computational studies 
               in the HRM and OH software systems.
 
-It includes three folders:
+It includes four folders:
 ```
 2.1 Databases: Contains the files to create the databases for the HRM and the FRL software systems.
 
 2.2 Systems:   Contains the files with the JAVA source code for the HRM, the FRL and
                the ObtainRandomActivities software systems.
 
-2.2 Manuals:   Contains the documents with the instructions to install on your computer the HRM,
+2.3 Manuals:   Contains the documents with the instructions to install on your computer the HRM,
                FRL and the ObtainRandomActivities software systems.
 
-2.3 Libraries: Contains the Java libraries that the FRL software system calls internally.
+2.4 Libraries: Contains the Java libraries that the FRL software system calls internally.
 ```
