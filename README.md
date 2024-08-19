@@ -31,4 +31,6 @@ It includes three folders:
 
 2.2 Manuals:   Contains the documents with the instructions to install on your computer the HRM,
                FRL and the ObtainRandomActivities software systems.
+
+2.3 Libraries: Contains the Java libraries that the FRL software system calls internally.
 ```
