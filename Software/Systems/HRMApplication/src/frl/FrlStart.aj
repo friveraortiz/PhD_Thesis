@@ -3,13 +3,10 @@ package frl;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.LineNumberReader;
-import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +15,7 @@ import net.sourceforge.plantuml.SourceFileReader;
 
 public aspect FrlStart
 {
-   String projectOutputDir="C:\\Users\\friverao\\eclipse-workspace\\Directories\\Output\\";
+   String projectOutputDir="/Users/fannyriveraortiz/eclipse-workspace/Directories/Output/";
    String umlSeqDiagTextFileName1="IncidentSequenceDiagram.txt";
    String umlSeqDiagPngFileName1="IncidentSequenceDiagram.png";
    
@@ -44,74 +41,31 @@ public aspect FrlStart
    File outputFile = new File(umlSeqDiagTextFile2);
    String errorMessage1="", errorMessage2="";
    
-   /* Evaluation Start */
-   long time1, time2, duration;
-   /* Evaluation End */
-   
    pointcut start(): 
-      execution(void org.isf.menu.gui.Menu.main(..));
+      execution(void gui.HRMApp.main(..));
 
    after(): start()
    {
-      /* Evaluation Start */
-	  // Send the Output of the Screen into a File 
-	  PrintStream out = null;
-	  try 
-	  {
-	     out = new PrintStream(new FileOutputStream(projectOutputDir + "Console_Output.txt"));
-	  } 
-	  catch (FileNotFoundException e) 
-	  {
-	     e.printStackTrace();
-	  }
-		  
-	  System.setOut(out);
-		  
 	  System.out.println("Message FRL: Welcome to the Forensic-Ready Logger ...");
 	  	   
 	  // Delete UML Sequence Diagram previous Files
 	  deleteFiles();
 	  
-	  /* Evaluation Start (TIME 1) */
-	  time1 = System.currentTimeMillis();
-	  /* Evaluation End */
-	  
 	  // Create a new UML Sequence Diagram Text File
 	  createSeqDiagramTextFile(umlSeqDiagTextFile);
-	  
-	  /* Evaluation Start (TIME 2) */
-	  time2 = System.currentTimeMillis();
-	  duration = time2 - time1;
-	  System.out.println("Message FRL: The UML Sequence Diagram FILES were CREATED in =>: " + duration + " milliseconds");      
-	  /* Evaluation End */
    }
    
    pointcut end(): 
-      call(void exit(..));
+      call(void exit(..))||
+      execution(void gui.LoginFrame.*.windowClosing(..));
    	                      
    before(): end()
    {
-      /* Evaluation Start (TIME 1) */
-	  time1 = System.currentTimeMillis(); 
-	  /* Evaluation End */ 
-		  
       // Create and update the UML Sequence Diagram Files 
       updateFiles();
       
-	  /* Evaluation Start (TIME 2) */
-	  time2 = System.currentTimeMillis();
-	  duration = time2 - time1;
-	  System.out.println("Message FRL: The UML Sequence Diagram FILES were FINISHED in =>: " + duration + " milliseconds");      
-	  /* Evaluation End */
-      
-	  String replaceUser = umlSeqDiagTextFile.replace("friverao", "f7");
-	  
-	  System.out.println("Message FRL: UML Sequence Diagram Text File created  : "+replaceUser);
-	  replaceUser = umlSeqDiagPngFile.replace("fannyriveraortiz", "f7");
-	  System.out.println("Message FRL: UML Sequence Diagram Image File created : " + replaceUser);
-      
-      /*System.out.println("Message FRL: UML Sequence Diagram Text File created  : " + umlSeqDiagTextFile);
-      System.out.println("Message FRL: UML Sequence Diagram Image File created : " + umlSeqDiagPngFile);*/
+      System.out.println("Message FRL: UML Sequence Diagram Text File created  : " + umlSeqDiagTextFile);
+      System.out.println("Message FRL: UML Sequence Diagram Image File created : " + umlSeqDiagPngFile);
       System.out.println("Message FRL: Good Bye to the Forensic-Ready Logger.");
    }
    

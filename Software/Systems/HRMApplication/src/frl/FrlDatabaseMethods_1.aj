@@ -5,14 +5,14 @@ import java.io.File;
 import java.io.FileWriter;
 import org.aspectj.lang.Signature;
 import java.util.Arrays;
-import java.util.List;
+import java.util.ArrayList;
 
 public aspect FrlDatabaseMethods_1
 {
-   String projectName="OpenHospital";
-   String projectOutputDir="C:\\Users\\friverao\\eclipse-workspace\\Directories\\Output\\";
+   String projectName="HRMApplication";
+   String projectOutputDir="/Users/fannyriveraortiz/eclipse-workspace/Directories/Output/";
    String umlSeqDiagTextFileName1="IncidentSequenceDiagram.txt";
-   String guiLibs="java.awt;javax.swing;com.github.lgooddatepicket;javax.image.io;org.dcm4che2;com.trolltech.qt.gui;java.beans;com.jgoodies.forms;com.jgoodies.binding;com.github.sarxos.webcam;org.jivesoftware.smack;org.isf.utils.jobjects.ModalJFrame;org.imgscalr;";
+   String guiLibs="java.awt;javax.swing;org.eclipse.swt;javafx;org.apache.pivot.wtk;";
    String bluePrintObject1="class";
    String objectOrientedDelimiter1=".";
    String startParameters="(";
@@ -38,12 +38,12 @@ public aspect FrlDatabaseMethods_1
    String startDivision="== Authenticates to the";
    String endDivision="==";
    
-   String connectProjectMethod="org.isf.menu.gui.Login.acceptPwd";
-   String connectProjectMethod1="org.isf.menu.manager.UserBrowsingManager.getMenu";
-   Object connectProjectMethodReturnValue=123;
-   Object connectProjectMethodReturnValue1="admin, guest, doctor, sysadmin, physician";
+   String connectProjectMethod="controller.UserController.validateUser";
+   String connectProjectMethod1="model.UserDatabase.getUserLevel";
+   Object connectProjectMethodReturnValue="true";
+   Object connectProjectMethodReturnValue1="Admin, Manager, Employee";
    String connectProjectMethodType="ReturnType";
-   String connectProjectMethodType1="Parameter";
+   String connectProjectMethodType1="ReturnType";
    
    String endUMLSeqDiagram="@enduml";
    String umlSeqDiagPngFileName1="IncidentSequenceDiagram.png";
@@ -68,95 +68,72 @@ public aspect FrlDatabaseMethods_1
    String errorMessage1="", errorMessage2="", currentUser="", defaultUser="User_1";
    int methodExists=0;
    
-   /* Evaluation Start */
-   long time1, time2, duration;
-   /* Evaluation End */
-   
    pointcut databaseMethods(): 
-      call(void org.isf.menu.gui.Login.acceptPwd(..)) || 
-      call(List org.isf.menu.manager.UserBrowsingManager.getMenu(..)) || 
-      call(void org.isf.disease.test.Tests.testIoNewDisease(..)) || 
-      call(void org.isf.disease.test.Tests.testIoUpdateDisease(..)) || 
-      call(void org.isf.disease.test.Tests.testIoHasDiseaseModified(..)) || 
-      call(void org.isf.disease.test.Tests.testIoDeleteDisease(..)) || 
-      call(void org.isf.disease.test.Tests.testMgrGetDiseaseByCode(..)) || 
-      call(void org.isf.disease.test.Tests.testMgrGetDiseases(..)) || 
-      call(void org.isf.disease.test.Tests.testMgrNewDisease(..)) || 
-      call(void org.isf.disease.test.Tests.testMgrUpdateDisease(..)) || 
-      call(void org.isf.disease.test.Tests.testMgrHasDiseaseModified(..)) || 
-      call(void org.isf.disease.test.Tests.testMgrDeleteDisease(..)) || 
-      call(void org.isf.disease.test.Tests.testDiseaseEqualHashToString(..)) || 
-      call(void org.isf.disease.test.Tests.testMgrValidationUpdateCodeTooLong(..)) || 
-      call(void org.isf.disease.test.Tests.testMgrValidationInsert(..)) || 
-      call(java.lang.String org.isf.disease.test.Tests.setupTestDisease(..)) || 
-      call(void org.isf.disease.test.Tests.checkDiseaseIntoDb(..)) || 
-      call(void org.isf.disease.test.Tests.testDiseaseGets(..)) || 
-      call(void org.isf.disease.test.Tests.testDiseaseSets(..)) || 
-      call(void org.isf.disease.test.Tests.testIoGetDiseaseByCode(..)) || 
-      call(void org.isf.disease.test.Tests.testIoGetDiseases(..)) || 
-      call(void org.isf.disease.test.Tests.testDiseaseGetterSetter(..)) || 
-      call(void org.isf.disease.test.Tests.testMgrValidationUpdateCodeEmpty(..)) || 
-      call(void org.isf.disease.test.Tests.setUpClass(..)) || 
-      call(void org.isf.disease.test.Tests.setUp(..)) || 
-      call(void org.isf.disease.test.Tests.testIoIsCodePresent(..)) || 
-      call(void org.isf.disease.test.Tests.testMgrIsCodePresent(..)) || 
-      call(int org.isf.medicalstock.test.Tests.setupTestMovement(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testLotGets(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testLotSets(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMovementGets(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMovementSets(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testIoPrepareChargingMovement(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testIoGetMovementForPrintDateOrder(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testIoGetMovementForPrintWardOrderateWard(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testIoRefNoExists(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testIoGetMovementsByReference(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrGetMovementsByReference(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrGetMovementsCheckLotPrepParameters(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrGetMovementsWihAllParametersNull(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrAlertCriticalQuantityUnderLimit(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrAlertCriticalQuantityOverLimit(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrGetLastMovementDate(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrRefNoExists(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrPrepareDischargingMovement(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrPrepareDischargingMovementBadRefNumber(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrPrepareDischargingMovementIsAutomaticLotOut(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrValidateMovementMoveDateAfterToday(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrValidateNullWard(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrValidateQuantityZero(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMgrValidateLotPrepationDateNull(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testLotToString(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testLotIsValidLot(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testLotEquals(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testLotHashCode(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMovementToString(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMovementEquals(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMovementHashCode(..)) || 
-      call(void org.isf.medicalstock.test.Tests.testMovementGetOrigin(..)) || 
-      call(java.lang.String org.isf.medicalstock.test.Tests.setupTestLot(..)) || 
-      call(void org.isf.medicalstock.test.Tests.checkMovementIntoDb(..)) || 
-      call(void org.isf.medicalstock.test.Tests.setUpClass(..)) || 
-      call(void org.isf.medicalstock.test.Tests.setUp(..)) || 
-      call(void org.isf.distype.test.Tests.testMgrValidationInsert(..)) || 
-      call(void org.isf.distype.test.Tests.testDiseaseTypeGets(..)) || 
-      call(void org.isf.distype.test.Tests.testDiseaseTypeSets(..)) || 
-      call(void org.isf.distype.test.Tests.testIoGetDiseaseType(..)) || 
-      call(void org.isf.distype.test.Tests.testIoUpdateDiseaseType(..)) || 
-      call(void org.isf.distype.test.Tests.testIoNewDiseaseType(..)) || 
-      call(void org.isf.distype.test.Tests.testIoDeleteDiseaseType(..)) || 
-      call(void org.isf.distype.test.Tests.testMgrNewDiseaseType(..)) || 
-      call(void org.isf.distype.test.Tests.testMgrDeleteDiseaseType(..)) || 
-      call(void org.isf.distype.test.Tests.testMgrValidateDiseaseTypeCodeEmpty(..)) || 
-      call(void org.isf.distype.test.Tests.testMgrValidateDiseaseTypeCodeTooLong(..)) || 
-      call(void org.isf.distype.test.Tests.testMgrValidateDiseaseTypeDescriptionEmpty(..)) || 
-      call(void org.isf.distype.test.Tests.testDiseaseTypeEqualHashToString(..)) || 
-      call(java.lang.String org.isf.distype.test.Tests.setupTestDiseaseType(..)) || 
-      call(void org.isf.distype.test.Tests.checkDiseaseTypeIntoDb(..)) || 
-      call(void org.isf.distype.test.Tests.setUp(..)) || 
-      call(void org.isf.distype.test.Tests.testIoIsCodePresent(..)) || 
-      call(void org.isf.distype.test.Tests.testMgrIsCodePresent(..)) || 
-      call(void org.isf.patient.TestPatientMergedEventListener.handle(..)) || 
-      call(void org.isf.patient.TestPatientMergedEventListener.setShouldFail(..)) || 
-      call(org.isf.patient.model.PatientMergedEvent org.isf.patient.TestPatientMergedEventListener.getPatientMergedEvent(..));
+      call(boolean controller.UserController.validateUser(..)) || 
+      call(model.UserLevel model.UserDatabase.getUserLevel(..)) || 
+      call(void test.TestUserDb.main(..)) || 
+      call(void test.TestLoginDb.main(..)) || 
+      call(void test.TestTravelRequestDb.main(..)) || 
+      call(void test.TestEmployeeDb.main(..)) || 
+      call(void test.TestModuleDb.main(..)) || 
+      call(void controller.UserController.load(..)) || 
+      call(void controller.UserController.delete(..)) || 
+      call(void controller.UserController.save(..)) || 
+      call(boolean controller.UserController.validateUser(..)) || 
+      call(model.UserLevel controller.UserController.getUserLevel(..)) || 
+      call(void controller.UserController.loadUser(..)) || 
+      call(boolean controller.UserController.validateUserName(..)) || 
+      call(boolean controller.UserController.validateDeleteUser(..)) || 
+      call(boolean controller.UserController.validateEmployee(..)) || 
+      call(boolean controller.UserController.validateEmail(..)) || 
+      call(ArrayList<model.Employee> controller.UserController.loadFullNameEmployees(..)) || 
+      call(void controller.TravelRequestController.load(..)) || 
+      call(void controller.TravelRequestController.delete(..)) || 
+      call(void controller.TravelRequestController.save(..)) || 
+      call(int controller.TravelRequestController.maxNumTravelRequest(..)) || 
+      call(void controller.TravelRequestController.loadTravelRequest(..)) || 
+      call(ArrayList<model.Employee> controller.TravelRequestController.loadFullNameEmployees(..)) || 
+      call(void controller.EmployeeController.load(..)) || 
+      call(void controller.EmployeeController.delete(..)) || 
+      call(void controller.EmployeeController.save(..)) || 
+      call(boolean controller.EmployeeController.validateFullName(..)) || 
+      call(int controller.EmployeeController.maxNumEmployee(..)) || 
+      call(boolean controller.EmployeeController.validateDeleteEmployee1(..)) || 
+      call(boolean controller.EmployeeController.validateDeleteEmployee2(..)) || 
+      call(void controller.EmployeeController.loadEmployee(..)) || 
+      call(ArrayList<model.Employee> controller.EmployeeController.loadSupervisors(..)) || 
+      call(void controller.ModuleController.saveModules(..)) || 
+      call(java.lang.String[] controller.ModuleController.getModules(..)) || 
+      call(java.lang.String[][] controller.ModuleController.getSubModules(..)) || 
+      call(void model.UserDatabase.load(..)) || 
+      call(void model.UserDatabase.delete(..)) || 
+      call(void model.UserDatabase.save(..)) || 
+      call(boolean model.UserDatabase.validateUser(..)) || 
+      call(model.UserLevel model.UserDatabase.getUserLevel(..)) || 
+      call(void model.UserDatabase.loadUser(..)) || 
+      call(boolean model.UserDatabase.validateUserName(..)) || 
+      call(boolean model.UserDatabase.validateDeleteUser(..)) || 
+      call(boolean model.UserDatabase.validateEmployee(..)) || 
+      call(boolean model.UserDatabase.validateEmail(..)) || 
+      call(ArrayList<model.Employee> model.UserDatabase.loadFullNameEmployees(..)) || 
+      call(void model.TravelRequestDatabase.load(..)) || 
+      call(void model.TravelRequestDatabase.delete(..)) || 
+      call(void model.TravelRequestDatabase.save(..)) || 
+      call(int model.TravelRequestDatabase.maxNumTravelRequest(..)) || 
+      call(void model.TravelRequestDatabase.loadTravelRequest(..)) || 
+      call(ArrayList<model.Employee> model.TravelRequestDatabase.loadFullNameEmployees(..)) || 
+      call(void model.EmployeeDatabase.load(..)) || 
+      call(void model.EmployeeDatabase.delete(..)) || 
+      call(void model.EmployeeDatabase.save(..)) || 
+      call(boolean model.EmployeeDatabase.validateFullName(..)) || 
+      call(int model.EmployeeDatabase.maxNumEmployee(..)) || 
+      call(boolean model.EmployeeDatabase.validateDeleteEmployee1(..)) || 
+      call(boolean model.EmployeeDatabase.validateDeleteEmployee2(..)) || 
+      call(void model.EmployeeDatabase.loadEmployee(..)) || 
+      call(ArrayList<model.Employee> model.EmployeeDatabase.loadSupervisors(..)) || 
+      call(void model.ModuleDatabase.saveModules(..)) || 
+      call(java.lang.String[] model.ModuleDatabase.getModules(..)) || 
+      call(java.lang.String[][] model.ModuleDatabase.getSubModules(..));
    
    before(): databaseMethods()
    {
@@ -314,26 +291,15 @@ public aspect FrlDatabaseMethods_1
          Generate the Plant UML line to generate the UML Sequence Diagram Text File */
       if (currentUser.equals("Unknown") == false)
       {	
-     	 /* Evaluation Start (TIME 1) */
-     	 time1 = System.currentTimeMillis(); 
-     	 /* Evaluation End */ 
-     	 
     	 // Update the Sequence Diagram Text File    	     	 
  	     updateSeqDiagTextFile(callerClass, calleeClass, fullMethod, note, callerClassLine, calleeClassLine);  
- 	     
- 		 /* Evaluation Start (TIME 2) */
- 		 time2 = System.currentTimeMillis();
- 		 duration = time2 - time1;
- 		 System.out.println("Message FRL: The UML Sequence Diagram METHOD EXCHANGE: " + fullMethod +  " was CREATED in =>: " + 
- 		 duration + " milliseconds.");
- 		 /* Evaluation End */
       } 
 	        
    } 
 
    pointcut connect(): 
-      call(void org.isf.menu.gui.Login.acceptPwd(..))||
-      call(List org.isf.menu.manager.UserBrowsingManager.getMenu(..));
+      call(boolean controller.UserController.validateUser(..))||
+      call(model.UserLevel model.UserDatabase.getUserLevel(..));
    	            
    after() returning(Object methodReturnValue1): connect() && args(..)
    {  
@@ -439,20 +405,8 @@ public aspect FrlDatabaseMethods_1
 
       content = String.format(content);
       
-      /* Evaluation Start (TIME 1) */
-  	  time1 = System.currentTimeMillis(); 
-  	  /* Evaluation End */ 
-      
       // Write this division into the UML Sequence Diagram Text File
       writeTextFile(umlSeqDiagTextFile, content);
-      
-      /* Evaluation Start (TIME 2) */
- 	  time2 = System.currentTimeMillis();
- 	  duration = time2 - time1;
- 	  
- 	  System.out.println("Message FRL: The UML Sequence Diagram USER CONNECTION was CREATED in =>: " + 
- 	 		 duration + " milliseconds.");    
- 	  /* Evaluation End */
    }
    
    public void updateSeqDiagTextFile(String inputCallerClass, String inputCalleeClass, 

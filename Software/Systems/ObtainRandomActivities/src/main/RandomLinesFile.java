@@ -170,7 +170,7 @@ public class RandomLinesFile
 	{
 	   String path, fileName="";	
 	   
-	   path = "/Users/fannyriveraortiz/eclipse-workspace/";
+	   path = "/Users/fannyriveraortiz/eclipse-workspace/ObtainRandomActivities/input/";
 	   
 	   fileName = path;
 	   
@@ -216,9 +216,6 @@ public class RandomLinesFile
 	   
 
 	   Scanner reader = new Scanner(System.in);  // Reading from System.in
-	   /*System.out.print("Enter the Activities FileName in the Software System: ");
-	   System.out.println("");
-	   activities = reader.next();*/
 	   
 	   System.out.print("Enter the User Role in the Software System =>: ");
 	   userLevel = reader.next();
@@ -242,9 +239,6 @@ public class RandomLinesFile
 	      // Read a Text File and store it into an ArrayList
           readTextFile(activities);
        
-          // Print the ArrayList
-          //printArrayList();
-       
           // Obtain the Minimum and Maximum Values related to the Activity Id from the ArrayList
           obtainMinMaxId();
        
@@ -255,9 +249,6 @@ public class RandomLinesFile
 	   
 	      getRandomActivities(randomTotalAct);
 	   
-	      //randomActNum = generateRandomNumber(minAct, maxAct);
-       
-	      //System.out.println("Random Activity Number: " + randomActNum);
 	   }
 	}
 
