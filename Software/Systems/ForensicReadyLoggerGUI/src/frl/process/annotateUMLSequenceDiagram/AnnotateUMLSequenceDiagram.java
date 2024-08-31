@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.io.FileUtils;
 
 import frl.controller.annotateUMLSequenceDiagram.AnnotateUMLSequenceDiagramController;
 import frl.gui.annotateUMLSequenceDiagram.AnnotateUMLSequenceDiagramFormEvent;
@@ -124,7 +125,7 @@ public class AnnotateUMLSequenceDiagram
 	      return filePath;         
 	   } 	
 
-	   public String createSeqDiagramImageFile(String textFileName1, String textPathFileName, FRLConfiguration frlCon) throws Exception
+	   public String createSeqDiagramImageFile(String textFileName1, String textPathFileName) throws Exception
 	   {
 	      File file1 = new File(textPathFileName); 
 		  SourceFileReader reader = null;
@@ -313,12 +314,16 @@ public class AnnotateUMLSequenceDiagram
 	       {
 	          errorMessage1 = e5.getMessage();
 	    	  throw new Exception(errorMessage1);
-	       }   
+	       }  
+	 	   
+	 	   /*System.out.println("BEFORE CREATING A UML SEQUENCE DIAGRAM IMAGE FILE");
+	 	   System.out.println("TextFileName         : " + textFileName);
+	 	   System.out.println("UserPathTextFileName : " + userPathTextFileName);*/
 	 	     
 	       // Generate the Image File for the UML Sequence Diagram for this User 
 	 	   try
 	 	   {
-	 	      userPathImageFileName = createSeqDiagramImageFile(textFileName, userPathTextFileName, frlCon);
+	 	      userPathImageFileName = createSeqDiagramImageFile(textFileName, userPathTextFileName);
 	 	      //System.out.println("User Image File Name CREATED: " + userImageFileName);
 	 	   }
 	   	   catch (Exception e6) 
@@ -429,7 +434,7 @@ public class AnnotateUMLSequenceDiagram
 	       // Generate the Image File for the UML Sequence Diagram for this Method
 	       try
 	       {
-	          methodPathImageFileName = createSeqDiagramImageFile(textFileName, methodPathTextFileName, frlCon);
+	          methodPathImageFileName = createSeqDiagramImageFile(textFileName, methodPathTextFileName);
 	       }
 	       catch (Exception e11) 
 	       {
@@ -1607,29 +1612,32 @@ public class AnnotateUMLSequenceDiagram
    
    public void changeUserName(String userName1, String userName2, String outputDirectory, String umlSequenceDiagramTextFile) throws Exception
    {
-	  String fileName="", line="", inputFile="", outputFile="", errorMessage1="", errorMessage2="";
-	  File file;
+	  String fileName="", line="", inputFileName="", outputFileName1="", outputFileName2="", userName3="userNameX", errorMessage1="", errorMessage2="";
+	  File file, outputFile1, outputFile2;
 	  	  
-	  file      = new File(umlSequenceDiagramTextFile);
+	  file     = new File(umlSequenceDiagramTextFile);
 	  fileName = "IncidentSequenceDiagram";
       
-      inputFile = umlSequenceDiagramTextFile;     
-      outputFile = outputDirectory + file.separator  + fileName + "_" + userName2 + ".txt";
+      inputFileName = umlSequenceDiagramTextFile;     
+      outputFileName1 = outputDirectory + file.separator  + fileName + "_" + userName3 + ".txt";
+      outputFileName2 = outputDirectory + file.separator  + fileName + "_" + userName2 + ".txt";
           
-      
+      /*
       System.out.println("Change the User Name in the UML Sequence Diagram Text File ...");	
-	  /*System.out.println("User Name 1: "+userName1);
+	  
+      System.out.println("User Name 1: "+userName1);
 	  System.out.println("User Name 2: "+userName2);
 	  System.out.println("Output Directory: "+outputDirectory);
 	  System.out.println("UML Sequence Diagram Text File: "+umlSequenceDiagramTextFile);
 	  System.out.println("File: "+file);
-	  System.out.println("File Name: "+fileName);
-	  System.out.println("InputFile: "+inputFile);
-	  System.out.println("OutputFile: "+outputFile);
+	  System.out.println("File Name: " + fileName);
+	  System.out.println("InputFileName: " + inputFileName);
+	  System.out.println("OutputFileName1: " + outputFileName1);
 	  */
+	  
 	   
-	  try (BufferedReader reader = new BufferedReader(new FileReader(inputFile));
-	  BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) 
+	  try (BufferedReader reader = new BufferedReader(new FileReader(inputFileName));
+	  BufferedWriter writer = new BufferedWriter(new FileWriter(outputFileName1))) 
 	  {
 	     while ((line = reader.readLine()) != null) 
 	     {
@@ -1648,13 +1656,22 @@ public class AnnotateUMLSequenceDiagram
 		 errorMessage2 = errorMessage2 + errorMessage1;
 		 throw new Exception(errorMessage2);
 	  }
+	  
+	  outputFile1 = new File(outputFileName1);
+	  outputFile2 = new File(outputFileName2);
+
+      if(outputFile1.renameTo(outputFile2) == false)
+      {
+         errorMessage2 = "The file cannot be renamed: "+ outputFile1;
+		 throw new Exception(errorMessage2);
+      }
  
    }
    
    public void mergeFiles(String umlSeqDiagramText1, String umlSeqDiagramText2, String outputDirectory) throws Exception
    {
       File file1, file2, outputFile;
-      String line="", errorMessage1="", errorMessage2="";
+      String line="", imageFileName="", textFileName="", errorMessage1="", errorMessage2="";
 	  
       file1 = new File(umlSeqDiagramText1);
       file2 = new File(umlSeqDiagramText2);
@@ -1708,7 +1725,8 @@ public class AnnotateUMLSequenceDiagram
 	    	                                             }
 	     }
 	            
-	     System.out.println("The UML Sequence Diagram Text Files were COMBINED successfully in this File: "+ System.lineSeparator() + outputFile);
+	     System.out.println("The UML Sequence Diagram Text Files were MERGED successfully");
+
 	     
 	  } 
 	  catch (IOException e1) 
@@ -1719,6 +1737,25 @@ public class AnnotateUMLSequenceDiagram
 	     errorMessage2 = errorMessage2 + errorMessage1;
 	     throw new Exception(errorMessage2);
 	  }
+	  
+	  
+	  // Convert File to String dataype
+	  textFileName = outputFile.toString();
+	  System.out.println("New UML Sequence Text File CREATED: " + textFileName);
+	  
+      // Generate the Image File for the merged file 
+	  try
+	  {
+	     imageFileName = createSeqDiagramImageFile("IncidentSequenceDiagram.txt", textFileName);
+	     System.out.println("New UML Sequence Image File CREATED: " + imageFileName);
+	  }
+  	  catch (Exception e2) 
+      {
+         errorMessage1 = e2.getMessage();
+   	     throw new Exception(errorMessage1);
+      } 
+      
+	  
 	   
    }
    

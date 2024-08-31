@@ -512,9 +512,10 @@ public class UMLSequenceDiagramFrame extends JFrame
 			   umlSeqDiagramText2 = ev.getUmlSeqDiagramText2();
 					   
 
-			   System.out.println("FRAME");
+			   /*System.out.println("FRAME");
 			   System.out.println("umlSeqDiagramText1: "+umlSeqDiagramText1);
 			   System.out.println("umlSeqDiagramText2: "+umlSeqDiagramText2);
+			   */
 			   
 			   if(umlSeqDiagramText1 == null || umlSeqDiagramText1.isEmpty() == true)
 		       {
